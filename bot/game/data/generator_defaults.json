@@ -1,0 +1,12 @@
+{
+  "default_formatid": "gen9nationaldexag",
+  "default_mod": "gen9",
+  "starter_level": 5,
+  "starter_friendship": 255,
+  "wild_friendship": 70,
+  "allow_hidden_ability_for_starters": false,
+  "allow_hidden_ability_for_wild": false,
+  "starter_untradeable": true,
+  "starter_unreleasable": true,
+  "legal_min_evs": true
+}

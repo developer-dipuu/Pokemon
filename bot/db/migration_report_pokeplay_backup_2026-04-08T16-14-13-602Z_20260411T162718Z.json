@@ -1,0 +1,168 @@
+{
+  "counts": {
+    "pokemon_prepared": 64114,
+    "pokemon_ready_for_import": 64114,
+    "team_slots_ready": 11562,
+    "user_files_scanned": 3843,
+    "user_files_selected": 3843,
+    "users_prepared": 3839,
+    "users_ready_for_import": 3839,
+    "users_skipped": 4
+  },
+  "defaulted_fields": {
+    "inventory.egg_energy": 3839,
+    "inventory.great_balls": 1,
+    "inventory.poke_balls": 1,
+    "inventory.ultra_balls": 1,
+    "ivs.atk": 7,
+    "ivs.def": 10,
+    "ivs.hp": 9,
+    "ivs.spa": 6,
+    "ivs.spd": 7,
+    "ivs.spe": 10,
+    "owned_pokemon.ability": 116,
+    "owned_pokemon.friendship": 64114,
+    "owned_pokemon.gender": 64114,
+    "owned_pokemon.moves_json": 11,
+    "owned_pokemon.source_kind": 3839,
+    "teams.1": 1379,
+    "trainer.current_region": 91,
+    "trainer.display_name": 505
+  },
+  "dry_run": true,
+  "fatal_error": null,
+  "generated_at": "2026-04-11T16:27:18.417608+00:00",
+  "legacy_only_fields": {
+    "data.pokeseen": 3843,
+    "data.referRewarded": 26,
+    "data.referredBy": 52,
+    "data.settings": 3834,
+    "extra.daycare_preserved": 308,
+    "extra.events": 389,
+    "extra.evh": 299,
+    "extra.evhunt": 299,
+    "extra.ivEventLastCaught": 129,
+    "extra.ivEventLastEncounter": 185,
+    "extra.ivLock": 11,
+    "extra.ivLockDaily": 32,
+    "extra.pokechain_rewards": 9,
+    "extra.temp_battle": 138,
+    "inv.1": 88,
+    "inv.2": 53,
+    "inv.3": 27,
+    "inv.4": 23,
+    "inv.5": 18,
+    "inv.6": 15,
+    "inv.battle": 136,
+    "inv.berry": 158,
+    "inv.mintboxes": 29,
+    "inv.origin": 4,
+    "inv.pass": 552,
+    "inv.safari": 5,
+    "inv.tmboxes": 29,
+    "inv.vitamin": 184,
+    "pokemon.bottleCapUsed": 125,
+    "pokemon.dynamax_level": 13,
+    "pokemon.powerConstructChanged": 15
+  },
+  "skipped_pokemon": [
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "1222434823.json",
+      "species": "Dialga-origin",
+      "user_id": "1222434823"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "1470441905.json",
+      "species": "Toxtricity-amped-gmax",
+      "user_id": "1470441905"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "6890098674.json",
+      "species": "Magikarp",
+      "user_id": "6890098674"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "8244643041.json",
+      "species": "Magikarp",
+      "user_id": "8244643041"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "8244643041.json",
+      "species": "Magikarp",
+      "user_id": "8244643041"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "8244643041.json",
+      "species": "Magikarp",
+      "user_id": "8244643041"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "8244643041.json",
+      "species": "Magikarp",
+      "user_id": "8244643041"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "8244643041.json",
+      "species": "Magikarp",
+      "user_id": "8244643041"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "8244643041.json",
+      "species": "Magikarp",
+      "user_id": "8244643041"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "8244643041.json",
+      "species": "Magikarp",
+      "user_id": "8244643041"
+    },
+    {
+      "reason": "No recognizable moves were found; defaulted to Tackle.",
+      "source_file": "8645837295.json",
+      "species": "Cosmog",
+      "user_id": "8645837295"
+    }
+  ],
+  "skipped_users": [
+    {
+      "reason": "No valid Pokemon could be prepared from backup.",
+      "source_file": "1611173986.json",
+      "user_id": "1611173986"
+    },
+    {
+      "reason": "No valid Pokemon could be prepared from backup.",
+      "source_file": "5164799738.json",
+      "user_id": "5164799738"
+    },
+    {
+      "reason": "No valid Pokemon could be prepared from backup.",
+      "source_file": "6623878059.json",
+      "user_id": "6623878059"
+    },
+    {
+      "reason": "No valid Pokemon could be prepared from backup.",
+      "source_file": "6713578820.json",
+      "user_id": "6713578820"
+    }
+  ],
+  "source": "C:\\Users\\opc\\Desktop\\pokeplay-showdown\\pokeplaybot\\bot\\db\\pokeplay_backup_2026-04-08T16-14-13-602Z",
+  "unknown_moves": {
+    "tm:0": 11
+  },
+  "unknown_species": {},
+  "unsupported_ball_kinds": {
+    "origin": 2246915,
+    "safari": 3879
+  },
+  "warnings": []
+}

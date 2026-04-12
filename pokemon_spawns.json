@@ -1,0 +1,469 @@
+{
+  "source": {
+    "name": "Pokemon Database",
+    "url": "https://pokemondb.net/location",
+    "notes": "Latest-generation encounter tables per region with starter placements added and impossible low evolution levels clamped or removed."
+  },
+  "regions": [
+    {
+      "name": "Kanto",
+      "generation": 7,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "Pallet Town",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Bulbasaur",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Charmander",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Squirtle",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Johto",
+      "generation": 4,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "New Bark Town",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Chikorita",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Cyndaquil",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Totodile",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hoenn",
+      "generation": 6,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "Littleroot Town",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Treecko",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Torchic",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Mudkip",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sinnoh",
+      "generation": 8,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "Twinleaf Town",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Turtwig",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Chimchar",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Piplup",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unova",
+      "generation": 5,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "Nuvema Town",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Snivy",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Tepig",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Oshawott",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kalos",
+      "generation": 6,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "Vaniville Town",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Chespin",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Fennekin",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Froakie",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alola",
+      "generation": 7,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "Iki Town",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Rowlet",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Litten",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Popplio",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Galar",
+      "generation": 8,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "Postwick",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Grookey",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Scorbunny",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Sobble",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hisui",
+      "generation": 8,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "Jubilife Village",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Rowlet",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Cyndaquil",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Oshawott",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paldea",
+      "generation": 9,
+      "location_count": 1,
+      "locations": [
+        {
+          "name": "Cabo Poco",
+          "url": null,
+          "encounters": [
+            {
+              "pokemon": "Sprigatito",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Fuecoco",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            },
+            {
+              "pokemon": "Quaxly",
+              "method": "Starter Placement",
+              "level_range": [
+                5,
+                5
+              ],
+              "spawn_rate": 1,
+              "spawn_rate_raw": "starter-placement",
+              "details": "Injected starter placement"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

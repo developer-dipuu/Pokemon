@@ -1,0 +1,3678 @@
+{
+  "counts": {
+    "key_items_patched": 469,
+    "medicine_patched": 140,
+    "transfer_grants_users": 49,
+    "user_files_found": 3843,
+    "users_already_correct": 3303,
+    "users_found": 3839,
+    "users_not_in_db": 4,
+    "users_patched": 536
+  },
+  "dry_run": false,
+  "fatal_error": null,
+  "generated_at": "2026-04-11T17:24:52.723293+00:00",
+  "patches": [
+    {
+      "after": "{\"Absolite\": 4, \"Aggronite\": 4, \"Alakazite\": 4, \"Altarianite\": 4, \"Banettite\": 4, \"Blue Orb\": 4, \"Charizardite Y\": 4, \"Daycare Candy\": 10, \"Galladite\": 4, \"Glalitite\": 4, \"Jade Orb\": 4, \"Latiosite\": 4, \"Lopunnite\": 4, \"Lucarionite\": 4, \"Mawilite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 4, \"Mewtwonite Y\": 4, \"Pinsirite\": 4, \"Red Orb\": 4, \"Sablenite\": 4, \"Salamencite\": 4, \"Sceptilite\": 4, \"Sharpedonite\": 4, \"Slowbronite\": 4, \"Swampertite\": 4}",
+      "before": "{\"Absolite\": 2, \"Aggronite\": 2, \"Alakazite\": 2, \"Altarianite\": 2, \"Banettite\": 2, \"Blue Orb\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 5, \"Galladite\": 2, \"Glalitite\": 2, \"Jade Orb\": 2, \"Latiosite\": 2, \"Lopunnite\": 2, \"Lucarionite\": 2, \"Mawilite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite Y\": 2, \"Pinsirite\": 2, \"Red Orb\": 2, \"Sablenite\": 2, \"Salamencite\": 2, \"Sceptilite\": 2, \"Sharpedonite\": 2, \"Slowbronite\": 2, \"Swampertite\": 2}",
+      "field": "key_items_json",
+      "user_id": 1001484109
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Aerodactylite\": 2, \"Aggronite\": 2, \"Ampharosite\": 2, \"Beedrillite\": 4, \"Blastoisinite\": 2, \"Blue Orb\": 2, \"Calm Mint\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 2, \"Diancite\": 2, \"Feraligatrite\": 2, \"Galladite\": 2, \"Garchompite\": 2, \"Gardevoirite\": 4, \"Glalitite\": 2, \"Great Diamond Orb\": 2, \"Holowear Ticket\": 1506, \"Jade Orb\": 2, \"Latiosite\": 2, \"Lopunnite\": 4, \"Lucarionite\": 4, \"Max Soup\": 2, \"Mega Ring\": 1, \"Metagrossite\": 4, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Red Orb\": 2, \"Sassy Mint\": 2, \"Sceptilite\": 2, \"Scizorite\": 2, \"Swampertite\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Absolite\": 2, \"Aerodactylite\": 1, \"Aggronite\": 1, \"Ampharosite\": 1, \"Beedrillite\": 2, \"Blastoisinite\": 1, \"Blue Orb\": 1, \"Calm Mint\": 1, \"Charizardite X\": 1, \"Charizardite Y\": 1, \"Daycare Candy\": 1, \"Diancite\": 1, \"Feraligatrite\": 1, \"Galladite\": 1, \"Garchompite\": 1, \"Gardevoirite\": 2, \"Glalitite\": 1, \"Great Diamond Orb\": 1, \"Holowear Ticket\": 753, \"Jade Orb\": 1, \"Latiosite\": 1, \"Lopunnite\": 2, \"Lucarionite\": 2, \"Max Soup\": 1, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Red Orb\": 1, \"Sassy Mint\": 1, \"Sceptilite\": 1, \"Scizorite\": 1, \"Swampertite\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 1018427862
+    },
+    {
+      "after": "{\"Berry\": 3}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1051176161
+    },
+    {
+      "after": "{\"Abomasite\": 2, \"Absolite\": 2, \"Alakazite\": 2, \"Altarianite\": 4, \"Beedrillite\": 2, \"Blazikenite\": 2, \"Blue Orb\": 2, \"Bottle Cap\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 10, \"Diancite\": 2, \"Galladite\": 2, \"Garchompite\": 2, \"Gardevoirite\": 4, \"Gengarite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 688, \"Houndoominite\": 2, \"Jade Orb\": 2, \"Jolly Mint\": 2, \"Kangaskhanite\": 2, \"Latiosite\": 2, \"Lucarionite\": 2, \"Mawilite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 2, \"Red Orb\": 2, \"Rusted Shield\": 2, \"Rusted Sword\": 2, \"Sablenite\": 2, \"Scizorite\": 2, \"Sharpedonite\": 2, \"Slowbronite\": 2, \"Steelixite\": 2, \"Swampertite\": 2, \"Tyranitarite\": 2, \"Venusaurite\": 2}",
+      "before": "{\"Abomasite\": 1, \"Absolite\": 1, \"Alakazite\": 1, \"Altarianite\": 2, \"Beedrillite\": 1, \"Blazikenite\": 1, \"Blue Orb\": 1, \"Bottle Cap\": 1, \"Charizardite X\": 1, \"Charizardite Y\": 1, \"Daycare Candy\": 5, \"Diancite\": 1, \"Galladite\": 1, \"Garchompite\": 1, \"Gardevoirite\": 2, \"Gengarite\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 344, \"Houndoominite\": 1, \"Jade Orb\": 1, \"Jolly Mint\": 1, \"Kangaskhanite\": 1, \"Latiosite\": 1, \"Lucarionite\": 1, \"Mawilite\": 1, \"Mega Ring\": 1, \"Metagrossite\": 1, \"Mewtwonite X\": 1, \"Mewtwonite Y\": 1, \"Red Orb\": 1, \"Rusted Shield\": 1, \"Rusted Sword\": 1, \"Sablenite\": 1, \"Scizorite\": 1, \"Sharpedonite\": 1, \"Slowbronite\": 1, \"Steelixite\": 1, \"Swampertite\": 1, \"Tyranitarite\": 1, \"Venusaurite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1072659486
+    },
+    {
+      "after": "{\"Absolite Z\": 2, \"Daycare Candy\": 10, \"Gmax Band\": 1, \"Greninjaite\": 2, \"Holowear Ticket\": 1346, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Pikashunium Z\": 2}",
+      "before": "{\"Absolite Z\": 1, \"Daycare Candy\": 5, \"Gmax Band\": 1, \"Greninjaite\": 1, \"Holowear Ticket\": 673, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Pikashunium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 1074473121
+    },
+    {
+      "after": "{\"Vitamin\": 2}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1074473121
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 1098983599
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Holowear Ticket\": 216, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Gmax Band\": 1, \"Holowear Ticket\": 108, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 1110852996
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Adamant Mint\": 2, \"Aggronite\": 4, \"Audinite\": 4, \"Battle Box\": 2, \"Bottle Cap\": 2, \"Calm Mint\": 2, \"Careful Mint\": 2, \"Charizardite X\": 8, \"Eelektrossite\": 2, \"Emboarite\": 2, \"Garchompite\": 4, \"Gengarite\": 8, \"Gyaradosnite\": 2, \"Holowear Ticket\": 2378, \"Houndoominite\": 4, \"Kangaskhanite\": 4, \"Latiosite\": 4, \"Lucarionite\": 12, \"Manectite\": 4, \"Mawilite\": 2, \"Max Soup\": 4, \"Mega Ring\": 1, \"Mewtwonite X\": 4, \"Pikashunium Z\": 2, \"Pinsirite\": 2, \"Quiet Mint\": 2, \"Slowbronite\": 4, \"Swampertite\": 2}",
+      "before": "{\"Absolite\": 2, \"Adamant Mint\": 1, \"Aggronite\": 2, \"Audinite\": 2, \"Battle Box\": 1, \"Bottle Cap\": 1, \"Calm Mint\": 1, \"Careful Mint\": 1, \"Charizardite X\": 4, \"Eelektrossite\": 1, \"Emboarite\": 1, \"Garchompite\": 2, \"Gengarite\": 4, \"Gyaradosnite\": 1, \"Holowear Ticket\": 1189, \"Houndoominite\": 2, \"Kangaskhanite\": 2, \"Latiosite\": 2, \"Lucarionite\": 6, \"Manectite\": 2, \"Mawilite\": 1, \"Max Soup\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 2, \"Pikashunium Z\": 1, \"Pinsirite\": 1, \"Quiet Mint\": 1, \"Slowbronite\": 2, \"Swampertite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1113048986
+    },
+    {
+      "after": "{\"Rare Candy\": 1101, \"Vitamin\": 1000}",
+      "before": "{\"Rare Candy\": 1101}",
+      "field": "medicine_inventory_json",
+      "user_id": 1113048986
+    },
+    {
+      "after": "{\"Lucarionite\": 2}",
+      "before": "{\"Lucarionite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1144284116
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 84}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 42}",
+      "field": "key_items_json",
+      "user_id": 1145765949
+    },
+    {
+      "after": "{\"Holowear Ticket\": 24}",
+      "before": "{\"Holowear Ticket\": 12}",
+      "field": "key_items_json",
+      "user_id": 1155657184
+    },
+    {
+      "after": "{\"Holowear Ticket\": 4}",
+      "before": "{\"Holowear Ticket\": 2}",
+      "field": "key_items_json",
+      "user_id": 1165365498
+    },
+    {
+      "after": "{\"Abomasite\": 4, \"Absolite\": 4, \"Alakazite\": 4, \"Beedrillite\": 4, \"Diancite\": 4, \"Garchompite\": 4, \"Houndoominite\": 4, \"Latiasite\": 4, \"Mega Ring\": 1, \"Mewtwonite X\": 4, \"Salamencite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Abomasite\": 2, \"Absolite\": 2, \"Alakazite\": 2, \"Beedrillite\": 2, \"Diancite\": 2, \"Garchompite\": 2, \"Houndoominite\": 2, \"Latiasite\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 2, \"Salamencite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 1167536889
+    },
+    {
+      "after": "{\"Battle Box\": 4, \"Holowear Ticket\": 534}",
+      "before": "{\"Battle Box\": 2, \"Holowear Ticket\": 267}",
+      "field": "key_items_json",
+      "user_id": 1174195364
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Beedrillite\": 8, \"Charizardite X\": 4, \"Charizardite Y\": 4, \"Garchompite\": 4, \"Holowear Ticket\": 914, \"Houndoominite\": 4, \"Kangaskhanite\": 4, \"Latiosite\": 4, \"Lucarionite\": 4, \"Mawilite\": 4, \"Mega Ring\": 1, \"Sablenite\": 4, \"Salamencite\": 4, \"Sceptilite\": 4, \"Scizorite\": 4, \"Tyranitarite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Absolite\": 2, \"Beedrillite\": 4, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Garchompite\": 2, \"Holowear Ticket\": 457, \"Houndoominite\": 2, \"Kangaskhanite\": 2, \"Latiosite\": 2, \"Lucarionite\": 2, \"Mawilite\": 2, \"Mega Ring\": 1, \"Sablenite\": 2, \"Salamencite\": 2, \"Sceptilite\": 2, \"Scizorite\": 2, \"Tyranitarite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 1174476949
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 1182033957
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 114, \"Max Soup\": 2}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 57, \"Max Soup\": 1}",
+      "field": "key_items_json",
+      "user_id": 1216076577
+    },
+    {
+      "after": "{\"Medichamite\": 2}",
+      "before": "{\"Medichamite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1219672310
+    },
+    {
+      "after": "{\"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1220136217
+    },
+    {
+      "after": "{\"Diancite\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Diancite\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 1220796841
+    },
+    {
+      "after": "{\"Holowear Ticket\": 60}",
+      "before": "{\"Holowear Ticket\": 30}",
+      "field": "key_items_json",
+      "user_id": 1221997941
+    },
+    {
+      "after": "{\"Adamant Mint\": 2, \"Aerodactylite\": 4, \"Alakazite\": 6, \"Ampharosite\": 4, \"Audinite\": 6, \"Blastoisinite\": 4, \"Blue Orb\": 4, \"Bold Mint\": 2, \"Brave Mint\": 2, \"Careful Mint\": 2, \"Charizardite Y\": 2, \"Crabominableite\": 2, \"Diancite\": 2, \"Gardevoirite\": 2, \"Gyaradosnite\": 2, \"Holowear Ticket\": 2138, \"Houndoominite\": 2, \"Jade Orb\": 2, \"Latiosite\": 2, \"Lopunnite\": 4, \"Mawilite\": 2, \"Medichamite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Modest Mint\": 2, \"Quiet Mint\": 2, \"Red Orb\": 4, \"Rusted Shield\": 2, \"Rusted Sword\": 2, \"Sablenite\": 2, \"Salamencite\": 4, \"Sceptilite\": 4, \"Scizorite\": 2, \"Sharpedonite\": 4, \"Slowbronite\": 4, \"Steelixite\": 2, \"Tyranitarite\": 2}",
+      "before": "{\"Adamant Mint\": 1, \"Aerodactylite\": 2, \"Alakazite\": 3, \"Ampharosite\": 2, \"Audinite\": 3, \"Blastoisinite\": 2, \"Blue Orb\": 2, \"Bold Mint\": 1, \"Brave Mint\": 1, \"Careful Mint\": 1, \"Charizardite Y\": 1, \"Crabominableite\": 1, \"Diancite\": 1, \"Gardevoirite\": 1, \"Gyaradosnite\": 1, \"Holowear Ticket\": 1069, \"Houndoominite\": 1, \"Jade Orb\": 1, \"Latiosite\": 1, \"Lopunnite\": 2, \"Mawilite\": 1, \"Medichamite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 1, \"Modest Mint\": 1, \"Quiet Mint\": 1, \"Red Orb\": 2, \"Rusted Shield\": 1, \"Rusted Sword\": 1, \"Sablenite\": 1, \"Salamencite\": 2, \"Sceptilite\": 2, \"Scizorite\": 1, \"Sharpedonite\": 2, \"Slowbronite\": 2, \"Steelixite\": 1, \"Tyranitarite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1222434823
+    },
+    {
+      "after": "{\"Salamencite\": 2}",
+      "before": "{\"Salamencite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1222612909
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 1241797478
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 1249170355
+    },
+    {
+      "after": "{\"Aerodactylite\": 2, \"Bold Mint\": 2, \"Bottle Cap\": 2, \"Brave Mint\": 2, \"Calm Mint\": 2, \"Feraligatrite\": 2, \"Gardevoirite\": 2, \"Gmax Band\": 1, \"Hawluchaite\": 2, \"Holowear Ticket\": 2642, \"Jolly Mint\": 2, \"Max Soup\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Quiet Mint\": 4, \"Relaxed Mint\": 2, \"Rusted Shield\": 3, \"Sassy Mint\": 2}",
+      "before": "{\"Aerodactylite\": 1, \"Bold Mint\": 1, \"Bottle Cap\": 1, \"Brave Mint\": 1, \"Calm Mint\": 1, \"Feraligatrite\": 1, \"Gardevoirite\": 1, \"Gmax Band\": 1, \"Hawluchaite\": 1, \"Holowear Ticket\": 1321, \"Jolly Mint\": 1, \"Max Soup\": 1, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Quiet Mint\": 2, \"Relaxed Mint\": 1, \"Rusted Shield\": 1, \"Sassy Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 1253339353
+    },
+    {
+      "after": "{\"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1253339353
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 1264593609
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 1268592001
+    },
+    {
+      "after": "{\"Aerodactylite\": 4, \"Blue Orb\": 8, \"Charizardite Y\": 4, \"Daycare Candy\": 10, \"Galladite\": 4, \"Gardevoirite\": 4, \"Holowear Ticket\": 190, \"Jade Orb\": 4, \"Lopunnite\": 4, \"Lucarionite\": 4, \"Manectite\": 4, \"Mega Ring\": 1, \"Steelixite\": 4, \"Swampertite\": 4}",
+      "before": "{\"Aerodactylite\": 2, \"Blue Orb\": 4, \"Charizardite Y\": 2, \"Daycare Candy\": 5, \"Galladite\": 2, \"Gardevoirite\": 2, \"Holowear Ticket\": 95, \"Jade Orb\": 2, \"Lopunnite\": 2, \"Lucarionite\": 2, \"Manectite\": 2, \"Mega Ring\": 1, \"Steelixite\": 2, \"Swampertite\": 2}",
+      "field": "key_items_json",
+      "user_id": 1275737140
+    },
+    {
+      "after": "{\"Absolite Z\": 2, \"Chimechoite\": 2, \"Daycare Candy\": 10, \"Galladite\": 4, \"Garchompite Z\": 2, \"Glalitite\": 4, \"Holowear Ticket\": 670, \"Latiasite\": 4, \"Lopunnite\": 4, \"Manectite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 4}",
+      "before": "{\"Absolite Z\": 1, \"Chimechoite\": 1, \"Daycare Candy\": 5, \"Galladite\": 2, \"Garchompite Z\": 1, \"Glalitite\": 2, \"Holowear Ticket\": 335, \"Latiasite\": 2, \"Lopunnite\": 2, \"Manectite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 2}",
+      "field": "key_items_json",
+      "user_id": 1282074873
+    },
+    {
+      "after": "{\"Vitamin\": 6}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1282074873
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Banettite\": 4, \"Battle Box\": 2, \"Charizardite X\": 4, \"Charizardite Y\": 8, \"Daycare Candy\": 10, \"Galladite\": 4, \"Garchompite\": 4, \"Gardevoirite\": 4, \"Gmax Band\": 1, \"Holowear Ticket\": 1318, \"Kangaskhanite\": 2, \"Lopunnite\": 4, \"Mega Ring\": 1, \"Mewtwonite X\": 4, \"Mewtwonite Y\": 4, \"Omni Ring\": 1, \"Pidgeotite\": 8, \"Pinsirite\": 4, \"Salamencite\": 8, \"Sceptilite\": 4, \"Scizorite\": 4, \"Scraftyite\": 2, \"Sharpedonite\": 4, \"Swampertite\": 8}",
+      "before": "{\"Absolite\": 2, \"Banettite\": 2, \"Battle Box\": 1, \"Charizardite X\": 2, \"Charizardite Y\": 4, \"Daycare Candy\": 5, \"Galladite\": 2, \"Garchompite\": 2, \"Gardevoirite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 659, \"Kangaskhanite\": 1, \"Lopunnite\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 2, \"Omni Ring\": 1, \"Pidgeotite\": 4, \"Pinsirite\": 2, \"Salamencite\": 4, \"Sceptilite\": 2, \"Scizorite\": 2, \"Scraftyite\": 1, \"Sharpedonite\": 2, \"Swampertite\": 4}",
+      "field": "key_items_json",
+      "user_id": 1286136331
+    },
+    {
+      "after": "{\"Garchompite\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Garchompite\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 1289177616
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 1290306005
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Mega Ring\": 1, \"Scizorite\": 2}",
+      "before": "{\"Gmax Band\": 1, \"Mega Ring\": 1, \"Scizorite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1293623223
+    },
+    {
+      "after": "{\"Daycare Candy\": 2, \"Holowear Ticket\": 174}",
+      "before": "{\"Daycare Candy\": 1, \"Holowear Ticket\": 87}",
+      "field": "key_items_json",
+      "user_id": 1300997163
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 20}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 1329860736
+    },
+    {
+      "after": "{\"Absolite\": 2, \"Adamant Mint\": 4, \"Altarianite\": 4, \"Audinite\": 2, \"Beedrillite\": 2, \"Blastoisinite\": 4, \"Blazikenite\": 2, \"Charizardite Y\": 6, \"Crabominableite\": 2, \"Daycare Candy\": 24, \"Excadrillite\": 4, \"Falinksite\": 4, \"Feraligatrite\": 2, \"Garchompite\": 4, \"Gmax Band\": 1, \"Great Pearl Orb\": 2, \"Gyaradosnite\": 2, \"Hawluchaite\": 2, \"Holowear Ticket\": 3344, \"Houndoominite\": 4, \"Jade Orb\": 2, \"Kangaskhanite\": 4, \"Malamarite\": 4, \"Manectite\": 2, \"Max Soup\": 2, \"Mega Ring\": 1, \"Meganiumite\": 2, \"Mewtwonite X\": 4, \"Red Orb\": 6, \"Scizorite\": 2, \"Solganium Z\": 2, \"Tyranitarite\": 2}",
+      "before": "{\"Absolite\": 1, \"Adamant Mint\": 2, \"Altarianite\": 2, \"Audinite\": 1, \"Beedrillite\": 1, \"Blastoisinite\": 2, \"Blazikenite\": 1, \"Charizardite Y\": 3, \"Crabominableite\": 1, \"Daycare Candy\": 12, \"Excadrillite\": 2, \"Falinksite\": 2, \"Feraligatrite\": 1, \"Garchompite\": 2, \"Gmax Band\": 1, \"Great Pearl Orb\": 1, \"Gyaradosnite\": 1, \"Hawluchaite\": 1, \"Holowear Ticket\": 1672, \"Houndoominite\": 2, \"Jade Orb\": 1, \"Kangaskhanite\": 2, \"Malamarite\": 2, \"Manectite\": 1, \"Max Soup\": 1, \"Mega Ring\": 1, \"Meganiumite\": 1, \"Mewtwonite X\": 2, \"Red Orb\": 3, \"Scizorite\": 1, \"Solganium Z\": 1, \"Tyranitarite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1335302812
+    },
+    {
+      "after": "{\"Berry\": 180, \"Rare Candy\": 10, \"Vitamin\": 176}",
+      "before": "{\"Rare Candy\": 10}",
+      "field": "medicine_inventory_json",
+      "user_id": 1335302812
+    },
+    {
+      "after": "{\"Berry\": 25}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1340699428
+    },
+    {
+      "after": "{\"Holowear Ticket\": 180}",
+      "before": "{\"Holowear Ticket\": 90}",
+      "field": "key_items_json",
+      "user_id": 1361803304
+    },
+    {
+      "after": "{\"Blastoisinite\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Blastoisinite\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 1373062954
+    },
+    {
+      "after": "{\"Adamant Mint\": 2, \"Alakazite\": 4, \"Daycare Candy\": 10, \"Golisopodite\": 2, \"Holowear Ticket\": 512, \"Jade Orb\": 4, \"Lucarionite\": 4, \"Manectite\": 4, \"Mega Ring\": 1, \"Salamencite\": 2, \"Sharpedonite\": 4}",
+      "before": "{\"Adamant Mint\": 1, \"Alakazite\": 2, \"Daycare Candy\": 5, \"Golisopodite\": 1, \"Holowear Ticket\": 256, \"Jade Orb\": 2, \"Lucarionite\": 2, \"Manectite\": 2, \"Mega Ring\": 1, \"Salamencite\": 1, \"Sharpedonite\": 2}",
+      "field": "key_items_json",
+      "user_id": 1378509448
+    },
+    {
+      "after": "{\"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1379243344
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 1381508638
+    },
+    {
+      "after": "{\"Abomasite\": 2, \"Beedrillite\": 2, \"Blazikenite\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 4, \"Houndoominite\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 2, \"Steelixite\": 2}",
+      "before": "{\"Abomasite\": 1, \"Beedrillite\": 1, \"Blazikenite\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 2, \"Houndoominite\": 1, \"Mega Ring\": 1, \"Mewtwonite X\": 1, \"Steelixite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1392737579
+    },
+    {
+      "after": "{\"Vitamin\": 25}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1397841020
+    },
+    {
+      "after": "{\"Holowear Ticket\": 40, \"Mega Ring\": 1}",
+      "before": "{\"Holowear Ticket\": 20, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 1441335532
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1460397710
+    },
+    {
+      "after": "{\"Pidgeotite\": 2}",
+      "before": "{\"Pidgeotite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1469172144
+    },
+    {
+      "after": "{\"Abomasite\": 4, \"Absolite Z\": 2, \"Audinite\": 2, \"Cameruptnite\": 2, \"Charizardite Y\": 6, \"Chesnaughtite\": 4, \"Chimechoite\": 2, \"Daycare Candy\": 2, \"Diancite\": 2, \"Emboarite\": 4, \"Falinksite\": 4, \"Froslassite\": 6, \"Gardevoirite\": 2, \"Glalitite\": 2, \"Gmax Band\": 1, \"Gyaradosnite\": 2, \"Hawluchaite\": 4, \"Holowear Ticket\": 2390, \"Jade Orb\": 6, \"Latiasite\": 4, \"Lucarionite\": 2, \"Malamarite\": 4, \"Manectite\": 2, \"Mawilite\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Pinsirite\": 2, \"Red Orb\": 4, \"Salamencite\": 2, \"Sceptilite\": 6, \"Sharpedonite\": 4, \"Solganium Z\": 2, \"Steelixite\": 4, \"Tapunium Z\": 2, \"Tatsugiriite\": 2, \"Tyranitarite\": 4, \"Venusaurite\": 2}",
+      "before": "{\"Abomasite\": 2, \"Absolite Z\": 1, \"Audinite\": 1, \"Cameruptnite\": 1, \"Charizardite Y\": 3, \"Chesnaughtite\": 2, \"Chimechoite\": 1, \"Daycare Candy\": 1, \"Diancite\": 1, \"Emboarite\": 2, \"Falinksite\": 2, \"Froslassite\": 3, \"Gardevoirite\": 1, \"Glalitite\": 1, \"Gmax Band\": 1, \"Gyaradosnite\": 1, \"Hawluchaite\": 2, \"Holowear Ticket\": 1195, \"Jade Orb\": 3, \"Latiasite\": 2, \"Lucarionite\": 1, \"Malamarite\": 2, \"Manectite\": 1, \"Mawilite\": 1, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Pinsirite\": 1, \"Red Orb\": 2, \"Salamencite\": 1, \"Sceptilite\": 3, \"Sharpedonite\": 2, \"Solganium Z\": 1, \"Steelixite\": 2, \"Tapunium Z\": 1, \"Tatsugiriite\": 1, \"Tyranitarite\": 2, \"Venusaurite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1470441905
+    },
+    {
+      "after": "{\"Berry\": 140, \"Rare Candy\": 6, \"Vitamin\": 21}",
+      "before": "{\"Rare Candy\": 6}",
+      "field": "medicine_inventory_json",
+      "user_id": 1470441905
+    },
+    {
+      "after": "{\"Abomasite\": 158, \"Absolite\": 156, \"Absolite Z\": 188, \"Adamant Mint\": 308, \"Aerodactylite\": 160, \"Aggronite\": 170, \"Alakazite\": 192, \"Altarianite\": 176, \"Ampharosite\": 160, \"Audinite\": 170, \"Banettite\": 142, \"Barbaracleite\": 148, \"Baxcaliburite\": 172, \"Beedrillite\": 182, \"Blastoisinite\": 196, \"Blazikenite\": 164, \"Bold Mint\": 286, \"Bottle Cap\": 2054, \"Brave Mint\": 338, \"Calm Mint\": 324, \"Cameruptnite\": 174, \"Careful Mint\": 362, \"Chandelureite\": 172, \"Charizardite X\": 124, \"Charizardite Y\": 164, \"Chesnaughtite\": 160, \"Chimechoite\": 182, \"Clefableite\": 140, \"Crabominableite\": 144, \"Delphoxite\": 168, \"Diancite\": 150, \"Dragalgeite\": 166, \"Dragoniteite\": 152, \"Drampaite\": 160, \"Eelektrossite\": 172, \"Emboarite\": 122, \"Excadrillite\": 162, \"Falinksite\": 128, \"Feraligatrite\": 180, \"Froslassite\": 196, \"Galladite\": 158, \"Garchompite\": 158, \"Garchompite Z\": 154, \"Gardevoirite\": 182, \"Gengarite\": 158, \"Glalitite\": 140, \"Glimmoraite\": 118, \"Golisopodite\": 182, \"Golurkite\": 188, \"Greninjaite\": 140, \"Gyaradosnite\": 148, \"Hawluchaite\": 162, \"Heracronite\": 150, \"Houndoominite\": 160, \"Impish Mint\": 326, \"Jade Orb\": 140, \"Jolly Mint\": 350, \"Kangaskhanite\": 164, \"Latiasite\": 148, \"Latiosite\": 156, \"Lopunnite\": 146, \"Lucarionite\": 170, \"Magearnaite\": 172, \"Malamarite\": 184, \"Manectite\": 178, \"Mawilite\": 160, \"Medichamite\": 156, \"Meganiumite\": 218, \"Meowsticite\": 144, \"Metagrossite\": 140, \"Mewtwonite X\": 162, \"Mewtwonite Y\": 166, \"Modest Mint\": 370, \"Pidgeotite\": 178, \"Pinsirite\": 184, \"Pyroarite\": 144, \"Quiet Mint\": 328, \"Raichuite X\": 160, \"Raichuite Y\": 142, \"Relaxed Mint\": 352, \"Sablenite\": 178, \"Salamencite\": 140, \"Sassy Mint\": 346, \"Sceptilite\": 192, \"Scizorite\": 178, \"Scolipedeite\": 190, \"Scovillainite\": 174, \"Scraftyite\": 178, \"Sharpedonite\": 160, \"Skarmoryite\": 156, \"Slowbronite\": 156, \"Staraptorite\": 176, \"Starmieite\": 160, \"Steelixite\": 150, \"Swampertite\": 122, \"Tatsugiriite\": 152, \"Timid Mint\": 322, \"Tyranitarite\": 140, \"Venusaurite\": 184, \"Victreebelite\": 158}",
+      "before": "{\"Abomasite\": 79, \"Absolite\": 78, \"Absolite Z\": 94, \"Adamant Mint\": 154, \"Aerodactylite\": 80, \"Aggronite\": 85, \"Alakazite\": 96, \"Altarianite\": 88, \"Ampharosite\": 80, \"Audinite\": 85, \"Banettite\": 71, \"Barbaracleite\": 74, \"Baxcaliburite\": 86, \"Beedrillite\": 91, \"Blastoisinite\": 98, \"Blazikenite\": 82, \"Bold Mint\": 143, \"Bottle Cap\": 1027, \"Brave Mint\": 169, \"Calm Mint\": 162, \"Cameruptnite\": 87, \"Careful Mint\": 181, \"Chandelureite\": 86, \"Charizardite X\": 62, \"Charizardite Y\": 82, \"Chesnaughtite\": 80, \"Chimechoite\": 91, \"Clefableite\": 70, \"Crabominableite\": 72, \"Delphoxite\": 84, \"Diancite\": 75, \"Dragalgeite\": 83, \"Dragoniteite\": 76, \"Drampaite\": 80, \"Eelektrossite\": 86, \"Emboarite\": 61, \"Excadrillite\": 81, \"Falinksite\": 64, \"Feraligatrite\": 90, \"Froslassite\": 98, \"Galladite\": 79, \"Garchompite\": 79, \"Garchompite Z\": 77, \"Gardevoirite\": 91, \"Gengarite\": 79, \"Glalitite\": 70, \"Glimmoraite\": 59, \"Golisopodite\": 91, \"Golurkite\": 94, \"Greninjaite\": 70, \"Gyaradosnite\": 74, \"Hawluchaite\": 81, \"Heracronite\": 75, \"Houndoominite\": 80, \"Impish Mint\": 163, \"Jade Orb\": 70, \"Jolly Mint\": 175, \"Kangaskhanite\": 82, \"Latiasite\": 74, \"Latiosite\": 78, \"Lopunnite\": 73, \"Lucarionite\": 85, \"Magearnaite\": 86, \"Malamarite\": 92, \"Manectite\": 89, \"Mawilite\": 80, \"Medichamite\": 78, \"Meganiumite\": 109, \"Meowsticite\": 72, \"Metagrossite\": 70, \"Mewtwonite X\": 81, \"Mewtwonite Y\": 83, \"Modest Mint\": 185, \"Pidgeotite\": 89, \"Pinsirite\": 92, \"Pyroarite\": 72, \"Quiet Mint\": 164, \"Raichuite X\": 80, \"Raichuite Y\": 71, \"Relaxed Mint\": 176, \"Sablenite\": 89, \"Salamencite\": 70, \"Sassy Mint\": 173, \"Sceptilite\": 96, \"Scizorite\": 89, \"Scolipedeite\": 95, \"Scovillainite\": 87, \"Scraftyite\": 89, \"Sharpedonite\": 80, \"Skarmoryite\": 78, \"Slowbronite\": 78, \"Staraptorite\": 88, \"Starmieite\": 80, \"Steelixite\": 75, \"Swampertite\": 61, \"Tatsugiriite\": 76, \"Timid Mint\": 161, \"Tyranitarite\": 70, \"Venusaurite\": 92, \"Victreebelite\": 79}",
+      "field": "key_items_json",
+      "user_id": 1475590634
+    },
+    {
+      "after": "{\"Vitamin\": 4940}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1475590634
+    },
+    {
+      "after": "{\"Alakazite\": 2}",
+      "before": "{\"Alakazite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1479753259
+    },
+    {
+      "after": "{\"Berry\": 22, \"Rare Candy\": 1, \"Vitamin\": 7}",
+      "before": "{\"Rare Candy\": 1}",
+      "field": "medicine_inventory_json",
+      "user_id": 1483217059
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 1487277803
+    },
+    {
+      "after": "{\"Holowear Ticket\": 240}",
+      "before": "{\"Holowear Ticket\": 120}",
+      "field": "key_items_json",
+      "user_id": 1514849521
+    },
+    {
+      "after": "{\"Holowear Ticket\": 52}",
+      "before": "{\"Holowear Ticket\": 26}",
+      "field": "key_items_json",
+      "user_id": 1528296074
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 146}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 73}",
+      "field": "key_items_json",
+      "user_id": 1539907401
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 1548836574
+    },
+    {
+      "after": "{\"Berry\": 18, \"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1566208038
+    },
+    {
+      "after": "{\"Holowear Ticket\": 50}",
+      "before": "{\"Holowear Ticket\": 25}",
+      "field": "key_items_json",
+      "user_id": 1581897746
+    },
+    {
+      "after": "{\"Vitamin\": 15}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1602509384
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 108}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 54}",
+      "field": "key_items_json",
+      "user_id": 1638261422
+    },
+    {
+      "after": "{\"Holowear Ticket\": 42}",
+      "before": "{\"Holowear Ticket\": 21}",
+      "field": "key_items_json",
+      "user_id": 1659811050
+    },
+    {
+      "after": "{\"Berry\": 25, \"Rare Candy\": 29}",
+      "before": "{\"Rare Candy\": 29}",
+      "field": "medicine_inventory_json",
+      "user_id": 1661129466
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 167952518
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Decidium Z\": 2, \"Holowear Ticket\": 226}",
+      "before": "{\"Battle Box\": 1, \"Decidium Z\": 1, \"Holowear Ticket\": 113}",
+      "field": "key_items_json",
+      "user_id": 1684309195
+    },
+    {
+      "after": "{\"Adamant Mint\": 2, \"Banettite\": 2, \"Bottle Cap\": 6, \"Careful Mint\": 2, \"Daycare Candy\": 10, \"Diancite\": 2, \"Emboarite\": 2, \"Excadrillite\": 2, \"Feraligatrite\": 2, \"Garchompite\": 4, \"Gmax Band\": 1, \"Great Pearl Orb\": 2, \"Gyaradosnite\": 2, \"Holowear Ticket\": 2472, \"Jade Orb\": 2, \"Jolly Mint\": 2, \"Latiosite\": 2, \"Mega Ring\": 1, \"Meganiumite\": 2, \"Modest Mint\": 2, \"Pidgeotite\": 2, \"Relaxed Mint\": 2, \"Sassy Mint\": 2}",
+      "before": "{\"Adamant Mint\": 1, \"Banettite\": 1, \"Bottle Cap\": 3, \"Careful Mint\": 1, \"Daycare Candy\": 5, \"Diancite\": 1, \"Emboarite\": 1, \"Excadrillite\": 1, \"Feraligatrite\": 1, \"Garchompite\": 2, \"Gmax Band\": 1, \"Great Pearl Orb\": 1, \"Gyaradosnite\": 1, \"Holowear Ticket\": 1236, \"Jade Orb\": 1, \"Jolly Mint\": 1, \"Latiosite\": 1, \"Mega Ring\": 1, \"Meganiumite\": 1, \"Modest Mint\": 1, \"Pidgeotite\": 1, \"Relaxed Mint\": 1, \"Sassy Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 1688867483
+    },
+    {
+      "after": "{\"Berry\": 8, \"Vitamin\": 3}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1688867483
+    },
+    {
+      "after": "{\"Berry\": 3, \"Vitamin\": 3}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1697344400
+    },
+    {
+      "after": "{\"Holowear Ticket\": 12}",
+      "before": "{\"Holowear Ticket\": 6}",
+      "field": "key_items_json",
+      "user_id": 1720080088
+    },
+    {
+      "after": "{\"Blastoisinite\": 4, \"Blazikenite\": 4, \"Charizardite X\": 4, \"Charizardite Y\": 4, \"Daycare Candy\": 10, \"Gardevoirite\": 4, \"Heracronite\": 4, \"Holowear Ticket\": 24, \"Lucarionite\": 4, \"Mega Ring\": 1, \"Salamencite\": 4, \"Scizorite\": 8}",
+      "before": "{\"Blastoisinite\": 2, \"Blazikenite\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 5, \"Gardevoirite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 12, \"Lucarionite\": 2, \"Mega Ring\": 1, \"Salamencite\": 2, \"Scizorite\": 4}",
+      "field": "key_items_json",
+      "user_id": 1723996343
+    },
+    {
+      "after": "{\"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1723996343
+    },
+    {
+      "after": "{\"Ability Capsule\": 2, \"Ability Patch\": 2, \"Abomasite\": 4, \"Absolite\": 2, \"Ampharosite\": 4, \"Banettite\": 2, \"Blue Orb\": 4, \"Bottle Cap\": 2, \"Careful Mint\": 2, \"Charizardite X\": 8, \"Charizardite Y\": 4, \"Chimechoite\": 2, \"Clefableite\": 2, \"Daycare Candy\": 14, \"Feraligatrite\": 2, \"Froslassite\": 2, \"Galladite\": 4, \"Garchompite\": 12, \"Garchompite Z\": 2, \"Gardevoirite\": 4, \"Glalitite\": 2, \"Holowear Ticket\": 2116, \"Impish Mint\": 2, \"Jolly Mint\": 2, \"Latiosite\": 4, \"Lopunnite\": 4, \"Lucarionite\": 4, \"Manectite\": 4, \"Mawilite\": 2, \"Mega Ring\": 1, \"Mewtwonite Y\": 4, \"Red Orb\": 2, \"Sablenite\": 4, \"Salamencite\": 4, \"Sceptilite\": 4, \"Slowbronite\": 4, \"Swampertite\": 4, \"Tyranitarite\": 4, \"Venusaurite\": 10, \"Victreebelite\": 2}",
+      "before": "{\"Ability Capsule\": 1, \"Ability Patch\": 1, \"Abomasite\": 2, \"Absolite\": 1, \"Ampharosite\": 2, \"Banettite\": 1, \"Blue Orb\": 2, \"Bottle Cap\": 1, \"Careful Mint\": 1, \"Charizardite X\": 4, \"Charizardite Y\": 2, \"Chimechoite\": 1, \"Clefableite\": 1, \"Daycare Candy\": 7, \"Feraligatrite\": 1, \"Froslassite\": 1, \"Galladite\": 2, \"Garchompite\": 6, \"Garchompite Z\": 1, \"Gardevoirite\": 2, \"Glalitite\": 1, \"Holowear Ticket\": 1058, \"Impish Mint\": 1, \"Jolly Mint\": 1, \"Latiosite\": 2, \"Lopunnite\": 2, \"Lucarionite\": 2, \"Manectite\": 2, \"Mawilite\": 1, \"Mega Ring\": 1, \"Mewtwonite Y\": 2, \"Red Orb\": 1, \"Sablenite\": 2, \"Salamencite\": 2, \"Sceptilite\": 2, \"Slowbronite\": 2, \"Swampertite\": 2, \"Tyranitarite\": 2, \"Venusaurite\": 5, \"Victreebelite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1754145879
+    },
+    {
+      "after": "{\"Berry\": 43, \"Rare Candy\": 102, \"Vitamin\": 17}",
+      "before": "{\"Rare Candy\": 102}",
+      "field": "medicine_inventory_json",
+      "user_id": 1754145879
+    },
+    {
+      "after": "{\"Daycare Candy\": 8, \"Falinksite\": 2, \"Ghostium Z\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 1380, \"Latiasite\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Daycare Candy\": 4, \"Falinksite\": 1, \"Ghostium Z\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 690, \"Latiasite\": 1, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 1761341650
+    },
+    {
+      "after": "{\"Berry\": 9, \"Rare Candy\": 40, \"Vitamin\": 23}",
+      "before": "{\"Rare Candy\": 40}",
+      "field": "medicine_inventory_json",
+      "user_id": 1761341650
+    },
+    {
+      "after": "{\"Eelektrossite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 980, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Eelektrossite\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 490, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 1773404387
+    },
+    {
+      "after": "{\"Berry\": 39, \"Rare Candy\": 53, \"Vitamin\": 173}",
+      "before": "{\"Rare Candy\": 53}",
+      "field": "medicine_inventory_json",
+      "user_id": 1773404387
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 1786637879
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 1812629708
+    },
+    {
+      "after": "{\"Galladite\": 2}",
+      "before": "{\"Galladite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1813984477
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1839634939
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 1882384954
+    },
+    {
+      "after": "{\"Holowear Ticket\": 152, \"Impish Mint\": 2}",
+      "before": "{\"Holowear Ticket\": 76, \"Impish Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 1895916617
+    },
+    {
+      "after": "{\"Berry\": 55, \"Rare Candy\": 16}",
+      "before": "{\"Rare Candy\": 16}",
+      "field": "medicine_inventory_json",
+      "user_id": 1895916617
+    },
+    {
+      "after": "{\"Berry\": 12, \"Vitamin\": 9}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1900072586
+    },
+    {
+      "after": "{\"Vitamin\": 16}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1914032636
+    },
+    {
+      "after": "{\"Latiasite\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Latiasite\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 1923358790
+    },
+    {
+      "after": "{\"Alakazite\": 2, \"Daycare Candy\": 8, \"Holowear Ticket\": 234}",
+      "before": "{\"Alakazite\": 1, \"Daycare Candy\": 4, \"Holowear Ticket\": 117}",
+      "field": "key_items_json",
+      "user_id": 1926803845
+    },
+    {
+      "after": "{\"Berry\": 1, \"Rare Candy\": 13, \"Vitamin\": 42}",
+      "before": "{\"Rare Candy\": 13}",
+      "field": "medicine_inventory_json",
+      "user_id": 1926803845
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 246}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 123}",
+      "field": "key_items_json",
+      "user_id": 1928789853
+    },
+    {
+      "after": "{\"Diancite\": 2, \"Gmax Band\": 1, \"Kangaskhanite\": 2, \"Tyranitarite\": 2}",
+      "before": "{\"Diancite\": 1, \"Gmax Band\": 1, \"Kangaskhanite\": 1, \"Tyranitarite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1950372378
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 1956069022
+    },
+    {
+      "after": "{\"Daycare Candy\": 6, \"Holowear Ticket\": 490, \"Mega Ring\": 1, \"Mewtwonite Y\": 2, \"Slowbronite\": 2}",
+      "before": "{\"Daycare Candy\": 3, \"Holowear Ticket\": 245, \"Mega Ring\": 1, \"Mewtwonite Y\": 1, \"Slowbronite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1957536267
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 1965207953
+    },
+    {
+      "after": "{\"Vitamin\": 2}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 1966797292
+    },
+    {
+      "after": "{\"Aggronite\": 2, \"Alakazite\": 2, \"Blue Orb\": 2, \"Charizardite Y\": 2, \"Glalitite\": 2, \"Holowear Ticket\": 352, \"Kommonium Z\": 2, \"Latiasite\": 2, \"Lucarionite\": 2, \"Mawilite\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 2, \"Sablenite\": 2, \"Snorlium Z\": 2, \"Steelixite\": 2}",
+      "before": "{\"Aggronite\": 1, \"Alakazite\": 1, \"Blue Orb\": 1, \"Charizardite Y\": 1, \"Glalitite\": 1, \"Holowear Ticket\": 176, \"Kommonium Z\": 1, \"Latiasite\": 1, \"Lucarionite\": 1, \"Mawilite\": 1, \"Mega Ring\": 1, \"Mewtwonite X\": 1, \"Mewtwonite Y\": 1, \"Sablenite\": 1, \"Snorlium Z\": 1, \"Steelixite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1968408733
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Holowear Ticket\": 866, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Tyranitarite\": 2}",
+      "before": "{\"Gmax Band\": 1, \"Holowear Ticket\": 433, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Tyranitarite\": 1}",
+      "field": "key_items_json",
+      "user_id": 1981055701
+    },
+    {
+      "after": "{\"Berry\": 1, \"Rare Candy\": 17}",
+      "before": "{\"Rare Candy\": 17}",
+      "field": "medicine_inventory_json",
+      "user_id": 1981055701
+    },
+    {
+      "after": "{\"Holowear Ticket\": 42}",
+      "before": "{\"Holowear Ticket\": 21}",
+      "field": "key_items_json",
+      "user_id": 1984812106
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 1989859860
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 1997042805
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 24}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 12}",
+      "field": "key_items_json",
+      "user_id": 2009849993
+    },
+    {
+      "after": "{\"Slowbronite\": 2}",
+      "before": "{\"Slowbronite\": 1}",
+      "field": "key_items_json",
+      "user_id": 2013169362
+    },
+    {
+      "after": "{\"Berry\": 4}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 2013169362
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 42}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 21}",
+      "field": "key_items_json",
+      "user_id": 2016258894
+    },
+    {
+      "after": "{\"Battle Box\": 4, \"Charizardite Y\": 8, \"Daycare Candy\": 12, \"Excadrillite\": 8, \"Feraligatrite\": 2, \"Gyaradosnite\": 2, \"Holowear Ticket\": 324, \"Lopunnite\": 8, \"Mewtwonite Y\": 8, \"Slowbronite\": 8, \"Tyranitarite\": 8}",
+      "before": "{\"Battle Box\": 2, \"Charizardite Y\": 4, \"Daycare Candy\": 6, \"Excadrillite\": 4, \"Feraligatrite\": 1, \"Gyaradosnite\": 1, \"Holowear Ticket\": 162, \"Lopunnite\": 4, \"Mewtwonite Y\": 4, \"Slowbronite\": 4, \"Tyranitarite\": 4}",
+      "field": "key_items_json",
+      "user_id": 2033591884
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 322}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 161}",
+      "field": "key_items_json",
+      "user_id": 2037224499
+    },
+    {
+      "after": "{\"Berry\": 4}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 2037224499
+    },
+    {
+      "after": "{\"Gardevoirite\": 2}",
+      "before": "{\"Gardevoirite\": 1}",
+      "field": "key_items_json",
+      "user_id": 2053022507
+    },
+    {
+      "after": "{\"Absolite\": 2, \"Aggronite\": 2, \"Altarianite\": 2, \"Ampharosite\": 2, \"Banettite\": 2, \"Blastoisinite\": 2, \"Blazikenite\": 2, \"Blue Orb\": 2, \"Bold Mint\": 2, \"Calm Mint\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 10, \"Feraligatrite\": 2, \"Galladite\": 2, \"Gardevoirite\": 2, \"Glalitite\": 2, \"Grassium Z\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 2346, \"Jade Orb\": 4, \"Kangaskhanite\": 2, \"Latiasite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 2, \"Mewtwonium Z\": 2, \"Pinsirite\": 2, \"Quiet Mint\": 2, \"Red Orb\": 2, \"Relaxed Mint\": 2, \"Sablenite\": 4, \"Salamencite\": 2, \"Sassy Mint\": 2, \"Sceptilite\": 2, \"Sharpedonite\": 2, \"Shiny Charm\": 1, \"Staraptorite\": 2, \"Steelixite\": 2, \"Swampertite\": 2, \"Timid Mint\": 2, \"Venusaurite\": 2}",
+      "before": "{\"Absolite\": 1, \"Aggronite\": 1, \"Altarianite\": 1, \"Ampharosite\": 1, \"Banettite\": 1, \"Blastoisinite\": 1, \"Blazikenite\": 1, \"Blue Orb\": 1, \"Bold Mint\": 1, \"Calm Mint\": 1, \"Charizardite Y\": 1, \"Daycare Candy\": 5, \"Feraligatrite\": 1, \"Galladite\": 1, \"Gardevoirite\": 1, \"Glalitite\": 1, \"Grassium Z\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 1173, \"Jade Orb\": 2, \"Kangaskhanite\": 1, \"Latiasite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 1, \"Mewtwonite X\": 1, \"Mewtwonite Y\": 1, \"Mewtwonium Z\": 1, \"Pinsirite\": 1, \"Quiet Mint\": 1, \"Red Orb\": 1, \"Relaxed Mint\": 1, \"Sablenite\": 2, \"Salamencite\": 1, \"Sassy Mint\": 1, \"Sceptilite\": 1, \"Sharpedonite\": 1, \"Shiny Charm\": 1, \"Staraptorite\": 1, \"Steelixite\": 1, \"Swampertite\": 1, \"Timid Mint\": 1, \"Venusaurite\": 1}",
+      "field": "key_items_json",
+      "user_id": 2067983229
+    },
+    {
+      "after": "{\"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 2080803398
+    },
+    {
+      "after": "{\"Sharpedonite\": 2}",
+      "before": "{\"Sharpedonite\": 1}",
+      "field": "key_items_json",
+      "user_id": 2106405042
+    },
+    {
+      "after": "{\"Ability Patch\": 4, \"Chesnaughtite\": 4, \"Daycare Candy\": 4, \"Delphoxite\": 2, \"Drampaite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 762, \"Mawilite\": 4, \"Mega Ring\": 1, \"Mewtwonite X\": 4, \"Omni Ring\": 1, \"Starmieite\": 2}",
+      "before": "{\"Ability Patch\": 2, \"Chesnaughtite\": 2, \"Daycare Candy\": 2, \"Delphoxite\": 1, \"Drampaite\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 381, \"Mawilite\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 2, \"Omni Ring\": 1, \"Starmieite\": 1}",
+      "field": "key_items_json",
+      "user_id": 2110889690
+    },
+    {
+      "after": "{\"Berry\": 48, \"Rare Candy\": 95, \"Vitamin\": 68}",
+      "before": "{\"Rare Candy\": 95}",
+      "field": "medicine_inventory_json",
+      "user_id": 2110889690
+    },
+    {
+      "after": "{\"Berry\": 27, \"Vitamin\": 32}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 2118654940
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 2132080442
+    },
+    {
+      "after": "{\"Cameruptnite\": 2}",
+      "before": "{\"Cameruptnite\": 1}",
+      "field": "key_items_json",
+      "user_id": 2142119347
+    },
+    {
+      "after": "{\"Berry\": 3}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 2143863608
+    },
+    {
+      "after": "{\"Berry\": 20}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 2144565603
+    },
+    {
+      "after": "{\"Holowear Ticket\": 144}",
+      "before": "{\"Holowear Ticket\": 72}",
+      "field": "key_items_json",
+      "user_id": 320346118
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5015365341
+    },
+    {
+      "after": "{\"Manectite\": 2}",
+      "before": "{\"Manectite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5036738418
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Aerodactylite\": 8, \"Altarianite\": 8, \"Ampharosite\": 4, \"Blastoisinite\": 4, \"Gengarite\": 4, \"Heracronite\": 4, \"Holowear Ticket\": 2, \"Mega Ring\": 1, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Slowbronite\": 4}",
+      "before": "{\"Absolite\": 2, \"Aerodactylite\": 4, \"Altarianite\": 4, \"Ampharosite\": 2, \"Blastoisinite\": 2, \"Gengarite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 1, \"Mega Ring\": 1, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Slowbronite\": 2}",
+      "field": "key_items_json",
+      "user_id": 5037945488
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 4}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 2}",
+      "field": "key_items_json",
+      "user_id": 5048444272
+    },
+    {
+      "after": "{\"Vitamin\": 7}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5048444272
+    },
+    {
+      "after": "{\"Alakazite\": 4, \"Daycare Candy\": 10, \"Holowear Ticket\": 16, \"Manectite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 4, \"Mewtwonite Y\": 4, \"Pinsirite\": 4, \"Slowbronite\": 4, \"Swampertite\": 4}",
+      "before": "{\"Alakazite\": 2, \"Daycare Candy\": 5, \"Holowear Ticket\": 8, \"Manectite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite Y\": 2, \"Pinsirite\": 2, \"Slowbronite\": 2, \"Swampertite\": 2}",
+      "field": "key_items_json",
+      "user_id": 5051928702
+    },
+    {
+      "after": "{\"Alakazite\": 6, \"Altarianite\": 4, \"Blastoisinite\": 4, \"Blazikenite\": 4, \"Blue Orb\": 4, \"Charizardite X\": 4, \"Charizardite Y\": 4, \"Daycare Candy\": 2, \"Diancite\": 4, \"Galladite\": 4, \"Gardevoirite\": 4, \"Heracronite\": 4, \"Holowear Ticket\": 412, \"Kangaskhanite\": 4, \"Lopunnite\": 4, \"Mega Ring\": 1, \"Mewtwonite X\": 4, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Salamencite\": 4, \"Slowbronite\": 4, \"Swampertite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Alakazite\": 3, \"Altarianite\": 2, \"Blastoisinite\": 2, \"Blazikenite\": 2, \"Blue Orb\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 1, \"Diancite\": 2, \"Galladite\": 2, \"Gardevoirite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 206, \"Kangaskhanite\": 2, \"Lopunnite\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Salamencite\": 2, \"Slowbronite\": 2, \"Swampertite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 5054284371
+    },
+    {
+      "after": "{\"Berry\": 2, \"Vitamin\": 12}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5054284371
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5058417875
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5068961003
+    },
+    {
+      "after": "{\"Battle Box\": 26, \"Daycare Candy\": 6, \"Gmax Band\": 1, \"Holowear Ticket\": 682, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Battle Box\": 13, \"Daycare Candy\": 3, \"Gmax Band\": 1, \"Holowear Ticket\": 341, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 5088002368
+    },
+    {
+      "after": "{\"Berry\": 30, \"Rare Candy\": 2}",
+      "before": "{\"Rare Candy\": 2}",
+      "field": "medicine_inventory_json",
+      "user_id": 5088002368
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5091304841
+    },
+    {
+      "after": "{\"Blastoisinite\": 2}",
+      "before": "{\"Blastoisinite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5106937585
+    },
+    {
+      "after": "{\"Berry\": 26, \"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5106937585
+    },
+    {
+      "after": "{\"Berry\": 13, \"Rare Candy\": 6, \"Vitamin\": 19}",
+      "before": "{\"Rare Candy\": 6}",
+      "field": "medicine_inventory_json",
+      "user_id": 5109615259
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Blastoisinite\": 2, \"Brave Mint\": 2, \"Careful Mint\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 10, \"Gmax Band\": 1, \"Heracronite\": 2, \"Holowear Ticket\": 1046, \"Impish Mint\": 2, \"Latiasite\": 2, \"Modest Mint\": 2, \"Relaxed Mint\": 2}",
+      "before": "{\"Battle Box\": 1, \"Blastoisinite\": 1, \"Brave Mint\": 1, \"Careful Mint\": 1, \"Charizardite Y\": 1, \"Daycare Candy\": 5, \"Gmax Band\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 523, \"Impish Mint\": 1, \"Latiasite\": 1, \"Modest Mint\": 1, \"Relaxed Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 5115154847
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5124328892
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 42}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 21}",
+      "field": "key_items_json",
+      "user_id": 5138494013
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5144512849
+    },
+    {
+      "after": "{\"Berry\": 9, \"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5153974036
+    },
+    {
+      "after": "{\"Rare Candy\": 5, \"Vitamin\": 1}",
+      "before": "{\"Rare Candy\": 5}",
+      "field": "medicine_inventory_json",
+      "user_id": 5188377216
+    },
+    {
+      "after": "{\"Baxcaliburite\": 2, \"Dragoniteite\": 2, \"Holowear Ticket\": 2906, \"Impish Mint\": 2, \"Latiasite\": 2, \"Medichamite\": 2, \"Mega Ring\": 1, \"Pinsirite\": 4, \"Rusted Shield\": 4, \"Rusted Sword\": 6, \"Scizorite\": 4, \"Sharpedonite\": 2, \"Slowbronite\": 2, \"Staraptorite\": 2, \"Venusaurite\": 4}",
+      "before": "{\"Baxcaliburite\": 1, \"Dragoniteite\": 1, \"Holowear Ticket\": 1453, \"Impish Mint\": 1, \"Latiasite\": 1, \"Medichamite\": 1, \"Mega Ring\": 1, \"Pinsirite\": 2, \"Rusted Shield\": 2, \"Rusted Sword\": 3, \"Scizorite\": 2, \"Sharpedonite\": 1, \"Slowbronite\": 1, \"Staraptorite\": 1, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 5191938297
+    },
+    {
+      "after": "{\"Rare Candy\": 35, \"Vitamin\": 1}",
+      "before": "{\"Rare Candy\": 35}",
+      "field": "medicine_inventory_json",
+      "user_id": 5191938297
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5220114181
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5220409364
+    },
+    {
+      "after": "{\"Ability Capsule\": 18, \"Ability Patch\": 6, \"Abomasite\": 2, \"Absolite\": 6, \"Adamant Mint\": 4, \"Aerodactylite\": 4, \"Aggronite\": 6, \"Alakazite\": 2, \"Altarianite\": 2, \"Banettite\": 2, \"Barbaracleite\": 2, \"Blastoisinite\": 4, \"Blazikenite\": 2, \"Blue Orb\": 2, \"Bold Mint\": 2, \"Bottle Cap\": 10, \"Calm Mint\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 312, \"Diancite\": 2, \"Drampaite\": 2, \"Feraligatrite\": 2, \"Froslassite\": 2, \"Galladite\": 2, \"Garchompite Z\": 2, \"Gengarite\": 4, \"Greninjaite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 2344, \"Houndoominite\": 2, \"Impish Mint\": 2, \"Jolly Mint\": 2, \"Latiasite\": 2, \"Latiosite\": 2, \"Lopunnite\": 2, \"Magearnaite\": 4, \"Manectite\": 2, \"Mawilite\": 2, \"Mega Ring\": 1, \"Meowsticite\": 2, \"Metagrossite\": 2, \"Mewtwonite Y\": 2, \"Modest Mint\": 4, \"Pidgeotite\": 4, \"Pinsirite\": 2, \"Sassy Mint\": 2, \"Sceptilite\": 2, \"Scovillainite\": 2, \"Sharpedonite\": 2, \"Steelixite\": 2, \"Swampertite\": 2, \"Timid Mint\": 2, \"Venusaurite\": 2}",
+      "before": "{\"Ability Capsule\": 9, \"Ability Patch\": 3, \"Abomasite\": 1, \"Absolite\": 3, \"Adamant Mint\": 2, \"Aerodactylite\": 2, \"Aggronite\": 3, \"Alakazite\": 1, \"Altarianite\": 1, \"Banettite\": 1, \"Barbaracleite\": 1, \"Blastoisinite\": 2, \"Blazikenite\": 1, \"Blue Orb\": 1, \"Bold Mint\": 1, \"Bottle Cap\": 5, \"Calm Mint\": 1, \"Charizardite X\": 1, \"Charizardite Y\": 1, \"Daycare Candy\": 156, \"Diancite\": 1, \"Drampaite\": 1, \"Feraligatrite\": 1, \"Froslassite\": 1, \"Galladite\": 1, \"Garchompite Z\": 1, \"Gengarite\": 2, \"Greninjaite\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 1172, \"Houndoominite\": 1, \"Impish Mint\": 1, \"Jolly Mint\": 1, \"Latiasite\": 1, \"Latiosite\": 1, \"Lopunnite\": 1, \"Magearnaite\": 2, \"Manectite\": 1, \"Mawilite\": 1, \"Mega Ring\": 1, \"Meowsticite\": 1, \"Metagrossite\": 1, \"Mewtwonite Y\": 1, \"Modest Mint\": 2, \"Pidgeotite\": 2, \"Pinsirite\": 1, \"Sassy Mint\": 1, \"Sceptilite\": 1, \"Scovillainite\": 1, \"Sharpedonite\": 1, \"Steelixite\": 1, \"Swampertite\": 1, \"Timid Mint\": 1, \"Venusaurite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5228554516
+    },
+    {
+      "after": "{\"Berry\": 10, \"Rare Candy\": 384, \"Vitamin\": 1261}",
+      "before": "{\"Rare Candy\": 384}",
+      "field": "medicine_inventory_json",
+      "user_id": 5228554516
+    },
+    {
+      "after": "{\"Absolite\": 6, \"Aggronite\": 6, \"Alakazite\": 4, \"Ampharosite\": 6, \"Audinite\": 2, \"Battle Box\": 14, \"Beedrillite\": 6, \"Blue Orb\": 4, \"Bold Mint\": 2, \"Calm Mint\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Chimechoite\": 2, \"Darkinium Z\": 2, \"Dragonium Z\": 2, \"Galladite\": 4, \"Garchompite\": 4, \"Gengarite\": 4, \"Glalitite\": 14, \"Gmax Band\": 1, \"Heracronite\": 6, \"Holowear Ticket\": 3482, \"Kangaskhanite\": 4, \"Lopunnite\": 4, \"Lucarionite\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 4, \"Pinsirite\": 2, \"Red Orb\": 4, \"Rusted Shield\": 4, \"Scizorite\": 6, \"Slowbronite\": 2, \"Victreebelite\": 2}",
+      "before": "{\"Absolite\": 3, \"Aggronite\": 3, \"Alakazite\": 2, \"Ampharosite\": 3, \"Audinite\": 1, \"Battle Box\": 7, \"Beedrillite\": 3, \"Blue Orb\": 2, \"Bold Mint\": 1, \"Calm Mint\": 1, \"Charizardite X\": 1, \"Charizardite Y\": 1, \"Chimechoite\": 1, \"Darkinium Z\": 1, \"Dragonium Z\": 1, \"Galladite\": 2, \"Garchompite\": 2, \"Gengarite\": 2, \"Glalitite\": 7, \"Gmax Band\": 1, \"Heracronite\": 3, \"Holowear Ticket\": 1741, \"Kangaskhanite\": 2, \"Lopunnite\": 2, \"Lucarionite\": 1, \"Mega Ring\": 1, \"Mewtwonite X\": 1, \"Mewtwonite Y\": 2, \"Pinsirite\": 1, \"Red Orb\": 2, \"Rusted Shield\": 2, \"Scizorite\": 3, \"Slowbronite\": 1, \"Victreebelite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5242138546
+    },
+    {
+      "after": "{\"Berry\": 7, \"Rare Candy\": 1}",
+      "before": "{\"Rare Candy\": 1}",
+      "field": "medicine_inventory_json",
+      "user_id": 5242138546
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 5258378477
+    },
+    {
+      "after": "{\"Berry\": 2}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5264498422
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5276677035
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5289290565
+    },
+    {
+      "after": "{\"Bottle Cap\": 2, \"Daycare Candy\": 14, \"Dragalgeite\": 2, \"Holowear Ticket\": 1006, \"Max Soup\": 2, \"Salamencite\": 2, \"Tatsugiriite\": 2}",
+      "before": "{\"Bottle Cap\": 1, \"Daycare Candy\": 7, \"Dragalgeite\": 1, \"Holowear Ticket\": 503, \"Max Soup\": 1, \"Salamencite\": 1, \"Tatsugiriite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5290054938
+    },
+    {
+      "after": "{\"Ability Capsule\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 254}",
+      "before": "{\"Ability Capsule\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 127}",
+      "field": "key_items_json",
+      "user_id": 5296991963
+    },
+    {
+      "after": "{\"Bottle Cap\": 2, \"Brave Mint\": 2, \"Holowear Ticket\": 1370, \"Medichamite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Modest Mint\": 2}",
+      "before": "{\"Bottle Cap\": 1, \"Brave Mint\": 1, \"Holowear Ticket\": 685, \"Medichamite\": 1, \"Mega Ring\": 1, \"Metagrossite\": 1, \"Modest Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 5299591887
+    },
+    {
+      "after": "{\"Berry\": 2}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5299591887
+    },
+    {
+      "after": "{\"Berry\": 22}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5303251380
+    },
+    {
+      "after": "{\"Holowear Ticket\": 100, \"Mega Ring\": 1, \"Rusted Sword\": 4}",
+      "before": "{\"Holowear Ticket\": 50, \"Mega Ring\": 1, \"Rusted Sword\": 2}",
+      "field": "key_items_json",
+      "user_id": 5309133289
+    },
+    {
+      "after": "{\"Berry\": 8, \"Rare Candy\": 2, \"Vitamin\": 6}",
+      "before": "{\"Rare Candy\": 2}",
+      "field": "medicine_inventory_json",
+      "user_id": 5309133289
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5317875092
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Holowear Ticket\": 658, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Gmax Band\": 1, \"Holowear Ticket\": 329, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 5344294772
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 5356981865
+    },
+    {
+      "after": "{\"Battle Box\": 20, \"Daycare Candy\": 10, \"Glimmoraite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 1122, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Battle Box\": 10, \"Daycare Candy\": 5, \"Glimmoraite\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 561, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 5366845353
+    },
+    {
+      "after": "{\"Banettite\": 2, \"Gmax Band\": 1, \"Medichamite\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Banettite\": 1, \"Gmax Band\": 1, \"Medichamite\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 5370651516
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5377145501
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5380102533
+    },
+    {
+      "after": "{\"Berry\": 1, \"Vitamin\": 2}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5382284735
+    },
+    {
+      "after": "{\"Gengarite\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Gengarite\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 5383086086
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5383086086
+    },
+    {
+      "after": "{\"Chandelureite\": 2, \"Daycare Candy\": 10, \"Gmax Band\": 1, \"Holowear Ticket\": 932, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Chandelureite\": 1, \"Daycare Candy\": 5, \"Gmax Band\": 1, \"Holowear Ticket\": 466, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 5402792413
+    },
+    {
+      "after": "{\"Berry\": 45, \"Rare Candy\": 48, \"Vitamin\": 4}",
+      "before": "{\"Rare Candy\": 48}",
+      "field": "medicine_inventory_json",
+      "user_id": 5402792413
+    },
+    {
+      "after": "{\"Berry\": 40, \"Vitamin\": 3}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5415806351
+    },
+    {
+      "after": "{\"Battle Box\": 6, \"Holowear Ticket\": 8}",
+      "before": "{\"Battle Box\": 3, \"Holowear Ticket\": 4}",
+      "field": "key_items_json",
+      "user_id": 5425953575
+    },
+    {
+      "after": "{\"Berry\": 2, \"Vitamin\": 2}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5426641464
+    },
+    {
+      "after": "{\"Holowear Ticket\": 8}",
+      "before": "{\"Holowear Ticket\": 4}",
+      "field": "key_items_json",
+      "user_id": 5433721548
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 572}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 286}",
+      "field": "key_items_json",
+      "user_id": 5436916488
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 5443171036
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5452009588
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 5460768109
+    },
+    {
+      "after": "{\"Diancite\": 2, \"Gardevoirite\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Diancite\": 1, \"Gardevoirite\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 5473934811
+    },
+    {
+      "after": "{\"Alakazite\": 4, \"Altarianite\": 4, \"Holowear Ticket\": 16, \"Mega Ring\": 1, \"Metagrossite\": 4}",
+      "before": "{\"Alakazite\": 2, \"Altarianite\": 2, \"Holowear Ticket\": 8, \"Mega Ring\": 1, \"Metagrossite\": 2}",
+      "field": "key_items_json",
+      "user_id": 5475662843
+    },
+    {
+      "after": "{\"Bold Mint\": 2, \"Bottle Cap\": 2, \"Calm Mint\": 2, \"Careful Mint\": 2, \"Galladite\": 2, \"Great Diamond Orb\": 2, \"Holowear Ticket\": 558, \"Modest Mint\": 2}",
+      "before": "{\"Bold Mint\": 1, \"Bottle Cap\": 1, \"Calm Mint\": 1, \"Careful Mint\": 1, \"Galladite\": 1, \"Great Diamond Orb\": 1, \"Holowear Ticket\": 279, \"Modest Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 5478454667
+    },
+    {
+      "after": "{\"Rare Candy\": 100, \"Vitamin\": 100}",
+      "before": "{\"Rare Candy\": 100}",
+      "field": "medicine_inventory_json",
+      "user_id": 5478454667
+    },
+    {
+      "after": "{\"Berry\": 5}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5490992375
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5501357468
+    },
+    {
+      "after": "{\"Holowear Ticket\": 62}",
+      "before": "{\"Holowear Ticket\": 31}",
+      "field": "key_items_json",
+      "user_id": 5519093171
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 5524321472
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5536134102
+    },
+    {
+      "after": "{\"Holowear Ticket\": 82}",
+      "before": "{\"Holowear Ticket\": 41}",
+      "field": "key_items_json",
+      "user_id": 5548207366
+    },
+    {
+      "after": "{\"Holowear Ticket\": 12}",
+      "before": "{\"Holowear Ticket\": 6}",
+      "field": "key_items_json",
+      "user_id": 5560876868
+    },
+    {
+      "after": "{\"Blue Orb\": 2, \"Latiasite\": 2, \"Mega Ring\": 1, \"Sceptilite\": 2, \"Venusaurite\": 2}",
+      "before": "{\"Blue Orb\": 1, \"Latiasite\": 1, \"Mega Ring\": 1, \"Sceptilite\": 1, \"Venusaurite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5581146370
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5593160005
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5596842428
+    },
+    {
+      "after": "{\"Abomasite\": 4, \"Absolite\": 4, \"Aerodactylite\": 4, \"Aggronite\": 4, \"Alakazite\": 4, \"Altarianite\": 4, \"Ampharosite\": 4, \"Banettite\": 4, \"Battle Box\": 2, \"Beedrillite\": 4, \"Blastoisinite\": 4, \"Blazikenite\": 4, \"Blue Orb\": 4, \"Charizardite X\": 4, \"Charizardite Y\": 4, \"Daycare Candy\": 10, \"Galladite\": 4, \"Garchompite\": 4, \"Gardevoirite\": 4, \"Gengarite\": 4, \"Glalitite\": 4, \"Heracronite\": 4, \"Holowear Ticket\": 14, \"Houndoominite\": 4, \"Jade Orb\": 4, \"Kangaskhanite\": 4, \"Latiasite\": 4, \"Latiosite\": 4, \"Lopunnite\": 4, \"Manectite\": 4, \"Mawilite\": 4, \"Medichamite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 4, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Pinsirite\": 4, \"Rusted Shield\": 4, \"Rusted Sword\": 9, \"Sablenite\": 4, \"Salamencite\": 4, \"Sceptilite\": 4, \"Scizorite\": 4, \"Sharpedonite\": 4, \"Slowbronite\": 4, \"Swampertite\": 4, \"Tyranitarite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Abomasite\": 2, \"Absolite\": 2, \"Aerodactylite\": 2, \"Aggronite\": 2, \"Alakazite\": 2, \"Altarianite\": 2, \"Ampharosite\": 2, \"Banettite\": 2, \"Battle Box\": 1, \"Beedrillite\": 2, \"Blastoisinite\": 2, \"Blazikenite\": 2, \"Blue Orb\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 5, \"Galladite\": 2, \"Garchompite\": 2, \"Gardevoirite\": 2, \"Gengarite\": 2, \"Glalitite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 7, \"Houndoominite\": 2, \"Jade Orb\": 2, \"Kangaskhanite\": 2, \"Latiasite\": 2, \"Latiosite\": 2, \"Lopunnite\": 2, \"Manectite\": 2, \"Mawilite\": 2, \"Medichamite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Pinsirite\": 2, \"Rusted Shield\": 2, \"Rusted Sword\": 4, \"Sablenite\": 2, \"Salamencite\": 2, \"Sceptilite\": 2, \"Scizorite\": 2, \"Sharpedonite\": 2, \"Slowbronite\": 2, \"Swampertite\": 2, \"Tyranitarite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 5599392345
+    },
+    {
+      "after": "{\"Berry\": 3}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 560469609
+    },
+    {
+      "after": "{\"Battle Box\": 4, \"Holowear Ticket\": 150}",
+      "before": "{\"Battle Box\": 2, \"Holowear Ticket\": 75}",
+      "field": "key_items_json",
+      "user_id": 5623444802
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 5631189181
+    },
+    {
+      "after": "{\"Ampharosite\": 2, \"Gyaradosnite\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Ampharosite\": 1, \"Gyaradosnite\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5667016949
+    },
+    {
+      "after": "{\"Berry\": 1, \"Vitamin\": 7}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5667016949
+    },
+    {
+      "after": "{\"Adamant Mint\": 2, \"Battle Box\": 8, \"Daycare Candy\": 10, \"Eevium Z\": 2, \"Feraligatrite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 1214, \"Jolly Mint\": 2, \"Mega Ring\": 1, \"Mewtwonium Z X\": 2, \"Omni Ring\": 1}",
+      "before": "{\"Adamant Mint\": 1, \"Battle Box\": 4, \"Daycare Candy\": 5, \"Eevium Z\": 1, \"Feraligatrite\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 607, \"Jolly Mint\": 1, \"Mega Ring\": 1, \"Mewtwonium Z X\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 5673998048
+    },
+    {
+      "after": "{\"Berry\": 2, \"Rare Candy\": 7}",
+      "before": "{\"Rare Candy\": 7}",
+      "field": "medicine_inventory_json",
+      "user_id": 5673998048
+    },
+    {
+      "after": "{\"Chesnaughtite\": 2, \"Gyaradosnite\": 2, \"Holowear Ticket\": 1396, \"Kangaskhanite\": 2}",
+      "before": "{\"Chesnaughtite\": 1, \"Gyaradosnite\": 1, \"Holowear Ticket\": 698, \"Kangaskhanite\": 1}",
+      "field": "key_items_json",
+      "user_id": 567449748
+    },
+    {
+      "after": "{\"Battle Box\": 8, \"Holowear Ticket\": 88}",
+      "before": "{\"Battle Box\": 4, \"Holowear Ticket\": 44}",
+      "field": "key_items_json",
+      "user_id": 5674728747
+    },
+    {
+      "after": "{\"Abomasite\": 4, \"Absolite\": 8, \"Aerodactylite\": 4, \"Aggronite\": 8, \"Alakazite\": 4, \"Altarianite\": 8, \"Ampharosite\": 4, \"Blastoisinite\": 8, \"Blazikenite\": 4, \"Blue Orb\": 4, \"Cameruptnite\": 2, \"Charizardite Y\": 4, \"Galladite\": 4, \"Garchompite\": 8, \"Gardevoirite\": 12, \"Glalitite\": 4, \"Heracronite\": 8, \"Holowear Ticket\": 168, \"Houndoominite\": 8, \"Latiasite\": 10, \"Lopunnite\": 4, \"Manectite\": 4, \"Mawilite\": 4, \"Medichamite\": 4, \"Mega Ring\": 1, \"Pidgeotite\": 4, \"Quiet Mint\": 2, \"Red Orb\": 8, \"Salamencite\": 4, \"Sceptilite\": 4, \"Scizorite\": 4, \"Sharpedonite\": 4, \"Slowbronite\": 4, \"Steelixite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Abomasite\": 2, \"Absolite\": 4, \"Aerodactylite\": 2, \"Aggronite\": 4, \"Alakazite\": 2, \"Altarianite\": 4, \"Ampharosite\": 2, \"Blastoisinite\": 4, \"Blazikenite\": 2, \"Blue Orb\": 2, \"Cameruptnite\": 1, \"Charizardite Y\": 2, \"Galladite\": 2, \"Garchompite\": 4, \"Gardevoirite\": 6, \"Glalitite\": 2, \"Heracronite\": 4, \"Holowear Ticket\": 84, \"Houndoominite\": 4, \"Latiasite\": 5, \"Lopunnite\": 2, \"Manectite\": 2, \"Mawilite\": 2, \"Medichamite\": 2, \"Mega Ring\": 1, \"Pidgeotite\": 2, \"Quiet Mint\": 1, \"Red Orb\": 4, \"Salamencite\": 2, \"Sceptilite\": 2, \"Scizorite\": 2, \"Sharpedonite\": 2, \"Slowbronite\": 2, \"Steelixite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 5716292610
+    },
+    {
+      "after": "{\"Mega Ring\": 1, \"Mewtwonite X\": 2}",
+      "before": "{\"Mega Ring\": 1, \"Mewtwonite X\": 1}",
+      "field": "key_items_json",
+      "user_id": 5716946356
+    },
+    {
+      "after": "{\"Vitamin\": 4}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5716946356
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5742764478
+    },
+    {
+      "after": "{\"Great Platinum Orb\": 2}",
+      "before": "{\"Great Platinum Orb\": 1}",
+      "field": "key_items_json",
+      "user_id": 5746762799
+    },
+    {
+      "after": "{\"Altarianite\": 2, \"Daycare Candy\": 4, \"Glimmoraite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 1248, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Pidgeotite\": 2, \"Steelixite\": 2}",
+      "before": "{\"Altarianite\": 1, \"Daycare Candy\": 2, \"Glimmoraite\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 624, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Pidgeotite\": 1, \"Steelixite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5750189157
+    },
+    {
+      "after": "{\"Berry\": 11, \"Rare Candy\": 22, \"Vitamin\": 29}",
+      "before": "{\"Rare Candy\": 22}",
+      "field": "medicine_inventory_json",
+      "user_id": 5750189157
+    },
+    {
+      "after": "{\"Careful Mint\": 2, \"Holowear Ticket\": 266, \"Modest Mint\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Careful Mint\": 1, \"Holowear Ticket\": 133, \"Modest Mint\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 5754615272
+    },
+    {
+      "after": "{\"Rare Candy\": 19, \"Vitamin\": 6}",
+      "before": "{\"Rare Candy\": 19}",
+      "field": "medicine_inventory_json",
+      "user_id": 5754615272
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5763149082
+    },
+    {
+      "after": "{\"Vitamin\": 25}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5764517585
+    },
+    {
+      "after": "{\"Holowear Ticket\": 244}",
+      "before": "{\"Holowear Ticket\": 122}",
+      "field": "key_items_json",
+      "user_id": 5772056595
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Heracronite\": 2}",
+      "before": "{\"Gmax Band\": 1, \"Heracronite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5774019569
+    },
+    {
+      "after": "{\"Blue Orb\": 2}",
+      "before": "{\"Blue Orb\": 1}",
+      "field": "key_items_json",
+      "user_id": 5774482981
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5786541104
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5797046475
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5805585423
+    },
+    {
+      "after": "{\"Berry\": 3}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5806012997
+    },
+    {
+      "after": "{\"Berry\": 17, \"Rare Candy\": 12}",
+      "before": "{\"Rare Candy\": 12}",
+      "field": "medicine_inventory_json",
+      "user_id": 5816482345
+    },
+    {
+      "after": "{\"Battle Box\": 8, \"Daycare Candy\": 10, \"Holowear Ticket\": 28}",
+      "before": "{\"Battle Box\": 4, \"Daycare Candy\": 5, \"Holowear Ticket\": 14}",
+      "field": "key_items_json",
+      "user_id": 5820048774
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 6}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 3}",
+      "field": "key_items_json",
+      "user_id": 5822885863
+    },
+    {
+      "after": "{\"Holowear Ticket\": 74}",
+      "before": "{\"Holowear Ticket\": 37}",
+      "field": "key_items_json",
+      "user_id": 5836191093
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 5841548979
+    },
+    {
+      "after": "{\"Holowear Ticket\": 10}",
+      "before": "{\"Holowear Ticket\": 5}",
+      "field": "key_items_json",
+      "user_id": 5848489095
+    },
+    {
+      "after": "{\"Bottle Cap\": 4, \"Holowear Ticket\": 40}",
+      "before": "{\"Bottle Cap\": 2, \"Holowear Ticket\": 20}",
+      "field": "key_items_json",
+      "user_id": 5858459838
+    },
+    {
+      "after": "{\"Houndoominite\": 2, \"Rusted Sword\": 2}",
+      "before": "{\"Houndoominite\": 1, \"Rusted Sword\": 1}",
+      "field": "key_items_json",
+      "user_id": 5862645857
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 44}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 22}",
+      "field": "key_items_json",
+      "user_id": 5863855668
+    },
+    {
+      "after": "{\"Vitamin\": 11}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5863855668
+    },
+    {
+      "after": "{\"Holowear Ticket\": 502, \"Quiet Mint\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Holowear Ticket\": 251, \"Quiet Mint\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 5889457054
+    },
+    {
+      "after": "{\"Berry\": 30}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5891037170
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 5895020187
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 590194176
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 142}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 71}",
+      "field": "key_items_json",
+      "user_id": 5910135780
+    },
+    {
+      "after": "{\"Holowear Ticket\": 326}",
+      "before": "{\"Holowear Ticket\": 163}",
+      "field": "key_items_json",
+      "user_id": 5923512442
+    },
+    {
+      "after": "{\"Battle Box\": 10, \"Brave Mint\": 2, \"Holowear Ticket\": 412}",
+      "before": "{\"Battle Box\": 5, \"Brave Mint\": 1, \"Holowear Ticket\": 206}",
+      "field": "key_items_json",
+      "user_id": 5924849984
+    },
+    {
+      "after": "{\"Alakazite\": 4, \"Daycare Candy\": 10, \"Diancite\": 6, \"Galladite\": 16, \"Gardevoirite\": 8, \"Gyaradosnite\": 2, \"Holowear Ticket\": 152, \"Max Soup\": 2, \"Medichamite\": 4, \"Mega Ring\": 1, \"Sceptilite\": 8, \"Swampertite\": 8}",
+      "before": "{\"Alakazite\": 2, \"Daycare Candy\": 5, \"Diancite\": 3, \"Galladite\": 8, \"Gardevoirite\": 4, \"Gyaradosnite\": 1, \"Holowear Ticket\": 76, \"Max Soup\": 1, \"Medichamite\": 2, \"Mega Ring\": 1, \"Sceptilite\": 4, \"Swampertite\": 4}",
+      "field": "key_items_json",
+      "user_id": 5925112646
+    },
+    {
+      "after": "{\"Aggronite\": 2, \"Ampharosite\": 2, \"Battle Box\": 2, \"Blastoisinite\": 2, \"Cameruptnite\": 2, \"Daycare Candy\": 16, \"Galladite\": 2, \"Garchompite\": 2, \"Gengarite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 4064, \"Max Soup\": 2, \"Mega Ring\": 1, \"Modest Mint\": 2}",
+      "before": "{\"Aggronite\": 1, \"Ampharosite\": 1, \"Battle Box\": 1, \"Blastoisinite\": 1, \"Cameruptnite\": 1, \"Daycare Candy\": 8, \"Galladite\": 1, \"Garchompite\": 1, \"Gengarite\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 2032, \"Max Soup\": 1, \"Mega Ring\": 1, \"Modest Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 5926652027
+    },
+    {
+      "after": "{\"Berry\": 1, \"Rare Candy\": 8, \"Vitamin\": 13}",
+      "before": "{\"Rare Candy\": 8}",
+      "field": "medicine_inventory_json",
+      "user_id": 5926652027
+    },
+    {
+      "after": "{\"Holowear Ticket\": 236}",
+      "before": "{\"Holowear Ticket\": 118}",
+      "field": "key_items_json",
+      "user_id": 5926663859
+    },
+    {
+      "after": "{\"Battle Box\": 6, \"Garchompite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 980, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Rockium Z\": 2}",
+      "before": "{\"Battle Box\": 3, \"Garchompite\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 490, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Rockium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 5928605588
+    },
+    {
+      "after": "{\"Charizardite X\": 2}",
+      "before": "{\"Charizardite X\": 1}",
+      "field": "key_items_json",
+      "user_id": 5933048334
+    },
+    {
+      "after": "{\"Battle Box\": 18, \"Daycare Candy\": 10, \"Fightinium Z\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 1042, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Battle Box\": 9, \"Daycare Candy\": 5, \"Fightinium Z\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 521, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 5934145116
+    },
+    {
+      "after": "{\"Abomasite\": 2, \"Mega Ring\": 1, \"Slowbronite\": 2}",
+      "before": "{\"Abomasite\": 1, \"Mega Ring\": 1, \"Slowbronite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5934190724
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5934190724
+    },
+    {
+      "after": "{\"Altarianite\": 2, \"Ampharosite\": 4, \"Blue Orb\": 4, \"Bottle Cap\": 4, \"Chandelureite\": 2, \"Daycare Candy\": 4, \"Dragoniteite\": 2, \"Feraligatrite\": 2, \"Galladite\": 4, \"Hawluchaite\": 2, \"Holowear Ticket\": 3018, \"Houndoominite\": 2, \"Icium Z\": 2, \"Latiosite\": 4, \"Mega Ring\": 1, \"Pidgeotite\": 4, \"Quiet Mint\": 4, \"Salamencite\": 8, \"Scolipedeite\": 2, \"Scovillainite\": 2, \"Skarmoryite\": 2, \"Slowbronite\": 4, \"Swampertite\": 4, \"Timid Mint\": 2, \"Tyranitarite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Altarianite\": 1, \"Ampharosite\": 2, \"Blue Orb\": 2, \"Bottle Cap\": 2, \"Chandelureite\": 1, \"Daycare Candy\": 2, \"Dragoniteite\": 1, \"Feraligatrite\": 1, \"Galladite\": 2, \"Hawluchaite\": 1, \"Holowear Ticket\": 1509, \"Houndoominite\": 1, \"Icium Z\": 1, \"Latiosite\": 2, \"Mega Ring\": 1, \"Pidgeotite\": 2, \"Quiet Mint\": 2, \"Salamencite\": 4, \"Scolipedeite\": 1, \"Scovillainite\": 1, \"Skarmoryite\": 1, \"Slowbronite\": 2, \"Swampertite\": 2, \"Timid Mint\": 1, \"Tyranitarite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 5935984615
+    },
+    {
+      "after": "{\"Berry\": 44, \"Rare Candy\": 13, \"Vitamin\": 5}",
+      "before": "{\"Rare Candy\": 13}",
+      "field": "medicine_inventory_json",
+      "user_id": 5935984615
+    },
+    {
+      "after": "{\"Waterium Z\": 2}",
+      "before": "{\"Waterium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 5940934309
+    },
+    {
+      "after": "{\"Brave Mint\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 218}",
+      "before": "{\"Brave Mint\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 109}",
+      "field": "key_items_json",
+      "user_id": 5966783966
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Aerodactylite\": 4, \"Altarianite\": 4, \"Ampharosite\": 4, \"Blastoisinite\": 4, \"Blazikenite\": 4, \"Daycare Candy\": 10, \"Gengarite\": 4, \"Heracronite\": 4, \"Holowear Ticket\": 892, \"Mega Ring\": 1, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Slowbronite\": 4, \"Swampertite\": 4}",
+      "before": "{\"Absolite\": 2, \"Aerodactylite\": 2, \"Altarianite\": 2, \"Ampharosite\": 2, \"Blastoisinite\": 2, \"Blazikenite\": 2, \"Daycare Candy\": 5, \"Gengarite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 446, \"Mega Ring\": 1, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Slowbronite\": 2, \"Swampertite\": 2}",
+      "field": "key_items_json",
+      "user_id": 5970118782
+    },
+    {
+      "after": "{\"Vitamin\": 5}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5970118782
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 88, \"Latiosite\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 44, \"Latiosite\": 1}",
+      "field": "key_items_json",
+      "user_id": 5970934077
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Holowear Ticket\": 60}",
+      "before": "{\"Gmax Band\": 1, \"Holowear Ticket\": 30}",
+      "field": "key_items_json",
+      "user_id": 5977011297
+    },
+    {
+      "after": "{\"Berry\": 18, \"Vitamin\": 12}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 5980067558
+    },
+    {
+      "after": "{\"Daycare Candy\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 106, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Red Orb\": 2}",
+      "before": "{\"Daycare Candy\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 53, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Red Orb\": 1}",
+      "field": "key_items_json",
+      "user_id": 6003733832
+    },
+    {
+      "after": "{\"Battle Box\": 16, \"Glalitite\": 2, \"Golisopodite\": 2, \"Holowear Ticket\": 1402, \"Pidgeotite\": 2}",
+      "before": "{\"Battle Box\": 8, \"Glalitite\": 1, \"Golisopodite\": 1, \"Holowear Ticket\": 701, \"Pidgeotite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6019585247
+    },
+    {
+      "after": "{\"Eevium Z\": 2, \"Holowear Ticket\": 202}",
+      "before": "{\"Eevium Z\": 1, \"Holowear Ticket\": 101}",
+      "field": "key_items_json",
+      "user_id": 6029392823
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 8}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 4}",
+      "field": "key_items_json",
+      "user_id": 6037494796
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 10, \"Gmax Band\": 1, \"Holowear Ticket\": 218, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 5, \"Gmax Band\": 1, \"Holowear Ticket\": 109, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 6043568654
+    },
+    {
+      "after": "{\"Battle Box\": 50, \"Daycare Candy\": 10, \"Holowear Ticket\": 866, \"Poisonium Z\": 2, \"Psychium Z\": 2}",
+      "before": "{\"Battle Box\": 25, \"Daycare Candy\": 5, \"Holowear Ticket\": 433, \"Poisonium Z\": 1, \"Psychium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 6049436362
+    },
+    {
+      "after": "{\"Calm Mint\": 2, \"Holowear Ticket\": 418, \"Mewtwonium Z\": 2}",
+      "before": "{\"Calm Mint\": 1, \"Holowear Ticket\": 209, \"Mewtwonium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 6056358402
+    },
+    {
+      "after": "{\"Blue Orb\": 2, \"Holowear Ticket\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Blue Orb\": 1, \"Holowear Ticket\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 6098263815
+    },
+    {
+      "after": "{\"Berry\": 7, \"Rare Candy\": 1, \"Vitamin\": 7}",
+      "before": "{\"Rare Candy\": 1}",
+      "field": "medicine_inventory_json",
+      "user_id": 6098263815
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Gmax Band\": 1, \"Holowear Ticket\": 164, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Daycare Candy\": 5, \"Gmax Band\": 1, \"Holowear Ticket\": 82, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 6115575535
+    },
+    {
+      "after": "{\"Blue Orb\": 2}",
+      "before": "{\"Blue Orb\": 1}",
+      "field": "key_items_json",
+      "user_id": 6120753199
+    },
+    {
+      "after": "{\"Berry\": 1, \"Vitamin\": 8}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6131977969
+    },
+    {
+      "after": "{\"Berry\": 30, \"Vitamin\": 15}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6141697981
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 6142197648
+    },
+    {
+      "after": "{\"Mega Ring\": 1, \"Mewtwonite X\": 2}",
+      "before": "{\"Mega Ring\": 1, \"Mewtwonite X\": 1}",
+      "field": "key_items_json",
+      "user_id": 6147710481
+    },
+    {
+      "after": "{\"Alakazite\": 8, \"Altarianite\": 4, \"Ampharosite\": 4, \"Calm Mint\": 2, \"Daycare Candy\": 10, \"Garchompite\": 4, \"Gardevoirite\": 4, \"Glalitite\": 4, \"Heracronite\": 4, \"Holowear Ticket\": 808, \"Houndoominite\": 4, \"Jade Orb\": 4, \"Kangaskhanite\": 8, \"Lopunnite\": 4, \"Mawilite\": 4, \"Medichamite\": 4, \"Mega Ring\": 1, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Quiet Mint\": 2, \"Relaxed Mint\": 2, \"Sablenite\": 4, \"Salamencite\": 4, \"Sharpedonite\": 4, \"Venusaurite\": 8}",
+      "before": "{\"Alakazite\": 4, \"Altarianite\": 2, \"Ampharosite\": 2, \"Calm Mint\": 1, \"Daycare Candy\": 5, \"Garchompite\": 2, \"Gardevoirite\": 2, \"Glalitite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 404, \"Houndoominite\": 2, \"Jade Orb\": 2, \"Kangaskhanite\": 4, \"Lopunnite\": 2, \"Mawilite\": 2, \"Medichamite\": 2, \"Mega Ring\": 1, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Quiet Mint\": 1, \"Relaxed Mint\": 1, \"Sablenite\": 2, \"Salamencite\": 2, \"Sharpedonite\": 2, \"Venusaurite\": 4}",
+      "field": "key_items_json",
+      "user_id": 6148665855
+    },
+    {
+      "after": "{\"Berry\": 1, \"Rare Candy\": 1}",
+      "before": "{\"Rare Candy\": 1}",
+      "field": "medicine_inventory_json",
+      "user_id": 6148665855
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6193472745
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6213675815
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 8, \"Holowear Ticket\": 30}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 4, \"Holowear Ticket\": 15}",
+      "field": "key_items_json",
+      "user_id": 6216231744
+    },
+    {
+      "after": "{\"Ability Capsule\": 2, \"Abomasite\": 2, \"Daycare Candy\": 8, \"Holowear Ticket\": 564}",
+      "before": "{\"Ability Capsule\": 1, \"Abomasite\": 1, \"Daycare Candy\": 4, \"Holowear Ticket\": 282}",
+      "field": "key_items_json",
+      "user_id": 6220691312
+    },
+    {
+      "after": "{\"Rare Candy\": 947, \"Vitamin\": 98}",
+      "before": "{\"Rare Candy\": 947}",
+      "field": "medicine_inventory_json",
+      "user_id": 6220691312
+    },
+    {
+      "after": "{\"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6224364548
+    },
+    {
+      "after": "{\"Pinsirite\": 2}",
+      "before": "{\"Pinsirite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6225172579
+    },
+    {
+      "after": "{\"Gardevoirite\": 2, \"Great Pearl Orb\": 2, \"Medichamite\": 2}",
+      "before": "{\"Gardevoirite\": 1, \"Great Pearl Orb\": 1, \"Medichamite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6231047010
+    },
+    {
+      "after": "{\"Holowear Ticket\": 120}",
+      "before": "{\"Holowear Ticket\": 60}",
+      "field": "key_items_json",
+      "user_id": 6234222988
+    },
+    {
+      "after": "{\"Berry\": 10, \"Vitamin\": 10}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6234442793
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6236239932
+    },
+    {
+      "after": "{\"Berry\": 4}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6236239932
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Kangaskhanite\": 2}",
+      "before": "{\"Gmax Band\": 1, \"Kangaskhanite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6240913933
+    },
+    {
+      "after": "{\"Berry\": 2, \"Rare Candy\": 2, \"Vitamin\": 33}",
+      "before": "{\"Rare Candy\": 2}",
+      "field": "medicine_inventory_json",
+      "user_id": 6246715557
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 6253168349
+    },
+    {
+      "after": "{\"Holowear Ticket\": 446, \"Pidgeotite\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Holowear Ticket\": 223, \"Pidgeotite\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 6260355432
+    },
+    {
+      "after": "{\"Berry\": 4}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6260664415
+    },
+    {
+      "after": "{\"Holowear Ticket\": 30}",
+      "before": "{\"Holowear Ticket\": 15}",
+      "field": "key_items_json",
+      "user_id": 6260862746
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 6262064767
+    },
+    {
+      "after": "{\"Berry\": 7, \"Vitamin\": 6}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6264523192
+    },
+    {
+      "after": "{\"Adamant Mint\": 2, \"Baxcaliburite\": 2, \"Bottle Cap\": 2, \"Delphoxite\": 2, \"Dragoniteite\": 2, \"Eelektrossite\": 2, \"Excadrillite\": 2, \"Heracronite\": 2, \"Manectite\": 2, \"Mawilite\": 4, \"Pidgeotite\": 4, \"Pyroarite\": 2, \"Timid Mint\": 2, \"Victreebelite\": 2}",
+      "before": "{\"Adamant Mint\": 1, \"Baxcaliburite\": 1, \"Bottle Cap\": 1, \"Delphoxite\": 1, \"Dragoniteite\": 1, \"Eelektrossite\": 1, \"Excadrillite\": 1, \"Heracronite\": 1, \"Manectite\": 1, \"Mawilite\": 2, \"Pidgeotite\": 2, \"Pyroarite\": 1, \"Timid Mint\": 1, \"Victreebelite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6265981509
+    },
+    {
+      "after": "{\"Ability Capsule\": 742, \"Ability Patch\": 240, \"Abomasite\": 6122, \"Absolite\": 6202, \"Absolite Z\": 6072, \"Adamant Mint\": 6188, \"Aerodactylite\": 6044, \"Aggronite\": 6070, \"Alakazite\": 5976, \"Altarianite\": 6130, \"Ampharosite\": 6038, \"Audinite\": 6192, \"Banettite\": 6190, \"Barbaracleite\": 6150, \"Baxcaliburite\": 6200, \"Beedrillite\": 6110, \"Blastoisinite\": 6044, \"Blazikenite\": 6044, \"Blue Orb\": 4, \"Bold Mint\": 6234, \"Bottle Cap\": 22556, \"Brave Mint\": 6408, \"Calm Mint\": 6526, \"Cameruptnite\": 5998, \"Careful Mint\": 6168, \"Chandelureite\": 6248, \"Charizardite X\": 6160, \"Charizardite Y\": 6156, \"Chesnaughtite\": 6154, \"Chimechoite\": 6130, \"Clefableite\": 6086, \"Crabominableite\": 6154, \"Darkinium Z\": 2, \"Daycare Candy\": 20, \"Delphoxite\": 6582, \"Diancite\": 5986, \"Dragalgeite\": 6290, \"Dragoniteite\": 6204, \"Drampaite\": 6166, \"Eelektrossite\": 6230, \"Eevium Z\": 2, \"Emboarite\": 5942, \"Excadrillite\": 6158, \"Fairium Z\": 2, \"Falinksite\": 6142, \"Feraligatrite\": 6114, \"Froslassite\": 6154, \"Galladite\": 6218, \"Garchompite\": 6146, \"Garchompite Z\": 5966, \"Gardevoirite\": 5972, \"Gengarite\": 6110, \"Ghostium Z\": 2, \"Glalitite\": 6080, \"Glimmoraite\": 6220, \"Gold Bottle Cap\": 174, \"Golisopodite\": 5818, \"Golurkite\": 6254, \"Greninjaite\": 6136, \"Gyaradosnite\": 6080, \"Hawluchaite\": 6026, \"Heracronite\": 5952, \"Holowear Ticket\": 15209506, \"Houndoominite\": 6196, \"Icium Z\": 2, \"Impish Mint\": 6278, \"Jade Orb\": 6178, \"Jolly Mint\": 6258, \"Kangaskhanite\": 6148, \"Latiasite\": 6208, \"Latiosite\": 6058, \"Lopunnite\": 6008, \"Lucarionite\": 5940, \"Magearnaite\": 6136, \"Malamarite\": 6202, \"Manectite\": 6130, \"Mawilite\": 6066, \"Max Soup\": 130, \"Medichamite\": 6110, \"Mega Ring\": 1, \"Meganiumite\": 6052, \"Meowsticite\": 6164, \"Metagrossite\": 6032, \"Mewtwonite X\": 6256, \"Mewtwonite Y\": 6146, \"Mewtwonium Z\": 2, \"Modest Mint\": 6442, \"Pidgeotite\": 6126, \"Pinsirite\": 5974, \"Pyroarite\": 6312, \"Quiet Mint\": 6348, \"Raichuite X\": 6220, \"Raichuite Y\": 6172, \"Red Orb\": 2, \"Relaxed Mint\": 6494, \"Sablenite\": 5832, \"Salamencite\": 6080, \"Sassy Mint\": 6502, \"Sceptilite\": 6182, \"Scizorite\": 6324, \"Scolipedeite\": 6242, \"Scovillainite\": 6332, \"Scraftyite\": 6090, \"Sharpedonite\": 6126, \"Skarmoryite\": 5948, \"Slowbronite\": 6346, \"Staraptorite\": 6072, \"Starmieite\": 5978, \"Steelixite\": 6098, \"Swampertite\": 6056, \"Tatsugiriite\": 6126, \"Timid Mint\": 6380, \"Tyranitarite\": 6150, \"Venusaurite\": 5956, \"Victreebelite\": 6100, \"Waterium Z\": 2}",
+      "before": "{\"Ability Capsule\": 371, \"Ability Patch\": 120, \"Abomasite\": 3061, \"Absolite\": 3101, \"Absolite Z\": 3036, \"Adamant Mint\": 3094, \"Aerodactylite\": 3022, \"Aggronite\": 3035, \"Alakazite\": 2988, \"Altarianite\": 3065, \"Ampharosite\": 3019, \"Audinite\": 3096, \"Banettite\": 3095, \"Barbaracleite\": 3075, \"Baxcaliburite\": 3100, \"Beedrillite\": 3055, \"Blastoisinite\": 3022, \"Blazikenite\": 3022, \"Blue Orb\": 2, \"Bold Mint\": 3117, \"Bottle Cap\": 11278, \"Brave Mint\": 3204, \"Calm Mint\": 3263, \"Cameruptnite\": 2999, \"Careful Mint\": 3084, \"Chandelureite\": 3124, \"Charizardite X\": 3080, \"Charizardite Y\": 3078, \"Chesnaughtite\": 3077, \"Chimechoite\": 3065, \"Clefableite\": 3043, \"Crabominableite\": 3077, \"Darkinium Z\": 1, \"Daycare Candy\": 10, \"Delphoxite\": 3291, \"Diancite\": 2993, \"Dragalgeite\": 3145, \"Dragoniteite\": 3102, \"Drampaite\": 3083, \"Eelektrossite\": 3115, \"Eevium Z\": 1, \"Emboarite\": 2971, \"Excadrillite\": 3079, \"Fairium Z\": 1, \"Falinksite\": 3071, \"Feraligatrite\": 3057, \"Froslassite\": 3077, \"Galladite\": 3109, \"Garchompite\": 3073, \"Garchompite Z\": 2983, \"Gardevoirite\": 2986, \"Gengarite\": 3055, \"Ghostium Z\": 1, \"Glalitite\": 3040, \"Glimmoraite\": 3110, \"Gold Bottle Cap\": 87, \"Golisopodite\": 2909, \"Golurkite\": 3127, \"Greninjaite\": 3068, \"Gyaradosnite\": 3040, \"Hawluchaite\": 3013, \"Heracronite\": 2976, \"Holowear Ticket\": 7604753, \"Houndoominite\": 3098, \"Icium Z\": 1, \"Impish Mint\": 3139, \"Jade Orb\": 3089, \"Jolly Mint\": 3129, \"Kangaskhanite\": 3074, \"Latiasite\": 3104, \"Latiosite\": 3029, \"Lopunnite\": 3004, \"Lucarionite\": 2970, \"Magearnaite\": 3068, \"Malamarite\": 3101, \"Manectite\": 3065, \"Mawilite\": 3033, \"Max Soup\": 65, \"Medichamite\": 3055, \"Mega Ring\": 1, \"Meganiumite\": 3026, \"Meowsticite\": 3082, \"Metagrossite\": 3016, \"Mewtwonite X\": 3128, \"Mewtwonite Y\": 3073, \"Mewtwonium Z\": 1, \"Modest Mint\": 3221, \"Pidgeotite\": 3063, \"Pinsirite\": 2987, \"Pyroarite\": 3156, \"Quiet Mint\": 3174, \"Raichuite X\": 3110, \"Raichuite Y\": 3086, \"Red Orb\": 1, \"Relaxed Mint\": 3247, \"Sablenite\": 2916, \"Salamencite\": 3040, \"Sassy Mint\": 3251, \"Sceptilite\": 3091, \"Scizorite\": 3162, \"Scolipedeite\": 3121, \"Scovillainite\": 3166, \"Scraftyite\": 3045, \"Sharpedonite\": 3063, \"Skarmoryite\": 2974, \"Slowbronite\": 3173, \"Staraptorite\": 3036, \"Starmieite\": 2989, \"Steelixite\": 3049, \"Swampertite\": 3028, \"Tatsugiriite\": 3063, \"Timid Mint\": 3190, \"Tyranitarite\": 3075, \"Venusaurite\": 2978, \"Victreebelite\": 3050, \"Waterium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 6265981609
+    },
+    {
+      "after": "{\"Berry\": 650, \"Rare Candy\": 9724, \"Vitamin\": 70197}",
+      "before": "{\"Rare Candy\": 9724}",
+      "field": "medicine_inventory_json",
+      "user_id": 6265981609
+    },
+    {
+      "after": "{\"Abomasite\": 2, \"Absolite\": 2, \"Adamant Mint\": 2, \"Aerodactylite\": 2, \"Alakazite\": 2, \"Altarianite\": 2, \"Ampharosite\": 4, \"Audinite\": 2, \"Banettite\": 4, \"Beedrillite\": 2, \"Blastoisinite\": 2, \"Blazikenite\": 4, \"Blue Orb\": 2, \"Brave Mint\": 2, \"Calm Mint\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 34, \"Emboarite\": 2, \"Galladite\": 2, \"Garchompite\": 2, \"Gengarite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 1542, \"Houndoominite\": 2, \"Jade Orb\": 2, \"Kangaskhanite\": 2, \"Latiosite\": 2, \"Lopunnite\": 2, \"Manectite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite X\": 2, \"Pinsirite\": 6, \"Red Orb\": 2, \"Salamencite\": 2, \"Sceptilite\": 2, \"Scizorite\": 2, \"Sharpedonite\": 2, \"Starmieite\": 2, \"Swampertite\": 2}",
+      "before": "{\"Abomasite\": 1, \"Absolite\": 1, \"Adamant Mint\": 1, \"Aerodactylite\": 1, \"Alakazite\": 1, \"Altarianite\": 1, \"Ampharosite\": 2, \"Audinite\": 1, \"Banettite\": 2, \"Beedrillite\": 1, \"Blastoisinite\": 1, \"Blazikenite\": 2, \"Blue Orb\": 1, \"Brave Mint\": 1, \"Calm Mint\": 1, \"Charizardite Y\": 1, \"Daycare Candy\": 17, \"Emboarite\": 1, \"Galladite\": 1, \"Garchompite\": 1, \"Gengarite\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 771, \"Houndoominite\": 1, \"Jade Orb\": 1, \"Kangaskhanite\": 1, \"Latiosite\": 1, \"Lopunnite\": 1, \"Manectite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 1, \"Mewtwonite X\": 1, \"Pinsirite\": 3, \"Red Orb\": 1, \"Salamencite\": 1, \"Sceptilite\": 1, \"Scizorite\": 1, \"Sharpedonite\": 1, \"Starmieite\": 1, \"Swampertite\": 1}",
+      "field": "key_items_json",
+      "user_id": 626925825
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 6274402437
+    },
+    {
+      "after": "{\"Vitamin\": 3}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6275726321
+    },
+    {
+      "after": "{\"Mega Ring\": 1, \"Sceptilite\": 2}",
+      "before": "{\"Mega Ring\": 1, \"Sceptilite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6282000063
+    },
+    {
+      "after": "{\"Berry\": 2}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6287060545
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6293126201
+    },
+    {
+      "after": "{\"Abomasite\": 4, \"Absolite\": 4, \"Aerodactylite\": 4, \"Aggronite\": 4, \"Alakazite\": 4, \"Altarianite\": 4, \"Audinite\": 4, \"Banettite\": 4, \"Blastoisinite\": 4, \"Blazikenite\": 4, \"Blue Orb\": 4, \"Charizardite X\": 4, \"Charizardite Y\": 4, \"Daycare Candy\": 10, \"Diancite\": 4, \"Galladite\": 4, \"Garchompite\": 4, \"Gardevoirite\": 4, \"Gengarite\": 4, \"Glalitite\": 4, \"Gyaradosnite\": 2, \"Heracronite\": 4, \"Holowear Ticket\": 66, \"Houndoominite\": 4, \"Jade Orb\": 4, \"Kangaskhanite\": 4, \"Latiasite\": 4, \"Latiosite\": 4, \"Lopunnite\": 4, \"Lucarionite\": 4, \"Manectite\": 4, \"Mawilite\": 4, \"Medichamite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 4, \"Mewtwonite X\": 4, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Pinsirite\": 4, \"Red Orb\": 4, \"Rusted Shield\": 4, \"Rusted Sword\": 4, \"Sablenite\": 4, \"Salamencite\": 4, \"Sceptilite\": 4, \"Scizorite\": 4, \"Sharpedonite\": 4, \"Slowbronite\": 4, \"Steelixite\": 4, \"Swampertite\": 4, \"Tyranitarite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Abomasite\": 2, \"Absolite\": 2, \"Aerodactylite\": 2, \"Aggronite\": 2, \"Alakazite\": 2, \"Altarianite\": 2, \"Audinite\": 2, \"Banettite\": 2, \"Blastoisinite\": 2, \"Blazikenite\": 2, \"Blue Orb\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 5, \"Diancite\": 2, \"Galladite\": 2, \"Garchompite\": 2, \"Gardevoirite\": 2, \"Gengarite\": 2, \"Glalitite\": 2, \"Gyaradosnite\": 1, \"Heracronite\": 2, \"Holowear Ticket\": 33, \"Houndoominite\": 2, \"Jade Orb\": 2, \"Kangaskhanite\": 2, \"Latiasite\": 2, \"Latiosite\": 2, \"Lopunnite\": 2, \"Lucarionite\": 2, \"Manectite\": 2, \"Mawilite\": 2, \"Medichamite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Pinsirite\": 2, \"Red Orb\": 2, \"Rusted Shield\": 2, \"Rusted Sword\": 2, \"Sablenite\": 2, \"Salamencite\": 2, \"Sceptilite\": 2, \"Scizorite\": 2, \"Sharpedonite\": 2, \"Slowbronite\": 2, \"Steelixite\": 2, \"Swampertite\": 2, \"Tyranitarite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 6293805601
+    },
+    {
+      "after": "{\"Berry\": 2}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6293805601
+    },
+    {
+      "after": "{\"Mega Ring\": 1, \"Red Orb\": 2}",
+      "before": "{\"Mega Ring\": 1, \"Red Orb\": 1}",
+      "field": "key_items_json",
+      "user_id": 6298328104
+    },
+    {
+      "after": "{\"Battle Box\": 4, \"Holowear Ticket\": 494}",
+      "before": "{\"Battle Box\": 2, \"Holowear Ticket\": 247}",
+      "field": "key_items_json",
+      "user_id": 6300208770
+    },
+    {
+      "after": "{\"Abomasite\": 4, \"Alakazite\": 4, \"Beedrillite\": 8, \"Blastoisinite\": 4, \"Blazikenite\": 8, \"Blue Orb\": 4, \"Charizardite Y\": 8, \"Galladite\": 4, \"Glalitite\": 8, \"Lopunnite\": 4, \"Lucarionite\": 4, \"Manectite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 4, \"Mewtwonite X\": 4, \"Pidgeotite\": 4, \"Rusted Shield\": 4, \"Salamencite\": 4, \"Sharpedonite\": 8, \"Steelixite\": 4, \"Tyranitarite\": 4}",
+      "before": "{\"Abomasite\": 2, \"Alakazite\": 2, \"Beedrillite\": 4, \"Blastoisinite\": 2, \"Blazikenite\": 4, \"Blue Orb\": 2, \"Charizardite Y\": 4, \"Galladite\": 2, \"Glalitite\": 4, \"Lopunnite\": 2, \"Lucarionite\": 2, \"Manectite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite X\": 2, \"Pidgeotite\": 2, \"Rusted Shield\": 2, \"Salamencite\": 2, \"Sharpedonite\": 4, \"Steelixite\": 2, \"Tyranitarite\": 2}",
+      "field": "key_items_json",
+      "user_id": 6301771663
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 6306569872
+    },
+    {
+      "after": "{\"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6308630346
+    },
+    {
+      "after": "{\"Berry\": 10}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6309428046
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Aerodactylite\": 4, \"Alakazite\": 8, \"Blastoisinite\": 4, \"Blazikenite\": 4, \"Blue Orb\": 4, \"Charizardite X\": 4, \"Daycare Candy\": 4, \"Garchompite\": 4, \"Gardevoirite\": 4, \"Gengarite\": 4, \"Heracronite\": 4, \"Holowear Ticket\": 810, \"Houndoominite\": 4, \"Mawilite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 4, \"Mewtwonite X\": 4, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Red Orb\": 8, \"Rusted Sword\": 4, \"Scizorite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Absolite\": 2, \"Aerodactylite\": 2, \"Alakazite\": 4, \"Blastoisinite\": 2, \"Blazikenite\": 2, \"Blue Orb\": 2, \"Charizardite X\": 2, \"Daycare Candy\": 2, \"Garchompite\": 2, \"Gardevoirite\": 2, \"Gengarite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 405, \"Houndoominite\": 2, \"Mawilite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Red Orb\": 4, \"Rusted Sword\": 2, \"Scizorite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 6343750037
+    },
+    {
+      "after": "{\"Holowear Ticket\": 10}",
+      "before": "{\"Holowear Ticket\": 5}",
+      "field": "key_items_json",
+      "user_id": 6344642766
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Aerodactylite\": 12, \"Alakazite\": 4, \"Battle Box\": 8, \"Daycare Candy\": 10, \"Gardevoirite\": 4, \"Gmax Band\": 1, \"Holowear Ticket\": 14, \"Houndoominite\": 4, \"Latiosite\": 4, \"Lopunnite\": 4, \"Lucarionite\": 4, \"Manectite\": 4, \"Mega Ring\": 1, \"Mewtwonite Y\": 4, \"Pidgeotite\": 8, \"Pinsirite\": 4, \"Red Orb\": 4, \"Sceptilite\": 4, \"Scizorite\": 4, \"Slowbronite\": 8, \"Tyranitarite\": 4, \"Venusaurite\": 12}",
+      "before": "{\"Absolite\": 2, \"Aerodactylite\": 6, \"Alakazite\": 2, \"Battle Box\": 4, \"Daycare Candy\": 5, \"Gardevoirite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 7, \"Houndoominite\": 2, \"Latiosite\": 2, \"Lopunnite\": 2, \"Lucarionite\": 2, \"Manectite\": 2, \"Mega Ring\": 1, \"Mewtwonite Y\": 2, \"Pidgeotite\": 4, \"Pinsirite\": 2, \"Red Orb\": 2, \"Sceptilite\": 2, \"Scizorite\": 2, \"Slowbronite\": 4, \"Tyranitarite\": 2, \"Venusaurite\": 6}",
+      "field": "key_items_json",
+      "user_id": 6350759747
+    },
+    {
+      "after": "{\"Aloraichium Z\": 2, \"Diancite\": 2, \"Golisopodite\": 2, \"Holowear Ticket\": 1348, \"Kommonium Z\": 2, \"Max Soup\": 4, \"Mewtwonite Y\": 2, \"Mimikium Z\": 2, \"Salamencite\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Aloraichium Z\": 1, \"Diancite\": 1, \"Golisopodite\": 1, \"Holowear Ticket\": 674, \"Kommonium Z\": 1, \"Max Soup\": 2, \"Mewtwonite Y\": 1, \"Mimikium Z\": 1, \"Salamencite\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 6353113124
+    },
+    {
+      "after": "{\"Berry\": 5, \"Vitamin\": 4}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6354411893
+    },
+    {
+      "after": "{\"Alakazite\": 2, \"Chimechoite\": 2, \"Daycare Candy\": 10, \"Galladite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 1154, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Primarium Z\": 2, \"Waterium Z\": 2}",
+      "before": "{\"Alakazite\": 1, \"Chimechoite\": 1, \"Daycare Candy\": 5, \"Galladite\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 577, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Primarium Z\": 1, \"Waterium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 6373200290
+    },
+    {
+      "after": "{\"Berry\": 3, \"Rare Candy\": 63, \"Vitamin\": 2}",
+      "before": "{\"Rare Candy\": 63}",
+      "field": "medicine_inventory_json",
+      "user_id": 6373200290
+    },
+    {
+      "after": "{\"Altarianite\": 6, \"Ampharosite\": 6, \"Blastoisinite\": 4, \"Blazikenite\": 6, \"Blue Orb\": 2, \"Charizardite X\": 6, \"Diancite\": 6, \"Galladite\": 6, \"Holowear Ticket\": 822, \"Malamarite\": 2, \"Mega Ring\": 1, \"Rusted Sword\": 6}",
+      "before": "{\"Altarianite\": 3, \"Ampharosite\": 3, \"Blastoisinite\": 2, \"Blazikenite\": 3, \"Blue Orb\": 1, \"Charizardite X\": 3, \"Diancite\": 3, \"Galladite\": 3, \"Holowear Ticket\": 411, \"Malamarite\": 1, \"Mega Ring\": 1, \"Rusted Sword\": 3}",
+      "field": "key_items_json",
+      "user_id": 6393627898
+    },
+    {
+      "after": "{\"Berry\": 2, \"Rare Candy\": 48, \"Vitamin\": 11}",
+      "before": "{\"Rare Candy\": 48}",
+      "field": "medicine_inventory_json",
+      "user_id": 6393627898
+    },
+    {
+      "after": "{\"Vitamin\": 50}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6395455522
+    },
+    {
+      "after": "{\"Gengarite\": 2}",
+      "before": "{\"Gengarite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6398674731
+    },
+    {
+      "after": "{\"Holowear Ticket\": 40}",
+      "before": "{\"Holowear Ticket\": 20}",
+      "field": "key_items_json",
+      "user_id": 6402302675
+    },
+    {
+      "after": "{\"Holowear Ticket\": 40}",
+      "before": "{\"Holowear Ticket\": 20}",
+      "field": "key_items_json",
+      "user_id": 6403251919
+    },
+    {
+      "after": "{\"Berry\": 10, \"Rare Candy\": 1}",
+      "before": "{\"Rare Candy\": 1}",
+      "field": "medicine_inventory_json",
+      "user_id": 6415841582
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 82}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 41}",
+      "field": "key_items_json",
+      "user_id": 6434955872
+    },
+    {
+      "after": "{\"Altarianite\": 2, \"Bold Mint\": 2, \"Holowear Ticket\": 1000, \"Medichamite\": 2}",
+      "before": "{\"Altarianite\": 1, \"Bold Mint\": 1, \"Holowear Ticket\": 500, \"Medichamite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6439314305
+    },
+    {
+      "after": "{\"Vitamin\": 7}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6439314305
+    },
+    {
+      "after": "{\"Alakazite\": 2}",
+      "before": "{\"Alakazite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6440036107
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 6456279786
+    },
+    {
+      "after": "{\"Lopunnite\": 2}",
+      "before": "{\"Lopunnite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6474664984
+    },
+    {
+      "after": "{\"Vitamin\": 17}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6485539680
+    },
+    {
+      "after": "{\"Holowear Ticket\": 4}",
+      "before": "{\"Holowear Ticket\": 2}",
+      "field": "key_items_json",
+      "user_id": 6497449383
+    },
+    {
+      "after": "{\"Holowear Ticket\": 62}",
+      "before": "{\"Holowear Ticket\": 31}",
+      "field": "key_items_json",
+      "user_id": 6503496647
+    },
+    {
+      "after": "{\"Aerodactylite\": 2, \"Kangaskhanite\": 2, \"Medichamite\": 2, \"Metagrossite\": 2}",
+      "before": "{\"Aerodactylite\": 1, \"Kangaskhanite\": 1, \"Medichamite\": 1, \"Metagrossite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6533061143
+    },
+    {
+      "after": "{\"Holowear Ticket\": 240}",
+      "before": "{\"Holowear Ticket\": 120}",
+      "field": "key_items_json",
+      "user_id": 6535893223
+    },
+    {
+      "after": "{\"Blazikenite\": 2}",
+      "before": "{\"Blazikenite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6543008234
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6564685943
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6566829788
+    },
+    {
+      "after": "{\"Cameruptnite\": 2, \"Eelektrossite\": 2, \"Eevium Z\": 2, \"Gengarite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 1488, \"Icium Z\": 2, \"Latiasite\": 2, \"Max Soup\": 2, \"Mimikium Z\": 2, \"Modest Mint\": 2, \"Snorlium Z\": 2}",
+      "before": "{\"Cameruptnite\": 1, \"Eelektrossite\": 1, \"Eevium Z\": 1, \"Gengarite\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 744, \"Icium Z\": 1, \"Latiasite\": 1, \"Max Soup\": 1, \"Mimikium Z\": 1, \"Modest Mint\": 1, \"Snorlium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 6580032951
+    },
+    {
+      "after": "{\"Vitamin\": 10}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6580032951
+    },
+    {
+      "after": "{\"Holowear Ticket\": 40}",
+      "before": "{\"Holowear Ticket\": 20}",
+      "field": "key_items_json",
+      "user_id": 6592252845
+    },
+    {
+      "after": "{\"Absolite\": 2}",
+      "before": "{\"Absolite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6594045946
+    },
+    {
+      "after": "{\"Vitamin\": 6}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6600116852
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 8}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 4}",
+      "field": "key_items_json",
+      "user_id": 6618163749
+    },
+    {
+      "after": "{\"Abomasite\": 2, \"Aerodactylite\": 2, \"Galladite\": 4, \"Gardevoirite\": 2, \"Gmax Band\": 1, \"Salamencite\": 2}",
+      "before": "{\"Abomasite\": 1, \"Aerodactylite\": 1, \"Galladite\": 2, \"Gardevoirite\": 1, \"Gmax Band\": 1, \"Salamencite\": 1}",
+      "field": "key_items_json",
+      "user_id": 662666053
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6630754409
+    },
+    {
+      "after": "{\"Mega Ring\": 1, \"Mewtwonite X\": 2}",
+      "before": "{\"Mega Ring\": 1, \"Mewtwonite X\": 1}",
+      "field": "key_items_json",
+      "user_id": 6632983262
+    },
+    {
+      "after": "{\"Berry\": 4, \"Rare Candy\": 15}",
+      "before": "{\"Rare Candy\": 15}",
+      "field": "medicine_inventory_json",
+      "user_id": 6637220078
+    },
+    {
+      "after": "{\"Holowear Ticket\": 604}",
+      "before": "{\"Holowear Ticket\": 302}",
+      "field": "key_items_json",
+      "user_id": 6651534688
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6656061037
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Gyaradosnite\": 2, \"Latiosite\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Gmax Band\": 1, \"Gyaradosnite\": 1, \"Latiosite\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 6659923891
+    },
+    {
+      "after": "{\"Berry\": 3}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6659923891
+    },
+    {
+      "after": "{\"Beedrillite\": 4, \"Blastoisinite\": 4, \"Charizardite Y\": 4, \"Falinksite\": 4, \"Holowear Ticket\": 6, \"Medichamite\": 4, \"Meganiumite\": 4, \"Metagrossite\": 4, \"Tyranitarite\": 4}",
+      "before": "{\"Beedrillite\": 2, \"Blastoisinite\": 2, \"Charizardite Y\": 2, \"Falinksite\": 2, \"Holowear Ticket\": 3, \"Medichamite\": 2, \"Meganiumite\": 2, \"Metagrossite\": 2, \"Tyranitarite\": 2}",
+      "field": "key_items_json",
+      "user_id": 6672470780
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 22}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 11}",
+      "field": "key_items_json",
+      "user_id": 6679967189
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6686060457
+    },
+    {
+      "after": "{\"Holowear Ticket\": 206}",
+      "before": "{\"Holowear Ticket\": 103}",
+      "field": "key_items_json",
+      "user_id": 6717836830
+    },
+    {
+      "after": "{\"Holowear Ticket\": 12}",
+      "before": "{\"Holowear Ticket\": 6}",
+      "field": "key_items_json",
+      "user_id": 6733170011
+    },
+    {
+      "after": "{\"Holowear Ticket\": 28}",
+      "before": "{\"Holowear Ticket\": 14}",
+      "field": "key_items_json",
+      "user_id": 6753235916
+    },
+    {
+      "after": "{\"Holowear Ticket\": 130}",
+      "before": "{\"Holowear Ticket\": 65}",
+      "field": "key_items_json",
+      "user_id": 6758031514
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6761620427
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 114}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 57}",
+      "field": "key_items_json",
+      "user_id": 6776408274
+    },
+    {
+      "after": "{\"Alakazite\": 2}",
+      "before": "{\"Alakazite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6777911549
+    },
+    {
+      "after": "{\"Holowear Ticket\": 84}",
+      "before": "{\"Holowear Ticket\": 42}",
+      "field": "key_items_json",
+      "user_id": 6790484397
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 320}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 160}",
+      "field": "key_items_json",
+      "user_id": 6793464924
+    },
+    {
+      "after": "{\"Latiasite\": 2}",
+      "before": "{\"Latiasite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6799163783
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6799670957
+    },
+    {
+      "after": "{\"Holowear Ticket\": 8}",
+      "before": "{\"Holowear Ticket\": 4}",
+      "field": "key_items_json",
+      "user_id": 6803976746
+    },
+    {
+      "after": "{\"Medichamite\": 2}",
+      "before": "{\"Medichamite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6809076744
+    },
+    {
+      "after": "{\"Aerodactylite\": 2, \"Gmax Band\": 1, \"Mega Ring\": 1}",
+      "before": "{\"Aerodactylite\": 1, \"Gmax Band\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 6823189849
+    },
+    {
+      "after": "{\"Aerodactylite\": 8, \"Charizardite X\": 4, \"Galladite\": 4, \"Jade Orb\": 4, \"Pinsirite\": 4, \"Sharpedonite\": 4}",
+      "before": "{\"Aerodactylite\": 4, \"Charizardite X\": 2, \"Galladite\": 2, \"Jade Orb\": 2, \"Pinsirite\": 2, \"Sharpedonite\": 2}",
+      "field": "key_items_json",
+      "user_id": 6837729831
+    },
+    {
+      "after": "{\"Berry\": 5}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6843360927
+    },
+    {
+      "after": "{\"Berry\": 15}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6851599241
+    },
+    {
+      "after": "{\"Holowear Ticket\": 14}",
+      "before": "{\"Holowear Ticket\": 7}",
+      "field": "key_items_json",
+      "user_id": 6856118779
+    },
+    {
+      "after": "{\"Aggronite\": 2}",
+      "before": "{\"Aggronite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6864850515
+    },
+    {
+      "after": "{\"Adamant Mint\": 4, \"Altarianite\": 2, \"Battle Box\": 2, \"Brave Mint\": 2, \"Careful Mint\": 2, \"Daycare Candy\": 10, \"Garchompite\": 4, \"Holowear Ticket\": 1486, \"Impish Mint\": 2, \"Jade Orb\": 2, \"Latiosite\": 2, \"Salamencite\": 2, \"Sassy Mint\": 2, \"Staraptorite\": 2, \"Timid Mint\": 2, \"Tyranitarite\": 2}",
+      "before": "{\"Adamant Mint\": 2, \"Altarianite\": 1, \"Battle Box\": 1, \"Brave Mint\": 1, \"Careful Mint\": 1, \"Daycare Candy\": 5, \"Garchompite\": 2, \"Holowear Ticket\": 743, \"Impish Mint\": 1, \"Jade Orb\": 1, \"Latiosite\": 1, \"Salamencite\": 1, \"Sassy Mint\": 1, \"Staraptorite\": 1, \"Timid Mint\": 1, \"Tyranitarite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6865633502
+    },
+    {
+      "after": "{\"Absolite\": 2, \"Gmax Band\": 1, \"Mega Ring\": 1}",
+      "before": "{\"Absolite\": 1, \"Gmax Band\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 6869235440
+    },
+    {
+      "after": "{\"Holowear Ticket\": 40}",
+      "before": "{\"Holowear Ticket\": 20}",
+      "field": "key_items_json",
+      "user_id": 6874251777
+    },
+    {
+      "after": "{\"Bold Mint\": 2, \"Calm Mint\": 2, \"Careful Mint\": 4, \"Charizardite Y\": 2, \"Daycare Candy\": 8, \"Gmax Band\": 1, \"Greninjaite\": 2, \"Holowear Ticket\": 1338, \"Max Soup\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 2, \"Modest Mint\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Bold Mint\": 1, \"Calm Mint\": 1, \"Careful Mint\": 2, \"Charizardite Y\": 1, \"Daycare Candy\": 4, \"Gmax Band\": 1, \"Greninjaite\": 1, \"Holowear Ticket\": 669, \"Max Soup\": 1, \"Mega Ring\": 1, \"Mewtwonite X\": 1, \"Mewtwonite Y\": 1, \"Modest Mint\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 6878648658
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Aggronite\": 4, \"Banettite\": 4, \"Blue Orb\": 4, \"Charizardite X\": 8, \"Charizardite Y\": 4, \"Daycare Candy\": 12, \"Diancite\": 4, \"Eelektrossite\": 4, \"Emboarite\": 4, \"Excadrillite\": 4, \"Garchompite\": 4, \"Gardevoirite\": 4, \"Gengarite\": 4, \"Glalitite\": 8, \"Gmax Band\": 1, \"Heracronite\": 4, \"Medichamite\": 4, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Pyroarite\": 4, \"Tyranitarite\": 4}",
+      "before": "{\"Absolite\": 2, \"Aggronite\": 2, \"Banettite\": 2, \"Blue Orb\": 2, \"Charizardite X\": 4, \"Charizardite Y\": 2, \"Daycare Candy\": 6, \"Diancite\": 2, \"Eelektrossite\": 2, \"Emboarite\": 2, \"Excadrillite\": 2, \"Garchompite\": 2, \"Gardevoirite\": 2, \"Gengarite\": 2, \"Glalitite\": 4, \"Gmax Band\": 1, \"Heracronite\": 2, \"Medichamite\": 2, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Pyroarite\": 2, \"Tyranitarite\": 2}",
+      "field": "key_items_json",
+      "user_id": 6890098674
+    },
+    {
+      "after": "{\"Brave Mint\": 2, \"Calm Mint\": 6, \"Careful Mint\": 2, \"Daycare Candy\": 4, \"Galladite\": 2, \"Gmax Band\": 1, \"Gold Bottle Cap\": 2, \"Golisopodite\": 2, \"Holowear Ticket\": 2464, \"Marshadium Z\": 2, \"Quiet Mint\": 4, \"Starmieite\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Brave Mint\": 1, \"Calm Mint\": 3, \"Careful Mint\": 1, \"Daycare Candy\": 2, \"Galladite\": 1, \"Gmax Band\": 1, \"Gold Bottle Cap\": 1, \"Golisopodite\": 1, \"Holowear Ticket\": 1232, \"Marshadium Z\": 1, \"Quiet Mint\": 2, \"Starmieite\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 6891578700
+    },
+    {
+      "after": "{\"Rare Candy\": 1, \"Vitamin\": 4}",
+      "before": "{\"Rare Candy\": 1}",
+      "field": "medicine_inventory_json",
+      "user_id": 6891578700
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 514}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 257}",
+      "field": "key_items_json",
+      "user_id": 6896129512
+    },
+    {
+      "after": "{\"Galladite\": 2, \"Medichamite\": 2}",
+      "before": "{\"Galladite\": 1, \"Medichamite\": 1}",
+      "field": "key_items_json",
+      "user_id": 6901885909
+    },
+    {
+      "after": "{\"Abomasite\": 4, \"Aerodactylite\": 4, \"Aggronite\": 4, \"Alakazite\": 4, \"Banettite\": 12, \"Blue Orb\": 4, \"Charizardite X\": 4, \"Charizardite Y\": 4, \"Daycare Candy\": 46, \"Garchompite\": 4, \"Glalitite\": 4, \"Heracronite\": 4, \"Holowear Ticket\": 548, \"Houndoominite\": 4, \"Jade Orb\": 4, \"Latiasite\": 4, \"Latiosite\": 4, \"Lucarionite\": 4, \"Mawilite\": 4, \"Mega Ring\": 1, \"Mewtwonite X\": 8, \"Mewtwonite Y\": 8, \"Mewtwonium Z Y\": 2, \"Red Orb\": 4, \"Rusted Sword\": 4, \"Sablenite\": 8, \"Sceptilite\": 4, \"Swampertite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Abomasite\": 2, \"Aerodactylite\": 2, \"Aggronite\": 2, \"Alakazite\": 2, \"Banettite\": 6, \"Blue Orb\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 23, \"Garchompite\": 2, \"Glalitite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 274, \"Houndoominite\": 2, \"Jade Orb\": 2, \"Latiasite\": 2, \"Latiosite\": 2, \"Lucarionite\": 2, \"Mawilite\": 2, \"Mega Ring\": 1, \"Mewtwonite X\": 4, \"Mewtwonite Y\": 4, \"Mewtwonium Z Y\": 1, \"Red Orb\": 2, \"Rusted Sword\": 2, \"Sablenite\": 4, \"Sceptilite\": 2, \"Swampertite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 6903455719
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6910940950
+    },
+    {
+      "after": "{\"Berry\": 5}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6916220465
+    },
+    {
+      "after": "{\"Berry\": 25}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6931520158
+    },
+    {
+      "after": "{\"Holowear Ticket\": 44}",
+      "before": "{\"Holowear Ticket\": 22}",
+      "field": "key_items_json",
+      "user_id": 6934708507
+    },
+    {
+      "after": "{\"Careful Mint\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 824, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Quiet Mint\": 4}",
+      "before": "{\"Careful Mint\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 412, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Quiet Mint\": 2}",
+      "field": "key_items_json",
+      "user_id": 6951917855
+    },
+    {
+      "after": "{\"Charizardite Y\": 4, \"Daycare Candy\": 10, \"Diancite\": 4, \"Galladite\": 4, \"Garchompite Z\": 2, \"Holowear Ticket\": 1104, \"Latiasite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 4, \"Pidgeotite\": 2, \"Salamencite\": 4, \"Scizorite\": 4}",
+      "before": "{\"Charizardite Y\": 2, \"Daycare Candy\": 5, \"Diancite\": 2, \"Galladite\": 2, \"Garchompite Z\": 1, \"Holowear Ticket\": 552, \"Latiasite\": 1, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Pidgeotite\": 1, \"Salamencite\": 2, \"Scizorite\": 2}",
+      "field": "key_items_json",
+      "user_id": 6958812767
+    },
+    {
+      "after": "{\"Berry\": 4, \"Vitamin\": 253}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 6958812767
+    },
+    {
+      "after": "{\"Adamant Mint\": 2, \"Bold Mint\": 2, \"Gengarite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 1044}",
+      "before": "{\"Adamant Mint\": 1, \"Bold Mint\": 1, \"Gengarite\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 522}",
+      "field": "key_items_json",
+      "user_id": 696071619
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 64}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 32}",
+      "field": "key_items_json",
+      "user_id": 6966073511
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 26, \"Jade Orb\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 13, \"Jade Orb\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 6969086416
+    },
+    {
+      "after": "{\"Absolite Z\": 2, \"Daycare Candy\": 10, \"Dragalgeite\": 2, \"Holowear Ticket\": 1362, \"Manectite\": 2, \"Quiet Mint\": 2, \"Raichuite X\": 2}",
+      "before": "{\"Absolite Z\": 1, \"Daycare Candy\": 5, \"Dragalgeite\": 1, \"Holowear Ticket\": 681, \"Manectite\": 1, \"Quiet Mint\": 1, \"Raichuite X\": 1}",
+      "field": "key_items_json",
+      "user_id": 6973251485
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 6977412706
+    },
+    {
+      "after": "{\"Battle Box\": 8, \"Daycare Candy\": 10, \"Holowear Ticket\": 28}",
+      "before": "{\"Battle Box\": 4, \"Daycare Candy\": 5, \"Holowear Ticket\": 14}",
+      "field": "key_items_json",
+      "user_id": 6978002815
+    },
+    {
+      "after": "{\"Holowear Ticket\": 92}",
+      "before": "{\"Holowear Ticket\": 46}",
+      "field": "key_items_json",
+      "user_id": 6980797195
+    },
+    {
+      "after": "{\"Holowear Ticket\": 300}",
+      "before": "{\"Holowear Ticket\": 150}",
+      "field": "key_items_json",
+      "user_id": 7000445074
+    },
+    {
+      "after": "{\"Charizardite X\": 2, \"Daycare Candy\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 1124, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Charizardite X\": 1, \"Daycare Candy\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 562, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 7002961498
+    },
+    {
+      "after": "{\"Berry\": 30, \"Rare Candy\": 6, \"Vitamin\": 32}",
+      "before": "{\"Rare Candy\": 6}",
+      "field": "medicine_inventory_json",
+      "user_id": 7002961498
+    },
+    {
+      "after": "{\"Holowear Ticket\": 6}",
+      "before": "{\"Holowear Ticket\": 3}",
+      "field": "key_items_json",
+      "user_id": 7007747806
+    },
+    {
+      "after": "{\"Gardevoirite\": 2, \"Gmax Band\": 1, \"Houndoominite\": 2, \"Latiosite\": 2}",
+      "before": "{\"Gardevoirite\": 1, \"Gmax Band\": 1, \"Houndoominite\": 1, \"Latiosite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7011236690
+    },
+    {
+      "after": "{\"Holowear Ticket\": 40}",
+      "before": "{\"Holowear Ticket\": 20}",
+      "field": "key_items_json",
+      "user_id": 7027685257
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 7043552505
+    },
+    {
+      "after": "{\"Blastoisinite\": 2, \"Bottle Cap\": 2, \"Careful Mint\": 2, \"Daycare Candy\": 4, \"Eelektrossite\": 2, \"Feraligatrite\": 2, \"Galladite\": 8, \"Garchompite\": 4, \"Glalitite\": 6, \"Gmax Band\": 1, \"Holowear Ticket\": 2552, \"Impish Mint\": 2, \"Lopunnite\": 8, \"Manectite\": 4, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Pyroarite\": 2, \"Raichuite X\": 2, \"Scizorite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Blastoisinite\": 1, \"Bottle Cap\": 1, \"Careful Mint\": 1, \"Daycare Candy\": 2, \"Eelektrossite\": 1, \"Feraligatrite\": 1, \"Galladite\": 4, \"Garchompite\": 2, \"Glalitite\": 3, \"Gmax Band\": 1, \"Holowear Ticket\": 1276, \"Impish Mint\": 1, \"Lopunnite\": 4, \"Manectite\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Pyroarite\": 1, \"Raichuite X\": 1, \"Scizorite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 7045607963
+    },
+    {
+      "after": "{\"Berry\": 9, \"Vitamin\": 5}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 7045607963
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7047506465
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 6}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 3}",
+      "field": "key_items_json",
+      "user_id": 7053915678
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7057566023
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Gyaradosnite\": 2, \"Holowear Ticket\": 1248, \"Impish Mint\": 2, \"Mega Ring\": 1, \"Relaxed Mint\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Daycare Candy\": 5, \"Gyaradosnite\": 1, \"Holowear Ticket\": 624, \"Impish Mint\": 1, \"Mega Ring\": 1, \"Relaxed Mint\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 7058516053
+    },
+    {
+      "after": "{\"Rare Candy\": 340, \"Vitamin\": 190}",
+      "before": "{\"Rare Candy\": 340}",
+      "field": "medicine_inventory_json",
+      "user_id": 7058516053
+    },
+    {
+      "after": "{\"Scizorite\": 2, \"Steelixite\": 2}",
+      "before": "{\"Scizorite\": 1, \"Steelixite\": 1}",
+      "field": "key_items_json",
+      "user_id": 707206591
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 4}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 2}",
+      "field": "key_items_json",
+      "user_id": 7074080974
+    },
+    {
+      "after": "{\"Garchompite\": 2}",
+      "before": "{\"Garchompite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7088944325
+    },
+    {
+      "after": "{\"Holowear Ticket\": 296}",
+      "before": "{\"Holowear Ticket\": 148}",
+      "field": "key_items_json",
+      "user_id": 7100748909
+    },
+    {
+      "after": "{\"Holowear Ticket\": 44}",
+      "before": "{\"Holowear Ticket\": 22}",
+      "field": "key_items_json",
+      "user_id": 7103480348
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 208}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 104}",
+      "field": "key_items_json",
+      "user_id": 7111641695
+    },
+    {
+      "after": "{\"Banettite\": 2, \"Garchompite Z\": 2, \"Glalitite\": 2, \"Gmax Band\": 1, \"Golurkite\": 2, \"Holowear Ticket\": 854, \"Manectite\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Relaxed Mint\": 2, \"Sharpedonite\": 2}",
+      "before": "{\"Banettite\": 1, \"Garchompite Z\": 1, \"Glalitite\": 1, \"Gmax Band\": 1, \"Golurkite\": 1, \"Holowear Ticket\": 427, \"Manectite\": 1, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Relaxed Mint\": 1, \"Sharpedonite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7112594161
+    },
+    {
+      "after": "{\"Vitamin\": 20}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 7115957063
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Beedrillite\": 2, \"Careful Mint\": 2, \"Daycare Candy\": 10, \"Gmax Band\": 1, \"Heracronite\": 2, \"Holowear Ticket\": 882, \"Lopunnite\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Relaxed Mint\": 2, \"Scizorite\": 2}",
+      "before": "{\"Battle Box\": 1, \"Beedrillite\": 1, \"Careful Mint\": 1, \"Daycare Candy\": 5, \"Gmax Band\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 441, \"Lopunnite\": 1, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Relaxed Mint\": 1, \"Scizorite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7124084086
+    },
+    {
+      "after": "{\"Holowear Ticket\": 4}",
+      "before": "{\"Holowear Ticket\": 2}",
+      "field": "key_items_json",
+      "user_id": 7124832846
+    },
+    {
+      "after": "{\"Blazikenite\": 2}",
+      "before": "{\"Blazikenite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7139983360
+    },
+    {
+      "after": "{\"Holowear Ticket\": 280}",
+      "before": "{\"Holowear Ticket\": 140}",
+      "field": "key_items_json",
+      "user_id": 7146623354
+    },
+    {
+      "after": "{\"Rare Candy\": 9, \"Vitamin\": 7}",
+      "before": "{\"Rare Candy\": 9}",
+      "field": "medicine_inventory_json",
+      "user_id": 7146623354
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2, \"Sablenite\": 2}",
+      "before": "{\"Holowear Ticket\": 1, \"Sablenite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7169965998
+    },
+    {
+      "after": "{\"Holowear Ticket\": 8}",
+      "before": "{\"Holowear Ticket\": 4}",
+      "field": "key_items_json",
+      "user_id": 7198177678
+    },
+    {
+      "after": "{\"Battle Box\": 18, \"Daycare Candy\": 8, \"Excadrillite\": 2, \"Holowear Ticket\": 1064, \"Starmieite\": 2}",
+      "before": "{\"Battle Box\": 9, \"Daycare Candy\": 4, \"Excadrillite\": 1, \"Holowear Ticket\": 532, \"Starmieite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7206055080
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Heracronite\": 2, \"Holowear Ticket\": 714, \"Sablenite\": 2}",
+      "before": "{\"Daycare Candy\": 5, \"Heracronite\": 1, \"Holowear Ticket\": 357, \"Sablenite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7214915118
+    },
+    {
+      "after": "{\"Holowear Ticket\": 100, \"Malamarite\": 2}",
+      "before": "{\"Holowear Ticket\": 50, \"Malamarite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7229459342
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 142}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 71}",
+      "field": "key_items_json",
+      "user_id": 7242611380
+    },
+    {
+      "after": "{\"Berry\": 17, \"Vitamin\": 10}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 7251634604
+    },
+    {
+      "after": "{\"Battle Box\": 4, \"Daycare Candy\": 10, \"Holowear Ticket\": 44}",
+      "before": "{\"Battle Box\": 2, \"Daycare Candy\": 5, \"Holowear Ticket\": 22}",
+      "field": "key_items_json",
+      "user_id": 7255365335
+    },
+    {
+      "after": "{\"Vitamin\": 4}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 7259039294
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7267815602
+    },
+    {
+      "after": "{\"Charizardite X\": 2, \"Decidium Z\": 2, \"Ghostium Z\": 4, \"Holowear Ticket\": 1528, \"Kangaskhanite\": 2, \"Kommonium Z\": 2, \"Latiosite\": 2, \"Max Soup\": 2, \"Scraftyite\": 2, \"Staraptorite\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Charizardite X\": 1, \"Decidium Z\": 1, \"Ghostium Z\": 2, \"Holowear Ticket\": 764, \"Kangaskhanite\": 1, \"Kommonium Z\": 1, \"Latiosite\": 1, \"Max Soup\": 1, \"Scraftyite\": 1, \"Staraptorite\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 7282639050
+    },
+    {
+      "after": "{\"Ability Capsule\": 6, \"Absolite\": 2, \"Aerodactylite\": 8, \"Alakazite\": 8, \"Altarianite\": 4, \"Ampharosite\": 4, \"Beedrillite\": 4, \"Blastoisinite\": 6, \"Blazikenite\": 4, \"Careful Mint\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 4, \"Excadrillite\": 2, \"Falinksite\": 2, \"Feraligatrite\": 2, \"Garchompite\": 12, \"Gengarite\": 4, \"Glalitite\": 4, \"Golurkite\": 2, \"Holowear Ticket\": 1572, \"Houndoominite\": 4, \"Latiosite\": 6, \"Lopunnite\": 12, \"Lucarionite\": 4, \"Mawilite\": 8, \"Mega Ring\": 1, \"Meganiumite\": 2, \"Metagrossite\": 4, \"Mewtwonite X\": 8, \"Mewtwonite Y\": 8, \"Pinsirite\": 4, \"Pyroarite\": 2, \"Sceptilite\": 4, \"Steelixite\": 4, \"Tyranitarite\": 4, \"Venusaurite\": 2}",
+      "before": "{\"Ability Capsule\": 3, \"Absolite\": 1, \"Aerodactylite\": 4, \"Alakazite\": 4, \"Altarianite\": 2, \"Ampharosite\": 2, \"Beedrillite\": 2, \"Blastoisinite\": 3, \"Blazikenite\": 2, \"Careful Mint\": 1, \"Charizardite Y\": 1, \"Daycare Candy\": 2, \"Excadrillite\": 1, \"Falinksite\": 1, \"Feraligatrite\": 1, \"Garchompite\": 6, \"Gengarite\": 2, \"Glalitite\": 2, \"Golurkite\": 1, \"Holowear Ticket\": 786, \"Houndoominite\": 2, \"Latiosite\": 3, \"Lopunnite\": 6, \"Lucarionite\": 2, \"Mawilite\": 4, \"Mega Ring\": 1, \"Meganiumite\": 1, \"Metagrossite\": 2, \"Mewtwonite X\": 4, \"Mewtwonite Y\": 4, \"Pinsirite\": 2, \"Pyroarite\": 1, \"Sceptilite\": 2, \"Steelixite\": 2, \"Tyranitarite\": 2, \"Venusaurite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7315757609
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 7315757609
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 8, \"Gmax Band\": 1, \"Holowear Ticket\": 148, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 4, \"Gmax Band\": 1, \"Holowear Ticket\": 74, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 732351140
+    },
+    {
+      "after": "{\"Berry\": 5}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 732351140
+    },
+    {
+      "after": "{\"Holowear Ticket\": 40}",
+      "before": "{\"Holowear Ticket\": 20}",
+      "field": "key_items_json",
+      "user_id": 7327228382
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 20}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 7328868396
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Aerodactylite\": 4, \"Ampharosite\": 8, \"Bottle Cap\": 8, \"Daycare Candy\": 12, \"Holowear Ticket\": 408, \"Jade Orb\": 4, \"Jolly Mint\": 8, \"Manectite\": 4, \"Pinsirite\": 4, \"Steelixite\": 4, \"Timid Mint\": 4}",
+      "before": "{\"Absolite\": 2, \"Aerodactylite\": 2, \"Ampharosite\": 4, \"Bottle Cap\": 4, \"Daycare Candy\": 6, \"Holowear Ticket\": 204, \"Jade Orb\": 2, \"Jolly Mint\": 4, \"Manectite\": 2, \"Pinsirite\": 2, \"Steelixite\": 2, \"Timid Mint\": 2}",
+      "field": "key_items_json",
+      "user_id": 7351488344
+    },
+    {
+      "after": "{\"Berry\": 10, \"Rare Candy\": 54, \"Vitamin\": 130}",
+      "before": "{\"Rare Candy\": 54}",
+      "field": "medicine_inventory_json",
+      "user_id": 7351488344
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7364658382
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7406582778
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Great Platinum Orb\": 2, \"Holowear Ticket\": 74, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Gmax Band\": 1, \"Great Platinum Orb\": 1, \"Holowear Ticket\": 37, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 7411072849
+    },
+    {
+      "after": "{\"Ability Capsule\": 2, \"Absolite\": 4, \"Blastoisinite\": 2, \"Charizardite X\": 4, \"Daycare Candy\": 8, \"Feraligatrite\": 2, \"Garchompite\": 2, \"Gengarite\": 4, \"Glimmoraite\": 2, \"Great Platinum Orb\": 2, \"Holowear Ticket\": 1622, \"Jade Orb\": 4, \"Jolly Mint\": 2, \"Latiosite\": 8, \"Manectite\": 4, \"Max Soup\": 2, \"Medichamite\": 4, \"Mega Ring\": 1, \"Pidgeotite\": 4, \"Quiet Mint\": 2, \"Scizorite\": 4, \"Swampertite\": 4, \"Tatsugiriite\": 2, \"Ultranecrozium Z\": 2}",
+      "before": "{\"Ability Capsule\": 1, \"Absolite\": 2, \"Blastoisinite\": 1, \"Charizardite X\": 2, \"Daycare Candy\": 4, \"Feraligatrite\": 1, \"Garchompite\": 1, \"Gengarite\": 2, \"Glimmoraite\": 1, \"Great Platinum Orb\": 1, \"Holowear Ticket\": 811, \"Jade Orb\": 2, \"Jolly Mint\": 1, \"Latiosite\": 4, \"Manectite\": 2, \"Max Soup\": 1, \"Medichamite\": 2, \"Mega Ring\": 1, \"Pidgeotite\": 2, \"Quiet Mint\": 1, \"Scizorite\": 2, \"Swampertite\": 2, \"Tatsugiriite\": 1, \"Ultranecrozium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 7465378892
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 7474334584
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Froslassite\": 2, \"Holowear Ticket\": 258}",
+      "before": "{\"Daycare Candy\": 5, \"Froslassite\": 1, \"Holowear Ticket\": 129}",
+      "field": "key_items_json",
+      "user_id": 7477369390
+    },
+    {
+      "after": "{\"Holowear Ticket\": 26}",
+      "before": "{\"Holowear Ticket\": 13}",
+      "field": "key_items_json",
+      "user_id": 7478798631
+    },
+    {
+      "after": "{\"Charizardite Y\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 38, \"Jade Orb\": 2}",
+      "before": "{\"Charizardite Y\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 19, \"Jade Orb\": 1}",
+      "field": "key_items_json",
+      "user_id": 7485184942
+    },
+    {
+      "after": "{\"Holowear Ticket\": 26}",
+      "before": "{\"Holowear Ticket\": 13}",
+      "field": "key_items_json",
+      "user_id": 7488090079
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7508896721
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 7513245411
+    },
+    {
+      "after": "{\"Aerodactylite\": 2, \"Aggronite\": 2, \"Daycare Candy\": 116, \"Emboarite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 2344, \"Lopunnite\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Aerodactylite\": 1, \"Aggronite\": 1, \"Daycare Candy\": 58, \"Emboarite\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 1172, \"Lopunnite\": 1, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 7533381966
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 4}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 2}",
+      "field": "key_items_json",
+      "user_id": 7549570552
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Mega Ring\": 1, \"Rusted Sword\": 2}",
+      "before": "{\"Daycare Candy\": 5, \"Mega Ring\": 1, \"Rusted Sword\": 1}",
+      "field": "key_items_json",
+      "user_id": 7553883967
+    },
+    {
+      "after": "{\"Aerodactylite\": 2, \"Ampharosite\": 2, \"Battle Box\": 2, \"Blastoisinite\": 2, \"Blue Orb\": 2, \"Charizardite Y\": 2, \"Eelektrossite\": 2, \"Excadrillite\": 2, \"Galladite\": 2, \"Jade Orb\": 2, \"Manectite\": 2, \"Mewtwonite X\": 4, \"Mewtwonite Y\": 2, \"Pinsirite\": 2, \"Salamencite\": 2, \"Sceptilite\": 2, \"Swampertite\": 2, \"Venusaurite\": 4, \"Victreebelite\": 4}",
+      "before": "{\"Aerodactylite\": 1, \"Ampharosite\": 1, \"Battle Box\": 1, \"Blastoisinite\": 1, \"Blue Orb\": 1, \"Charizardite Y\": 1, \"Eelektrossite\": 1, \"Excadrillite\": 1, \"Galladite\": 1, \"Jade Orb\": 1, \"Manectite\": 1, \"Mewtwonite X\": 2, \"Mewtwonite Y\": 1, \"Pinsirite\": 1, \"Salamencite\": 1, \"Sceptilite\": 1, \"Swampertite\": 1, \"Venusaurite\": 2, \"Victreebelite\": 2}",
+      "field": "key_items_json",
+      "user_id": 7577674783
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7589421463
+    },
+    {
+      "after": "{\"Daycare Candy\": 14, \"Holowear Ticket\": 134}",
+      "before": "{\"Daycare Candy\": 7, \"Holowear Ticket\": 67}",
+      "field": "key_items_json",
+      "user_id": 7634238026
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7640255541
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 4}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 2}",
+      "field": "key_items_json",
+      "user_id": 7643336737
+    },
+    {
+      "after": "{\"Banettite\": 2, \"Blue Orb\": 2}",
+      "before": "{\"Banettite\": 1, \"Blue Orb\": 1}",
+      "field": "key_items_json",
+      "user_id": 7643911079
+    },
+    {
+      "after": "{\"Daycare Candy\": 8, \"Holowear Ticket\": 62}",
+      "before": "{\"Daycare Candy\": 4, \"Holowear Ticket\": 31}",
+      "field": "key_items_json",
+      "user_id": 7671746839
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7681767464
+    },
+    {
+      "after": "{\"Berry\": 15, \"Vitamin\": 15}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 769008053
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Holowear Ticket\": 54, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Gmax Band\": 1, \"Holowear Ticket\": 27, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 7699220673
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Gmax Band\": 1, \"Holowear Ticket\": 164, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Daycare Candy\": 5, \"Gmax Band\": 1, \"Holowear Ticket\": 82, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 7699428229
+    },
+    {
+      "after": "{\"Battle Box\": 4, \"Daycare Candy\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 290, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Battle Box\": 2, \"Daycare Candy\": 1, \"Gmax Band\": 1, \"Holowear Ticket\": 145, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 7706540248
+    },
+    {
+      "after": "{\"Berry\": 4, \"Rare Candy\": 5, \"Vitamin\": 3}",
+      "before": "{\"Rare Candy\": 5}",
+      "field": "medicine_inventory_json",
+      "user_id": 7706540248
+    },
+    {
+      "after": "{\"Battle Box\": 14, \"Daycare Candy\": 10, \"Holowear Ticket\": 34}",
+      "before": "{\"Battle Box\": 7, \"Daycare Candy\": 5, \"Holowear Ticket\": 17}",
+      "field": "key_items_json",
+      "user_id": 7713232934
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7753964339
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 2}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7756836446
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7756994685
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 7773414186
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7787846216
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 24, \"Mega Ring\": 1}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 12, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 7814714595
+    },
+    {
+      "after": "{\"Berry\": 1, \"Rare Candy\": 3}",
+      "before": "{\"Rare Candy\": 3}",
+      "field": "medicine_inventory_json",
+      "user_id": 7814714595
+    },
+    {
+      "after": "{\"Holowear Ticket\": 4}",
+      "before": "{\"Holowear Ticket\": 2}",
+      "field": "key_items_json",
+      "user_id": 7826901219
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7828352535
+    },
+    {
+      "after": "{\"Abomasite\": 2, \"Aerodactylite\": 2, \"Audinite\": 2, \"Battle Box\": 2, \"Bottle Cap\": 2, \"Daycare Candy\": 10, \"Garchompite\": 2, \"Gmax Band\": 1, \"Gyaradosnite\": 2, \"Holowear Ticket\": 452, \"Lucarionite\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Abomasite\": 1, \"Aerodactylite\": 1, \"Audinite\": 1, \"Battle Box\": 1, \"Bottle Cap\": 1, \"Daycare Candy\": 5, \"Garchompite\": 1, \"Gmax Band\": 1, \"Gyaradosnite\": 1, \"Holowear Ticket\": 226, \"Lucarionite\": 1, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 7830490257
+    },
+    {
+      "after": "{\"Abomasite\": 4, \"Absolite\": 8, \"Aerodactylite\": 4, \"Aggronite\": 8, \"Alakazite\": 8, \"Altarianite\": 12, \"Banettite\": 12, \"Beedrillite\": 4, \"Blastoisinite\": 4, \"Blazikenite\": 4, \"Charizardite Y\": 4, \"Daycare Candy\": 10, \"Galladite\": 8, \"Garchompite\": 8, \"Gardevoirite\": 12, \"Gengarite\": 8, \"Heracronite\": 4, \"Holowear Ticket\": 172, \"Kangaskhanite\": 12, \"Manectite\": 12, \"Mawilite\": 8, \"Medichamite\": 8, \"Mega Ring\": 1, \"Metagrossite\": 8, \"Pidgeotite\": 4, \"Pinsirite\": 4, \"Rusted Shield\": 4, \"Sceptilite\": 4, \"Scizorite\": 4, \"Slowbronite\": 4, \"Swampertite\": 4}",
+      "before": "{\"Abomasite\": 2, \"Absolite\": 4, \"Aerodactylite\": 2, \"Aggronite\": 4, \"Alakazite\": 4, \"Altarianite\": 6, \"Banettite\": 6, \"Beedrillite\": 2, \"Blastoisinite\": 2, \"Blazikenite\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 5, \"Galladite\": 4, \"Garchompite\": 4, \"Gardevoirite\": 6, \"Gengarite\": 4, \"Heracronite\": 2, \"Holowear Ticket\": 86, \"Kangaskhanite\": 6, \"Manectite\": 6, \"Mawilite\": 4, \"Medichamite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 4, \"Pidgeotite\": 2, \"Pinsirite\": 2, \"Rusted Shield\": 2, \"Sceptilite\": 2, \"Scizorite\": 2, \"Slowbronite\": 2, \"Swampertite\": 2}",
+      "field": "key_items_json",
+      "user_id": 7835630020
+    },
+    {
+      "after": "{\"Holowear Ticket\": 26}",
+      "before": "{\"Holowear Ticket\": 13}",
+      "field": "key_items_json",
+      "user_id": 7874564516
+    },
+    {
+      "after": "{\"Ability Patch\": 4, \"Abomasite\": 2, \"Absolite Z\": 2, \"Aggronite\": 4, \"Alakazite\": 4, \"Battle Box\": 2, \"Blazikenite\": 2, \"Bottle Cap\": 4, \"Charizardite Y\": 2, \"Daycare Candy\": 262, \"Delphoxite\": 4, \"Dragoniteite\": 2, \"Froslassite\": 4, \"Galladite\": 2, \"Gardevoirite\": 4, \"Gmax Band\": 1, \"Holowear Ticket\": 1306, \"Houndoominite\": 2, \"Lopunnite\": 2, \"Medichamite\": 4, \"Mega Ring\": 1, \"Mewtwonite Y\": 4, \"Omni Ring\": 1, \"Salamencite\": 2, \"Timid Mint\": 2, \"Venusaurite\": 2}",
+      "before": "{\"Ability Patch\": 2, \"Abomasite\": 1, \"Absolite Z\": 1, \"Aggronite\": 2, \"Alakazite\": 2, \"Battle Box\": 1, \"Blazikenite\": 1, \"Bottle Cap\": 2, \"Charizardite Y\": 1, \"Daycare Candy\": 131, \"Delphoxite\": 2, \"Dragoniteite\": 1, \"Froslassite\": 2, \"Galladite\": 1, \"Gardevoirite\": 2, \"Gmax Band\": 1, \"Holowear Ticket\": 653, \"Houndoominite\": 1, \"Lopunnite\": 1, \"Medichamite\": 2, \"Mega Ring\": 1, \"Mewtwonite Y\": 2, \"Omni Ring\": 1, \"Salamencite\": 1, \"Timid Mint\": 1, \"Venusaurite\": 1}",
+      "field": "key_items_json",
+      "user_id": 7891677364
+    },
+    {
+      "after": "{\"Berry\": 23, \"Vitamin\": 17}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 7891677364
+    },
+    {
+      "after": "{\"Holowear Ticket\": 4}",
+      "before": "{\"Holowear Ticket\": 2}",
+      "field": "key_items_json",
+      "user_id": 7901317685
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7924825623
+    },
+    {
+      "after": "{\"Holowear Ticket\": 48}",
+      "before": "{\"Holowear Ticket\": 24}",
+      "field": "key_items_json",
+      "user_id": 7932011996
+    },
+    {
+      "after": "{\"Banettite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 902, \"Medichamite\": 2, \"Tapunium Z\": 2}",
+      "before": "{\"Banettite\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 451, \"Medichamite\": 1, \"Tapunium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 7935308247
+    },
+    {
+      "after": "{\"Daycare Candy\": 8, \"Holowear Ticket\": 242}",
+      "before": "{\"Daycare Candy\": 4, \"Holowear Ticket\": 121}",
+      "field": "key_items_json",
+      "user_id": 7971317049
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 7972843569
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 7977324360
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 7997500985
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8014116161
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 26}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 13}",
+      "field": "key_items_json",
+      "user_id": 8036743932
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8053429373
+    },
+    {
+      "after": "{\"Holowear Ticket\": 14}",
+      "before": "{\"Holowear Ticket\": 7}",
+      "field": "key_items_json",
+      "user_id": 8064353705
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 22}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 11}",
+      "field": "key_items_json",
+      "user_id": 8070586116
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8076264574
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 80}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 40}",
+      "field": "key_items_json",
+      "user_id": 8092928657
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8094530198
+    },
+    {
+      "after": "{\"Holowear Ticket\": 60}",
+      "before": "{\"Holowear Ticket\": 30}",
+      "field": "key_items_json",
+      "user_id": 8097663071
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8116777084
+    },
+    {
+      "after": "{\"Absolite\": 4, \"Aerodactylite\": 2, \"Ampharosite\": 2, \"Beedrillite\": 4, \"Blastoisinite\": 2, \"Blue Orb\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Diancite\": 2, \"Galladite\": 2, \"Garchompite\": 2, \"Gardevoirite\": 4, \"Holowear Ticket\": 22, \"Jade Orb\": 2, \"Latiosite\": 2, \"Lopunnite\": 4, \"Lucarionite\": 4, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite Y\": 4, \"Pidgeotite\": 4, \"Red Orb\": 2, \"Sceptilite\": 2}",
+      "before": "{\"Absolite\": 2, \"Aerodactylite\": 1, \"Ampharosite\": 1, \"Beedrillite\": 2, \"Blastoisinite\": 1, \"Blue Orb\": 1, \"Charizardite X\": 1, \"Charizardite Y\": 1, \"Diancite\": 1, \"Galladite\": 1, \"Garchompite\": 1, \"Gardevoirite\": 2, \"Holowear Ticket\": 11, \"Jade Orb\": 1, \"Latiosite\": 1, \"Lopunnite\": 2, \"Lucarionite\": 2, \"Mega Ring\": 1, \"Metagrossite\": 1, \"Mewtwonite Y\": 2, \"Pidgeotite\": 2, \"Red Orb\": 1, \"Sceptilite\": 1}",
+      "field": "key_items_json",
+      "user_id": 8130164742
+    },
+    {
+      "after": "{\"Berry\": 1, \"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 8130164742
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 516}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 258}",
+      "field": "key_items_json",
+      "user_id": 814698986
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8150648096
+    },
+    {
+      "after": "{\"Absolite\": 2, \"Daycare Candy\": 10, \"Gmax Band\": 1, \"Holowear Ticket\": 284, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Absolite\": 1, \"Daycare Candy\": 5, \"Gmax Band\": 1, \"Holowear Ticket\": 142, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 8169255288
+    },
+    {
+      "after": "{\"Berry\": 64, \"Rare Candy\": 4, \"Vitamin\": 90}",
+      "before": "{\"Rare Candy\": 4}",
+      "field": "medicine_inventory_json",
+      "user_id": 8169255288
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 10, \"Gmax Band\": 1, \"Holowear Ticket\": 1080, \"Jolly Mint\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Timid Mint\": 2}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 5, \"Gmax Band\": 1, \"Holowear Ticket\": 540, \"Jolly Mint\": 1, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 8181236818
+    },
+    {
+      "after": "{\"Holowear Ticket\": 80}",
+      "before": "{\"Holowear Ticket\": 40}",
+      "field": "key_items_json",
+      "user_id": 8182436911
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 40}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 20}",
+      "field": "key_items_json",
+      "user_id": 8186268352
+    },
+    {
+      "after": "{\"Daycare Candy\": 8, \"Holowear Ticket\": 26}",
+      "before": "{\"Daycare Candy\": 4, \"Holowear Ticket\": 13}",
+      "field": "key_items_json",
+      "user_id": 8186409039
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 268}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 134}",
+      "field": "key_items_json",
+      "user_id": 8189147518
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8197360895
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8198485516
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 8209934840
+    },
+    {
+      "after": "{\"Holowear Ticket\": 500}",
+      "before": "{\"Holowear Ticket\": 250}",
+      "field": "key_items_json",
+      "user_id": 8217631684
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Gengarite\": 2, \"Great Pearl Orb\": 2, \"Holowear Ticket\": 364, \"Jolly Mint\": 2, \"Medichamite\": 2, \"Red Orb\": 2}",
+      "before": "{\"Daycare Candy\": 5, \"Gengarite\": 1, \"Great Pearl Orb\": 1, \"Holowear Ticket\": 182, \"Jolly Mint\": 1, \"Medichamite\": 1, \"Red Orb\": 1}",
+      "field": "key_items_json",
+      "user_id": 8226797513
+    },
+    {
+      "after": "{\"Ability Capsule\": 16, \"Ability Patch\": 22, \"Abomasite\": 2, \"Adamant Mint\": 2, \"Charizardite X\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 194, \"Dragoniteite\": 2, \"Garchompite\": 2, \"Garchompite Z\": 2, \"Gardevoirite\": 4, \"Ghostium Z\": 2, \"Holowear Ticket\": 1076, \"Jolly Mint\": 2, \"Lopunnite\": 2, \"Mawilite\": 2, \"Pinsirite\": 2, \"Salamencite\": 2, \"Sceptilite\": 2, \"Staraptorite\": 2, \"Steelixite\": 4, \"Tatsugiriite\": 2, \"Waterium Z\": 2}",
+      "before": "{\"Ability Capsule\": 8, \"Ability Patch\": 11, \"Abomasite\": 1, \"Adamant Mint\": 1, \"Charizardite X\": 1, \"Charizardite Y\": 1, \"Daycare Candy\": 97, \"Dragoniteite\": 1, \"Garchompite\": 1, \"Garchompite Z\": 1, \"Gardevoirite\": 2, \"Ghostium Z\": 1, \"Holowear Ticket\": 538, \"Jolly Mint\": 1, \"Lopunnite\": 1, \"Mawilite\": 1, \"Pinsirite\": 1, \"Salamencite\": 1, \"Sceptilite\": 1, \"Staraptorite\": 1, \"Steelixite\": 2, \"Tatsugiriite\": 1, \"Waterium Z\": 1}",
+      "field": "key_items_json",
+      "user_id": 8244643041
+    },
+    {
+      "after": "{\"Rare Candy\": 41, \"Vitamin\": 279}",
+      "before": "{\"Rare Candy\": 41}",
+      "field": "medicine_inventory_json",
+      "user_id": 8244643041
+    },
+    {
+      "after": "{\"Aerodactylite\": 2, \"Altarianite\": 2, \"Banettite\": 2, \"Beedrillite\": 2, \"Blue Orb\": 2, \"Charizardite Y\": 2, \"Froslassite\": 4, \"Galladite\": 2, \"Heracronite\": 2, \"Holowear Ticket\": 4, \"Kangaskhanite\": 2, \"Lopunnite\": 2, \"Manectite\": 2, \"Slowbronite\": 4}",
+      "before": "{\"Aerodactylite\": 1, \"Altarianite\": 1, \"Banettite\": 1, \"Beedrillite\": 1, \"Blue Orb\": 1, \"Charizardite Y\": 1, \"Froslassite\": 2, \"Galladite\": 1, \"Heracronite\": 1, \"Holowear Ticket\": 2, \"Kangaskhanite\": 1, \"Lopunnite\": 1, \"Manectite\": 1, \"Slowbronite\": 2}",
+      "field": "key_items_json",
+      "user_id": 8247697232
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 166}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 83}",
+      "field": "key_items_json",
+      "user_id": 8259019536
+    },
+    {
+      "after": "{\"Baxcaliburite\": 2, \"Beedrillite\": 2, \"Daycare Candy\": 10, \"Gmax Band\": 1, \"Holowear Ticket\": 1254, \"Magearnaite\": 2, \"Mega Ring\": 1, \"Steelixite\": 2}",
+      "before": "{\"Baxcaliburite\": 1, \"Beedrillite\": 1, \"Daycare Candy\": 5, \"Gmax Band\": 1, \"Holowear Ticket\": 627, \"Magearnaite\": 1, \"Mega Ring\": 1, \"Steelixite\": 1}",
+      "field": "key_items_json",
+      "user_id": 8264487925
+    },
+    {
+      "after": "{\"Berry\": 4, \"Rare Candy\": 9, \"Vitamin\": 35}",
+      "before": "{\"Rare Candy\": 9}",
+      "field": "medicine_inventory_json",
+      "user_id": 8264487925
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 8274926527
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 8275744883
+    },
+    {
+      "after": "{\"Great Pearl Orb\": 2, \"Holowear Ticket\": 200}",
+      "before": "{\"Great Pearl Orb\": 1, \"Holowear Ticket\": 100}",
+      "field": "key_items_json",
+      "user_id": 8288975325
+    },
+    {
+      "after": "{\"Holowear Ticket\": 514, \"Zygardeite\": 2}",
+      "before": "{\"Holowear Ticket\": 257, \"Zygardeite\": 1}",
+      "field": "key_items_json",
+      "user_id": 8290956453
+    },
+    {
+      "after": "{\"Holowear Ticket\": 6}",
+      "before": "{\"Holowear Ticket\": 3}",
+      "field": "key_items_json",
+      "user_id": 8308950837
+    },
+    {
+      "after": "{\"Holowear Ticket\": 84, \"Tatsugiriite\": 2}",
+      "before": "{\"Holowear Ticket\": 42, \"Tatsugiriite\": 1}",
+      "field": "key_items_json",
+      "user_id": 8314374249
+    },
+    {
+      "after": "{\"Holowear Ticket\": 872}",
+      "before": "{\"Holowear Ticket\": 436}",
+      "field": "key_items_json",
+      "user_id": 8315442694
+    },
+    {
+      "after": "{\"Holowear Ticket\": 212, \"Sceptilite\": 2}",
+      "before": "{\"Holowear Ticket\": 106, \"Sceptilite\": 1}",
+      "field": "key_items_json",
+      "user_id": 8318811668
+    },
+    {
+      "after": "{\"Holowear Ticket\": 6}",
+      "before": "{\"Holowear Ticket\": 3}",
+      "field": "key_items_json",
+      "user_id": 8340609672
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 262}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 131}",
+      "field": "key_items_json",
+      "user_id": 8351522288
+    },
+    {
+      "after": "{\"Holowear Ticket\": 26}",
+      "before": "{\"Holowear Ticket\": 13}",
+      "field": "key_items_json",
+      "user_id": 8362494377
+    },
+    {
+      "after": "{\"Daycare Candy\": 10}",
+      "before": "{\"Daycare Candy\": 5}",
+      "field": "key_items_json",
+      "user_id": 8366084383
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 8367999101
+    },
+    {
+      "after": "{\"Holowear Ticket\": 40}",
+      "before": "{\"Holowear Ticket\": 20}",
+      "field": "key_items_json",
+      "user_id": 8389047942
+    },
+    {
+      "after": "{\"Holowear Ticket\": 80}",
+      "before": "{\"Holowear Ticket\": 40}",
+      "field": "key_items_json",
+      "user_id": 8391986380
+    },
+    {
+      "after": "{\"Adamant Mint\": 20, \"Bottle Cap\": 76, \"Holowear Ticket\": 564, \"Jolly Mint\": 18, \"Modest Mint\": 20, \"Pidgeotite\": 2, \"Sassy Mint\": 2, \"Scizorite\": 2, \"Timid Mint\": 18}",
+      "before": "{\"Adamant Mint\": 10, \"Bottle Cap\": 38, \"Holowear Ticket\": 282, \"Jolly Mint\": 9, \"Modest Mint\": 10, \"Pidgeotite\": 1, \"Sassy Mint\": 1, \"Scizorite\": 1, \"Timid Mint\": 9}",
+      "field": "key_items_json",
+      "user_id": 8393905391
+    },
+    {
+      "after": "{\"Holowear Ticket\": 22}",
+      "before": "{\"Holowear Ticket\": 11}",
+      "field": "key_items_json",
+      "user_id": 8460600506
+    },
+    {
+      "after": "{\"Ability Capsule\": 2, \"Blastoisinite\": 2, \"Careful Mint\": 2, \"Chesnaughtite\": 2, \"Dragalgeite\": 2, \"Eelektrossite\": 2, \"Feraligatrite\": 2, \"Galladite\": 2, \"Gmax Band\": 1, \"Great Pearl Orb\": 2, \"Gyaradosnite\": 2, \"Hawluchaite\": 2, \"Holowear Ticket\": 2134, \"Lucarionite\": 2, \"Magearnaite\": 2, \"Malamarite\": 2, \"Mega Ring\": 1, \"Meganiumite\": 4, \"Normalium Z\": 2, \"Omni Ring\": 1, \"Pyroarite\": 2, \"Staraptorite\": 2}",
+      "before": "{\"Ability Capsule\": 1, \"Blastoisinite\": 1, \"Careful Mint\": 1, \"Chesnaughtite\": 1, \"Dragalgeite\": 1, \"Eelektrossite\": 1, \"Feraligatrite\": 1, \"Galladite\": 1, \"Gmax Band\": 1, \"Great Pearl Orb\": 1, \"Gyaradosnite\": 1, \"Hawluchaite\": 1, \"Holowear Ticket\": 1067, \"Lucarionite\": 1, \"Magearnaite\": 1, \"Malamarite\": 1, \"Mega Ring\": 1, \"Meganiumite\": 2, \"Normalium Z\": 1, \"Omni Ring\": 1, \"Pyroarite\": 1, \"Staraptorite\": 1}",
+      "field": "key_items_json",
+      "user_id": 8467664777
+    },
+    {
+      "after": "{\"Berry\": 45, \"Rare Candy\": 71, \"Vitamin\": 88}",
+      "before": "{\"Rare Candy\": 71}",
+      "field": "medicine_inventory_json",
+      "user_id": 8467664777
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 8468408253
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8469063760
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 2}",
+      "before": "{\"Battle Box\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8475379146
+    },
+    {
+      "after": "{\"Barbaracleite\": 2, \"Careful Mint\": 2, \"Daycare Candy\": 10, \"Excadrillite\": 2, \"Gmax Band\": 1, \"Gold Bottle Cap\": 2, \"Holowear Ticket\": 1154, \"Latiosite\": 2, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Steelixite\": 2, \"Timid Mint\": 2}",
+      "before": "{\"Barbaracleite\": 1, \"Careful Mint\": 1, \"Daycare Candy\": 5, \"Excadrillite\": 1, \"Gmax Band\": 1, \"Gold Bottle Cap\": 1, \"Holowear Ticket\": 577, \"Latiosite\": 1, \"Mega Ring\": 1, \"Omni Ring\": 1, \"Steelixite\": 1, \"Timid Mint\": 1}",
+      "field": "key_items_json",
+      "user_id": 8483107299
+    },
+    {
+      "after": "{\"Holowear Ticket\": 12}",
+      "before": "{\"Holowear Ticket\": 6}",
+      "field": "key_items_json",
+      "user_id": 8483239518
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Gmax Band\": 1, \"Holowear Ticket\": 222, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "before": "{\"Daycare Candy\": 5, \"Gmax Band\": 1, \"Holowear Ticket\": 111, \"Mega Ring\": 1, \"Omni Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 8491373174
+    },
+    {
+      "after": "{\"Abomasite\": 24, \"Absolite\": 22, \"Absolite Z\": 20, \"Adamant Mint\": 40, \"Aerodactylite\": 12, \"Aggronite\": 14, \"Alakazite\": 16, \"Altarianite\": 12, \"Ampharosite\": 14, \"Audinite\": 10, \"Banettite\": 18, \"Barbaracleite\": 20, \"Baxcaliburite\": 8, \"Beedrillite\": 16, \"Blastoisinite\": 18, \"Blazikenite\": 22, \"Bold Mint\": 56, \"Bottle Cap\": 228, \"Brave Mint\": 46, \"Calm Mint\": 42, \"Cameruptnite\": 18, \"Careful Mint\": 32, \"Chandelureite\": 20, \"Charizardite X\": 32, \"Charizardite Y\": 10, \"Chesnaughtite\": 14, \"Chimechoite\": 20, \"Clefableite\": 26, \"Crabominableite\": 10, \"Delphoxite\": 16, \"Diancite\": 12, \"Dragalgeite\": 20, \"Dragoniteite\": 16, \"Drampaite\": 16, \"Eelektrossite\": 8, \"Emboarite\": 22, \"Excadrillite\": 8, \"Falinksite\": 20, \"Feraligatrite\": 20, \"Froslassite\": 14, \"Galladite\": 18, \"Garchompite\": 20, \"Garchompite Z\": 14, \"Gardevoirite\": 16, \"Gengarite\": 18, \"Glalitite\": 26, \"Glimmoraite\": 20, \"Golisopodite\": 18, \"Golurkite\": 10, \"Greninjaite\": 20, \"Gyaradosnite\": 16, \"Hawluchaite\": 16, \"Heracronite\": 14, \"Houndoominite\": 14, \"Impish Mint\": 30, \"Jade Orb\": 14, \"Jolly Mint\": 20, \"Kangaskhanite\": 18, \"Latiasite\": 28, \"Latiosite\": 16, \"Lopunnite\": 16, \"Lucarionite\": 12, \"Magearnaite\": 12, \"Malamarite\": 8, \"Manectite\": 18, \"Mawilite\": 2, \"Medichamite\": 14, \"Meganiumite\": 18, \"Meowsticite\": 26, \"Metagrossite\": 14, \"Mewtwonite X\": 16, \"Mewtwonite Y\": 20, \"Modest Mint\": 52, \"Pidgeotite\": 16, \"Pinsirite\": 8, \"Pyroarite\": 20, \"Quiet Mint\": 36, \"Raichuite X\": 16, \"Raichuite Y\": 18, \"Relaxed Mint\": 36, \"Sablenite\": 14, \"Salamencite\": 20, \"Sassy Mint\": 38, \"Sceptilite\": 22, \"Scizorite\": 14, \"Scolipedeite\": 18, \"Scovillainite\": 24, \"Scraftyite\": 12, \"Sharpedonite\": 12, \"Skarmoryite\": 14, \"Slowbronite\": 18, \"Staraptorite\": 16, \"Starmieite\": 30, \"Steelixite\": 14, \"Swampertite\": 10, \"Tatsugiriite\": 24, \"Timid Mint\": 34, \"Tyranitarite\": 16, \"Venusaurite\": 16, \"Victreebelite\": 16}",
+      "before": "{\"Abomasite\": 12, \"Absolite\": 11, \"Absolite Z\": 10, \"Adamant Mint\": 20, \"Aerodactylite\": 6, \"Aggronite\": 7, \"Alakazite\": 8, \"Altarianite\": 6, \"Ampharosite\": 7, \"Audinite\": 5, \"Banettite\": 9, \"Barbaracleite\": 10, \"Baxcaliburite\": 4, \"Beedrillite\": 8, \"Blastoisinite\": 9, \"Blazikenite\": 11, \"Bold Mint\": 28, \"Bottle Cap\": 114, \"Brave Mint\": 23, \"Calm Mint\": 21, \"Cameruptnite\": 9, \"Careful Mint\": 16, \"Chandelureite\": 10, \"Charizardite X\": 16, \"Charizardite Y\": 5, \"Chesnaughtite\": 7, \"Chimechoite\": 10, \"Clefableite\": 13, \"Crabominableite\": 5, \"Delphoxite\": 8, \"Diancite\": 6, \"Dragalgeite\": 10, \"Dragoniteite\": 8, \"Drampaite\": 8, \"Eelektrossite\": 4, \"Emboarite\": 11, \"Excadrillite\": 4, \"Falinksite\": 10, \"Feraligatrite\": 10, \"Froslassite\": 7, \"Galladite\": 9, \"Garchompite\": 10, \"Garchompite Z\": 7, \"Gardevoirite\": 8, \"Gengarite\": 9, \"Glalitite\": 13, \"Glimmoraite\": 10, \"Golisopodite\": 9, \"Golurkite\": 5, \"Greninjaite\": 10, \"Gyaradosnite\": 8, \"Hawluchaite\": 8, \"Heracronite\": 7, \"Houndoominite\": 7, \"Impish Mint\": 15, \"Jade Orb\": 7, \"Jolly Mint\": 10, \"Kangaskhanite\": 9, \"Latiasite\": 14, \"Latiosite\": 8, \"Lopunnite\": 8, \"Lucarionite\": 6, \"Magearnaite\": 6, \"Malamarite\": 4, \"Manectite\": 9, \"Mawilite\": 1, \"Medichamite\": 7, \"Meganiumite\": 9, \"Meowsticite\": 13, \"Metagrossite\": 7, \"Mewtwonite X\": 8, \"Mewtwonite Y\": 10, \"Modest Mint\": 26, \"Pidgeotite\": 8, \"Pinsirite\": 4, \"Pyroarite\": 10, \"Quiet Mint\": 18, \"Raichuite X\": 8, \"Raichuite Y\": 9, \"Relaxed Mint\": 18, \"Sablenite\": 7, \"Salamencite\": 10, \"Sassy Mint\": 19, \"Sceptilite\": 11, \"Scizorite\": 7, \"Scolipedeite\": 9, \"Scovillainite\": 12, \"Scraftyite\": 6, \"Sharpedonite\": 6, \"Skarmoryite\": 7, \"Slowbronite\": 9, \"Staraptorite\": 8, \"Starmieite\": 15, \"Steelixite\": 7, \"Swampertite\": 5, \"Tatsugiriite\": 12, \"Timid Mint\": 17, \"Tyranitarite\": 8, \"Venusaurite\": 8, \"Victreebelite\": 8}",
+      "field": "key_items_json",
+      "user_id": 8493023103
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8503511287
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 46}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 23}",
+      "field": "key_items_json",
+      "user_id": 8504230656
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 104}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 52}",
+      "field": "key_items_json",
+      "user_id": 8523285720
+    },
+    {
+      "after": "{\"Holowear Ticket\": 2}",
+      "before": "{\"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8537357828
+    },
+    {
+      "after": "{\"Holowear Ticket\": 8}",
+      "before": "{\"Holowear Ticket\": 4}",
+      "field": "key_items_json",
+      "user_id": 8538377733
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 2}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8539232777
+    },
+    {
+      "after": "{\"Ability Patch\": 2, \"Abomasite\": 6, \"Adamant Mint\": 6, \"Banettite\": 2, \"Barbaracleite\": 2, \"Baxcaliburite\": 2, \"Beedrillite\": 4, \"Blastoisinite\": 4, \"Bold Mint\": 8, \"Bottle Cap\": 30, \"Brave Mint\": 2, \"Calm Mint\": 2, \"Charizardite Y\": 2, \"Chimechoite\": 2, \"Diancite\": 4, \"Dragoniteite\": 2, \"Eelektrossite\": 4, \"Excadrillite\": 2, \"Froslassite\": 2, \"Galladite\": 2, \"Garchompite\": 4, \"Garchompite Z\": 2, \"Gardevoirite\": 2, \"Gengarite\": 4, \"Glimmoraite\": 2, \"Golisopodite\": 4, \"Golurkite\": 2, \"Houndoominite\": 6, \"Impish Mint\": 4, \"Jade Orb\": 2, \"Kangaskhanite\": 2, \"Lopunnite\": 2, \"Lucarionite\": 2, \"Malamarite\": 4, \"Manectite\": 2, \"Medichamite\": 4, \"Meganiumite\": 2, \"Meowsticite\": 2, \"Mewtwonite X\": 4, \"Modest Mint\": 2, \"Pidgeotite\": 2, \"Quiet Mint\": 2, \"Raichuite Y\": 2, \"Relaxed Mint\": 6, \"Sablenite\": 2, \"Sassy Mint\": 2, \"Sceptilite\": 2, \"Scovillainite\": 2, \"Sharpedonite\": 2, \"Skarmoryite\": 2, \"Staraptorite\": 2, \"Starmieite\": 2, \"Steelixite\": 4, \"Swampertite\": 4, \"Tatsugiriite\": 2, \"Timid Mint\": 2, \"Tyranitarite\": 4, \"Venusaurite\": 4}",
+      "before": "{\"Ability Patch\": 1, \"Abomasite\": 3, \"Adamant Mint\": 3, \"Banettite\": 1, \"Barbaracleite\": 1, \"Baxcaliburite\": 1, \"Beedrillite\": 2, \"Blastoisinite\": 2, \"Bold Mint\": 4, \"Bottle Cap\": 15, \"Brave Mint\": 1, \"Calm Mint\": 1, \"Charizardite Y\": 1, \"Chimechoite\": 1, \"Diancite\": 2, \"Dragoniteite\": 1, \"Eelektrossite\": 2, \"Excadrillite\": 1, \"Froslassite\": 1, \"Galladite\": 1, \"Garchompite\": 2, \"Garchompite Z\": 1, \"Gardevoirite\": 1, \"Gengarite\": 2, \"Glimmoraite\": 1, \"Golisopodite\": 2, \"Golurkite\": 1, \"Houndoominite\": 3, \"Impish Mint\": 2, \"Jade Orb\": 1, \"Kangaskhanite\": 1, \"Lopunnite\": 1, \"Lucarionite\": 1, \"Malamarite\": 2, \"Manectite\": 1, \"Medichamite\": 2, \"Meganiumite\": 1, \"Meowsticite\": 1, \"Mewtwonite X\": 2, \"Modest Mint\": 1, \"Pidgeotite\": 1, \"Quiet Mint\": 1, \"Raichuite Y\": 1, \"Relaxed Mint\": 3, \"Sablenite\": 1, \"Sassy Mint\": 1, \"Sceptilite\": 1, \"Scovillainite\": 1, \"Sharpedonite\": 1, \"Skarmoryite\": 1, \"Staraptorite\": 1, \"Starmieite\": 1, \"Steelixite\": 2, \"Swampertite\": 2, \"Tatsugiriite\": 1, \"Timid Mint\": 1, \"Tyranitarite\": 2, \"Venusaurite\": 2}",
+      "field": "key_items_json",
+      "user_id": 8551864967
+    },
+    {
+      "after": "{\"Battle Box\": 32, \"Holowear Ticket\": 700}",
+      "before": "{\"Battle Box\": 16, \"Holowear Ticket\": 350}",
+      "field": "key_items_json",
+      "user_id": 8552606115
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 26}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 13}",
+      "field": "key_items_json",
+      "user_id": 8566586185
+    },
+    {
+      "after": "{\"Dragalgeite\": 2, \"Heatranite\": 2, \"Holowear Ticket\": 372}",
+      "before": "{\"Dragalgeite\": 1, \"Heatranite\": 1, \"Holowear Ticket\": 186}",
+      "field": "key_items_json",
+      "user_id": 8569117814
+    },
+    {
+      "after": "{\"Vitamin\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 8569117814
+    },
+    {
+      "after": "{\"Battle Box\": 14, \"Daycare Candy\": 10, \"Holowear Ticket\": 124}",
+      "before": "{\"Battle Box\": 7, \"Daycare Candy\": 5, \"Holowear Ticket\": 62}",
+      "field": "key_items_json",
+      "user_id": 8580036841
+    },
+    {
+      "after": "{\"Holowear Ticket\": 126}",
+      "before": "{\"Holowear Ticket\": 63}",
+      "field": "key_items_json",
+      "user_id": 8585494095
+    },
+    {
+      "after": "{\"Banettite\": 2, \"Bottle Cap\": 2, \"Brave Mint\": 2, \"Charizardite Y\": 2, \"Daycare Candy\": 10, \"Holowear Ticket\": 1296, \"Mega Ring\": 1}",
+      "before": "{\"Banettite\": 1, \"Bottle Cap\": 1, \"Brave Mint\": 1, \"Charizardite Y\": 1, \"Daycare Candy\": 5, \"Holowear Ticket\": 648, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 8597250058
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 222}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 111}",
+      "field": "key_items_json",
+      "user_id": 8603704874
+    },
+    {
+      "after": "{\"Battle Box\": 16, \"Holowear Ticket\": 980}",
+      "before": "{\"Battle Box\": 8, \"Holowear Ticket\": 490}",
+      "field": "key_items_json",
+      "user_id": 8614874956
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 102}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 51}",
+      "field": "key_items_json",
+      "user_id": 8616339057
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 14}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 7}",
+      "field": "key_items_json",
+      "user_id": 8622935421
+    },
+    {
+      "after": "{\"Holowear Ticket\": 242}",
+      "before": "{\"Holowear Ticket\": 121}",
+      "field": "key_items_json",
+      "user_id": 8625115568
+    },
+    {
+      "after": "{\"Gmax Band\": 1, \"Holowear Ticket\": 820, \"Mega Ring\": 1, \"Metagrossite\": 2, \"Mewtwonite Y\": 2}",
+      "before": "{\"Gmax Band\": 1, \"Holowear Ticket\": 410, \"Mega Ring\": 1, \"Metagrossite\": 1, \"Mewtwonite Y\": 1}",
+      "field": "key_items_json",
+      "user_id": 8645837295
+    },
+    {
+      "after": "{\"Berry\": 51}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 8645837295
+    },
+    {
+      "after": "{\"Holowear Ticket\": 20}",
+      "before": "{\"Holowear Ticket\": 10}",
+      "field": "key_items_json",
+      "user_id": 8658348527
+    },
+    {
+      "after": "{\"Holowear Ticket\": 242}",
+      "before": "{\"Holowear Ticket\": 121}",
+      "field": "key_items_json",
+      "user_id": 8668352630
+    },
+    {
+      "after": "{\"Battle Box\": 4, \"Daycare Candy\": 10, \"Holowear Ticket\": 24}",
+      "before": "{\"Battle Box\": 2, \"Daycare Candy\": 5, \"Holowear Ticket\": 12}",
+      "field": "key_items_json",
+      "user_id": 8673875766
+    },
+    {
+      "after": "{\"Daycare Candy\": 8, \"Holowear Ticket\": 182}",
+      "before": "{\"Daycare Candy\": 4, \"Holowear Ticket\": 91}",
+      "field": "key_items_json",
+      "user_id": 8674566879
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 2}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 1}",
+      "field": "key_items_json",
+      "user_id": 8677021049
+    },
+    {
+      "after": "{\"Holowear Ticket\": 84}",
+      "before": "{\"Holowear Ticket\": 42}",
+      "field": "key_items_json",
+      "user_id": 8682257451
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 224}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 112}",
+      "field": "key_items_json",
+      "user_id": 8685902131
+    },
+    {
+      "after": "{\"Battle Box\": 2, \"Holowear Ticket\": 202}",
+      "before": "{\"Battle Box\": 1, \"Holowear Ticket\": 101}",
+      "field": "key_items_json",
+      "user_id": 8694780678
+    },
+    {
+      "after": "{\"Daycare Candy\": 12, \"Holowear Ticket\": 162}",
+      "before": "{\"Daycare Candy\": 6, \"Holowear Ticket\": 81}",
+      "field": "key_items_json",
+      "user_id": 8735577797
+    },
+    {
+      "after": "{\"Holowear Ticket\": 124}",
+      "before": "{\"Holowear Ticket\": 62}",
+      "field": "key_items_json",
+      "user_id": 8737161582
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 12}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 6}",
+      "field": "key_items_json",
+      "user_id": 8737239779
+    },
+    {
+      "after": "{\"Absolite\": 2, \"Aerodactylite\": 2, \"Cameruptnite\": 2, \"Great Pearl Orb\": 2, \"Holowear Ticket\": 1672, \"Kangaskhanite\": 2}",
+      "before": "{\"Absolite\": 1, \"Aerodactylite\": 1, \"Cameruptnite\": 1, \"Great Pearl Orb\": 1, \"Holowear Ticket\": 836, \"Kangaskhanite\": 1}",
+      "field": "key_items_json",
+      "user_id": 8738017406
+    },
+    {
+      "after": "{\"Rare Candy\": 26, \"Vitamin\": 3}",
+      "before": "{\"Rare Candy\": 26}",
+      "field": "medicine_inventory_json",
+      "user_id": 8738017406
+    },
+    {
+      "after": "{\"Battle Box\": 4, \"Holowear Ticket\": 410}",
+      "before": "{\"Battle Box\": 2, \"Holowear Ticket\": 205}",
+      "field": "key_items_json",
+      "user_id": 8759503980
+    },
+    {
+      "after": "{\"Rare Candy\": 1, \"Vitamin\": 17}",
+      "before": "{\"Rare Candy\": 1}",
+      "field": "medicine_inventory_json",
+      "user_id": 8759503980
+    },
+    {
+      "after": "{\"Chimechoite\": 2, \"Holowear Ticket\": 338}",
+      "before": "{\"Chimechoite\": 1, \"Holowear Ticket\": 169}",
+      "field": "key_items_json",
+      "user_id": 876075851
+    },
+    {
+      "after": "{\"Holowear Ticket\": 10}",
+      "before": "{\"Holowear Ticket\": 5}",
+      "field": "key_items_json",
+      "user_id": 8771957606
+    },
+    {
+      "after": "{\"Holowear Ticket\": 44}",
+      "before": "{\"Holowear Ticket\": 22}",
+      "field": "key_items_json",
+      "user_id": 8773035516
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 62}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 31}",
+      "field": "key_items_json",
+      "user_id": 8795134161
+    },
+    {
+      "after": "{\"Berry\": 1}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 880899921
+    },
+    {
+      "after": "{\"Sharpedonite\": 2}",
+      "before": "{\"Sharpedonite\": 1}",
+      "field": "key_items_json",
+      "user_id": 889877587
+    },
+    {
+      "after": "{\"Daycare Candy\": 10, \"Holowear Ticket\": 12}",
+      "before": "{\"Daycare Candy\": 5, \"Holowear Ticket\": 6}",
+      "field": "key_items_json",
+      "user_id": 892623437
+    },
+    {
+      "after": "{\"Gardevoirite\": 2, \"Gmax Band\": 1, \"Mawilite\": 2, \"Mega Ring\": 1}",
+      "before": "{\"Gardevoirite\": 1, \"Gmax Band\": 1, \"Mawilite\": 1, \"Mega Ring\": 1}",
+      "field": "key_items_json",
+      "user_id": 920267932
+    },
+    {
+      "after": "{\"Mega Ring\": 1, \"Mewtwonite Y\": 2}",
+      "before": "{\"Mega Ring\": 1, \"Mewtwonite Y\": 1}",
+      "field": "key_items_json",
+      "user_id": 940674604
+    },
+    {
+      "after": "{\"Jade Orb\": 2}",
+      "before": "{\"Jade Orb\": 1}",
+      "field": "key_items_json",
+      "user_id": 979971318
+    },
+    {
+      "after": "{\"Vitamin\": 2}",
+      "before": "{}",
+      "field": "medicine_inventory_json",
+      "user_id": 979971318
+    },
+    {
+      "after": "{\"Rare Candy\": 13, \"Vitamin\": 10}",
+      "before": "{\"Rare Candy\": 13}",
+      "field": "medicine_inventory_json",
+      "user_id": 980760011
+    }
+  ],
+  "source": "C:\\Users\\opc\\Desktop\\pokeplay-showdown\\pokeplaybot\\bot\\db\\pokeplay_backup_2026-04-08T16-14-13-602Z",
+  "warnings": [
+    "[1611173986] Not found in DB \u2013 skipping (run full migration first).",
+    "[5164799738] Not found in DB \u2013 skipping (run full migration first).",
+    "[6623878059] Not found in DB \u2013 skipping (run full migration first).",
+    "[6713578820] Not found in DB \u2013 skipping (run full migration first)."
+  ]
+}

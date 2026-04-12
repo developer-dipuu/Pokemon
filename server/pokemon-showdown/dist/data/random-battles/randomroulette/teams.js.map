@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/random-battles/randomroulette/teams.ts"],
+  "sourcesContent": ["import RandomTeams from '../gen9/teams';\r\n\r\nexport class RandomRandomRouletteTeams extends RandomTeams {}\r\n\r\nexport default RandomRandomRouletteTeams;\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAAwB;AAEjB,MAAM,kCAAkC,aAAAA,QAAY;AAAC;AAE5D,IAAO,gBAAQ;",
+  "names": ["RandomTeams"]
+}

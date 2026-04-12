@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+*.md
+bot/db/backup/users/
+node_modules/
+*.session
+*.session-journal
+*.log

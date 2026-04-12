@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../server/artemis/index.ts"],
+  "sourcesContent": ["/**\r\n * @author mia-pi-git\r\n */\r\nimport { LocalClassifier } from './local';\r\nimport { RemoteClassifier } from './remote';\r\nimport type { SubProcessesConfig } from './../config-loader';\r\n\r\nexport { LocalClassifier, RemoteClassifier };\r\n\r\nexport function destroy() {\r\n\tvoid LocalClassifier.destroy();\r\n\tvoid RemoteClassifier.PM.destroy();\r\n}\r\n\r\nexport function start(processCount: SubProcessesConfig) {\r\n\tLocalClassifier.start(processCount);\r\n\tRemoteClassifier.start(processCount);\r\n}\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAGA,mBAAgC;AAChC,oBAAiC;AAK1B,SAAS,UAAU;AACzB,OAAK,6BAAgB,QAAQ;AAC7B,OAAK,+BAAiB,GAAG,QAAQ;AAClC;AAEO,SAAS,MAAM,cAAkC;AACvD,+BAAgB,MAAM,YAAY;AAClC,iCAAiB,MAAM,YAAY;AACpC;",
+  "names": []
+}

@@ -1,0 +1,5 @@
+telethon>=1.41,<2
+SQLAlchemy>=2.0,<3
+psycopg[binary]>=3.2,<4
+pymongo>=4.8,<5
+Pillow>=11,<12

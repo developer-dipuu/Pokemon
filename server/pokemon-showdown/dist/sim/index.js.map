@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../sim/index.ts"],
+  "sourcesContent": ["/**\r\n * Simulator\r\n * Pokemon Showdown - http://pokemonshowdown.com/\r\n *\r\n * Here's where all the simulator APIs get exported for general use.\r\n * `require('pokemon-showdown')` imports from here.\r\n *\r\n * @license MIT\r\n */\r\n\r\n// battle simulation\r\n\r\nexport { Battle } from './battle';\r\nexport { BattleStream, getPlayerStreams } from './battle-stream';\r\nexport { Pokemon } from './pokemon';\r\nexport { PRNG } from './prng';\r\nexport { Side } from './side';\r\n\r\n// dex API\r\n\r\nexport { Dex, toID } from './dex';\r\n\r\n// teams API\r\n\r\nexport { Teams } from './teams';\r\nexport { TeamValidator } from './team-validator';\r\n\r\n// misc libraries\r\n\r\nexport * from '../lib';\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAYA,oBAAuB;AACvB,2BAA+C;AAC/C,qBAAwB;AACxB,kBAAqB;AACrB,kBAAqB;AAIrB,iBAA0B;AAI1B,mBAAsB;AACtB,4BAA8B;AAI9B,wBAAc,mBA7Bd;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

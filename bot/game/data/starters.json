@@ -1,0 +1,14 @@
+{
+  "regions": [
+    {"id": "kanto", "label": "Kanto", "starters": ["Bulbasaur", "Charmander", "Squirtle"]},
+    {"id": "johto", "label": "Johto", "starters": ["Chikorita", "Cyndaquil", "Totodile"]},
+    {"id": "hoenn", "label": "Hoenn", "starters": ["Treecko", "Torchic", "Mudkip"]},
+    {"id": "sinnoh", "label": "Sinnoh", "starters": ["Turtwig", "Chimchar", "Piplup"]},
+    {"id": "unova", "label": "Unova", "starters": ["Snivy", "Tepig", "Oshawott"]},
+    {"id": "kalos", "label": "Kalos", "starters": ["Chespin", "Fennekin", "Froakie"]},
+    {"id": "alola", "label": "Alola", "starters": ["Rowlet", "Litten", "Popplio"]},
+    {"id": "hisui", "label": "Hisui", "starters": ["Rowlet", "Cyndaquil", "Oshawott"]},
+    {"id": "galar", "label": "Galar", "starters": ["Grookey", "Scorbunny", "Sobble"]},
+    {"id": "paldea", "label": "Paldea", "starters": ["Sprigatito", "Fuecoco", "Quaxly"]}
+  ]
+}

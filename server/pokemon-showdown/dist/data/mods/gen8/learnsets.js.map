@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen8/learnsets.ts"],
+  "sourcesContent": ["export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTable = {\r\n\tvivillonfancy: {\r\n\t\tinherit: true,\r\n\t\teventOnly: true,\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,YAAwE;AAAA,EACpF,eAAe;AAAA,IACd,SAAS;AAAA,IACT,WAAW;AAAA,EACZ;AACD;",
+  "names": []
+}

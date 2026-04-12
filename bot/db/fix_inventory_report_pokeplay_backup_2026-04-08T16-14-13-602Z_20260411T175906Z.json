@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "transfer_grants_users": 49,
+    "user_files_found": 3843,
+    "users_already_correct": 3839,
+    "users_found": 3839,
+    "users_not_in_db": 4
+  },
+  "dry_run": false,
+  "fatal_error": null,
+  "generated_at": "2026-04-11T17:59:06.100757+00:00",
+  "patches": [],
+  "source": "C:\\Users\\opc\\Desktop\\pokeplay-showdown\\pokeplaybot\\bot\\db\\pokeplay_backup_2026-04-08T16-14-13-602Z",
+  "warnings": [
+    "[1611173986] Not found in DB \u2013 skipping (run full migration first).",
+    "[5164799738] Not found in DB \u2013 skipping (run full migration first).",
+    "[6623878059] Not found in DB \u2013 skipping (run full migration first).",
+    "[6713578820] Not found in DB \u2013 skipping (run full migration first)."
+  ]
+}

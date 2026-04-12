@@ -1,0 +1,1801 @@
+{
+  "meta": {
+    "region_id": "national",
+    "region_label": "National Safari Reserve",
+    "safari_balls": 30,
+    "catch_multiplier": 4.0,
+    "actions": [
+      "Safari Ball",
+      "Run"
+    ],
+    "pokemon_count": 199,
+    "category_counts": {
+      "legendaries": 61,
+      "mythicals": 21,
+      "paradox": 2,
+      "pseudo_legendaries": 9
+    },
+    "species": [
+      "Nidoqueen",
+      "Nidoking",
+      "Parasect",
+      "Venomoth",
+      "Dodrio",
+      "Exeggutor",
+      "Rhydon",
+      "Marowak",
+      "Tauros",
+      "Chansey",
+      "Kangaskhan",
+      "Scyther",
+      "Pinsir",
+      "Golduck",
+      "Slowbro",
+      "Seaking",
+      "Dragonite",
+      "Lapras",
+      "Articuno",
+      "Zapdos",
+      "Moltres",
+      "Mewtwo",
+      "Mew",
+      "Furret",
+      "Noctowl",
+      "Ledian",
+      "Ariados",
+      "Ampharos",
+      "Girafarig",
+      "Forretress",
+      "Aipom",
+      "Sunflora",
+      "Quagsire",
+      "Azumarill",
+      "Heracross",
+      "Miltank",
+      "Skarmory",
+      "Tyranitar",
+      "Raikou",
+      "Entei",
+      "Suicune",
+      "Lugia",
+      "Ho-oh",
+      "Celebi",
+      "Linoone",
+      "Beautifly",
+      "Dustox",
+      "Shiftry",
+      "Swellow",
+      "Breloom",
+      "Slaking",
+      "Ninjask",
+      "Shedinja",
+      "Manectric",
+      "Ludicolo",
+      "Pelipper",
+      "Sharpedo",
+      "Tropius",
+      "Milotic",
+      "Salamence",
+      "Metagross",
+      "Regirock",
+      "Regice",
+      "Registeel",
+      "Latias",
+      "Latios",
+      "Kyogre",
+      "Groudon",
+      "Rayquaza",
+      "Jirachi",
+      "Deoxys-normal",
+      "Bibarel",
+      "Staraptor",
+      "Luxray",
+      "Roserade",
+      "Floatzel",
+      "Gastrodon",
+      "Toxicroak",
+      "Lumineon",
+      "Hippowdon",
+      "Lucario",
+      "Spiritomb",
+      "Garchomp",
+      "Uxie",
+      "Mesprit",
+      "Azelf",
+      "Dialga",
+      "Palkia",
+      "Giratina-altered",
+      "Heatran",
+      "Regigigas",
+      "Cresselia",
+      "Phione",
+      "Manaphy",
+      "Darkrai",
+      "Shaymin-land",
+      "Arceus",
+      "Watchog",
+      "Stoutland",
+      "Liepard",
+      "Zebstrika",
+      "Swoobat",
+      "Excadrill",
+      "Seismitoad",
+      "Basculin",
+      "Haxorus",
+      "Braviary",
+      "Mandibuzz",
+      "Hydreigon",
+      "Cobalion",
+      "Terrakion",
+      "Virizion",
+      "Tornadus-incarnate",
+      "Thundurus-incarnate",
+      "Landorus-incarnate",
+      "Reshiram",
+      "Zekrom",
+      "Kyurem",
+      "Victini",
+      "Keldeo-ordinary",
+      "Meloetta-aria",
+      "Genesect",
+      "Diggersby",
+      "Talonflame",
+      "Vivillon",
+      "Meowstic",
+      "Aegislash",
+      "Pangoro",
+      "Clawitzer",
+      "Dragalge",
+      "Goodra",
+      "Noivern",
+      "Xerneas",
+      "Yveltal",
+      "Zygarde-50",
+      "Diancie",
+      "Hoopa",
+      "Volcanion",
+      "Gumshoos",
+      "Toucannon",
+      "Vikavolt",
+      "Lycanroc",
+      "Wishiwashi",
+      "Mudsdale",
+      "Araquanid",
+      "Toxapex",
+      "Golisopod",
+      "Mimikyu",
+      "Silvally",
+      "Solgaleo",
+      "Lunala",
+      "Necrozma",
+      "Tapu-koko",
+      "Tapu-lele",
+      "Tapu-bulu",
+      "Tapu-fini",
+      "Magearna",
+      "Marshadow",
+      "Zeraora",
+      "Melmetal",
+      "Greedent",
+      "Corviknight",
+      "Thievul",
+      "Boltund",
+      "Sandaconda",
+      "Toxtricity",
+      "Drednaw",
+      "Barraskewda",
+      "Indeedee",
+      "Dragapult",
+      "Zacian",
+      "Zamazenta",
+      "Eternatus",
+      "Urshifu-single-strike",
+      "Regieleki",
+      "Regidrago",
+      "Glastrier",
+      "Spectrier",
+      "Calyrex",
+      "Zarude",
+      "Oinkologne",
+      "Pawmot",
+      "Spidops",
+      "Dachsbun",
+      "Arboliva",
+      "Bellibolt",
+      "Palafin",
+      "Wugtrio",
+      "Armarouge",
+      "Ceruledge",
+      "Tinkaton",
+      "Baxcalibur",
+      "Gholdengo",
+      "Wo-chien",
+      "Chien-pao",
+      "Ting-lu",
+      "Chi-yu",
+      "Koraidon",
+      "Miraidon"
+    ]
+  },
+  "regions": {
+    "national": [
+      {
+        "species": "Nidoqueen",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Nidoking",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Parasect",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Venomoth",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Dodrio",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Exeggutor",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Rhydon",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Marowak",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Tauros",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Chansey",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Kangaskhan",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Scyther",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Pinsir",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Golduck",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Slowbro",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Seaking",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Dragonite",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "pseudo_legendaries"
+        ]
+      },
+      {
+        "species": "Lapras",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Articuno",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Zapdos",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Moltres",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Mewtwo",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Mew",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Furret",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Noctowl",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Ledian",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Ariados",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Ampharos",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Girafarig",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Forretress",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Aipom",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Sunflora",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Quagsire",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Azumarill",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Heracross",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Miltank",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Skarmory",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Tyranitar",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "pseudo_legendaries"
+        ]
+      },
+      {
+        "species": "Raikou",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Entei",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Suicune",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Lugia",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Ho-oh",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Celebi",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Linoone",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Beautifly",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Dustox",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Shiftry",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Swellow",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Breloom",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Slaking",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Ninjask",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Shedinja",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Manectric",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Ludicolo",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Pelipper",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Sharpedo",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Tropius",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Milotic",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Salamence",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "pseudo_legendaries"
+        ]
+      },
+      {
+        "species": "Metagross",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "pseudo_legendaries"
+        ]
+      },
+      {
+        "species": "Regirock",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Regice",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Registeel",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Latias",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Latios",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Kyogre",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Groudon",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Rayquaza",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Jirachi",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Deoxys-normal",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Bibarel",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Staraptor",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Luxray",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Roserade",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Floatzel",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Gastrodon",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Toxicroak",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Lumineon",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Hippowdon",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Lucario",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Spiritomb",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Garchomp",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "pseudo_legendaries"
+        ]
+      },
+      {
+        "species": "Uxie",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Mesprit",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Azelf",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Dialga",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Palkia",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Giratina-altered",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Heatran",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Regigigas",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Cresselia",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Phione",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Manaphy",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Darkrai",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Shaymin-land",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Arceus",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Watchog",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Stoutland",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Liepard",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Zebstrika",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Swoobat",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Excadrill",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Seismitoad",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Basculin",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Haxorus",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Braviary",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Mandibuzz",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Hydreigon",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "pseudo_legendaries"
+        ]
+      },
+      {
+        "species": "Cobalion",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Terrakion",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Virizion",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Tornadus-incarnate",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Thundurus-incarnate",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Landorus-incarnate",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Reshiram",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Zekrom",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Kyurem",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Victini",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Keldeo-ordinary",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Meloetta-aria",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Genesect",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Diggersby",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Talonflame",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Vivillon",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Meowstic",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Aegislash",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Pangoro",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Clawitzer",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Dragalge",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Goodra",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "pseudo_legendaries"
+        ]
+      },
+      {
+        "species": "Noivern",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Xerneas",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Yveltal",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Zygarde-50",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Diancie",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Hoopa",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Volcanion",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Gumshoos",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Toucannon",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Vikavolt",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Lycanroc",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Wishiwashi",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Mudsdale",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Araquanid",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Toxapex",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Golisopod",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Mimikyu",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Silvally",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Solgaleo",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Lunala",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Necrozma",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Tapu-koko",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Tapu-lele",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Tapu-bulu",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Tapu-fini",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Magearna",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Marshadow",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Zeraora",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Melmetal",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Greedent",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Corviknight",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Thievul",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Boltund",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Sandaconda",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Toxtricity",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Drednaw",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Barraskewda",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Indeedee",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Dragapult",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "pseudo_legendaries"
+        ]
+      },
+      {
+        "species": "Zacian",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Zamazenta",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Eternatus",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Urshifu-single-strike",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Regieleki",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Regidrago",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Glastrier",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Spectrier",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Calyrex",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Zarude",
+        "min_level": 58,
+        "max_level": 72,
+        "weight": 2,
+        "categories": [
+          "mythicals"
+        ]
+      },
+      {
+        "species": "Oinkologne",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Pawmot",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Spidops",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Dachsbun",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Arboliva",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Bellibolt",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Palafin",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Wugtrio",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Armarouge",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Ceruledge",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Tinkaton",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Baxcalibur",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "pseudo_legendaries"
+        ]
+      },
+      {
+        "species": "Gholdengo",
+        "min_level": 34,
+        "max_level": 58,
+        "weight": 8,
+        "categories": []
+      },
+      {
+        "species": "Wo-chien",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Chien-pao",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Ting-lu",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Chi-yu",
+        "min_level": 60,
+        "max_level": 75,
+        "weight": 2,
+        "categories": [
+          "legendaries"
+        ]
+      },
+      {
+        "species": "Koraidon",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "legendaries",
+          "paradox"
+        ]
+      },
+      {
+        "species": "Miraidon",
+        "min_level": 58,
+        "max_level": 75,
+        "weight": 3,
+        "categories": [
+          "legendaries",
+          "paradox"
+        ]
+      }
+    ]
+  }
+}

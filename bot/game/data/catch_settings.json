@@ -1,0 +1,47 @@
+{
+  "ball_multipliers": {
+    "poke": 1.0,
+    "great": 1.5,
+    "ultra": 2.0,
+    "master": 255.0,
+    "premier": 1.0,
+    "heal": 1.0,
+    "luxury": 1.0,
+    "quick": 4.0,
+    "dusk": 3.0,
+    "timer": 3.0,
+    "repeat": 3.0,
+    "nest": 1.7,
+    "net": 3.0,
+    "dive": 3.0,
+    "fast": 1.5,
+    "level": 2.0,
+    "lure": 1.5,
+    "heavy": 1.5,
+    "love": 2.0,
+    "friend": 1.0,
+    "moon": 1.0,
+    "dream": 4.0,
+    "beast": 5.0,
+    "cherish": 1.0,
+    "sport": 1.5,
+    "park": 1.5
+  },
+  "status_multipliers": {
+    "slp": 2.0,
+    "frz": 2.0,
+    "par": 1.5,
+    "brn": 1.5,
+    "psn": 1.5,
+    "tox": 1.5
+  },
+  "formula": {
+    "max_chance": 0.95,
+    "minimum_chance": 0.02
+  },
+  "notes": [
+    "Real catch rates are intentionally externalized so they stay easy to tweak.",
+    "Per-species catch rates live in species_catch_rates.json.",
+    "Context-aware ball behavior is handled in code, and this table acts as the fallback for plain multipliers."
+  ]
+}

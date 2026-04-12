@@ -1,0 +1,5866 @@
+{
+  "bulbasaur": {
+    "base_experience": 64,
+    "growth_rate": "medium-slow"
+  },
+  "ivysaur": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "venusaur": {
+    "base_experience": 263,
+    "growth_rate": "medium-slow"
+  },
+  "charmander": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "charmeleon": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "charizard": {
+    "base_experience": 267,
+    "growth_rate": "medium-slow"
+  },
+  "squirtle": {
+    "base_experience": 63,
+    "growth_rate": "medium-slow"
+  },
+  "wartortle": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "blastoise": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "caterpie": {
+    "base_experience": 39,
+    "growth_rate": "medium"
+  },
+  "metapod": {
+    "base_experience": 72,
+    "growth_rate": "medium"
+  },
+  "butterfree": {
+    "base_experience": 198,
+    "growth_rate": "medium"
+  },
+  "weedle": {
+    "base_experience": 39,
+    "growth_rate": "medium"
+  },
+  "kakuna": {
+    "base_experience": 72,
+    "growth_rate": "medium"
+  },
+  "beedrill": {
+    "base_experience": 178,
+    "growth_rate": "medium"
+  },
+  "pidgey": {
+    "base_experience": 50,
+    "growth_rate": "medium-slow"
+  },
+  "pidgeotto": {
+    "base_experience": 122,
+    "growth_rate": "medium-slow"
+  },
+  "pidgeot": {
+    "base_experience": 216,
+    "growth_rate": "medium-slow"
+  },
+  "rattata": {
+    "base_experience": 51,
+    "growth_rate": "medium"
+  },
+  "raticate": {
+    "base_experience": 145,
+    "growth_rate": "medium"
+  },
+  "spearow": {
+    "base_experience": 52,
+    "growth_rate": "medium"
+  },
+  "fearow": {
+    "base_experience": 155,
+    "growth_rate": "medium"
+  },
+  "ekans": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "arbok": {
+    "base_experience": 157,
+    "growth_rate": "medium"
+  },
+  "pikachu": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "raichu": {
+    "base_experience": 243,
+    "growth_rate": "medium"
+  },
+  "sandshrew": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "sandslash": {
+    "base_experience": 158,
+    "growth_rate": "medium"
+  },
+  "nidoran-f": {
+    "base_experience": 55,
+    "growth_rate": "medium-slow"
+  },
+  "nidorina": {
+    "base_experience": 128,
+    "growth_rate": "medium-slow"
+  },
+  "nidoqueen": {
+    "base_experience": 253,
+    "growth_rate": "medium-slow"
+  },
+  "nidoran-m": {
+    "base_experience": 55,
+    "growth_rate": "medium-slow"
+  },
+  "nidorino": {
+    "base_experience": 128,
+    "growth_rate": "medium-slow"
+  },
+  "nidoking": {
+    "base_experience": 253,
+    "growth_rate": "medium-slow"
+  },
+  "clefairy": {
+    "base_experience": 113,
+    "growth_rate": "fast"
+  },
+  "clefable": {
+    "base_experience": 242,
+    "growth_rate": "fast"
+  },
+  "vulpix": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "ninetales": {
+    "base_experience": 177,
+    "growth_rate": "medium"
+  },
+  "jigglypuff": {
+    "base_experience": 95,
+    "growth_rate": "fast"
+  },
+  "wigglytuff": {
+    "base_experience": 218,
+    "growth_rate": "fast"
+  },
+  "zubat": {
+    "base_experience": 49,
+    "growth_rate": "medium"
+  },
+  "golbat": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "oddish": {
+    "base_experience": 64,
+    "growth_rate": "medium-slow"
+  },
+  "gloom": {
+    "base_experience": 138,
+    "growth_rate": "medium-slow"
+  },
+  "vileplume": {
+    "base_experience": 245,
+    "growth_rate": "medium-slow"
+  },
+  "paras": {
+    "base_experience": 57,
+    "growth_rate": "medium"
+  },
+  "parasect": {
+    "base_experience": 142,
+    "growth_rate": "medium"
+  },
+  "venonat": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "venomoth": {
+    "base_experience": 158,
+    "growth_rate": "medium"
+  },
+  "diglett": {
+    "base_experience": 53,
+    "growth_rate": "medium"
+  },
+  "dugtrio": {
+    "base_experience": 149,
+    "growth_rate": "medium"
+  },
+  "meowth": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "persian": {
+    "base_experience": 154,
+    "growth_rate": "medium"
+  },
+  "psyduck": {
+    "base_experience": 64,
+    "growth_rate": "medium"
+  },
+  "golduck": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "mankey": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "primeape": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "growlithe": {
+    "base_experience": 70,
+    "growth_rate": "slow"
+  },
+  "arcanine": {
+    "base_experience": 194,
+    "growth_rate": "slow"
+  },
+  "poliwag": {
+    "base_experience": 60,
+    "growth_rate": "medium-slow"
+  },
+  "poliwhirl": {
+    "base_experience": 135,
+    "growth_rate": "medium-slow"
+  },
+  "poliwrath": {
+    "base_experience": 255,
+    "growth_rate": "medium-slow"
+  },
+  "abra": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "kadabra": {
+    "base_experience": 140,
+    "growth_rate": "medium-slow"
+  },
+  "alakazam": {
+    "base_experience": 250,
+    "growth_rate": "medium-slow"
+  },
+  "machop": {
+    "base_experience": 61,
+    "growth_rate": "medium-slow"
+  },
+  "machoke": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "machamp": {
+    "base_experience": 253,
+    "growth_rate": "medium-slow"
+  },
+  "bellsprout": {
+    "base_experience": 60,
+    "growth_rate": "medium-slow"
+  },
+  "weepinbell": {
+    "base_experience": 137,
+    "growth_rate": "medium-slow"
+  },
+  "victreebel": {
+    "base_experience": 221,
+    "growth_rate": "medium-slow"
+  },
+  "tentacool": {
+    "base_experience": 67,
+    "growth_rate": "slow"
+  },
+  "tentacruel": {
+    "base_experience": 180,
+    "growth_rate": "slow"
+  },
+  "geodude": {
+    "base_experience": 60,
+    "growth_rate": "medium-slow"
+  },
+  "graveler": {
+    "base_experience": 137,
+    "growth_rate": "medium-slow"
+  },
+  "golem": {
+    "base_experience": 223,
+    "growth_rate": "medium-slow"
+  },
+  "ponyta": {
+    "base_experience": 82,
+    "growth_rate": "medium"
+  },
+  "rapidash": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "slowpoke": {
+    "base_experience": 63,
+    "growth_rate": "medium"
+  },
+  "slowbro": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "magnemite": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "magneton": {
+    "base_experience": 163,
+    "growth_rate": "medium"
+  },
+  "farfetchd": {
+    "base_experience": 132,
+    "growth_rate": "medium"
+  },
+  "doduo": {
+    "base_experience": 62,
+    "growth_rate": "medium"
+  },
+  "dodrio": {
+    "base_experience": 165,
+    "growth_rate": "medium"
+  },
+  "seel": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "dewgong": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "grimer": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "muk": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "shellder": {
+    "base_experience": 61,
+    "growth_rate": "slow"
+  },
+  "cloyster": {
+    "base_experience": 184,
+    "growth_rate": "slow"
+  },
+  "gastly": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "haunter": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "gengar": {
+    "base_experience": 250,
+    "growth_rate": "medium-slow"
+  },
+  "onix": {
+    "base_experience": 77,
+    "growth_rate": "medium"
+  },
+  "drowzee": {
+    "base_experience": 66,
+    "growth_rate": "medium"
+  },
+  "hypno": {
+    "base_experience": 169,
+    "growth_rate": "medium"
+  },
+  "krabby": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "kingler": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "voltorb": {
+    "base_experience": 66,
+    "growth_rate": "medium"
+  },
+  "electrode": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "exeggcute": {
+    "base_experience": 65,
+    "growth_rate": "slow"
+  },
+  "exeggutor": {
+    "base_experience": 186,
+    "growth_rate": "slow"
+  },
+  "cubone": {
+    "base_experience": 64,
+    "growth_rate": "medium"
+  },
+  "marowak": {
+    "base_experience": 149,
+    "growth_rate": "medium"
+  },
+  "hitmonlee": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "hitmonchan": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "lickitung": {
+    "base_experience": 77,
+    "growth_rate": "medium"
+  },
+  "koffing": {
+    "base_experience": 68,
+    "growth_rate": "medium"
+  },
+  "weezing": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "rhyhorn": {
+    "base_experience": 69,
+    "growth_rate": "slow"
+  },
+  "rhydon": {
+    "base_experience": 170,
+    "growth_rate": "slow"
+  },
+  "chansey": {
+    "base_experience": 395,
+    "growth_rate": "fast"
+  },
+  "tangela": {
+    "base_experience": 87,
+    "growth_rate": "medium"
+  },
+  "kangaskhan": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "horsea": {
+    "base_experience": 59,
+    "growth_rate": "medium"
+  },
+  "seadra": {
+    "base_experience": 154,
+    "growth_rate": "medium"
+  },
+  "goldeen": {
+    "base_experience": 64,
+    "growth_rate": "medium"
+  },
+  "seaking": {
+    "base_experience": 158,
+    "growth_rate": "medium"
+  },
+  "staryu": {
+    "base_experience": 68,
+    "growth_rate": "slow"
+  },
+  "starmie": {
+    "base_experience": 182,
+    "growth_rate": "slow"
+  },
+  "mr-mime": {
+    "base_experience": 161,
+    "growth_rate": "medium"
+  },
+  "scyther": {
+    "base_experience": 100,
+    "growth_rate": "medium"
+  },
+  "jynx": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "electabuzz": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "magmar": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "pinsir": {
+    "base_experience": 175,
+    "growth_rate": "slow"
+  },
+  "tauros": {
+    "base_experience": 172,
+    "growth_rate": "slow"
+  },
+  "magikarp": {
+    "base_experience": 40,
+    "growth_rate": "slow"
+  },
+  "gyarados": {
+    "base_experience": 189,
+    "growth_rate": "slow"
+  },
+  "lapras": {
+    "base_experience": 187,
+    "growth_rate": "slow"
+  },
+  "ditto": {
+    "base_experience": 101,
+    "growth_rate": "medium"
+  },
+  "eevee": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "vaporeon": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "jolteon": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "flareon": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "porygon": {
+    "base_experience": 79,
+    "growth_rate": "medium"
+  },
+  "omanyte": {
+    "base_experience": 71,
+    "growth_rate": "medium"
+  },
+  "omastar": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "kabuto": {
+    "base_experience": 71,
+    "growth_rate": "medium"
+  },
+  "kabutops": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "aerodactyl": {
+    "base_experience": 180,
+    "growth_rate": "slow"
+  },
+  "snorlax": {
+    "base_experience": 189,
+    "growth_rate": "slow"
+  },
+  "articuno": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "zapdos": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "moltres": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "dratini": {
+    "base_experience": 60,
+    "growth_rate": "slow"
+  },
+  "dragonair": {
+    "base_experience": 147,
+    "growth_rate": "slow"
+  },
+  "dragonite": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "mewtwo": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "mew": {
+    "base_experience": 300,
+    "growth_rate": "medium-slow"
+  },
+  "chikorita": {
+    "base_experience": 64,
+    "growth_rate": "medium-slow"
+  },
+  "bayleef": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "meganium": {
+    "base_experience": 236,
+    "growth_rate": "medium-slow"
+  },
+  "cyndaquil": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "quilava": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "typhlosion": {
+    "base_experience": 240,
+    "growth_rate": "medium-slow"
+  },
+  "totodile": {
+    "base_experience": 63,
+    "growth_rate": "medium-slow"
+  },
+  "croconaw": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "feraligatr": {
+    "base_experience": 239,
+    "growth_rate": "medium-slow"
+  },
+  "sentret": {
+    "base_experience": 43,
+    "growth_rate": "medium"
+  },
+  "furret": {
+    "base_experience": 145,
+    "growth_rate": "medium"
+  },
+  "hoothoot": {
+    "base_experience": 52,
+    "growth_rate": "medium"
+  },
+  "noctowl": {
+    "base_experience": 158,
+    "growth_rate": "medium"
+  },
+  "ledyba": {
+    "base_experience": 53,
+    "growth_rate": "fast"
+  },
+  "ledian": {
+    "base_experience": 137,
+    "growth_rate": "fast"
+  },
+  "spinarak": {
+    "base_experience": 50,
+    "growth_rate": "fast"
+  },
+  "ariados": {
+    "base_experience": 140,
+    "growth_rate": "fast"
+  },
+  "crobat": {
+    "base_experience": 268,
+    "growth_rate": "medium"
+  },
+  "chinchou": {
+    "base_experience": 66,
+    "growth_rate": "slow"
+  },
+  "lanturn": {
+    "base_experience": 161,
+    "growth_rate": "slow"
+  },
+  "pichu": {
+    "base_experience": 41,
+    "growth_rate": "medium"
+  },
+  "cleffa": {
+    "base_experience": 44,
+    "growth_rate": "fast"
+  },
+  "igglybuff": {
+    "base_experience": 42,
+    "growth_rate": "fast"
+  },
+  "togepi": {
+    "base_experience": 49,
+    "growth_rate": "fast"
+  },
+  "togetic": {
+    "base_experience": 142,
+    "growth_rate": "fast"
+  },
+  "natu": {
+    "base_experience": 64,
+    "growth_rate": "medium"
+  },
+  "xatu": {
+    "base_experience": 165,
+    "growth_rate": "medium"
+  },
+  "mareep": {
+    "base_experience": 56,
+    "growth_rate": "medium-slow"
+  },
+  "flaaffy": {
+    "base_experience": 128,
+    "growth_rate": "medium-slow"
+  },
+  "ampharos": {
+    "base_experience": 230,
+    "growth_rate": "medium-slow"
+  },
+  "bellossom": {
+    "base_experience": 245,
+    "growth_rate": "medium-slow"
+  },
+  "marill": {
+    "base_experience": 88,
+    "growth_rate": "fast"
+  },
+  "azumarill": {
+    "base_experience": 210,
+    "growth_rate": "fast"
+  },
+  "sudowoodo": {
+    "base_experience": 144,
+    "growth_rate": "medium"
+  },
+  "politoed": {
+    "base_experience": 250,
+    "growth_rate": "medium-slow"
+  },
+  "hoppip": {
+    "base_experience": 50,
+    "growth_rate": "medium-slow"
+  },
+  "skiploom": {
+    "base_experience": 119,
+    "growth_rate": "medium-slow"
+  },
+  "jumpluff": {
+    "base_experience": 207,
+    "growth_rate": "medium-slow"
+  },
+  "aipom": {
+    "base_experience": 72,
+    "growth_rate": "fast"
+  },
+  "sunkern": {
+    "base_experience": 36,
+    "growth_rate": "medium-slow"
+  },
+  "sunflora": {
+    "base_experience": 149,
+    "growth_rate": "medium-slow"
+  },
+  "yanma": {
+    "base_experience": 78,
+    "growth_rate": "medium"
+  },
+  "wooper": {
+    "base_experience": 42,
+    "growth_rate": "medium"
+  },
+  "quagsire": {
+    "base_experience": 151,
+    "growth_rate": "medium"
+  },
+  "espeon": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "umbreon": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "murkrow": {
+    "base_experience": 81,
+    "growth_rate": "medium-slow"
+  },
+  "slowking": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "misdreavus": {
+    "base_experience": 87,
+    "growth_rate": "fast"
+  },
+  "unown": {
+    "base_experience": 118,
+    "growth_rate": "medium"
+  },
+  "wobbuffet": {
+    "base_experience": 142,
+    "growth_rate": "medium"
+  },
+  "girafarig": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "pineco": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "forretress": {
+    "base_experience": 163,
+    "growth_rate": "medium"
+  },
+  "dunsparce": {
+    "base_experience": 145,
+    "growth_rate": "medium"
+  },
+  "gligar": {
+    "base_experience": 86,
+    "growth_rate": "medium-slow"
+  },
+  "steelix": {
+    "base_experience": 179,
+    "growth_rate": "medium"
+  },
+  "snubbull": {
+    "base_experience": 60,
+    "growth_rate": "fast"
+  },
+  "granbull": {
+    "base_experience": 158,
+    "growth_rate": "fast"
+  },
+  "qwilfish": {
+    "base_experience": 88,
+    "growth_rate": "medium"
+  },
+  "scizor": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "shuckle": {
+    "base_experience": 177,
+    "growth_rate": "medium-slow"
+  },
+  "heracross": {
+    "base_experience": 175,
+    "growth_rate": "slow"
+  },
+  "sneasel": {
+    "base_experience": 86,
+    "growth_rate": "medium-slow"
+  },
+  "teddiursa": {
+    "base_experience": 66,
+    "growth_rate": "medium"
+  },
+  "ursaring": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "slugma": {
+    "base_experience": 50,
+    "growth_rate": "medium"
+  },
+  "magcargo": {
+    "base_experience": 151,
+    "growth_rate": "medium"
+  },
+  "swinub": {
+    "base_experience": 50,
+    "growth_rate": "slow"
+  },
+  "piloswine": {
+    "base_experience": 158,
+    "growth_rate": "slow"
+  },
+  "corsola": {
+    "base_experience": 144,
+    "growth_rate": "fast"
+  },
+  "remoraid": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "octillery": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "delibird": {
+    "base_experience": 116,
+    "growth_rate": "fast"
+  },
+  "mantine": {
+    "base_experience": 170,
+    "growth_rate": "slow"
+  },
+  "skarmory": {
+    "base_experience": 163,
+    "growth_rate": "slow"
+  },
+  "houndour": {
+    "base_experience": 66,
+    "growth_rate": "slow"
+  },
+  "houndoom": {
+    "base_experience": 175,
+    "growth_rate": "slow"
+  },
+  "kingdra": {
+    "base_experience": 270,
+    "growth_rate": "medium"
+  },
+  "phanpy": {
+    "base_experience": 66,
+    "growth_rate": "medium"
+  },
+  "donphan": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "porygon2": {
+    "base_experience": 180,
+    "growth_rate": "medium"
+  },
+  "stantler": {
+    "base_experience": 163,
+    "growth_rate": "slow"
+  },
+  "smeargle": {
+    "base_experience": 88,
+    "growth_rate": "fast"
+  },
+  "tyrogue": {
+    "base_experience": 42,
+    "growth_rate": "medium"
+  },
+  "hitmontop": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "smoochum": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "elekid": {
+    "base_experience": 72,
+    "growth_rate": "medium"
+  },
+  "magby": {
+    "base_experience": 73,
+    "growth_rate": "medium"
+  },
+  "miltank": {
+    "base_experience": 172,
+    "growth_rate": "slow"
+  },
+  "blissey": {
+    "base_experience": 635,
+    "growth_rate": "fast"
+  },
+  "raikou": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "entei": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "suicune": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "larvitar": {
+    "base_experience": 60,
+    "growth_rate": "slow"
+  },
+  "pupitar": {
+    "base_experience": 144,
+    "growth_rate": "slow"
+  },
+  "tyranitar": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "lugia": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "ho-oh": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "celebi": {
+    "base_experience": 300,
+    "growth_rate": "medium-slow"
+  },
+  "treecko": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "grovyle": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "sceptile": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "torchic": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "combusken": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "blaziken": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "mudkip": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "marshtomp": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "swampert": {
+    "base_experience": 268,
+    "growth_rate": "medium-slow"
+  },
+  "poochyena": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "mightyena": {
+    "base_experience": 147,
+    "growth_rate": "medium"
+  },
+  "zigzagoon": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "linoone": {
+    "base_experience": 147,
+    "growth_rate": "medium"
+  },
+  "wurmple": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "silcoon": {
+    "base_experience": 72,
+    "growth_rate": "medium"
+  },
+  "beautifly": {
+    "base_experience": 178,
+    "growth_rate": "medium"
+  },
+  "cascoon": {
+    "base_experience": 72,
+    "growth_rate": "medium"
+  },
+  "dustox": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "lotad": {
+    "base_experience": 44,
+    "growth_rate": "medium-slow"
+  },
+  "lombre": {
+    "base_experience": 119,
+    "growth_rate": "medium-slow"
+  },
+  "ludicolo": {
+    "base_experience": 240,
+    "growth_rate": "medium-slow"
+  },
+  "seedot": {
+    "base_experience": 44,
+    "growth_rate": "medium-slow"
+  },
+  "nuzleaf": {
+    "base_experience": 119,
+    "growth_rate": "medium-slow"
+  },
+  "shiftry": {
+    "base_experience": 240,
+    "growth_rate": "medium-slow"
+  },
+  "taillow": {
+    "base_experience": 54,
+    "growth_rate": "medium-slow"
+  },
+  "swellow": {
+    "base_experience": 159,
+    "growth_rate": "medium-slow"
+  },
+  "wingull": {
+    "base_experience": 54,
+    "growth_rate": "medium"
+  },
+  "pelipper": {
+    "base_experience": 154,
+    "growth_rate": "medium"
+  },
+  "ralts": {
+    "base_experience": 40,
+    "growth_rate": "slow"
+  },
+  "kirlia": {
+    "base_experience": 97,
+    "growth_rate": "slow"
+  },
+  "gardevoir": {
+    "base_experience": 259,
+    "growth_rate": "slow"
+  },
+  "surskit": {
+    "base_experience": 54,
+    "growth_rate": "medium"
+  },
+  "masquerain": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "shroomish": {
+    "base_experience": 59,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "breloom": {
+    "base_experience": 161,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "slakoth": {
+    "base_experience": 56,
+    "growth_rate": "slow"
+  },
+  "vigoroth": {
+    "base_experience": 154,
+    "growth_rate": "slow"
+  },
+  "slaking": {
+    "base_experience": 252,
+    "growth_rate": "slow"
+  },
+  "nincada": {
+    "base_experience": 53,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "ninjask": {
+    "base_experience": 160,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "shedinja": {
+    "base_experience": 83,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "whismur": {
+    "base_experience": 48,
+    "growth_rate": "medium-slow"
+  },
+  "loudred": {
+    "base_experience": 126,
+    "growth_rate": "medium-slow"
+  },
+  "exploud": {
+    "base_experience": 245,
+    "growth_rate": "medium-slow"
+  },
+  "makuhita": {
+    "base_experience": 47,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "hariyama": {
+    "base_experience": 166,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "azurill": {
+    "base_experience": 38,
+    "growth_rate": "fast"
+  },
+  "nosepass": {
+    "base_experience": 75,
+    "growth_rate": "medium"
+  },
+  "skitty": {
+    "base_experience": 52,
+    "growth_rate": "fast"
+  },
+  "delcatty": {
+    "base_experience": 140,
+    "growth_rate": "fast"
+  },
+  "sableye": {
+    "base_experience": 133,
+    "growth_rate": "medium-slow"
+  },
+  "mawile": {
+    "base_experience": 133,
+    "growth_rate": "fast"
+  },
+  "aron": {
+    "base_experience": 66,
+    "growth_rate": "slow"
+  },
+  "lairon": {
+    "base_experience": 151,
+    "growth_rate": "slow"
+  },
+  "aggron": {
+    "base_experience": 265,
+    "growth_rate": "slow"
+  },
+  "meditite": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "medicham": {
+    "base_experience": 144,
+    "growth_rate": "medium"
+  },
+  "electrike": {
+    "base_experience": 59,
+    "growth_rate": "slow"
+  },
+  "manectric": {
+    "base_experience": 166,
+    "growth_rate": "slow"
+  },
+  "plusle": {
+    "base_experience": 142,
+    "growth_rate": "medium"
+  },
+  "minun": {
+    "base_experience": 142,
+    "growth_rate": "medium"
+  },
+  "volbeat": {
+    "base_experience": 151,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "illumise": {
+    "base_experience": 151,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "roselia": {
+    "base_experience": 140,
+    "growth_rate": "medium-slow"
+  },
+  "gulpin": {
+    "base_experience": 60,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "swalot": {
+    "base_experience": 163,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "carvanha": {
+    "base_experience": 61,
+    "growth_rate": "slow"
+  },
+  "sharpedo": {
+    "base_experience": 161,
+    "growth_rate": "slow"
+  },
+  "wailmer": {
+    "base_experience": 80,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "wailord": {
+    "base_experience": 175,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "numel": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "camerupt": {
+    "base_experience": 161,
+    "growth_rate": "medium"
+  },
+  "torkoal": {
+    "base_experience": 165,
+    "growth_rate": "medium"
+  },
+  "spoink": {
+    "base_experience": 66,
+    "growth_rate": "fast"
+  },
+  "grumpig": {
+    "base_experience": 165,
+    "growth_rate": "fast"
+  },
+  "spinda": {
+    "base_experience": 126,
+    "growth_rate": "fast"
+  },
+  "trapinch": {
+    "base_experience": 58,
+    "growth_rate": "medium-slow"
+  },
+  "vibrava": {
+    "base_experience": 119,
+    "growth_rate": "medium-slow"
+  },
+  "flygon": {
+    "base_experience": 260,
+    "growth_rate": "medium-slow"
+  },
+  "cacnea": {
+    "base_experience": 67,
+    "growth_rate": "medium-slow"
+  },
+  "cacturne": {
+    "base_experience": 166,
+    "growth_rate": "medium-slow"
+  },
+  "swablu": {
+    "base_experience": 62,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "altaria": {
+    "base_experience": 172,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "zangoose": {
+    "base_experience": 160,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "seviper": {
+    "base_experience": 160,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "lunatone": {
+    "base_experience": 161,
+    "growth_rate": "fast"
+  },
+  "solrock": {
+    "base_experience": 161,
+    "growth_rate": "fast"
+  },
+  "barboach": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "whiscash": {
+    "base_experience": 164,
+    "growth_rate": "medium"
+  },
+  "corphish": {
+    "base_experience": 62,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "crawdaunt": {
+    "base_experience": 164,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "baltoy": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "claydol": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "lileep": {
+    "base_experience": 71,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "cradily": {
+    "base_experience": 173,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "anorith": {
+    "base_experience": 71,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "armaldo": {
+    "base_experience": 173,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "feebas": {
+    "base_experience": 40,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "milotic": {
+    "base_experience": 189,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "castform": {
+    "base_experience": 147,
+    "growth_rate": "medium"
+  },
+  "kecleon": {
+    "base_experience": 154,
+    "growth_rate": "medium-slow"
+  },
+  "shuppet": {
+    "base_experience": 59,
+    "growth_rate": "fast"
+  },
+  "banette": {
+    "base_experience": 159,
+    "growth_rate": "fast"
+  },
+  "duskull": {
+    "base_experience": 59,
+    "growth_rate": "fast"
+  },
+  "dusclops": {
+    "base_experience": 159,
+    "growth_rate": "fast"
+  },
+  "tropius": {
+    "base_experience": 161,
+    "growth_rate": "slow"
+  },
+  "chimecho": {
+    "base_experience": 159,
+    "growth_rate": "fast"
+  },
+  "absol": {
+    "base_experience": 163,
+    "growth_rate": "medium-slow"
+  },
+  "wynaut": {
+    "base_experience": 52,
+    "growth_rate": "medium"
+  },
+  "snorunt": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "glalie": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "spheal": {
+    "base_experience": 58,
+    "growth_rate": "medium-slow"
+  },
+  "sealeo": {
+    "base_experience": 144,
+    "growth_rate": "medium-slow"
+  },
+  "walrein": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "clamperl": {
+    "base_experience": 69,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "huntail": {
+    "base_experience": 170,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "gorebyss": {
+    "base_experience": 170,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "relicanth": {
+    "base_experience": 170,
+    "growth_rate": "slow"
+  },
+  "luvdisc": {
+    "base_experience": 116,
+    "growth_rate": "fast"
+  },
+  "bagon": {
+    "base_experience": 60,
+    "growth_rate": "slow"
+  },
+  "shelgon": {
+    "base_experience": 147,
+    "growth_rate": "slow"
+  },
+  "salamence": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "beldum": {
+    "base_experience": 60,
+    "growth_rate": "slow"
+  },
+  "metang": {
+    "base_experience": 147,
+    "growth_rate": "slow"
+  },
+  "metagross": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "regirock": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "regice": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "registeel": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "latias": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "latios": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "kyogre": {
+    "base_experience": 335,
+    "growth_rate": "slow"
+  },
+  "groudon": {
+    "base_experience": 335,
+    "growth_rate": "slow"
+  },
+  "rayquaza": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "jirachi": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "deoxys-normal": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "turtwig": {
+    "base_experience": 64,
+    "growth_rate": "medium-slow"
+  },
+  "grotle": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "torterra": {
+    "base_experience": 236,
+    "growth_rate": "medium-slow"
+  },
+  "chimchar": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "monferno": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "infernape": {
+    "base_experience": 240,
+    "growth_rate": "medium-slow"
+  },
+  "piplup": {
+    "base_experience": 63,
+    "growth_rate": "medium-slow"
+  },
+  "prinplup": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "empoleon": {
+    "base_experience": 239,
+    "growth_rate": "medium-slow"
+  },
+  "starly": {
+    "base_experience": 49,
+    "growth_rate": "medium-slow"
+  },
+  "staravia": {
+    "base_experience": 119,
+    "growth_rate": "medium-slow"
+  },
+  "staraptor": {
+    "base_experience": 218,
+    "growth_rate": "medium-slow"
+  },
+  "bidoof": {
+    "base_experience": 50,
+    "growth_rate": "medium"
+  },
+  "bibarel": {
+    "base_experience": 144,
+    "growth_rate": "medium"
+  },
+  "kricketot": {
+    "base_experience": 39,
+    "growth_rate": "medium-slow"
+  },
+  "kricketune": {
+    "base_experience": 134,
+    "growth_rate": "medium-slow"
+  },
+  "shinx": {
+    "base_experience": 53,
+    "growth_rate": "medium-slow"
+  },
+  "luxio": {
+    "base_experience": 127,
+    "growth_rate": "medium-slow"
+  },
+  "luxray": {
+    "base_experience": 262,
+    "growth_rate": "medium-slow"
+  },
+  "budew": {
+    "base_experience": 56,
+    "growth_rate": "medium-slow"
+  },
+  "roserade": {
+    "base_experience": 258,
+    "growth_rate": "medium-slow"
+  },
+  "cranidos": {
+    "base_experience": 70,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "rampardos": {
+    "base_experience": 173,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "shieldon": {
+    "base_experience": 70,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "bastiodon": {
+    "base_experience": 173,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "burmy": {
+    "base_experience": 45,
+    "growth_rate": "medium"
+  },
+  "wormadam-plant": {
+    "base_experience": 148,
+    "growth_rate": "medium"
+  },
+  "mothim": {
+    "base_experience": 148,
+    "growth_rate": "medium"
+  },
+  "combee": {
+    "base_experience": 49,
+    "growth_rate": "medium-slow"
+  },
+  "vespiquen": {
+    "base_experience": 166,
+    "growth_rate": "medium-slow"
+  },
+  "pachirisu": {
+    "base_experience": 142,
+    "growth_rate": "medium"
+  },
+  "buizel": {
+    "base_experience": 66,
+    "growth_rate": "medium"
+  },
+  "floatzel": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "cherubi": {
+    "base_experience": 55,
+    "growth_rate": "medium"
+  },
+  "cherrim": {
+    "base_experience": 158,
+    "growth_rate": "medium"
+  },
+  "shellos": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "gastrodon": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "ambipom": {
+    "base_experience": 169,
+    "growth_rate": "fast"
+  },
+  "drifloon": {
+    "base_experience": 70,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "drifblim": {
+    "base_experience": 174,
+    "growth_rate": "fast-then-very-slow"
+  },
+  "buneary": {
+    "base_experience": 70,
+    "growth_rate": "medium"
+  },
+  "lopunny": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "mismagius": {
+    "base_experience": 173,
+    "growth_rate": "fast"
+  },
+  "honchkrow": {
+    "base_experience": 177,
+    "growth_rate": "medium-slow"
+  },
+  "glameow": {
+    "base_experience": 62,
+    "growth_rate": "fast"
+  },
+  "purugly": {
+    "base_experience": 158,
+    "growth_rate": "fast"
+  },
+  "chingling": {
+    "base_experience": 57,
+    "growth_rate": "fast"
+  },
+  "stunky": {
+    "base_experience": 66,
+    "growth_rate": "medium"
+  },
+  "skuntank": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "bronzor": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "bronzong": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "bonsly": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "mime-jr": {
+    "base_experience": 62,
+    "growth_rate": "medium"
+  },
+  "happiny": {
+    "base_experience": 110,
+    "growth_rate": "fast"
+  },
+  "chatot": {
+    "base_experience": 144,
+    "growth_rate": "medium-slow"
+  },
+  "spiritomb": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "gible": {
+    "base_experience": 60,
+    "growth_rate": "slow"
+  },
+  "gabite": {
+    "base_experience": 144,
+    "growth_rate": "slow"
+  },
+  "garchomp": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "munchlax": {
+    "base_experience": 78,
+    "growth_rate": "slow"
+  },
+  "riolu": {
+    "base_experience": 57,
+    "growth_rate": "medium-slow"
+  },
+  "lucario": {
+    "base_experience": 184,
+    "growth_rate": "medium-slow"
+  },
+  "hippopotas": {
+    "base_experience": 66,
+    "growth_rate": "slow"
+  },
+  "hippowdon": {
+    "base_experience": 184,
+    "growth_rate": "slow"
+  },
+  "skorupi": {
+    "base_experience": 66,
+    "growth_rate": "slow"
+  },
+  "drapion": {
+    "base_experience": 175,
+    "growth_rate": "slow"
+  },
+  "croagunk": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "toxicroak": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "carnivine": {
+    "base_experience": 159,
+    "growth_rate": "slow"
+  },
+  "finneon": {
+    "base_experience": 66,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "lumineon": {
+    "base_experience": 161,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "mantyke": {
+    "base_experience": 69,
+    "growth_rate": "slow"
+  },
+  "snover": {
+    "base_experience": 67,
+    "growth_rate": "slow"
+  },
+  "abomasnow": {
+    "base_experience": 173,
+    "growth_rate": "slow"
+  },
+  "weavile": {
+    "base_experience": 179,
+    "growth_rate": "medium-slow"
+  },
+  "magnezone": {
+    "base_experience": 268,
+    "growth_rate": "medium"
+  },
+  "lickilicky": {
+    "base_experience": 180,
+    "growth_rate": "medium"
+  },
+  "rhyperior": {
+    "base_experience": 268,
+    "growth_rate": "slow"
+  },
+  "tangrowth": {
+    "base_experience": 187,
+    "growth_rate": "medium"
+  },
+  "electivire": {
+    "base_experience": 270,
+    "growth_rate": "medium"
+  },
+  "magmortar": {
+    "base_experience": 270,
+    "growth_rate": "medium"
+  },
+  "togekiss": {
+    "base_experience": 273,
+    "growth_rate": "fast"
+  },
+  "yanmega": {
+    "base_experience": 180,
+    "growth_rate": "medium"
+  },
+  "leafeon": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "glaceon": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "gliscor": {
+    "base_experience": 179,
+    "growth_rate": "medium-slow"
+  },
+  "mamoswine": {
+    "base_experience": 265,
+    "growth_rate": "slow"
+  },
+  "porygon-z": {
+    "base_experience": 268,
+    "growth_rate": "medium"
+  },
+  "gallade": {
+    "base_experience": 259,
+    "growth_rate": "slow"
+  },
+  "probopass": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "dusknoir": {
+    "base_experience": 263,
+    "growth_rate": "fast"
+  },
+  "froslass": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "rotom": {
+    "base_experience": 154,
+    "growth_rate": "medium"
+  },
+  "uxie": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "mesprit": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "azelf": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "dialga": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "palkia": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "heatran": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "regigigas": {
+    "base_experience": 335,
+    "growth_rate": "slow"
+  },
+  "giratina-altered": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "cresselia": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "phione": {
+    "base_experience": 216,
+    "growth_rate": "slow"
+  },
+  "manaphy": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "darkrai": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "shaymin-land": {
+    "base_experience": 270,
+    "growth_rate": "medium-slow"
+  },
+  "arceus": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "victini": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "snivy": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "servine": {
+    "base_experience": 145,
+    "growth_rate": "medium-slow"
+  },
+  "serperior": {
+    "base_experience": 238,
+    "growth_rate": "medium-slow"
+  },
+  "tepig": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "pignite": {
+    "base_experience": 146,
+    "growth_rate": "medium-slow"
+  },
+  "emboar": {
+    "base_experience": 238,
+    "growth_rate": "medium-slow"
+  },
+  "oshawott": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "dewott": {
+    "base_experience": 145,
+    "growth_rate": "medium-slow"
+  },
+  "samurott": {
+    "base_experience": 238,
+    "growth_rate": "medium-slow"
+  },
+  "patrat": {
+    "base_experience": 51,
+    "growth_rate": "medium"
+  },
+  "watchog": {
+    "base_experience": 147,
+    "growth_rate": "medium"
+  },
+  "lillipup": {
+    "base_experience": 55,
+    "growth_rate": "medium-slow"
+  },
+  "herdier": {
+    "base_experience": 130,
+    "growth_rate": "medium-slow"
+  },
+  "stoutland": {
+    "base_experience": 250,
+    "growth_rate": "medium-slow"
+  },
+  "purrloin": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "liepard": {
+    "base_experience": 156,
+    "growth_rate": "medium"
+  },
+  "pansage": {
+    "base_experience": 63,
+    "growth_rate": "medium"
+  },
+  "simisage": {
+    "base_experience": 174,
+    "growth_rate": "medium"
+  },
+  "pansear": {
+    "base_experience": 63,
+    "growth_rate": "medium"
+  },
+  "simisear": {
+    "base_experience": 174,
+    "growth_rate": "medium"
+  },
+  "panpour": {
+    "base_experience": 63,
+    "growth_rate": "medium"
+  },
+  "simipour": {
+    "base_experience": 174,
+    "growth_rate": "medium"
+  },
+  "munna": {
+    "base_experience": 58,
+    "growth_rate": "fast"
+  },
+  "musharna": {
+    "base_experience": 170,
+    "growth_rate": "fast"
+  },
+  "pidove": {
+    "base_experience": 53,
+    "growth_rate": "medium-slow"
+  },
+  "tranquill": {
+    "base_experience": 125,
+    "growth_rate": "medium-slow"
+  },
+  "unfezant": {
+    "base_experience": 244,
+    "growth_rate": "medium-slow"
+  },
+  "blitzle": {
+    "base_experience": 59,
+    "growth_rate": "medium"
+  },
+  "zebstrika": {
+    "base_experience": 174,
+    "growth_rate": "medium"
+  },
+  "roggenrola": {
+    "base_experience": 56,
+    "growth_rate": "medium-slow"
+  },
+  "boldore": {
+    "base_experience": 137,
+    "growth_rate": "medium-slow"
+  },
+  "gigalith": {
+    "base_experience": 258,
+    "growth_rate": "medium-slow"
+  },
+  "woobat": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "swoobat": {
+    "base_experience": 149,
+    "growth_rate": "medium"
+  },
+  "drilbur": {
+    "base_experience": 66,
+    "growth_rate": "medium"
+  },
+  "excadrill": {
+    "base_experience": 178,
+    "growth_rate": "medium"
+  },
+  "audino": {
+    "base_experience": 390,
+    "growth_rate": "fast"
+  },
+  "timburr": {
+    "base_experience": 61,
+    "growth_rate": "medium-slow"
+  },
+  "gurdurr": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "conkeldurr": {
+    "base_experience": 253,
+    "growth_rate": "medium-slow"
+  },
+  "tympole": {
+    "base_experience": 59,
+    "growth_rate": "medium-slow"
+  },
+  "palpitoad": {
+    "base_experience": 134,
+    "growth_rate": "medium-slow"
+  },
+  "seismitoad": {
+    "base_experience": 255,
+    "growth_rate": "medium-slow"
+  },
+  "throh": {
+    "base_experience": 163,
+    "growth_rate": "medium"
+  },
+  "sawk": {
+    "base_experience": 163,
+    "growth_rate": "medium"
+  },
+  "sewaddle": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "swadloon": {
+    "base_experience": 133,
+    "growth_rate": "medium-slow"
+  },
+  "leavanny": {
+    "base_experience": 225,
+    "growth_rate": "medium-slow"
+  },
+  "venipede": {
+    "base_experience": 52,
+    "growth_rate": "medium-slow"
+  },
+  "whirlipede": {
+    "base_experience": 126,
+    "growth_rate": "medium-slow"
+  },
+  "scolipede": {
+    "base_experience": 243,
+    "growth_rate": "medium-slow"
+  },
+  "cottonee": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "whimsicott": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "petilil": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "lilligant": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "basculin-red-striped": {
+    "base_experience": 161,
+    "growth_rate": "medium"
+  },
+  "sandile": {
+    "base_experience": 58,
+    "growth_rate": "medium-slow"
+  },
+  "krokorok": {
+    "base_experience": 123,
+    "growth_rate": "medium-slow"
+  },
+  "krookodile": {
+    "base_experience": 260,
+    "growth_rate": "medium-slow"
+  },
+  "darumaka": {
+    "base_experience": 63,
+    "growth_rate": "medium-slow"
+  },
+  "darmanitan-standard": {
+    "base_experience": 168,
+    "growth_rate": "medium-slow"
+  },
+  "maractus": {
+    "base_experience": 161,
+    "growth_rate": "medium"
+  },
+  "dwebble": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "crustle": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "scraggy": {
+    "base_experience": 70,
+    "growth_rate": "medium"
+  },
+  "scrafty": {
+    "base_experience": 171,
+    "growth_rate": "medium"
+  },
+  "sigilyph": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "yamask": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "cofagrigus": {
+    "base_experience": 169,
+    "growth_rate": "medium"
+  },
+  "tirtouga": {
+    "base_experience": 71,
+    "growth_rate": "medium"
+  },
+  "carracosta": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "archen": {
+    "base_experience": 71,
+    "growth_rate": "medium"
+  },
+  "archeops": {
+    "base_experience": 177,
+    "growth_rate": "medium"
+  },
+  "trubbish": {
+    "base_experience": 66,
+    "growth_rate": "medium"
+  },
+  "garbodor": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "zorua": {
+    "base_experience": 66,
+    "growth_rate": "medium-slow"
+  },
+  "zoroark": {
+    "base_experience": 179,
+    "growth_rate": "medium-slow"
+  },
+  "minccino": {
+    "base_experience": 60,
+    "growth_rate": "fast"
+  },
+  "cinccino": {
+    "base_experience": 165,
+    "growth_rate": "fast"
+  },
+  "gothita": {
+    "base_experience": 58,
+    "growth_rate": "medium-slow"
+  },
+  "gothorita": {
+    "base_experience": 137,
+    "growth_rate": "medium-slow"
+  },
+  "gothitelle": {
+    "base_experience": 245,
+    "growth_rate": "medium-slow"
+  },
+  "solosis": {
+    "base_experience": 58,
+    "growth_rate": "medium-slow"
+  },
+  "duosion": {
+    "base_experience": 130,
+    "growth_rate": "medium-slow"
+  },
+  "reuniclus": {
+    "base_experience": 245,
+    "growth_rate": "medium-slow"
+  },
+  "ducklett": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "swanna": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "vanillite": {
+    "base_experience": 61,
+    "growth_rate": "slow"
+  },
+  "vanillish": {
+    "base_experience": 138,
+    "growth_rate": "slow"
+  },
+  "vanilluxe": {
+    "base_experience": 268,
+    "growth_rate": "slow"
+  },
+  "deerling": {
+    "base_experience": 67,
+    "growth_rate": "medium"
+  },
+  "sawsbuck": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "emolga": {
+    "base_experience": 150,
+    "growth_rate": "medium"
+  },
+  "karrablast": {
+    "base_experience": 63,
+    "growth_rate": "medium"
+  },
+  "escavalier": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "foongus": {
+    "base_experience": 59,
+    "growth_rate": "medium"
+  },
+  "amoonguss": {
+    "base_experience": 162,
+    "growth_rate": "medium"
+  },
+  "frillish": {
+    "base_experience": 67,
+    "growth_rate": "medium"
+  },
+  "jellicent": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "alomomola": {
+    "base_experience": 165,
+    "growth_rate": "fast"
+  },
+  "joltik": {
+    "base_experience": 64,
+    "growth_rate": "medium"
+  },
+  "galvantula": {
+    "base_experience": 165,
+    "growth_rate": "medium"
+  },
+  "ferroseed": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "ferrothorn": {
+    "base_experience": 171,
+    "growth_rate": "medium"
+  },
+  "klink": {
+    "base_experience": 60,
+    "growth_rate": "medium-slow"
+  },
+  "klang": {
+    "base_experience": 154,
+    "growth_rate": "medium-slow"
+  },
+  "klinklang": {
+    "base_experience": 260,
+    "growth_rate": "medium-slow"
+  },
+  "tynamo": {
+    "base_experience": 55,
+    "growth_rate": "slow"
+  },
+  "eelektrik": {
+    "base_experience": 142,
+    "growth_rate": "slow"
+  },
+  "eelektross": {
+    "base_experience": 232,
+    "growth_rate": "slow"
+  },
+  "elgyem": {
+    "base_experience": 67,
+    "growth_rate": "medium"
+  },
+  "beheeyem": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "litwick": {
+    "base_experience": 55,
+    "growth_rate": "medium-slow"
+  },
+  "lampent": {
+    "base_experience": 130,
+    "growth_rate": "medium-slow"
+  },
+  "chandelure": {
+    "base_experience": 260,
+    "growth_rate": "medium-slow"
+  },
+  "axew": {
+    "base_experience": 64,
+    "growth_rate": "slow"
+  },
+  "fraxure": {
+    "base_experience": 144,
+    "growth_rate": "slow"
+  },
+  "haxorus": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "cubchoo": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "beartic": {
+    "base_experience": 177,
+    "growth_rate": "medium"
+  },
+  "cryogonal": {
+    "base_experience": 180,
+    "growth_rate": "medium"
+  },
+  "shelmet": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "accelgor": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "stunfisk": {
+    "base_experience": 165,
+    "growth_rate": "medium"
+  },
+  "mienfoo": {
+    "base_experience": 70,
+    "growth_rate": "medium-slow"
+  },
+  "mienshao": {
+    "base_experience": 179,
+    "growth_rate": "medium-slow"
+  },
+  "druddigon": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "golett": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "golurk": {
+    "base_experience": 169,
+    "growth_rate": "medium"
+  },
+  "pawniard": {
+    "base_experience": 68,
+    "growth_rate": "medium"
+  },
+  "bisharp": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "bouffalant": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "rufflet": {
+    "base_experience": 70,
+    "growth_rate": "slow"
+  },
+  "braviary": {
+    "base_experience": 179,
+    "growth_rate": "slow"
+  },
+  "vullaby": {
+    "base_experience": 74,
+    "growth_rate": "slow"
+  },
+  "mandibuzz": {
+    "base_experience": 179,
+    "growth_rate": "slow"
+  },
+  "heatmor": {
+    "base_experience": 169,
+    "growth_rate": "medium"
+  },
+  "durant": {
+    "base_experience": 169,
+    "growth_rate": "medium"
+  },
+  "deino": {
+    "base_experience": 60,
+    "growth_rate": "slow"
+  },
+  "zweilous": {
+    "base_experience": 147,
+    "growth_rate": "slow"
+  },
+  "hydreigon": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "larvesta": {
+    "base_experience": 72,
+    "growth_rate": "slow"
+  },
+  "volcarona": {
+    "base_experience": 275,
+    "growth_rate": "slow"
+  },
+  "cobalion": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "terrakion": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "virizion": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "tornadus-incarnate": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "thundurus-incarnate": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "reshiram": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "zekrom": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "landorus-incarnate": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "kyurem": {
+    "base_experience": 330,
+    "growth_rate": "slow"
+  },
+  "keldeo-ordinary": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "meloetta-aria": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "genesect": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "chespin": {
+    "base_experience": 63,
+    "growth_rate": "medium-slow"
+  },
+  "quilladin": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "chesnaught": {
+    "base_experience": 239,
+    "growth_rate": "medium-slow"
+  },
+  "fennekin": {
+    "base_experience": 61,
+    "growth_rate": "medium-slow"
+  },
+  "braixen": {
+    "base_experience": 143,
+    "growth_rate": "medium-slow"
+  },
+  "delphox": {
+    "base_experience": 240,
+    "growth_rate": "medium-slow"
+  },
+  "froakie": {
+    "base_experience": 63,
+    "growth_rate": "medium-slow"
+  },
+  "frogadier": {
+    "base_experience": 142,
+    "growth_rate": "medium-slow"
+  },
+  "greninja": {
+    "base_experience": 239,
+    "growth_rate": "medium-slow"
+  },
+  "bunnelby": {
+    "base_experience": 47,
+    "growth_rate": "medium"
+  },
+  "diggersby": {
+    "base_experience": 148,
+    "growth_rate": "medium"
+  },
+  "fletchling": {
+    "base_experience": 56,
+    "growth_rate": "medium-slow"
+  },
+  "fletchinder": {
+    "base_experience": 134,
+    "growth_rate": "medium-slow"
+  },
+  "talonflame": {
+    "base_experience": 175,
+    "growth_rate": "medium-slow"
+  },
+  "scatterbug": {
+    "base_experience": 40,
+    "growth_rate": "medium"
+  },
+  "spewpa": {
+    "base_experience": 75,
+    "growth_rate": "medium"
+  },
+  "vivillon": {
+    "base_experience": 185,
+    "growth_rate": "medium"
+  },
+  "litleo": {
+    "base_experience": 74,
+    "growth_rate": "medium-slow"
+  },
+  "pyroar": {
+    "base_experience": 177,
+    "growth_rate": "medium-slow"
+  },
+  "flabebe": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "floette": {
+    "base_experience": 130,
+    "growth_rate": "medium"
+  },
+  "florges": {
+    "base_experience": 248,
+    "growth_rate": "medium"
+  },
+  "skiddo": {
+    "base_experience": 70,
+    "growth_rate": "medium"
+  },
+  "gogoat": {
+    "base_experience": 186,
+    "growth_rate": "medium"
+  },
+  "pancham": {
+    "base_experience": 70,
+    "growth_rate": "medium"
+  },
+  "pangoro": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "furfrou": {
+    "base_experience": 165,
+    "growth_rate": "medium"
+  },
+  "espurr": {
+    "base_experience": 71,
+    "growth_rate": "medium"
+  },
+  "meowstic-male": {
+    "base_experience": 163,
+    "growth_rate": "medium"
+  },
+  "honedge": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "doublade": {
+    "base_experience": 157,
+    "growth_rate": "medium"
+  },
+  "aegislash-shield": {
+    "base_experience": 250,
+    "growth_rate": "medium"
+  },
+  "spritzee": {
+    "base_experience": 68,
+    "growth_rate": "medium"
+  },
+  "aromatisse": {
+    "base_experience": 162,
+    "growth_rate": "medium"
+  },
+  "swirlix": {
+    "base_experience": 68,
+    "growth_rate": "medium"
+  },
+  "slurpuff": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "inkay": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "malamar": {
+    "base_experience": 169,
+    "growth_rate": "medium"
+  },
+  "binacle": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "barbaracle": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "skrelp": {
+    "base_experience": 64,
+    "growth_rate": "medium"
+  },
+  "dragalge": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "clauncher": {
+    "base_experience": 66,
+    "growth_rate": "slow"
+  },
+  "clawitzer": {
+    "base_experience": 100,
+    "growth_rate": "slow"
+  },
+  "helioptile": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "heliolisk": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "tyrunt": {
+    "base_experience": 72,
+    "growth_rate": "medium"
+  },
+  "tyrantrum": {
+    "base_experience": 182,
+    "growth_rate": "medium"
+  },
+  "amaura": {
+    "base_experience": 72,
+    "growth_rate": "medium"
+  },
+  "aurorus": {
+    "base_experience": 104,
+    "growth_rate": "medium"
+  },
+  "sylveon": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "hawlucha": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "dedenne": {
+    "base_experience": 151,
+    "growth_rate": "medium"
+  },
+  "carbink": {
+    "base_experience": 100,
+    "growth_rate": "slow"
+  },
+  "goomy": {
+    "base_experience": 60,
+    "growth_rate": "slow"
+  },
+  "sliggoo": {
+    "base_experience": 158,
+    "growth_rate": "slow"
+  },
+  "goodra": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "klefki": {
+    "base_experience": 165,
+    "growth_rate": "fast"
+  },
+  "phantump": {
+    "base_experience": 62,
+    "growth_rate": "medium"
+  },
+  "trevenant": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "pumpkaboo-average": {
+    "base_experience": 67,
+    "growth_rate": "medium"
+  },
+  "gourgeist-average": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "bergmite": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "avalugg": {
+    "base_experience": 180,
+    "growth_rate": "medium"
+  },
+  "noibat": {
+    "base_experience": 49,
+    "growth_rate": "medium"
+  },
+  "noivern": {
+    "base_experience": 187,
+    "growth_rate": "medium"
+  },
+  "xerneas": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "yveltal": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "zygarde-50": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "diancie": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "hoopa": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "volcanion": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "rowlet": {
+    "base_experience": 64,
+    "growth_rate": "medium-slow"
+  },
+  "dartrix": {
+    "base_experience": 147,
+    "growth_rate": "medium-slow"
+  },
+  "decidueye": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "litten": {
+    "base_experience": 64,
+    "growth_rate": "medium-slow"
+  },
+  "torracat": {
+    "base_experience": 147,
+    "growth_rate": "medium-slow"
+  },
+  "incineroar": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "popplio": {
+    "base_experience": 64,
+    "growth_rate": "medium-slow"
+  },
+  "brionne": {
+    "base_experience": 147,
+    "growth_rate": "medium-slow"
+  },
+  "primarina": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "pikipek": {
+    "base_experience": 53,
+    "growth_rate": "medium"
+  },
+  "trumbeak": {
+    "base_experience": 124,
+    "growth_rate": "medium"
+  },
+  "toucannon": {
+    "base_experience": 218,
+    "growth_rate": "medium"
+  },
+  "yungoos": {
+    "base_experience": 51,
+    "growth_rate": "medium"
+  },
+  "gumshoos": {
+    "base_experience": 146,
+    "growth_rate": "medium"
+  },
+  "grubbin": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "charjabug": {
+    "base_experience": 140,
+    "growth_rate": "medium"
+  },
+  "vikavolt": {
+    "base_experience": 250,
+    "growth_rate": "medium"
+  },
+  "crabrawler": {
+    "base_experience": 68,
+    "growth_rate": "medium"
+  },
+  "crabominable": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "oricorio-baile": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "cutiefly": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "ribombee": {
+    "base_experience": 162,
+    "growth_rate": "medium"
+  },
+  "rockruff": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "lycanroc-midday": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "wishiwashi-solo": {
+    "base_experience": 61,
+    "growth_rate": "fast"
+  },
+  "mareanie": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "toxapex": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "mudbray": {
+    "base_experience": 77,
+    "growth_rate": "medium"
+  },
+  "mudsdale": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "dewpider": {
+    "base_experience": 54,
+    "growth_rate": "medium"
+  },
+  "araquanid": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "fomantis": {
+    "base_experience": 50,
+    "growth_rate": "medium"
+  },
+  "lurantis": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "morelull": {
+    "base_experience": 57,
+    "growth_rate": "medium"
+  },
+  "shiinotic": {
+    "base_experience": 142,
+    "growth_rate": "medium"
+  },
+  "salandit": {
+    "base_experience": 64,
+    "growth_rate": "medium"
+  },
+  "salazzle": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "stufful": {
+    "base_experience": 68,
+    "growth_rate": "medium"
+  },
+  "bewear": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "bounsweet": {
+    "base_experience": 42,
+    "growth_rate": "medium-slow"
+  },
+  "steenee": {
+    "base_experience": 102,
+    "growth_rate": "medium-slow"
+  },
+  "tsareena": {
+    "base_experience": 255,
+    "growth_rate": "medium-slow"
+  },
+  "comfey": {
+    "base_experience": 170,
+    "growth_rate": "fast"
+  },
+  "oranguru": {
+    "base_experience": 172,
+    "growth_rate": "slow"
+  },
+  "passimian": {
+    "base_experience": 172,
+    "growth_rate": "slow"
+  },
+  "wimpod": {
+    "base_experience": 46,
+    "growth_rate": "medium"
+  },
+  "golisopod": {
+    "base_experience": 186,
+    "growth_rate": "medium"
+  },
+  "sandygast": {
+    "base_experience": 64,
+    "growth_rate": "medium"
+  },
+  "palossand": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "pyukumuku": {
+    "base_experience": 144,
+    "growth_rate": "fast"
+  },
+  "type-null": {
+    "base_experience": 107,
+    "growth_rate": "slow"
+  },
+  "silvally": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "minior-red-meteor": {
+    "base_experience": 154,
+    "growth_rate": "medium-slow"
+  },
+  "komala": {
+    "base_experience": 168,
+    "growth_rate": "slow"
+  },
+  "turtonator": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "togedemaru": {
+    "base_experience": 152,
+    "growth_rate": "medium"
+  },
+  "mimikyu-disguised": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "bruxish": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "drampa": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "dhelmise": {
+    "base_experience": 181,
+    "growth_rate": "medium"
+  },
+  "jangmo-o": {
+    "base_experience": 60,
+    "growth_rate": "slow"
+  },
+  "hakamo-o": {
+    "base_experience": 147,
+    "growth_rate": "slow"
+  },
+  "kommo-o": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "tapu-koko": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "tapu-lele": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "tapu-bulu": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "tapu-fini": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "cosmog": {
+    "base_experience": 40,
+    "growth_rate": "slow"
+  },
+  "cosmoem": {
+    "base_experience": 140,
+    "growth_rate": "slow"
+  },
+  "solgaleo": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "lunala": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "nihilego": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "buzzwole": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "pheromosa": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "xurkitree": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "celesteela": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "kartana": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "guzzlord": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "necrozma": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "magearna": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "marshadow": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "poipole": {
+    "base_experience": 210,
+    "growth_rate": "slow"
+  },
+  "naganadel": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "stakataka": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "blacephalon": {
+    "base_experience": 285,
+    "growth_rate": "slow"
+  },
+  "zeraora": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "meltan": {
+    "base_experience": 150,
+    "growth_rate": "slow"
+  },
+  "melmetal": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "grookey": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "thwackey": {
+    "base_experience": 147,
+    "growth_rate": "medium-slow"
+  },
+  "rillaboom": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "scorbunny": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "raboot": {
+    "base_experience": 147,
+    "growth_rate": "medium-slow"
+  },
+  "cinderace": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "sobble": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "drizzile": {
+    "base_experience": 147,
+    "growth_rate": "medium-slow"
+  },
+  "inteleon": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "skwovet": {
+    "base_experience": 55,
+    "growth_rate": "medium"
+  },
+  "greedent": {
+    "base_experience": 161,
+    "growth_rate": "medium"
+  },
+  "rookidee": {
+    "base_experience": 49,
+    "growth_rate": "medium-slow"
+  },
+  "corvisquire": {
+    "base_experience": 128,
+    "growth_rate": "medium-slow"
+  },
+  "corviknight": {
+    "base_experience": 248,
+    "growth_rate": "medium-slow"
+  },
+  "blipbug": {
+    "base_experience": 36,
+    "growth_rate": "medium"
+  },
+  "dottler": {
+    "base_experience": 117,
+    "growth_rate": "medium"
+  },
+  "orbeetle": {
+    "base_experience": 253,
+    "growth_rate": "medium"
+  },
+  "nickit": {
+    "base_experience": 49,
+    "growth_rate": "fast"
+  },
+  "thievul": {
+    "base_experience": 159,
+    "growth_rate": "fast"
+  },
+  "gossifleur": {
+    "base_experience": 50,
+    "growth_rate": "medium"
+  },
+  "eldegoss": {
+    "base_experience": 161,
+    "growth_rate": "medium"
+  },
+  "wooloo": {
+    "base_experience": 122,
+    "growth_rate": "medium"
+  },
+  "dubwool": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "chewtle": {
+    "base_experience": 57,
+    "growth_rate": "medium"
+  },
+  "drednaw": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "yamper": {
+    "base_experience": 54,
+    "growth_rate": "fast"
+  },
+  "boltund": {
+    "base_experience": 172,
+    "growth_rate": "fast"
+  },
+  "rolycoly": {
+    "base_experience": 48,
+    "growth_rate": "medium-slow"
+  },
+  "carkol": {
+    "base_experience": 144,
+    "growth_rate": "medium-slow"
+  },
+  "coalossal": {
+    "base_experience": 255,
+    "growth_rate": "medium-slow"
+  },
+  "applin": {
+    "base_experience": 52,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "flapple": {
+    "base_experience": 170,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "appletun": {
+    "base_experience": 170,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "silicobra": {
+    "base_experience": 63,
+    "growth_rate": "medium"
+  },
+  "sandaconda": {
+    "base_experience": 179,
+    "growth_rate": "medium"
+  },
+  "cramorant": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "arrokuda": {
+    "base_experience": 56,
+    "growth_rate": "slow"
+  },
+  "barraskewda": {
+    "base_experience": 172,
+    "growth_rate": "slow"
+  },
+  "toxel": {
+    "base_experience": 48,
+    "growth_rate": "medium-slow"
+  },
+  "toxtricity-amped": {
+    "base_experience": 176,
+    "growth_rate": "medium-slow"
+  },
+  "sizzlipede": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "centiskorch": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "clobbopus": {
+    "base_experience": 62,
+    "growth_rate": "medium-slow"
+  },
+  "grapploct": {
+    "base_experience": 168,
+    "growth_rate": "medium-slow"
+  },
+  "sinistea": {
+    "base_experience": 62,
+    "growth_rate": "medium"
+  },
+  "polteageist": {
+    "base_experience": 178,
+    "growth_rate": "medium"
+  },
+  "hatenna": {
+    "base_experience": 53,
+    "growth_rate": "slow"
+  },
+  "hattrem": {
+    "base_experience": 130,
+    "growth_rate": "slow"
+  },
+  "hatterene": {
+    "base_experience": 255,
+    "growth_rate": "slow"
+  },
+  "impidimp": {
+    "base_experience": 53,
+    "growth_rate": "medium"
+  },
+  "morgrem": {
+    "base_experience": 130,
+    "growth_rate": "medium"
+  },
+  "grimmsnarl": {
+    "base_experience": 255,
+    "growth_rate": "medium"
+  },
+  "obstagoon": {
+    "base_experience": 260,
+    "growth_rate": "medium"
+  },
+  "perrserker": {
+    "base_experience": 154,
+    "growth_rate": "medium"
+  },
+  "cursola": {
+    "base_experience": 179,
+    "growth_rate": "fast"
+  },
+  "sirfetchd": {
+    "base_experience": 177,
+    "growth_rate": "medium"
+  },
+  "mr-rime": {
+    "base_experience": 182,
+    "growth_rate": "medium"
+  },
+  "runerigus": {
+    "base_experience": 169,
+    "growth_rate": "medium"
+  },
+  "milcery": {
+    "base_experience": 54,
+    "growth_rate": "medium"
+  },
+  "alcremie": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "falinks": {
+    "base_experience": 165,
+    "growth_rate": "medium"
+  },
+  "pincurchin": {
+    "base_experience": 152,
+    "growth_rate": "medium"
+  },
+  "snom": {
+    "base_experience": 37,
+    "growth_rate": "medium"
+  },
+  "frosmoth": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "stonjourner": {
+    "base_experience": 165,
+    "growth_rate": "slow"
+  },
+  "eiscue-ice": {
+    "base_experience": 165,
+    "growth_rate": "slow"
+  },
+  "indeedee-male": {
+    "base_experience": 166,
+    "growth_rate": "fast"
+  },
+  "morpeko-full-belly": {
+    "base_experience": 153,
+    "growth_rate": "medium"
+  },
+  "cufant": {
+    "base_experience": 66,
+    "growth_rate": "medium"
+  },
+  "copperajah": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "dracozolt": {
+    "base_experience": 177,
+    "growth_rate": "slow"
+  },
+  "arctozolt": {
+    "base_experience": 177,
+    "growth_rate": "slow"
+  },
+  "dracovish": {
+    "base_experience": 177,
+    "growth_rate": "slow"
+  },
+  "arctovish": {
+    "base_experience": 177,
+    "growth_rate": "slow"
+  },
+  "duraludon": {
+    "base_experience": 187,
+    "growth_rate": "medium"
+  },
+  "dreepy": {
+    "base_experience": 54,
+    "growth_rate": "slow"
+  },
+  "drakloak": {
+    "base_experience": 144,
+    "growth_rate": "slow"
+  },
+  "dragapult": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "zacian": {
+    "base_experience": 335,
+    "growth_rate": "slow"
+  },
+  "zamazenta": {
+    "base_experience": 335,
+    "growth_rate": "slow"
+  },
+  "eternatus": {
+    "base_experience": 345,
+    "growth_rate": "slow"
+  },
+  "kubfu": {
+    "base_experience": 77,
+    "growth_rate": "slow"
+  },
+  "urshifu-single-strike": {
+    "base_experience": 275,
+    "growth_rate": "slow"
+  },
+  "zarude": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "regieleki": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "regidrago": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "glastrier": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "spectrier": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "calyrex": {
+    "base_experience": 250,
+    "growth_rate": "slow"
+  },
+  "wyrdeer": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "kleavor": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "ursaluna": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "basculegion-male": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "sneasler": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "overqwil": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "enamorus-incarnate": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "sprigatito": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "floragato": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "meowscarada": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "fuecoco": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "crocalor": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "skeledirge": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "quaxly": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "quaxwell": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "quaquaval": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "lechonk": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "oinkologne": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "tarountula": {
+    "base_experience": null,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "spidops": {
+    "base_experience": null,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "nymble": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "lokix": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "pawmi": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "pawmo": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "pawmot": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "tandemaus": {
+    "base_experience": null,
+    "growth_rate": "fast"
+  },
+  "maushold": {
+    "base_experience": null,
+    "growth_rate": "fast"
+  },
+  "fidough": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "dachsbun": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "smoliv": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "dolliv": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "arboliva": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "squawkabilly": {
+    "base_experience": null,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "nacli": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "naclstack": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "garganacl": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "charcadet": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "armarouge": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "ceruledge": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "tadbulb": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "bellibolt": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "wattrel": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "kilowattrel": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "maschiff": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "mabosstiff": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "shroodle": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "grafaiai": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "bramblin": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "brambleghast": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "toedscool": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "toedscruel": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "klawf": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "capsakid": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "scovillain": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "rellor": {
+    "base_experience": null,
+    "growth_rate": "fast"
+  },
+  "rabsca": {
+    "base_experience": null,
+    "growth_rate": "fast"
+  },
+  "flittle": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "espathra": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "tinkatink": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "tinkatuff": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "tinkaton": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "wiglett": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "wugtrio": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "bombirdier": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "finizen": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "palafin": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "varoom": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "revavroom": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "cyclizar": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "orthworm": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "glimmet": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "glimmora": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "greavard": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "houndstone": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "flamigo": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "cetoddle": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "cetitan": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "veluza": {
+    "base_experience": null,
+    "growth_rate": "fast"
+  },
+  "dondozo": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "tatsugiri": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "annihilape": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "clodsire": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "farigiraf": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "dudunsparce": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "kingambit": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "great-tusk": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "scream-tail": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "brute-bonnet": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "flutter-mane": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "slither-wing": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "sandy-shocks": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-treads": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-bundle": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-hands": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-jugulis": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-moth": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-thorns": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "frigibax": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "arctibax": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "baxcalibur": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "gimmighoul": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "gholdengo": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "wo-chien": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "chien-pao": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "ting-lu": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "chi-yu": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "roaring-moon": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-valiant": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "koraidon": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "miraidon": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "walking-wake": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-leaves": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "dipplin": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "poltchageist": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "sinistcha": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "okidogi": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "munkidori": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "fezandipiti": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "ogerpon": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "archaludon": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "hydrapple": {
+    "base_experience": null,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "gouging-fire": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "raging-bolt": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-boulder": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "iron-crown": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "terapagos": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "pecharunt": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "deoxys-attack": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "deoxys-defense": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "deoxys-speed": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "wormadam-sandy": {
+    "base_experience": 148,
+    "growth_rate": "medium"
+  },
+  "wormadam-trash": {
+    "base_experience": 148,
+    "growth_rate": "medium"
+  },
+  "shaymin-sky": {
+    "base_experience": 270,
+    "growth_rate": "medium-slow"
+  },
+  "giratina-origin": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "rotom-heat": {
+    "base_experience": 182,
+    "growth_rate": "medium"
+  },
+  "rotom-wash": {
+    "base_experience": 182,
+    "growth_rate": "medium"
+  },
+  "rotom-frost": {
+    "base_experience": 182,
+    "growth_rate": "medium"
+  },
+  "rotom-fan": {
+    "base_experience": 182,
+    "growth_rate": "medium"
+  },
+  "rotom-mow": {
+    "base_experience": 182,
+    "growth_rate": "medium"
+  },
+  "castform-sunny": {
+    "base_experience": 147,
+    "growth_rate": "medium"
+  },
+  "castform-rainy": {
+    "base_experience": 147,
+    "growth_rate": "medium"
+  },
+  "castform-snowy": {
+    "base_experience": 147,
+    "growth_rate": "medium"
+  },
+  "basculin-blue-striped": {
+    "base_experience": 161,
+    "growth_rate": "medium"
+  },
+  "darmanitan-zen": {
+    "base_experience": 189,
+    "growth_rate": "medium-slow"
+  },
+  "meloetta-pirouette": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "tornadus-therian": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "thundurus-therian": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "landorus-therian": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "kyurem-black": {
+    "base_experience": 350,
+    "growth_rate": "slow"
+  },
+  "kyurem-white": {
+    "base_experience": 350,
+    "growth_rate": "slow"
+  },
+  "keldeo-resolute": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "meowstic-female": {
+    "base_experience": 163,
+    "growth_rate": "medium"
+  },
+  "aegislash-blade": {
+    "base_experience": 250,
+    "growth_rate": "medium"
+  },
+  "pumpkaboo-small": {
+    "base_experience": 67,
+    "growth_rate": "medium"
+  },
+  "pumpkaboo-large": {
+    "base_experience": 67,
+    "growth_rate": "medium"
+  },
+  "pumpkaboo-super": {
+    "base_experience": 67,
+    "growth_rate": "medium"
+  },
+  "gourgeist-small": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "gourgeist-large": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "gourgeist-super": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "venusaur-mega": {
+    "base_experience": 281,
+    "growth_rate": "medium-slow"
+  },
+  "charizard-mega-x": {
+    "base_experience": 285,
+    "growth_rate": "medium-slow"
+  },
+  "charizard-mega-y": {
+    "base_experience": 285,
+    "growth_rate": "medium-slow"
+  },
+  "blastoise-mega": {
+    "base_experience": 284,
+    "growth_rate": "medium-slow"
+  },
+  "alakazam-mega": {
+    "base_experience": 270,
+    "growth_rate": "medium-slow"
+  },
+  "gengar-mega": {
+    "base_experience": 270,
+    "growth_rate": "medium-slow"
+  },
+  "kangaskhan-mega": {
+    "base_experience": 207,
+    "growth_rate": "medium"
+  },
+  "pinsir-mega": {
+    "base_experience": 210,
+    "growth_rate": "slow"
+  },
+  "gyarados-mega": {
+    "base_experience": 224,
+    "growth_rate": "slow"
+  },
+  "aerodactyl-mega": {
+    "base_experience": 215,
+    "growth_rate": "slow"
+  },
+  "mewtwo-mega-x": {
+    "base_experience": 351,
+    "growth_rate": "slow"
+  },
+  "mewtwo-mega-y": {
+    "base_experience": 351,
+    "growth_rate": "slow"
+  },
+  "ampharos-mega": {
+    "base_experience": 275,
+    "growth_rate": "medium-slow"
+  },
+  "scizor-mega": {
+    "base_experience": 210,
+    "growth_rate": "medium"
+  },
+  "heracross-mega": {
+    "base_experience": 210,
+    "growth_rate": "slow"
+  },
+  "houndoom-mega": {
+    "base_experience": 210,
+    "growth_rate": "slow"
+  },
+  "tyranitar-mega": {
+    "base_experience": 315,
+    "growth_rate": "slow"
+  },
+  "blaziken-mega": {
+    "base_experience": 284,
+    "growth_rate": "medium-slow"
+  },
+  "gardevoir-mega": {
+    "base_experience": 278,
+    "growth_rate": "slow"
+  },
+  "mawile-mega": {
+    "base_experience": 168,
+    "growth_rate": "fast"
+  },
+  "aggron-mega": {
+    "base_experience": 284,
+    "growth_rate": "slow"
+  },
+  "medicham-mega": {
+    "base_experience": 179,
+    "growth_rate": "medium"
+  },
+  "manectric-mega": {
+    "base_experience": 201,
+    "growth_rate": "slow"
+  },
+  "banette-mega": {
+    "base_experience": 194,
+    "growth_rate": "fast"
+  },
+  "absol-mega": {
+    "base_experience": 198,
+    "growth_rate": "medium-slow"
+  },
+  "garchomp-mega": {
+    "base_experience": 315,
+    "growth_rate": "slow"
+  },
+  "lucario-mega": {
+    "base_experience": 219,
+    "growth_rate": "medium-slow"
+  },
+  "abomasnow-mega": {
+    "base_experience": 208,
+    "growth_rate": "slow"
+  },
+  "floette-eternal": {
+    "base_experience": 243,
+    "growth_rate": "medium"
+  },
+  "latias-mega": {
+    "base_experience": 315,
+    "growth_rate": "slow"
+  },
+  "latios-mega": {
+    "base_experience": 315,
+    "growth_rate": "slow"
+  },
+  "swampert-mega": {
+    "base_experience": 286,
+    "growth_rate": "medium-slow"
+  },
+  "sceptile-mega": {
+    "base_experience": 284,
+    "growth_rate": "medium-slow"
+  },
+  "sableye-mega": {
+    "base_experience": 168,
+    "growth_rate": "medium-slow"
+  },
+  "altaria-mega": {
+    "base_experience": 207,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "gallade-mega": {
+    "base_experience": 278,
+    "growth_rate": "slow"
+  },
+  "audino-mega": {
+    "base_experience": 425,
+    "growth_rate": "fast"
+  },
+  "sharpedo-mega": {
+    "base_experience": 196,
+    "growth_rate": "slow"
+  },
+  "slowbro-mega": {
+    "base_experience": 207,
+    "growth_rate": "medium"
+  },
+  "steelix-mega": {
+    "base_experience": 214,
+    "growth_rate": "medium"
+  },
+  "pidgeot-mega": {
+    "base_experience": 261,
+    "growth_rate": "medium-slow"
+  },
+  "glalie-mega": {
+    "base_experience": 203,
+    "growth_rate": "medium"
+  },
+  "diancie-mega": {
+    "base_experience": 315,
+    "growth_rate": "slow"
+  },
+  "metagross-mega": {
+    "base_experience": 315,
+    "growth_rate": "slow"
+  },
+  "kyogre-primal": {
+    "base_experience": 347,
+    "growth_rate": "slow"
+  },
+  "groudon-primal": {
+    "base_experience": 347,
+    "growth_rate": "slow"
+  },
+  "rayquaza-mega": {
+    "base_experience": 351,
+    "growth_rate": "slow"
+  },
+  "pikachu-rock-star": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-belle": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-pop-star": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-phd": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-libre": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-cosplay": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "hoopa-unbound": {
+    "base_experience": 306,
+    "growth_rate": "slow"
+  },
+  "camerupt-mega": {
+    "base_experience": 196,
+    "growth_rate": "medium"
+  },
+  "lopunny-mega": {
+    "base_experience": 203,
+    "growth_rate": "medium"
+  },
+  "salamence-mega": {
+    "base_experience": 315,
+    "growth_rate": "slow"
+  },
+  "beedrill-mega": {
+    "base_experience": 223,
+    "growth_rate": "medium"
+  },
+  "rattata-alola": {
+    "base_experience": 51,
+    "growth_rate": "medium"
+  },
+  "raticate-alola": {
+    "base_experience": 145,
+    "growth_rate": "medium"
+  },
+  "raticate-totem-alola": {
+    "base_experience": 145,
+    "growth_rate": "medium"
+  },
+  "pikachu-original-cap": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-hoenn-cap": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-sinnoh-cap": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-unova-cap": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-kalos-cap": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "pikachu-alola-cap": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "raichu-alola": {
+    "base_experience": 243,
+    "growth_rate": "medium"
+  },
+  "sandshrew-alola": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "sandslash-alola": {
+    "base_experience": 158,
+    "growth_rate": "medium"
+  },
+  "vulpix-alola": {
+    "base_experience": 60,
+    "growth_rate": "medium"
+  },
+  "ninetales-alola": {
+    "base_experience": 177,
+    "growth_rate": "medium"
+  },
+  "diglett-alola": {
+    "base_experience": 53,
+    "growth_rate": "medium"
+  },
+  "dugtrio-alola": {
+    "base_experience": 149,
+    "growth_rate": "medium"
+  },
+  "meowth-alola": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "persian-alola": {
+    "base_experience": 154,
+    "growth_rate": "medium"
+  },
+  "geodude-alola": {
+    "base_experience": 60,
+    "growth_rate": "medium-slow"
+  },
+  "graveler-alola": {
+    "base_experience": 137,
+    "growth_rate": "medium-slow"
+  },
+  "golem-alola": {
+    "base_experience": 223,
+    "growth_rate": "medium-slow"
+  },
+  "grimer-alola": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "muk-alola": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "exeggutor-alola": {
+    "base_experience": 186,
+    "growth_rate": "slow"
+  },
+  "marowak-alola": {
+    "base_experience": 149,
+    "growth_rate": "medium"
+  },
+  "greninja-battle-bond": {
+    "base_experience": 239,
+    "growth_rate": "medium-slow"
+  },
+  "greninja-ash": {
+    "base_experience": 288,
+    "growth_rate": "medium-slow"
+  },
+  "zygarde-10-power-construct": {
+    "base_experience": 243,
+    "growth_rate": "slow"
+  },
+  "zygarde-50-power-construct": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "zygarde-complete": {
+    "base_experience": 354,
+    "growth_rate": "slow"
+  },
+  "gumshoos-totem": {
+    "base_experience": 146,
+    "growth_rate": "medium"
+  },
+  "vikavolt-totem": {
+    "base_experience": 225,
+    "growth_rate": "medium"
+  },
+  "oricorio-pom-pom": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "oricorio-pau": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "oricorio-sensu": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "lycanroc-midnight": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "wishiwashi-school": {
+    "base_experience": 217,
+    "growth_rate": "fast"
+  },
+  "lurantis-totem": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "salazzle-totem": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "minior-orange-meteor": {
+    "base_experience": 154,
+    "growth_rate": "medium-slow"
+  },
+  "minior-yellow-meteor": {
+    "base_experience": 154,
+    "growth_rate": "medium-slow"
+  },
+  "minior-green-meteor": {
+    "base_experience": 154,
+    "growth_rate": "medium-slow"
+  },
+  "minior-blue-meteor": {
+    "base_experience": 154,
+    "growth_rate": "medium-slow"
+  },
+  "minior-indigo-meteor": {
+    "base_experience": 154,
+    "growth_rate": "medium-slow"
+  },
+  "minior-violet-meteor": {
+    "base_experience": 154,
+    "growth_rate": "medium-slow"
+  },
+  "minior-red": {
+    "base_experience": 175,
+    "growth_rate": "medium-slow"
+  },
+  "minior-orange": {
+    "base_experience": 175,
+    "growth_rate": "medium-slow"
+  },
+  "minior-yellow": {
+    "base_experience": 175,
+    "growth_rate": "medium-slow"
+  },
+  "minior-green": {
+    "base_experience": 175,
+    "growth_rate": "medium-slow"
+  },
+  "minior-blue": {
+    "base_experience": 175,
+    "growth_rate": "medium-slow"
+  },
+  "minior-indigo": {
+    "base_experience": 175,
+    "growth_rate": "medium-slow"
+  },
+  "minior-violet": {
+    "base_experience": 175,
+    "growth_rate": "medium-slow"
+  },
+  "mimikyu-busted": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "mimikyu-totem-disguised": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "mimikyu-totem-busted": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "kommo-o-totem": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "magearna-original": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "pikachu-partner-cap": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "marowak-totem": {
+    "base_experience": 149,
+    "growth_rate": "medium"
+  },
+  "ribombee-totem": {
+    "base_experience": 162,
+    "growth_rate": "medium"
+  },
+  "rockruff-own-tempo": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "lycanroc-dusk": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "araquanid-totem": {
+    "base_experience": 159,
+    "growth_rate": "medium"
+  },
+  "togedemaru-totem": {
+    "base_experience": 152,
+    "growth_rate": "medium"
+  },
+  "necrozma-dusk": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "necrozma-dawn": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "necrozma-ultra": {
+    "base_experience": 339,
+    "growth_rate": "slow"
+  },
+  "pikachu-starter": {
+    "base_experience": 86,
+    "growth_rate": "medium"
+  },
+  "eevee-starter": {
+    "base_experience": 87,
+    "growth_rate": "medium"
+  },
+  "pikachu-world-cap": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "meowth-galar": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "ponyta-galar": {
+    "base_experience": 82,
+    "growth_rate": "medium"
+  },
+  "rapidash-galar": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "slowpoke-galar": {
+    "base_experience": 63,
+    "growth_rate": "medium"
+  },
+  "slowbro-galar": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "farfetchd-galar": {
+    "base_experience": 132,
+    "growth_rate": "medium"
+  },
+  "weezing-galar": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "mr-mime-galar": {
+    "base_experience": 161,
+    "growth_rate": "medium"
+  },
+  "articuno-galar": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "zapdos-galar": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "moltres-galar": {
+    "base_experience": 290,
+    "growth_rate": "slow"
+  },
+  "slowking-galar": {
+    "base_experience": 172,
+    "growth_rate": "medium"
+  },
+  "corsola-galar": {
+    "base_experience": 144,
+    "growth_rate": "fast"
+  },
+  "zigzagoon-galar": {
+    "base_experience": 56,
+    "growth_rate": "medium"
+  },
+  "linoone-galar": {
+    "base_experience": 147,
+    "growth_rate": "medium"
+  },
+  "darumaka-galar": {
+    "base_experience": 63,
+    "growth_rate": "medium-slow"
+  },
+  "darmanitan-galar-standard": {
+    "base_experience": 168,
+    "growth_rate": "medium-slow"
+  },
+  "darmanitan-galar-zen": {
+    "base_experience": 189,
+    "growth_rate": "medium-slow"
+  },
+  "yamask-galar": {
+    "base_experience": 61,
+    "growth_rate": "medium"
+  },
+  "stunfisk-galar": {
+    "base_experience": 165,
+    "growth_rate": "medium"
+  },
+  "zygarde-10": {
+    "base_experience": 243,
+    "growth_rate": "slow"
+  },
+  "cramorant-gulping": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "cramorant-gorging": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "toxtricity-low-key": {
+    "base_experience": 176,
+    "growth_rate": "medium-slow"
+  },
+  "eiscue-noice": {
+    "base_experience": 165,
+    "growth_rate": "slow"
+  },
+  "indeedee-female": {
+    "base_experience": 166,
+    "growth_rate": "fast"
+  },
+  "morpeko-hangry": {
+    "base_experience": 153,
+    "growth_rate": "medium"
+  },
+  "zacian-crowned": {
+    "base_experience": 360,
+    "growth_rate": "slow"
+  },
+  "zamazenta-crowned": {
+    "base_experience": 360,
+    "growth_rate": "slow"
+  },
+  "eternatus-eternamax": {
+    "base_experience": 563,
+    "growth_rate": "slow"
+  },
+  "urshifu-rapid-strike": {
+    "base_experience": 275,
+    "growth_rate": "slow"
+  },
+  "zarude-dada": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "calyrex-ice": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "calyrex-shadow": {
+    "base_experience": 340,
+    "growth_rate": "slow"
+  },
+  "venusaur-gmax": {
+    "base_experience": 236,
+    "growth_rate": "medium-slow"
+  },
+  "charizard-gmax": {
+    "base_experience": 240,
+    "growth_rate": "medium-slow"
+  },
+  "blastoise-gmax": {
+    "base_experience": 239,
+    "growth_rate": "medium-slow"
+  },
+  "butterfree-gmax": {
+    "base_experience": 178,
+    "growth_rate": "medium"
+  },
+  "pikachu-gmax": {
+    "base_experience": 112,
+    "growth_rate": "medium"
+  },
+  "meowth-gmax": {
+    "base_experience": 58,
+    "growth_rate": "medium"
+  },
+  "machamp-gmax": {
+    "base_experience": 227,
+    "growth_rate": "medium-slow"
+  },
+  "gengar-gmax": {
+    "base_experience": 225,
+    "growth_rate": "medium-slow"
+  },
+  "kingler-gmax": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "lapras-gmax": {
+    "base_experience": 187,
+    "growth_rate": "slow"
+  },
+  "eevee-gmax": {
+    "base_experience": 65,
+    "growth_rate": "medium"
+  },
+  "snorlax-gmax": {
+    "base_experience": 189,
+    "growth_rate": "slow"
+  },
+  "garbodor-gmax": {
+    "base_experience": 166,
+    "growth_rate": "medium"
+  },
+  "melmetal-gmax": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "rillaboom-gmax": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "cinderace-gmax": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "inteleon-gmax": {
+    "base_experience": 265,
+    "growth_rate": "medium-slow"
+  },
+  "corviknight-gmax": {
+    "base_experience": 248,
+    "growth_rate": "medium-slow"
+  },
+  "orbeetle-gmax": {
+    "base_experience": 253,
+    "growth_rate": "medium"
+  },
+  "drednaw-gmax": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "coalossal-gmax": {
+    "base_experience": 255,
+    "growth_rate": "medium-slow"
+  },
+  "flapple-gmax": {
+    "base_experience": 170,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "appletun-gmax": {
+    "base_experience": 170,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "sandaconda-gmax": {
+    "base_experience": 179,
+    "growth_rate": "medium"
+  },
+  "toxtricity-amped-gmax": {
+    "base_experience": 176,
+    "growth_rate": "medium-slow"
+  },
+  "centiskorch-gmax": {
+    "base_experience": 184,
+    "growth_rate": "medium"
+  },
+  "hatterene-gmax": {
+    "base_experience": 255,
+    "growth_rate": "slow"
+  },
+  "grimmsnarl-gmax": {
+    "base_experience": 255,
+    "growth_rate": "medium"
+  },
+  "alcremie-gmax": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "copperajah-gmax": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "duraludon-gmax": {
+    "base_experience": 187,
+    "growth_rate": "medium"
+  },
+  "urshifu-single-strike-gmax": {
+    "base_experience": 275,
+    "growth_rate": "slow"
+  },
+  "urshifu-rapid-strike-gmax": {
+    "base_experience": 275,
+    "growth_rate": "slow"
+  },
+  "toxtricity-low-key-gmax": {
+    "base_experience": 176,
+    "growth_rate": "medium-slow"
+  },
+  "growlithe-hisui": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "arcanine-hisui": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "voltorb-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "electrode-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "typhlosion-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "qwilfish-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "sneasel-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "samurott-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "lilligant-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "zorua-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "zoroark-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "braviary-hisui": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "sliggoo-hisui": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "goodra-hisui": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "avalugg-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "decidueye-hisui": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "dialga-origin": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "palkia-origin": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "basculin-white-striped": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "basculegion-female": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "enamorus-therian": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "tauros-paldea-combat-breed": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "tauros-paldea-blaze-breed": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "tauros-paldea-aqua-breed": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "wooper-paldea": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "oinkologne-female": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "dudunsparce-three-segment": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "palafin-hero": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "maushold-family-of-three": {
+    "base_experience": null,
+    "growth_rate": "fast"
+  },
+  "tatsugiri-droopy": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "tatsugiri-stretchy": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "squawkabilly-blue-plumage": {
+    "base_experience": null,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "squawkabilly-yellow-plumage": {
+    "base_experience": null,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "squawkabilly-white-plumage": {
+    "base_experience": null,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "gimmighoul-roaming": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "koraidon-limited-build": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "koraidon-sprinting-build": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "koraidon-swimming-build": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "koraidon-gliding-build": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "miraidon-low-power-mode": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "miraidon-drive-mode": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "miraidon-aquatic-mode": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "miraidon-glide-mode": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "ursaluna-bloodmoon": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "ogerpon-wellspring-mask": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "ogerpon-hearthflame-mask": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "ogerpon-cornerstone-mask": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "terapagos-terastal": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "terapagos-stellar": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "silvally-normal": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-fighting": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-flying": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-poison": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-ground": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-rock": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-bug": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-ghost": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-steel": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-fire": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-water": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-grass": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-electric": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-psychic": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-ice": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-dragon": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-dark": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "silvally-fairy": {
+    "base_experience": 114,
+    "growth_rate": "slow"
+  },
+  "arceus-bug": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-dark": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-dragon": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-electric": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-fighting": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-fire": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-flying": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-ghost": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-grass": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-ground": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-ice": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-poison": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-psychic": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-rock": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-steel": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-water": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "arceus-fairy": {
+    "base_experience": 324,
+    "growth_rate": "slow"
+  },
+  "furfrou-natural": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "furfrou-heart": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "furfrou-star": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "furfrou-diamond": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "furfrou-debutante": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "furfrou-matron": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "furfrou-dandy": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "furfrou-la-reine": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "furfrou-kabuki": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "furfrou-pharaoh": {
+    "base_experience": 165,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "floette-red": {
+    "base_experience": 130,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "floette-yellow": {
+    "base_experience": 130,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "floette-orange": {
+    "base_experience": 130,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "floette-blue": {
+    "base_experience": 130,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "floette-white": {
+    "base_experience": 130,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "florges-red": {
+    "base_experience": 248,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "florges-yellow": {
+    "base_experience": 248,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "florges-orange": {
+    "base_experience": 248,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "florges-blue": {
+    "base_experience": 248,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "florges-white": {
+    "base_experience": 248,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "flabebe-red": {
+    "base_experience": 61,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "flabebe-yellow": {
+    "base_experience": 61,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "flabebe-orange": {
+    "base_experience": 61,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "flabebe-blue": {
+    "base_experience": 61,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "flabebe-white": {
+    "base_experience": 61,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-a": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-b": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-c": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-d": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-e": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-f": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-g": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-h": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-i": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-j": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-k": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-m": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-n": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-o": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-p": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-q": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-r": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-s": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-t": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-u": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-v": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-w": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-x": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-y": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-z": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-exclamation": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "unown-question": {
+    "base_experience": 118,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-meadow": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-icy-snow": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-polar": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-tundra": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-continental": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-garden": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-elegant": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-modern": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-marine": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-archipelago": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-high-plains": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-sandstorm": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-river": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-monsoon": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-savanna": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-sun": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-ocean": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-jungle": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-fancy": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "vivillon-poke-ball": {
+    "base_experience": 185,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "sawsbuck-spring": {
+    "base_experience": 166,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "sawsbuck-summer": {
+    "base_experience": 166,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "sawsbuck-autumn": {
+    "base_experience": 166,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "sawsbuck-winter": {
+    "base_experience": 166,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "deerling-spring": {
+    "base_experience": 67,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "deerling-summer": {
+    "base_experience": 67,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "deerling-autumn": {
+    "base_experience": 67,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "deerling-winter": {
+    "base_experience": 67,
+    "growth_rate": "slow-then-very-fast"
+  },
+  "genesect-douse": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "genesect-shock": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "genesect-burn": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "genesect-chill": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "crabominable-mega": {
+    "base_experience": 167,
+    "growth_rate": "medium"
+  },
+  "staraptor-mega": {
+    "base_experience": 218,
+    "growth_rate": "medium-slow"
+  },
+  "golisopod-mega": {
+    "base_experience": 186,
+    "growth_rate": "medium"
+  },
+  "meowstic-mega": {
+    "base_experience": 163,
+    "growth_rate": "medium"
+  },
+  "golurk-mega": {
+    "base_experience": 169,
+    "growth_rate": "medium"
+  },
+  "glimmora-mega": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "scovillain-mega": {
+    "base_experience": null,
+    "growth_rate": "medium"
+  },
+  "tatsugiri-mega": {
+    "base_experience": null,
+    "growth_rate": "medium-slow"
+  },
+  "chimecho-mega": {
+    "base_experience": 159,
+    "growth_rate": "fast"
+  },
+  "raichu-mega-x": {
+    "base_experience": 243,
+    "growth_rate": "medium"
+  },
+  "raichu-mega-y": {
+    "base_experience": 243,
+    "growth_rate": "medium"
+  },
+  "heatran-mega": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "darkrai-mega": {
+    "base_experience": 270,
+    "growth_rate": "slow"
+  },
+  "baxcalibur-mega": {
+    "base_experience": null,
+    "growth_rate": "slow"
+  },
+  "lucario-mega-z": {
+    "base_experience": 184,
+    "growth_rate": "medium-slow"
+  },
+  "zeraora-mega": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "magearna-mega": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "garchomp-mega-z": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "absol-mega-z": {
+    "base_experience": 163,
+    "growth_rate": "medium-slow"
+  },
+  "meganium-mega": {
+    "base_experience": 236,
+    "growth_rate": "medium-slow"
+  },
+  "emboar-mega": {
+    "base_experience": 238,
+    "growth_rate": "medium-slow"
+  },
+  "feraligatr-mega": {
+    "base_experience": 239,
+    "growth_rate": "medium-slow"
+  },
+  "barbaracle-mega": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "starmie-mega": {
+    "base_experience": 182,
+    "growth_rate": "slow"
+  },
+  "floette-mega": {
+    "base_experience": 130,
+    "growth_rate": "medium"
+  },
+  "pyroar-mega": {
+    "base_experience": 177,
+    "growth_rate": "medium-slow"
+  },
+  "clefable-mega": {
+    "base_experience": 242,
+    "growth_rate": "fast"
+  },
+  "scolipede-mega": {
+    "base_experience": 243,
+    "growth_rate": "medium-slow"
+  },
+  "victreebel-mega": {
+    "base_experience": 221,
+    "growth_rate": "medium-slow"
+  },
+  "excadrill-mega": {
+    "base_experience": 178,
+    "growth_rate": "medium"
+  },
+  "dragonite-mega": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "malamar-mega": {
+    "base_experience": 169,
+    "growth_rate": "medium"
+  },
+  "dragalge-mega": {
+    "base_experience": 173,
+    "growth_rate": "medium"
+  },
+  "froslass-mega": {
+    "base_experience": 168,
+    "growth_rate": "medium"
+  },
+  "hawlucha-mega": {
+    "base_experience": 175,
+    "growth_rate": "medium"
+  },
+  "scrafty-mega": {
+    "base_experience": 171,
+    "growth_rate": "medium"
+  },
+  "greninja-mega": {
+    "base_experience": 239,
+    "growth_rate": "medium-slow"
+  },
+  "falinks-mega": {
+    "base_experience": 165,
+    "growth_rate": "medium"
+  },
+  "chandelure-mega": {
+    "base_experience": 260,
+    "growth_rate": "medium-slow"
+  },
+  "chesnaught-mega": {
+    "base_experience": 239,
+    "growth_rate": "medium-slow"
+  },
+  "skarmory-mega": {
+    "base_experience": 163,
+    "growth_rate": "slow"
+  },
+  "delphox-mega": {
+    "base_experience": 240,
+    "growth_rate": "medium-slow"
+  },
+  "drampa-mega": {
+    "base_experience": 170,
+    "growth_rate": "medium"
+  },
+  "zygarde-mega": {
+    "base_experience": 300,
+    "growth_rate": "slow"
+  },
+  "eelektross-mega": {
+    "base_experience": 232,
+    "growth_rate": "slow"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen9legends/pokedex.ts"],
+  "sourcesContent": ["export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {\r\n\tstarmiemega: {\r\n\t\tinherit: true,\r\n\t\tbaseStats: { hp: 60, atk: 140, def: 105, spa: 130, spd: 105, spe: 120 },\r\n\t},\r\n\tmawilemega: {\r\n\t\tinherit: true,\r\n\t\tbaseStats: { hp: 50, atk: 147, def: 125, spa: 55, spd: 95, spe: 50 },\r\n\t},\r\n\tmedichammega: {\r\n\t\tinherit: true,\r\n\t\tbaseStats: { hp: 60, atk: 140, def: 85, spa: 80, spd: 85, spe: 100 },\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAqE;AAAA,EACjF,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,WAAW,EAAE,IAAI,IAAI,KAAK,KAAK,KAAK,KAAK,KAAK,KAAK,KAAK,KAAK,KAAK,IAAI;AAAA,EACvE;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,WAAW,EAAE,IAAI,IAAI,KAAK,KAAK,KAAK,KAAK,KAAK,IAAI,KAAK,IAAI,KAAK,GAAG;AAAA,EACpE;AAAA,EACA,cAAc;AAAA,IACb,SAAS;AAAA,IACT,WAAW,EAAE,IAAI,IAAI,KAAK,KAAK,KAAK,IAAI,KAAK,IAAI,KAAK,IAAI,KAAK,IAAI;AAAA,EACpE;AACD;",
+  "names": []
+}

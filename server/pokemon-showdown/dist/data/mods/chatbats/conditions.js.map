@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/chatbats/conditions.ts"],
+  "sourcesContent": ["export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDataTable = {\r\n\tfrostbite: {\r\n\t\tname: 'frostbite',\r\n\t\teffectType: 'Status',\r\n\t\tonStart(target) {\r\n\t\t\tthis.add('-start', target, 'Frostbite', '[silent]');\r\n\t\t\tthis.add('-message', `${target.species.name} is inflicted with frostbite!`);\r\n\t\t},\r\n\t\tonSwitchIn(pokemon) {\r\n\t\t\tthis.add('-start', pokemon, 'Frostbite', '[silent]');\r\n\t\t},\r\n\t\tonResidualOrder: 10,\r\n\t\tonResidual(pokemon) {\r\n\t\t\tthis.damage(pokemon.baseMaxhp / 16);\r\n\t\t},\r\n\t\tonBasePower(basePower, source, target) {\r\n\t\t\treturn basePower / 2;\r\n\t\t},\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,aAA6E;AAAA,EACzF,WAAW;AAAA,IACV,MAAM;AAAA,IACN,YAAY;AAAA,IACZ,QAAQ,QAAQ;AACf,WAAK,IAAI,UAAU,QAAQ,aAAa,UAAU;AAClD,WAAK,IAAI,YAAY,GAAG,OAAO,QAAQ,IAAI,+BAA+B;AAAA,IAC3E;AAAA,IACA,WAAW,SAAS;AACnB,WAAK,IAAI,UAAU,SAAS,aAAa,UAAU;AAAA,IACpD;AAAA,IACA,iBAAiB;AAAA,IACjB,WAAW,SAAS;AACnB,WAAK,OAAO,QAAQ,YAAY,EAAE;AAAA,IACnC;AAAA,IACA,YAAY,WAAW,QAAQ,QAAQ;AACtC,aAAO,YAAY;AAAA,IACpB;AAAA,EACD;AACD;",
+  "names": []
+}

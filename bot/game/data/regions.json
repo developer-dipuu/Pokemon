@@ -1,0 +1,14 @@
+{
+  "regions": [
+    {"id": "kanto", "label": "Kanto", "recommended_start": true},
+    {"id": "johto", "label": "Johto", "recommended_start": false},
+    {"id": "hoenn", "label": "Hoenn", "recommended_start": false},
+    {"id": "sinnoh", "label": "Sinnoh", "recommended_start": false},
+    {"id": "unova", "label": "Unova", "recommended_start": false},
+    {"id": "kalos", "label": "Kalos", "recommended_start": false},
+    {"id": "alola", "label": "Alola", "recommended_start": false},
+    {"id": "hisui", "label": "Hisui", "recommended_start": false},
+    {"id": "galar", "label": "Galar", "recommended_start": false},
+    {"id": "paldea", "label": "Paldea", "recommended_start": false}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "factions": [
+    {
+      "id": "1775495047573",
+      "name": "Yashica",
+      "captain": 6265981509,
+      "captain_name": "",
+      "members": [
+        "6265981509",
+        "2110889690"
+      ],
+      "memberNames": {
+        "2110889690": "Great Sage Heaven's Equal",
+        "6265981509": "\ud835\ude75\ud835\ude7b\ud835\ude78\ud835\ude81\ud835\ude83\ud835\ude74\ud835\ude81 \u03b1",
+        "6969086416": "\u25cf \ufe0f \u03a3R\u03a3N \u4e97",
+        "5242138546": "\u300e\u1d22\u0274x \ud808\udf10\u300f\ud83d\udc09 \u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164\u3164"
+      },
+      "admins": [],
+      "group": -1003727260821,
+      "pfp": "https://files.catbox.moe/5rg0pw.jpg",
+      "channelMessageId": 27,
+      "inv": {
+        "vp": 0
+      }
+    }
+  ]
+}

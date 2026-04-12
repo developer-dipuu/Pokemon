@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen9legendsou/moves.ts"],
+  "sourcesContent": ["export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {\r\n\tvolttackle: {\r\n\t\tinherit: true,\r\n\t\tonModifyMove(move, pokemon, target) {\r\n\t\t\tif (pokemon.baseSpecies.name === \"Raichu-Mega-X\") {\r\n\t\t\t\tmove.self = { boosts: { atk: 1 } };\r\n\t\t\t}\r\n\t\t},\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,YAAY;AAAA,IACX,SAAS;AAAA,IACT,aAAa,MAAM,SAAS,QAAQ;AACnC,UAAI,QAAQ,YAAY,SAAS,iBAAiB;AACjD,aAAK,OAAO,EAAE,QAAQ,EAAE,KAAK,EAAE,EAAE;AAAA,MAClC;AAAA,IACD;AAAA,EACD;AACD;",
+  "names": []
+}

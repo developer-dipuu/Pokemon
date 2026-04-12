@@ -1,0 +1,15 @@
+{
+  "counts": {},
+  "defaulted_fields": {},
+  "dry_run": false,
+  "fatal_error": "ProgrammingError: (psycopg.errors.InsufficientPrivilege) permission denied for schema public\nLINE 2: CREATE TABLE trainers (\n                     ^\n[SQL: \nCREATE TABLE trainers (\n\tid SERIAL NOT NULL, \n\ttelegram_user_id BIGINT NOT NULL, \n\tusername VARCHAR(64), \n\tdisplay_name VARCHAR(128) NOT NULL, \n\tcurrent_region VARCHAR(32) NOT NULL, \n\tcurrent_location VARCHAR(96), \n\tlast_safari_entered_at TIMESTAMP WITHOUT TIME ZONE, \n\tstarter_species VARCHAR(64), \n\tgender VARCHAR(16), \n\tsort_mode VARCHAR(16) NOT NULL, \n\tsort_descending BOOLEAN NOT NULL, \n\tdisplay_mode VARCHAR(16) NOT NULL, \n\tchallenge_mode VARCHAR(16) NOT NULL, \n\tchallenge_generation INTEGER NOT NULL, \n\tbattle_visuals BOOLEAN NOT NULL, \n\tstarted_at TIMESTAMP WITHOUT TIME ZONE NOT NULL, \n\ttrainer_level INTEGER NOT NULL, \n\ttrainer_exp INTEGER NOT NULL, \n\ttotal_wins INTEGER NOT NULL, \n\ttotal_losses INTEGER NOT NULL, \n\ttotal_caught INTEGER NOT NULL, \n\tpending_move_learning TEXT, \n\tdaycare_state_json TEXT, \n\teggs_json TEXT, \n\tshop_state_json TEXT, \n\tcreated_at TIMESTAMP WITHOUT TIME ZONE NOT NULL, \n\tupdated_at TIMESTAMP WITHOUT TIME ZONE NOT NULL, \n\tPRIMARY KEY (id)\n)\n\n]\n(Background on this error at: https://sqlalche.me/e/20/f405)",
+  "generated_at": "2026-04-11T16:22:40.106327+00:00",
+  "legacy_only_fields": {},
+  "skipped_pokemon": [],
+  "skipped_users": [],
+  "source": "C:\\Users\\opc\\Desktop\\pokeplay-showdown\\pokeplaybot\\bot\\db\\pokeplay_backup_2026-04-08T16-14-13-602Z",
+  "unknown_moves": {},
+  "unknown_species": {},
+  "unsupported_ball_kinds": {},
+  "warnings": []
+}

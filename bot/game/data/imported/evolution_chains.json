@@ -1,0 +1,2902 @@
+{
+  "evolution_chains": [
+    {
+      "current_pokemon": "bulbasaur",
+      "evolved_pokemon": "ivysaur",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "ivysaur",
+      "evolved_pokemon": "venusaur",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "charmander",
+      "evolved_pokemon": "charmeleon",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "charmeleon",
+      "evolved_pokemon": "charizard",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "squirtle",
+      "evolved_pokemon": "wartortle",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wartortle",
+      "evolved_pokemon": "blastoise",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "caterpie",
+      "evolved_pokemon": "metapod",
+      "evolution_level": 7,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "metapod",
+      "evolved_pokemon": "butterfree",
+      "evolution_level": 10,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "weedle",
+      "evolved_pokemon": "kakuna",
+      "evolution_level": 7,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "kakuna",
+      "evolved_pokemon": "beedrill",
+      "evolution_level": 10,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pidgey",
+      "evolved_pokemon": "pidgeotto",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pidgeotto",
+      "evolved_pokemon": "pidgeot",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "rattata",
+      "evolved_pokemon": "raticate",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "spearow",
+      "evolved_pokemon": "fearow",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "ekans",
+      "evolved_pokemon": "arbok",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pichu",
+      "evolved_pokemon": "pikachu",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pikachu",
+      "evolved_pokemon": "raichu",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sandshrew",
+      "evolved_pokemon": "sandslash",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nidoran-f",
+      "evolved_pokemon": "nidorina",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nidorina",
+      "evolved_pokemon": "nidoqueen",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nidoran-m",
+      "evolved_pokemon": "nidorino",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nidorino",
+      "evolved_pokemon": "nidoking",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cleffa",
+      "evolved_pokemon": "clefairy",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "clefairy",
+      "evolved_pokemon": "clefable",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "vulpix",
+      "evolved_pokemon": "ninetales",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "igglybuff",
+      "evolved_pokemon": "jigglypuff",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "jigglypuff",
+      "evolved_pokemon": "wigglytuff",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "zubat",
+      "evolved_pokemon": "golbat",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "golbat",
+      "evolved_pokemon": "crobat",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "oddish",
+      "evolved_pokemon": "gloom",
+      "evolution_level": 21,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "gloom",
+      "evolved_pokemon": "vileplume",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "gloom",
+      "evolved_pokemon": "bellossom",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "paras",
+      "evolved_pokemon": "parasect",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "venonat",
+      "evolved_pokemon": "venomoth",
+      "evolution_level": 31,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "diglett",
+      "evolved_pokemon": "dugtrio",
+      "evolution_level": 26,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "meowth",
+      "evolved_pokemon": "persian",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "meowth",
+      "evolved_pokemon": "perrserker",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "psyduck",
+      "evolved_pokemon": "golduck",
+      "evolution_level": 33,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "mankey",
+      "evolved_pokemon": "primeape",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "primeape",
+      "evolved_pokemon": "annihilape",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "growlithe",
+      "evolved_pokemon": "arcanine",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "poliwag",
+      "evolved_pokemon": "poliwhirl",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "poliwhirl",
+      "evolved_pokemon": "poliwrath",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "poliwhirl",
+      "evolved_pokemon": "politoed",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "abra",
+      "evolved_pokemon": "kadabra",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "kadabra",
+      "evolved_pokemon": "alakazam",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "machop",
+      "evolved_pokemon": "machoke",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "machoke",
+      "evolved_pokemon": "machamp",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bellsprout",
+      "evolved_pokemon": "weepinbell",
+      "evolution_level": 21,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "weepinbell",
+      "evolved_pokemon": "victreebel",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "tentacool",
+      "evolved_pokemon": "tentacruel",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "geodude",
+      "evolved_pokemon": "graveler",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "graveler",
+      "evolved_pokemon": "golem",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "ponyta",
+      "evolved_pokemon": "rapidash",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "slowpoke",
+      "evolved_pokemon": "slowbro",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "slowpoke",
+      "evolved_pokemon": "slowking",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "magnemite",
+      "evolved_pokemon": "magneton",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "magneton",
+      "evolved_pokemon": "magnezone",
+      "evolution_level": 47,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "farfetchd",
+      "evolved_pokemon": "sirfetchd",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "doduo",
+      "evolved_pokemon": "dodrio",
+      "evolution_level": 31,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "seel",
+      "evolved_pokemon": "dewgong",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "grimer",
+      "evolved_pokemon": "muk",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "shellder",
+      "evolved_pokemon": "cloyster",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "gastly",
+      "evolved_pokemon": "haunter",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "haunter",
+      "evolved_pokemon": "gengar",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "onix",
+      "evolved_pokemon": "steelix",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "drowzee",
+      "evolved_pokemon": "hypno",
+      "evolution_level": 26,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "krabby",
+      "evolved_pokemon": "kingler",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "voltorb",
+      "evolved_pokemon": "electrode",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "exeggcute",
+      "evolved_pokemon": "exeggutor",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "cubone",
+      "evolved_pokemon": "marowak",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tyrogue",
+      "evolved_pokemon": "hitmonlee",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tyrogue",
+      "evolved_pokemon": "hitmonchan",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tyrogue",
+      "evolved_pokemon": "hitmontop",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "lickitung",
+      "evolved_pokemon": "lickilicky",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "koffing",
+      "evolved_pokemon": "weezing",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "rhyhorn",
+      "evolved_pokemon": "rhydon",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "rhydon",
+      "evolved_pokemon": "rhyperior",
+      "evolution_level": 53,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "happiny",
+      "evolved_pokemon": "chansey",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "chansey",
+      "evolved_pokemon": "blissey",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tangela",
+      "evolved_pokemon": "tangrowth",
+      "evolution_level": 33,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "horsea",
+      "evolved_pokemon": "seadra",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "seadra",
+      "evolved_pokemon": "kingdra",
+      "evolution_level": 48,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "goldeen",
+      "evolved_pokemon": "seaking",
+      "evolution_level": 33,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "staryu",
+      "evolved_pokemon": "starmie",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "mime-jr",
+      "evolved_pokemon": "mr-mime",
+      "evolution_level": 26,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "mr-mime",
+      "evolved_pokemon": "mr-rime",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "scyther",
+      "evolved_pokemon": "scizor",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "scyther",
+      "evolved_pokemon": "kleavor",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "smoochum",
+      "evolved_pokemon": "jynx",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "elekid",
+      "evolved_pokemon": "electabuzz",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "electabuzz",
+      "evolved_pokemon": "electivire",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "magby",
+      "evolved_pokemon": "magmar",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "magmar",
+      "evolved_pokemon": "magmortar",
+      "evolution_level": 48,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "magikarp",
+      "evolved_pokemon": "gyarados",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "eevee",
+      "evolved_pokemon": "vaporeon",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "eevee",
+      "evolved_pokemon": "jolteon",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "eevee",
+      "evolved_pokemon": "flareon",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "eevee",
+      "evolved_pokemon": "espeon",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "eevee",
+      "evolved_pokemon": "umbreon",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "eevee",
+      "evolved_pokemon": "leafeon",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "eevee",
+      "evolved_pokemon": "glaceon",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "eevee",
+      "evolved_pokemon": "sylveon",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "porygon",
+      "evolved_pokemon": "porygon2",
+      "evolution_level": 27,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "porygon2",
+      "evolved_pokemon": "porygon-z",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "omanyte",
+      "evolved_pokemon": "omastar",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "kabuto",
+      "evolved_pokemon": "kabutops",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "munchlax",
+      "evolved_pokemon": "snorlax",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dratini",
+      "evolved_pokemon": "dragonair",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dragonair",
+      "evolved_pokemon": "dragonite",
+      "evolution_level": 55,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "chikorita",
+      "evolved_pokemon": "bayleef",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bayleef",
+      "evolved_pokemon": "meganium",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cyndaquil",
+      "evolved_pokemon": "quilava",
+      "evolution_level": 14,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "quilava",
+      "evolved_pokemon": "typhlosion",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "totodile",
+      "evolved_pokemon": "croconaw",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "croconaw",
+      "evolved_pokemon": "feraligatr",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sentret",
+      "evolved_pokemon": "furret",
+      "evolution_level": 15,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "hoothoot",
+      "evolved_pokemon": "noctowl",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "ledyba",
+      "evolved_pokemon": "ledian",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "spinarak",
+      "evolved_pokemon": "ariados",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "chinchou",
+      "evolved_pokemon": "lanturn",
+      "evolution_level": 27,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "togepi",
+      "evolved_pokemon": "togetic",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "togetic",
+      "evolved_pokemon": "togekiss",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "natu",
+      "evolved_pokemon": "xatu",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "mareep",
+      "evolved_pokemon": "flaaffy",
+      "evolution_level": 15,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "flaaffy",
+      "evolved_pokemon": "ampharos",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "azurill",
+      "evolved_pokemon": "marill",
+      "evolution_level": 10,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "marill",
+      "evolved_pokemon": "azumarill",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bonsly",
+      "evolved_pokemon": "sudowoodo",
+      "evolution_level": 15,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "hoppip",
+      "evolved_pokemon": "skiploom",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "skiploom",
+      "evolved_pokemon": "jumpluff",
+      "evolution_level": 27,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "aipom",
+      "evolved_pokemon": "ambipom",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sunkern",
+      "evolved_pokemon": "sunflora",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "yanma",
+      "evolved_pokemon": "yanmega",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wooper",
+      "evolved_pokemon": "quagsire",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wooper",
+      "evolved_pokemon": "clodsire",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "murkrow",
+      "evolved_pokemon": "honchkrow",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "misdreavus",
+      "evolved_pokemon": "mismagius",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "wynaut",
+      "evolved_pokemon": "wobbuffet",
+      "evolution_level": 15,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "girafarig",
+      "evolved_pokemon": "farigiraf",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pineco",
+      "evolved_pokemon": "forretress",
+      "evolution_level": 31,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dunsparce",
+      "evolved_pokemon": "dudunsparce",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "gligar",
+      "evolved_pokemon": "gliscor",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "snubbull",
+      "evolved_pokemon": "granbull",
+      "evolution_level": 23,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "qwilfish",
+      "evolved_pokemon": "overqwil",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sneasel",
+      "evolved_pokemon": "weavile",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "teddiursa",
+      "evolved_pokemon": "ursaring",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "ursaring",
+      "evolved_pokemon": "ursaluna",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "slugma",
+      "evolved_pokemon": "magcargo",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "swinub",
+      "evolved_pokemon": "piloswine",
+      "evolution_level": 33,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "piloswine",
+      "evolved_pokemon": "mamoswine",
+      "evolution_level": 33,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "corsola",
+      "evolved_pokemon": "cursola",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "remoraid",
+      "evolved_pokemon": "octillery",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "mantyke",
+      "evolved_pokemon": "mantine",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "houndour",
+      "evolved_pokemon": "houndoom",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "phanpy",
+      "evolved_pokemon": "donphan",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "stantler",
+      "evolved_pokemon": "wyrdeer",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "larvitar",
+      "evolved_pokemon": "pupitar",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pupitar",
+      "evolved_pokemon": "tyranitar",
+      "evolution_level": 55,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "treecko",
+      "evolved_pokemon": "grovyle",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "grovyle",
+      "evolved_pokemon": "sceptile",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "torchic",
+      "evolved_pokemon": "combusken",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "combusken",
+      "evolved_pokemon": "blaziken",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "mudkip",
+      "evolved_pokemon": "marshtomp",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "marshtomp",
+      "evolved_pokemon": "swampert",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "poochyena",
+      "evolved_pokemon": "mightyena",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "zigzagoon",
+      "evolved_pokemon": "linoone",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "linoone",
+      "evolved_pokemon": "obstagoon",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wurmple",
+      "evolved_pokemon": "silcoon",
+      "evolution_level": 7,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "silcoon",
+      "evolved_pokemon": "beautifly",
+      "evolution_level": 10,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wurmple",
+      "evolved_pokemon": "cascoon",
+      "evolution_level": 7,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cascoon",
+      "evolved_pokemon": "dustox",
+      "evolution_level": 10,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "lotad",
+      "evolved_pokemon": "lombre",
+      "evolution_level": 14,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "lombre",
+      "evolved_pokemon": "ludicolo",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "seedot",
+      "evolved_pokemon": "nuzleaf",
+      "evolution_level": 14,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nuzleaf",
+      "evolved_pokemon": "shiftry",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "taillow",
+      "evolved_pokemon": "swellow",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wingull",
+      "evolved_pokemon": "pelipper",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "ralts",
+      "evolved_pokemon": "kirlia",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "kirlia",
+      "evolved_pokemon": "gardevoir",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "kirlia",
+      "evolved_pokemon": "gallade",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "surskit",
+      "evolved_pokemon": "masquerain",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "shroomish",
+      "evolved_pokemon": "breloom",
+      "evolution_level": 23,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "slakoth",
+      "evolved_pokemon": "vigoroth",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "vigoroth",
+      "evolved_pokemon": "slaking",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nincada",
+      "evolved_pokemon": "ninjask",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nincada",
+      "evolved_pokemon": "shedinja",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "whismur",
+      "evolved_pokemon": "loudred",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "loudred",
+      "evolved_pokemon": "exploud",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "makuhita",
+      "evolved_pokemon": "hariyama",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nosepass",
+      "evolved_pokemon": "probopass",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "skitty",
+      "evolved_pokemon": "delcatty",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "aron",
+      "evolved_pokemon": "lairon",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "lairon",
+      "evolved_pokemon": "aggron",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "meditite",
+      "evolved_pokemon": "medicham",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "electrike",
+      "evolved_pokemon": "manectric",
+      "evolution_level": 26,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "budew",
+      "evolved_pokemon": "roselia",
+      "evolution_level": 15,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "roselia",
+      "evolved_pokemon": "roserade",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "gulpin",
+      "evolved_pokemon": "swalot",
+      "evolution_level": 26,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "carvanha",
+      "evolved_pokemon": "sharpedo",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wailmer",
+      "evolved_pokemon": "wailord",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "numel",
+      "evolved_pokemon": "camerupt",
+      "evolution_level": 33,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "spoink",
+      "evolved_pokemon": "grumpig",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "trapinch",
+      "evolved_pokemon": "vibrava",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "vibrava",
+      "evolved_pokemon": "flygon",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cacnea",
+      "evolved_pokemon": "cacturne",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "swablu",
+      "evolved_pokemon": "altaria",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "barboach",
+      "evolved_pokemon": "whiscash",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "corphish",
+      "evolved_pokemon": "crawdaunt",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "baltoy",
+      "evolved_pokemon": "claydol",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "lileep",
+      "evolved_pokemon": "cradily",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "anorith",
+      "evolved_pokemon": "armaldo",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "feebas",
+      "evolved_pokemon": "milotic",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "shuppet",
+      "evolved_pokemon": "banette",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "duskull",
+      "evolved_pokemon": "dusclops",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dusclops",
+      "evolved_pokemon": "dusknoir",
+      "evolution_level": 49,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "chingling",
+      "evolved_pokemon": "chimecho",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "snorunt",
+      "evolved_pokemon": "glalie",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "snorunt",
+      "evolved_pokemon": "froslass",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "spheal",
+      "evolved_pokemon": "sealeo",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sealeo",
+      "evolved_pokemon": "walrein",
+      "evolution_level": 44,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "clamperl",
+      "evolved_pokemon": "huntail",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "clamperl",
+      "evolved_pokemon": "gorebyss",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bagon",
+      "evolved_pokemon": "shelgon",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "shelgon",
+      "evolved_pokemon": "salamence",
+      "evolution_level": 50,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "beldum",
+      "evolved_pokemon": "metang",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "metang",
+      "evolved_pokemon": "metagross",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "turtwig",
+      "evolved_pokemon": "grotle",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "grotle",
+      "evolved_pokemon": "torterra",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "chimchar",
+      "evolved_pokemon": "monferno",
+      "evolution_level": 14,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "monferno",
+      "evolved_pokemon": "infernape",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "piplup",
+      "evolved_pokemon": "prinplup",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "prinplup",
+      "evolved_pokemon": "empoleon",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "starly",
+      "evolved_pokemon": "staravia",
+      "evolution_level": 14,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "staravia",
+      "evolved_pokemon": "staraptor",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bidoof",
+      "evolved_pokemon": "bibarel",
+      "evolution_level": 15,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "kricketot",
+      "evolved_pokemon": "kricketune",
+      "evolution_level": 10,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "shinx",
+      "evolved_pokemon": "luxio",
+      "evolution_level": 15,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "luxio",
+      "evolved_pokemon": "luxray",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cranidos",
+      "evolved_pokemon": "rampardos",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "shieldon",
+      "evolved_pokemon": "bastiodon",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "burmy",
+      "evolved_pokemon": "wormadam",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "burmy",
+      "evolved_pokemon": "mothim",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "combee",
+      "evolved_pokemon": "vespiquen",
+      "evolution_level": 21,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "buizel",
+      "evolved_pokemon": "floatzel",
+      "evolution_level": 26,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cherubi",
+      "evolved_pokemon": "cherrim",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "shellos",
+      "evolved_pokemon": "gastrodon",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "drifloon",
+      "evolved_pokemon": "drifblim",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "buneary",
+      "evolved_pokemon": "lopunny",
+      "evolution_level": 27,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "glameow",
+      "evolved_pokemon": "purugly",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "stunky",
+      "evolved_pokemon": "skuntank",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bronzor",
+      "evolved_pokemon": "bronzong",
+      "evolution_level": 33,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "gible",
+      "evolved_pokemon": "gabite",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "gabite",
+      "evolved_pokemon": "garchomp",
+      "evolution_level": 48,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "riolu",
+      "evolved_pokemon": "lucario",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "hippopotas",
+      "evolved_pokemon": "hippowdon",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "skorupi",
+      "evolved_pokemon": "drapion",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "croagunk",
+      "evolved_pokemon": "toxicroak",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "finneon",
+      "evolved_pokemon": "lumineon",
+      "evolution_level": 31,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "snover",
+      "evolved_pokemon": "abomasnow",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "phione",
+      "evolved_pokemon": "manaphy",
+      "evolution_level": 0,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "snivy",
+      "evolved_pokemon": "servine",
+      "evolution_level": 17,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "servine",
+      "evolved_pokemon": "serperior",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tepig",
+      "evolved_pokemon": "pignite",
+      "evolution_level": 17,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pignite",
+      "evolved_pokemon": "emboar",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "oshawott",
+      "evolved_pokemon": "dewott",
+      "evolution_level": 17,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dewott",
+      "evolved_pokemon": "samurott",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "patrat",
+      "evolved_pokemon": "watchog",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "lillipup",
+      "evolved_pokemon": "herdier",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "herdier",
+      "evolved_pokemon": "stoutland",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "purrloin",
+      "evolved_pokemon": "liepard",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pansage",
+      "evolved_pokemon": "simisage",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "pansear",
+      "evolved_pokemon": "simisear",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "panpour",
+      "evolved_pokemon": "simipour",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "munna",
+      "evolved_pokemon": "musharna",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "pidove",
+      "evolved_pokemon": "tranquill",
+      "evolution_level": 21,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tranquill",
+      "evolved_pokemon": "unfezant",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "blitzle",
+      "evolved_pokemon": "zebstrika",
+      "evolution_level": 27,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "roggenrola",
+      "evolved_pokemon": "boldore",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "boldore",
+      "evolved_pokemon": "gigalith",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "woobat",
+      "evolved_pokemon": "swoobat",
+      "evolution_level": 23,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "drilbur",
+      "evolved_pokemon": "excadrill",
+      "evolution_level": 31,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "timburr",
+      "evolved_pokemon": "gurdurr",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "gurdurr",
+      "evolved_pokemon": "conkeldurr",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tympole",
+      "evolved_pokemon": "palpitoad",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "palpitoad",
+      "evolved_pokemon": "seismitoad",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sewaddle",
+      "evolved_pokemon": "swadloon",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "swadloon",
+      "evolved_pokemon": "leavanny",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "venipede",
+      "evolved_pokemon": "whirlipede",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "whirlipede",
+      "evolved_pokemon": "scolipede",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cottonee",
+      "evolved_pokemon": "whimsicott",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "petilil",
+      "evolved_pokemon": "lilligant",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "basculin",
+      "evolved_pokemon": "basculegion",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sandile",
+      "evolved_pokemon": "krokorok",
+      "evolution_level": 29,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "krokorok",
+      "evolved_pokemon": "krookodile",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "darumaka",
+      "evolved_pokemon": "darmanitan",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dwebble",
+      "evolved_pokemon": "crustle",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "scraggy",
+      "evolved_pokemon": "scrafty",
+      "evolution_level": 39,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "yamask",
+      "evolved_pokemon": "cofagrigus",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "yamask",
+      "evolved_pokemon": "runerigus",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tirtouga",
+      "evolved_pokemon": "carracosta",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "archen",
+      "evolved_pokemon": "archeops",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "trubbish",
+      "evolved_pokemon": "garbodor",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "zorua",
+      "evolved_pokemon": "zoroark",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "minccino",
+      "evolved_pokemon": "cinccino",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "gothita",
+      "evolved_pokemon": "gothorita",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "gothorita",
+      "evolved_pokemon": "gothitelle",
+      "evolution_level": 41,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "solosis",
+      "evolved_pokemon": "duosion",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "duosion",
+      "evolved_pokemon": "reuniclus",
+      "evolution_level": 41,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "ducklett",
+      "evolved_pokemon": "swanna",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "vanillite",
+      "evolved_pokemon": "vanillish",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "vanillish",
+      "evolved_pokemon": "vanilluxe",
+      "evolution_level": 47,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "deerling",
+      "evolved_pokemon": "sawsbuck",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "karrablast",
+      "evolved_pokemon": "escavalier",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "foongus",
+      "evolved_pokemon": "amoonguss",
+      "evolution_level": 39,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "frillish",
+      "evolved_pokemon": "jellicent",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "joltik",
+      "evolved_pokemon": "galvantula",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "ferroseed",
+      "evolved_pokemon": "ferrothorn",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "klink",
+      "evolved_pokemon": "klang",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "klang",
+      "evolved_pokemon": "klinklang",
+      "evolution_level": 49,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tynamo",
+      "evolved_pokemon": "eelektrik",
+      "evolution_level": 39,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "eelektrik",
+      "evolved_pokemon": "eelektross",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "elgyem",
+      "evolved_pokemon": "beheeyem",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "litwick",
+      "evolved_pokemon": "lampent",
+      "evolution_level": 41,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "lampent",
+      "evolved_pokemon": "chandelure",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "axew",
+      "evolved_pokemon": "fraxure",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "fraxure",
+      "evolved_pokemon": "haxorus",
+      "evolution_level": 48,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cubchoo",
+      "evolved_pokemon": "beartic",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "shelmet",
+      "evolved_pokemon": "accelgor",
+      "evolution_level": 27,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "mienfoo",
+      "evolved_pokemon": "mienshao",
+      "evolution_level": 50,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "golett",
+      "evolved_pokemon": "golurk",
+      "evolution_level": 43,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pawniard",
+      "evolved_pokemon": "bisharp",
+      "evolution_level": 52,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bisharp",
+      "evolved_pokemon": "kingambit",
+      "evolution_level": 65,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "rufflet",
+      "evolved_pokemon": "braviary",
+      "evolution_level": 54,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "vullaby",
+      "evolved_pokemon": "mandibuzz",
+      "evolution_level": 54,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "deino",
+      "evolved_pokemon": "zweilous",
+      "evolution_level": 50,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "zweilous",
+      "evolved_pokemon": "hydreigon",
+      "evolution_level": 64,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "larvesta",
+      "evolved_pokemon": "volcarona",
+      "evolution_level": 59,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "chespin",
+      "evolved_pokemon": "quilladin",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "quilladin",
+      "evolved_pokemon": "chesnaught",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "fennekin",
+      "evolved_pokemon": "braixen",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "braixen",
+      "evolved_pokemon": "delphox",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "froakie",
+      "evolved_pokemon": "frogadier",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "frogadier",
+      "evolved_pokemon": "greninja",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bunnelby",
+      "evolved_pokemon": "diggersby",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "fletchling",
+      "evolved_pokemon": "fletchinder",
+      "evolution_level": 17,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "fletchinder",
+      "evolved_pokemon": "talonflame",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "scatterbug",
+      "evolved_pokemon": "spewpa",
+      "evolution_level": 9,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "spewpa",
+      "evolved_pokemon": "vivillon",
+      "evolution_level": 12,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "litleo",
+      "evolved_pokemon": "pyroar",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "flabebe",
+      "evolved_pokemon": "floette",
+      "evolution_level": 19,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "floette",
+      "evolved_pokemon": "florges",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "skiddo",
+      "evolved_pokemon": "gogoat",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pancham",
+      "evolved_pokemon": "pangoro",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "espurr",
+      "evolved_pokemon": "meowstic",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "honedge",
+      "evolved_pokemon": "doublade",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "doublade",
+      "evolved_pokemon": "aegislash",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "spritzee",
+      "evolved_pokemon": "aromatisse",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "swirlix",
+      "evolved_pokemon": "slurpuff",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "inkay",
+      "evolved_pokemon": "malamar",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "binacle",
+      "evolved_pokemon": "barbaracle",
+      "evolution_level": 39,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "skrelp",
+      "evolved_pokemon": "dragalge",
+      "evolution_level": 48,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "clauncher",
+      "evolved_pokemon": "clawitzer",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "helioptile",
+      "evolved_pokemon": "heliolisk",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "tyrunt",
+      "evolved_pokemon": "tyrantrum",
+      "evolution_level": 39,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "amaura",
+      "evolved_pokemon": "aurorus",
+      "evolution_level": 39,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "goomy",
+      "evolved_pokemon": "sliggoo",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sliggoo",
+      "evolved_pokemon": "goodra",
+      "evolution_level": 50,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "phantump",
+      "evolved_pokemon": "trevenant",
+      "evolution_level": 29,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pumpkaboo",
+      "evolved_pokemon": "gourgeist",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bergmite",
+      "evolved_pokemon": "avalugg",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "noibat",
+      "evolved_pokemon": "noivern",
+      "evolution_level": 48,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "rowlet",
+      "evolved_pokemon": "dartrix",
+      "evolution_level": 17,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dartrix",
+      "evolved_pokemon": "decidueye",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "litten",
+      "evolved_pokemon": "torracat",
+      "evolution_level": 17,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "torracat",
+      "evolved_pokemon": "incineroar",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "popplio",
+      "evolved_pokemon": "brionne",
+      "evolution_level": 17,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "brionne",
+      "evolved_pokemon": "primarina",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pikipek",
+      "evolved_pokemon": "trumbeak",
+      "evolution_level": 14,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "trumbeak",
+      "evolved_pokemon": "toucannon",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "yungoos",
+      "evolved_pokemon": "gumshoos",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "grubbin",
+      "evolved_pokemon": "charjabug",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "charjabug",
+      "evolved_pokemon": "vikavolt",
+      "evolution_level": 37,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "crabrawler",
+      "evolved_pokemon": "crabominable",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cutiefly",
+      "evolved_pokemon": "ribombee",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "rockruff",
+      "evolved_pokemon": "lycanroc",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "mareanie",
+      "evolved_pokemon": "toxapex",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "mudbray",
+      "evolved_pokemon": "mudsdale",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dewpider",
+      "evolved_pokemon": "araquanid",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "fomantis",
+      "evolved_pokemon": "lurantis",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "morelull",
+      "evolved_pokemon": "shiinotic",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "salandit",
+      "evolved_pokemon": "salazzle",
+      "evolution_level": 33,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "stufful",
+      "evolved_pokemon": "bewear",
+      "evolution_level": 27,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bounsweet",
+      "evolved_pokemon": "steenee",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "steenee",
+      "evolved_pokemon": "tsareena",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wimpod",
+      "evolved_pokemon": "golisopod",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sandygast",
+      "evolved_pokemon": "palossand",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "type-null",
+      "evolved_pokemon": "silvally",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "jangmo-o",
+      "evolved_pokemon": "hakamo-o",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "hakamo-o",
+      "evolved_pokemon": "kommo-o",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cosmog",
+      "evolved_pokemon": "cosmoem",
+      "evolution_level": 43,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cosmoem",
+      "evolved_pokemon": "solgaleo",
+      "evolution_level": 53,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cosmoem",
+      "evolved_pokemon": "lunala",
+      "evolution_level": 53,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "poipole",
+      "evolved_pokemon": "naganadel",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "grookey",
+      "evolved_pokemon": "thwackey",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "thwackey",
+      "evolved_pokemon": "rillaboom",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "scorbunny",
+      "evolved_pokemon": "raboot",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "raboot",
+      "evolved_pokemon": "cinderace",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sobble",
+      "evolved_pokemon": "drizzile",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "drizzile",
+      "evolved_pokemon": "inteleon",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "skwovet",
+      "evolved_pokemon": "greedent",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "rookidee",
+      "evolved_pokemon": "corvisquire",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "corvisquire",
+      "evolved_pokemon": "corviknight",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "blipbug",
+      "evolved_pokemon": "dottler",
+      "evolution_level": 10,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dottler",
+      "evolved_pokemon": "orbeetle",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nickit",
+      "evolved_pokemon": "thievul",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "gossifleur",
+      "evolved_pokemon": "eldegoss",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wooloo",
+      "evolved_pokemon": "dubwool",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "chewtle",
+      "evolved_pokemon": "drednaw",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "yamper",
+      "evolved_pokemon": "boltund",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "rolycoly",
+      "evolved_pokemon": "carkol",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "carkol",
+      "evolved_pokemon": "coalossal",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "applin",
+      "evolved_pokemon": "flapple",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "applin",
+      "evolved_pokemon": "appletun",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "applin",
+      "evolved_pokemon": "dipplin",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dipplin",
+      "evolved_pokemon": "hydrapple",
+      "evolution_level": 0,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "silicobra",
+      "evolved_pokemon": "sandaconda",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "arrokuda",
+      "evolved_pokemon": "barraskewda",
+      "evolution_level": 26,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "toxel",
+      "evolved_pokemon": "toxtricity",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sizzlipede",
+      "evolved_pokemon": "centiskorch",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "clobbopus",
+      "evolved_pokemon": "grapploct",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sinistea",
+      "evolved_pokemon": "polteageist",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "hatenna",
+      "evolved_pokemon": "hattrem",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "hattrem",
+      "evolved_pokemon": "hatterene",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "impidimp",
+      "evolved_pokemon": "morgrem",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "morgrem",
+      "evolved_pokemon": "grimmsnarl",
+      "evolution_level": 42,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "milcery",
+      "evolved_pokemon": "alcremie",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "snom",
+      "evolved_pokemon": "frosmoth",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cufant",
+      "evolved_pokemon": "copperajah",
+      "evolution_level": 34,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "duraludon",
+      "evolved_pokemon": "archaludon",
+      "evolution_level": 0,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dreepy",
+      "evolved_pokemon": "drakloak",
+      "evolution_level": 50,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "drakloak",
+      "evolved_pokemon": "dragapult",
+      "evolution_level": 60,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "kubfu",
+      "evolved_pokemon": "urshifu",
+      "evolution_level": 45,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "sprigatito",
+      "evolved_pokemon": "floragato",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "floragato",
+      "evolved_pokemon": "meowscarada",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "fuecoco",
+      "evolved_pokemon": "crocalor",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "crocalor",
+      "evolved_pokemon": "skeledirge",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "quaxly",
+      "evolved_pokemon": "quaxwell",
+      "evolution_level": 16,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "quaxwell",
+      "evolved_pokemon": "quaquaval",
+      "evolution_level": 36,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "lechonk",
+      "evolved_pokemon": "oinkologne",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tarountula",
+      "evolved_pokemon": "spidops",
+      "evolution_level": 15,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nymble",
+      "evolved_pokemon": "lokix",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pawmi",
+      "evolved_pokemon": "pawmo",
+      "evolution_level": 18,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "pawmo",
+      "evolved_pokemon": "pawmot",
+      "evolution_level": 32,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tandemaus",
+      "evolved_pokemon": "maushold",
+      "evolution_level": 25,
+      "evolution_method": "other"
+    },
+    {
+      "current_pokemon": "fidough",
+      "evolved_pokemon": "dachsbun",
+      "evolution_level": 26,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "smoliv",
+      "evolved_pokemon": "dolliv",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "dolliv",
+      "evolved_pokemon": "arboliva",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "nacli",
+      "evolved_pokemon": "naclstack",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "naclstack",
+      "evolved_pokemon": "garganacl",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "charcadet",
+      "evolved_pokemon": "armarouge",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "charcadet",
+      "evolved_pokemon": "ceruledge",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "tadbulb",
+      "evolved_pokemon": "bellibolt",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "wattrel",
+      "evolved_pokemon": "kilowattrel",
+      "evolution_level": 25,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "maschiff",
+      "evolved_pokemon": "mabosstiff",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "shroodle",
+      "evolved_pokemon": "grafaiai",
+      "evolution_level": 28,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "bramblin",
+      "evolved_pokemon": "brambleghast",
+      "evolution_level": 22,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "toedscool",
+      "evolved_pokemon": "toedscruel",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "capsakid",
+      "evolved_pokemon": "scovillain",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "rellor",
+      "evolved_pokemon": "rabsca",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "flittle",
+      "evolved_pokemon": "espathra",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tinkatink",
+      "evolved_pokemon": "tinkatuff",
+      "evolution_level": 24,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "tinkatuff",
+      "evolved_pokemon": "tinkaton",
+      "evolution_level": 38,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "wiglett",
+      "evolved_pokemon": "wugtrio",
+      "evolution_level": 26,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "finizen",
+      "evolved_pokemon": "palafin",
+      "evolution_level": 38,
+      "evolution_method": "other"
+    },
+    {
+      "current_pokemon": "varoom",
+      "evolved_pokemon": "revavroom",
+      "evolution_level": 40,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "glimmet",
+      "evolved_pokemon": "glimmora",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "greavard",
+      "evolved_pokemon": "houndstone",
+      "evolution_level": 30,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "cetoddle",
+      "evolved_pokemon": "cetitan",
+      "evolution_level": null,
+      "evolution_method": "use-item"
+    },
+    {
+      "current_pokemon": "frigibax",
+      "evolved_pokemon": "arctibax",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "arctibax",
+      "evolved_pokemon": "baxcalibur",
+      "evolution_level": 54,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "gimmighoul",
+      "evolved_pokemon": "gholdengo",
+      "evolution_level": 35,
+      "evolution_method": "level-up"
+    },
+    {
+      "current_pokemon": "poltchageist",
+      "evolved_pokemon": "sinistcha",
+      "evolution_level": 20,
+      "evolution_method": "level-up"
+    }
+  ]
+}

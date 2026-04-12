@@ -1,0 +1,28 @@
+{
+    "region": "Kanto",
+    "location": "Route 1 (Kanto)",
+    "latest_gen": "VII",
+    "spawns": [
+        {
+            "pokemon": "Bulbasaur",
+            "level_min": 5,
+            "level_max": 5,
+            "spawn_rate": "5%",
+            "method": "Special (Starter Injection)"
+        },
+        {
+            "pokemon": "Charmander",
+            "level_min": 5,
+            "level_max": 5,
+            "spawn_rate": "5%",
+            "method": "Special (Starter Injection)"
+        },
+        {
+            "pokemon": "Squirtle",
+            "level_min": 5,
+            "level_max": 5,
+            "spawn_rate": "5%",
+            "method": "Special (Starter Injection)"
+        }
+    ]
+}

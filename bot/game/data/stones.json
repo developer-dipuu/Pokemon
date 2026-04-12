@@ -1,0 +1,554 @@
+[
+  {
+    "mega_stone": "Gengarite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/7/79/Bag_Gengarite_ZA_Sprite.png/60px-Bag_Gengarite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/7/79/Bag_Gengarite_ZA_Sprite.png",
+    "mega_evolves": "Gengar"
+  },
+  {
+    "mega_stone": "Gardevoirite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/5/5b/Bag_Gardevoirite_ZA_Sprite.png/60px-Bag_Gardevoirite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/5/5b/Bag_Gardevoirite_ZA_Sprite.png",
+    "mega_evolves": "Gardevoir"
+  },
+  {
+    "mega_stone": "Ampharosite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/4/4f/Bag_Ampharosite_ZA_Sprite.png/60px-Bag_Ampharosite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/4/4f/Bag_Ampharosite_ZA_Sprite.png",
+    "mega_evolves": "Ampharos"
+  },
+  {
+    "mega_stone": "Venusaurite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/e/e6/Bag_Venusaurite_ZA_Sprite.png/60px-Bag_Venusaurite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/e/e6/Bag_Venusaurite_ZA_Sprite.png",
+    "mega_evolves": "Venusaur"
+  },
+  {
+    "mega_stone": "Charizardite X",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Bag_Charizardite_X_ZA_Sprite.png/60px-Bag_Charizardite_X_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/3/31/Bag_Charizardite_X_ZA_Sprite.png",
+    "mega_evolves": "Charizard"
+  },
+  {
+    "mega_stone": "Blastoisinite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/0/07/Bag_Blastoisinite_ZA_Sprite.png/60px-Bag_Blastoisinite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/0/07/Bag_Blastoisinite_ZA_Sprite.png",
+    "mega_evolves": "Blastoise"
+  },
+  {
+    "mega_stone": "Mewtwonite X",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/4/4b/Bag_Mewtwonite_X_ZA_Sprite.png/60px-Bag_Mewtwonite_X_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/4/4b/Bag_Mewtwonite_X_ZA_Sprite.png",
+    "mega_evolves": "Mewtwo"
+  },
+  {
+    "mega_stone": "Mewtwonite Y",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/6/6c/Bag_Mewtwonite_Y_ZA_Sprite.png/60px-Bag_Mewtwonite_Y_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/6/6c/Bag_Mewtwonite_Y_ZA_Sprite.png",
+    "mega_evolves": "Mewtwo"
+  },
+  {
+    "mega_stone": "Blazikenite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/a/a0/Bag_Blazikenite_ZA_Sprite.png/60px-Bag_Blazikenite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/a/a0/Bag_Blazikenite_ZA_Sprite.png",
+    "mega_evolves": "Blaziken"
+  },
+  {
+    "mega_stone": "Medichamite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/4/40/Bag_Medichamite_ZA_Sprite.png/60px-Bag_Medichamite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/4/40/Bag_Medichamite_ZA_Sprite.png",
+    "mega_evolves": "Medicham"
+  },
+  {
+    "mega_stone": "Houndoominite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/6/6d/Bag_Houndoominite_ZA_Sprite.png/60px-Bag_Houndoominite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/6/6d/Bag_Houndoominite_ZA_Sprite.png",
+    "mega_evolves": "Houndoom"
+  },
+  {
+    "mega_stone": "Aggronite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/7/75/Bag_Aggronite_ZA_Sprite.png/60px-Bag_Aggronite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/7/75/Bag_Aggronite_ZA_Sprite.png",
+    "mega_evolves": "Aggron"
+  },
+  {
+    "mega_stone": "Banettite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/f/f2/Bag_Banettite_ZA_Sprite.png/60px-Bag_Banettite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/f/f2/Bag_Banettite_ZA_Sprite.png",
+    "mega_evolves": "Banette"
+  },
+  {
+    "mega_stone": "Tyranitarite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/6/64/Bag_Tyranitarite_ZA_Sprite.png/60px-Bag_Tyranitarite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/6/64/Bag_Tyranitarite_ZA_Sprite.png",
+    "mega_evolves": "Tyranitar"
+  },
+  {
+    "mega_stone": "Scizorite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/4/45/Bag_Scizorite_ZA_Sprite.png/60px-Bag_Scizorite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/4/45/Bag_Scizorite_ZA_Sprite.png",
+    "mega_evolves": "Scizor"
+  },
+  {
+    "mega_stone": "Pinsirite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/a/a8/Bag_Pinsirite_ZA_Sprite.png/60px-Bag_Pinsirite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/a/a8/Bag_Pinsirite_ZA_Sprite.png",
+    "mega_evolves": "Pinsir"
+  },
+  {
+    "mega_stone": "Aerodactylite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/6/62/Bag_Aerodactylite_ZA_Sprite.png/60px-Bag_Aerodactylite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/6/62/Bag_Aerodactylite_ZA_Sprite.png",
+    "mega_evolves": "Aerodactyl"
+  },
+  {
+    "mega_stone": "Lucarionite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/f/fd/Bag_Lucarionite_ZA_Sprite.png/60px-Bag_Lucarionite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/f/fd/Bag_Lucarionite_ZA_Sprite.png",
+    "mega_evolves": "Lucario"
+  },
+  {
+    "mega_stone": "Abomasite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/Bag_Abomasite_ZA_Sprite.png/60px-Bag_Abomasite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/b/bf/Bag_Abomasite_ZA_Sprite.png",
+    "mega_evolves": "Abomasnow"
+  },
+  {
+    "mega_stone": "Kangaskhanite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/d/df/Bag_Kangaskhanite_ZA_Sprite.png/60px-Bag_Kangaskhanite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/d/df/Bag_Kangaskhanite_ZA_Sprite.png",
+    "mega_evolves": "Kangaskhan"
+  },
+  {
+    "mega_stone": "Gyaradosite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/7/77/Bag_Gyaradosite_ZA_Sprite.png/60px-Bag_Gyaradosite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/7/77/Bag_Gyaradosite_ZA_Sprite.png",
+    "mega_evolves": "Gyarados"
+  },
+  {
+    "mega_stone": "Absolite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/b/b1/Bag_Absolite_ZA_Sprite.png/60px-Bag_Absolite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/b/b1/Bag_Absolite_ZA_Sprite.png",
+    "mega_evolves": "Absol"
+  },
+  {
+    "mega_stone": "Charizardite Y",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/e/e1/Bag_Charizardite_Y_ZA_Sprite.png/60px-Bag_Charizardite_Y_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/e/e1/Bag_Charizardite_Y_ZA_Sprite.png",
+    "mega_evolves": "Charizard"
+  },
+  {
+    "mega_stone": "Alakazite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Bag_Alakazite_ZA_Sprite.png/60px-Bag_Alakazite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/e/ee/Bag_Alakazite_ZA_Sprite.png",
+    "mega_evolves": "Alakazam"
+  },
+  {
+    "mega_stone": "Heracronite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/3/30/Bag_Heracronite_ZA_Sprite.png/60px-Bag_Heracronite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/3/30/Bag_Heracronite_ZA_Sprite.png",
+    "mega_evolves": "Heracross"
+  },
+  {
+    "mega_stone": "Mawilite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/3/37/Bag_Mawilite_ZA_Sprite.png/60px-Bag_Mawilite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/3/37/Bag_Mawilite_ZA_Sprite.png",
+    "mega_evolves": "Mawile"
+  },
+  {
+    "mega_stone": "Manectite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Bag_Manectite_ZA_Sprite.png/60px-Bag_Manectite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/6/6b/Bag_Manectite_ZA_Sprite.png",
+    "mega_evolves": "Manectric"
+  },
+  {
+    "mega_stone": "Garchompite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/a/a5/Bag_Garchompite_ZA_Sprite.png/60px-Bag_Garchompite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/a/a5/Bag_Garchompite_ZA_Sprite.png",
+    "mega_evolves": "Garchomp"
+  },
+  {
+    "mega_stone": "Latiasite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/5/5d/Bag_Latiasite_ZA_Sprite.png/60px-Bag_Latiasite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/5/5d/Bag_Latiasite_ZA_Sprite.png",
+    "mega_evolves": "Latias"
+  },
+  {
+    "mega_stone": "Latiosite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/b/bc/Bag_Latiosite_ZA_Sprite.png/60px-Bag_Latiosite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/b/bc/Bag_Latiosite_ZA_Sprite.png",
+    "mega_evolves": "Latios"
+  },
+  {
+    "mega_stone": "Swampertite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/9/9b/Bag_Swampertite_ZA_Sprite.png/60px-Bag_Swampertite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/9/9b/Bag_Swampertite_ZA_Sprite.png",
+    "mega_evolves": "Swampert"
+  },
+  {
+    "mega_stone": "Sceptilite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/0/0d/Bag_Sceptilite_ZA_Sprite.png/60px-Bag_Sceptilite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/0/0d/Bag_Sceptilite_ZA_Sprite.png",
+    "mega_evolves": "Sceptile"
+  },
+  {
+    "mega_stone": "Sablenite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/9/9f/Bag_Sablenite_ZA_Sprite.png/60px-Bag_Sablenite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/9/9f/Bag_Sablenite_ZA_Sprite.png",
+    "mega_evolves": "Sableye"
+  },
+  {
+    "mega_stone": "Altarianite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/8/88/Bag_Altarianite_ZA_Sprite.png/60px-Bag_Altarianite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/8/88/Bag_Altarianite_ZA_Sprite.png",
+    "mega_evolves": "Altaria"
+  },
+  {
+    "mega_stone": "Galladite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/f/f3/Bag_Galladite_ZA_Sprite.png/60px-Bag_Galladite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/f/f3/Bag_Galladite_ZA_Sprite.png",
+    "mega_evolves": "Gallade"
+  },
+  {
+    "mega_stone": "Audinite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/2/2c/Bag_Audinite_ZA_Sprite.png/60px-Bag_Audinite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/2/2c/Bag_Audinite_ZA_Sprite.png",
+    "mega_evolves": "Audino"
+  },
+  {
+    "mega_stone": "Metagrossite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/9/93/Bag_Metagrossite_ZA_Sprite.png/60px-Bag_Metagrossite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/9/93/Bag_Metagrossite_ZA_Sprite.png",
+    "mega_evolves": "Metagross"
+  },
+  {
+    "mega_stone": "Sharpedonite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/e/ea/Bag_Sharpedonite_ZA_Sprite.png/60px-Bag_Sharpedonite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/e/ea/Bag_Sharpedonite_ZA_Sprite.png",
+    "mega_evolves": "Sharpedo"
+  },
+  {
+    "mega_stone": "Slowbronite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/f/f4/Bag_Slowbronite_ZA_Sprite.png/60px-Bag_Slowbronite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/f/f4/Bag_Slowbronite_ZA_Sprite.png",
+    "mega_evolves": "Slowbro"
+  },
+  {
+    "mega_stone": "Steelixite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/7/75/Bag_Steelixite_ZA_Sprite.png/60px-Bag_Steelixite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/7/75/Bag_Steelixite_ZA_Sprite.png",
+    "mega_evolves": "Steelix"
+  },
+  {
+    "mega_stone": "Pidgeotite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/5/56/Bag_Pidgeotite_ZA_Sprite.png/60px-Bag_Pidgeotite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/5/56/Bag_Pidgeotite_ZA_Sprite.png",
+    "mega_evolves": "Pidgeot"
+  },
+  {
+    "mega_stone": "Glalitite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Bag_Glalitite_ZA_Sprite.png/60px-Bag_Glalitite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/d/d3/Bag_Glalitite_ZA_Sprite.png",
+    "mega_evolves": "Glalie"
+  },
+  {
+    "mega_stone": "Diancite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/8/81/Bag_Diancite_ZA_Sprite.png/60px-Bag_Diancite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/8/81/Bag_Diancite_ZA_Sprite.png",
+    "mega_evolves": "Diancie"
+  },
+  {
+    "mega_stone": "Cameruptite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/3/3b/Bag_Cameruptite_ZA_Sprite.png/60px-Bag_Cameruptite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/3/3b/Bag_Cameruptite_ZA_Sprite.png",
+    "mega_evolves": "Camerupt"
+  },
+  {
+    "mega_stone": "Lopunnite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/f/f9/Bag_Lopunnite_ZA_Sprite.png/60px-Bag_Lopunnite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/f/f9/Bag_Lopunnite_ZA_Sprite.png",
+    "mega_evolves": "Lopunny"
+  },
+  {
+    "mega_stone": "Salamencite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/d/de/Bag_Salamencite_ZA_Sprite.png/60px-Bag_Salamencite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/d/de/Bag_Salamencite_ZA_Sprite.png",
+    "mega_evolves": "Salamence"
+  },
+  {
+    "mega_stone": "Beedrillite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/2/2c/Bag_Beedrillite_ZA_Sprite.png/60px-Bag_Beedrillite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/2/2c/Bag_Beedrillite_ZA_Sprite.png",
+    "mega_evolves": "Beedrill"
+  },
+  {
+    "mega_stone": "Clefablite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/4/49/Bag_Clefablite_ZA_Sprite.png/60px-Bag_Clefablite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/4/49/Bag_Clefablite_ZA_Sprite.png",
+    "mega_evolves": "Clefable"
+  },
+  {
+    "mega_stone": "Victreebelite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/3/32/Bag_Victreebelite_ZA_Sprite.png/60px-Bag_Victreebelite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/3/32/Bag_Victreebelite_ZA_Sprite.png",
+    "mega_evolves": "Victreebel"
+  },
+  {
+    "mega_stone": "Starminite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/4/49/Bag_Starminite_ZA_Sprite.png/60px-Bag_Starminite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/4/49/Bag_Starminite_ZA_Sprite.png",
+    "mega_evolves": "Starmie"
+  },
+  {
+    "mega_stone": "Dragoninite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/6/69/Bag_Dragoninite_ZA_Sprite.png/60px-Bag_Dragoninite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/6/69/Bag_Dragoninite_ZA_Sprite.png",
+    "mega_evolves": "Dragonite"
+  },
+  {
+    "mega_stone": "Meganiumite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/6/66/Bag_Meganiumite_ZA_Sprite.png/60px-Bag_Meganiumite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/6/66/Bag_Meganiumite_ZA_Sprite.png",
+    "mega_evolves": "Meganium"
+  },
+  {
+    "mega_stone": "Feraligite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/c/c6/Bag_Feraligite_ZA_Sprite.png/60px-Bag_Feraligite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/c/c6/Bag_Feraligite_ZA_Sprite.png",
+    "mega_evolves": "Feraligatr"
+  },
+  {
+    "mega_stone": "Skarmorite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/e/e5/Bag_Skarmorite_ZA_Sprite.png/60px-Bag_Skarmorite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/e/e5/Bag_Skarmorite_ZA_Sprite.png",
+    "mega_evolves": "Skarmory"
+  },
+  {
+    "mega_stone": "Froslassite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/7/7e/Bag_Froslassite_ZA_Sprite.png/60px-Bag_Froslassite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/7/7e/Bag_Froslassite_ZA_Sprite.png",
+    "mega_evolves": "Froslass"
+  },
+  {
+    "mega_stone": "Heatranite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/1/16/Bag_Heatranite_ZA_Sprite.png/60px-Bag_Heatranite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/1/16/Bag_Heatranite_ZA_Sprite.png",
+    "mega_evolves": "Heatran"
+  },
+  {
+    "mega_stone": "Darkranite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/Bag_Darkranite_ZA_Sprite.png/60px-Bag_Darkranite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/b/bf/Bag_Darkranite_ZA_Sprite.png",
+    "mega_evolves": "Darkrai"
+  },
+  {
+    "mega_stone": "Emboarite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/3/36/Bag_Emboarite_ZA_Sprite.png/60px-Bag_Emboarite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/3/36/Bag_Emboarite_ZA_Sprite.png",
+    "mega_evolves": "Emboar"
+  },
+  {
+    "mega_stone": "Excadrite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/8/83/Bag_Excadrite_ZA_Sprite.png/60px-Bag_Excadrite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/8/83/Bag_Excadrite_ZA_Sprite.png",
+    "mega_evolves": "Excadrill"
+  },
+  {
+    "mega_stone": "Scolipite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/e/e0/Bag_Scolipite_ZA_Sprite.png/60px-Bag_Scolipite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/e/e0/Bag_Scolipite_ZA_Sprite.png",
+    "mega_evolves": "Scolipede"
+  },
+  {
+    "mega_stone": "Scraftinite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/5/53/Bag_Scraftinite_ZA_Sprite.png/60px-Bag_Scraftinite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/5/53/Bag_Scraftinite_ZA_Sprite.png",
+    "mega_evolves": "Scrafty"
+  },
+  {
+    "mega_stone": "Eelektrossite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/b/ba/Bag_Eelektrossite_ZA_Sprite.png/60px-Bag_Eelektrossite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/b/ba/Bag_Eelektrossite_ZA_Sprite.png",
+    "mega_evolves": "Eelektross"
+  },
+  {
+    "mega_stone": "Chandelurite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Bag_Chandelurite_ZA_Sprite.png/60px-Bag_Chandelurite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/6/6b/Bag_Chandelurite_ZA_Sprite.png",
+    "mega_evolves": "Chandelure"
+  },
+  {
+    "mega_stone": "Chesnaughtite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/c/cf/Bag_Chesnaughtite_ZA_Sprite.png/60px-Bag_Chesnaughtite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/c/cf/Bag_Chesnaughtite_ZA_Sprite.png",
+    "mega_evolves": "Chesnaught"
+  },
+  {
+    "mega_stone": "Delphoxite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/9/98/Bag_Delphoxite_ZA_Sprite.png/60px-Bag_Delphoxite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/9/98/Bag_Delphoxite_ZA_Sprite.png",
+    "mega_evolves": "Delphox"
+  },
+  {
+    "mega_stone": "Greninjite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/4/44/Bag_Greninjite_ZA_Sprite.png/60px-Bag_Greninjite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/4/44/Bag_Greninjite_ZA_Sprite.png",
+    "mega_evolves": "Greninja"
+  },
+  {
+    "mega_stone": "Pyroarite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/9/90/Bag_Pyroarite_ZA_Sprite.png/60px-Bag_Pyroarite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/9/90/Bag_Pyroarite_ZA_Sprite.png",
+    "mega_evolves": "Pyroar"
+  },
+  {
+    "mega_stone": "Floettite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/2/26/Bag_Floettite_ZA_Sprite.png/60px-Bag_Floettite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/2/26/Bag_Floettite_ZA_Sprite.png",
+    "mega_evolves": "Eternal Flower<br>Floette"
+  },
+  {
+    "mega_stone": "Malamarite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/8/81/Bag_Malamarite_ZA_Sprite.png/60px-Bag_Malamarite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/8/81/Bag_Malamarite_ZA_Sprite.png",
+    "mega_evolves": "Malamar"
+  },
+  {
+    "mega_stone": "Barbaracite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/c/c1/Bag_Barbaracite_ZA_Sprite.png/60px-Bag_Barbaracite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/c/c1/Bag_Barbaracite_ZA_Sprite.png",
+    "mega_evolves": "Barbaracle"
+  },
+  {
+    "mega_stone": "Dragalgite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/a/a6/Bag_Dragalgite_ZA_Sprite.png/60px-Bag_Dragalgite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/a/a6/Bag_Dragalgite_ZA_Sprite.png",
+    "mega_evolves": "Dragalge"
+  },
+  {
+    "mega_stone": "Hawluchanite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/6/61/Bag_Hawluchanite_ZA_Sprite.png/60px-Bag_Hawluchanite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/6/61/Bag_Hawluchanite_ZA_Sprite.png",
+    "mega_evolves": "Hawlucha"
+  },
+  {
+    "mega_stone": "Zygardite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/9/91/Bag_Zygardite_ZA_Sprite.png/60px-Bag_Zygardite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/9/91/Bag_Zygardite_ZA_Sprite.png",
+    "mega_evolves": "Zygarde<br>Complete Forme"
+  },
+  {
+    "mega_stone": "Drampanite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/1/1e/Bag_Drampanite_ZA_Sprite.png/60px-Bag_Drampanite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/1/1e/Bag_Drampanite_ZA_Sprite.png",
+    "mega_evolves": "Drampa"
+  },
+  {
+    "mega_stone": "Zeraorite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/5/5e/Bag_Zeraorite_ZA_Sprite.png/60px-Bag_Zeraorite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/5/5e/Bag_Zeraorite_ZA_Sprite.png",
+    "mega_evolves": "Zeraora"
+  },
+  {
+    "mega_stone": "Falinksite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/c/c6/Bag_Falinksite_ZA_Sprite.png/60px-Bag_Falinksite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/c/c6/Bag_Falinksite_ZA_Sprite.png",
+    "mega_evolves": "Falinks"
+  },
+  {
+    "mega_stone": "Raichunite X",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Bag_Raichunite_X_ZA_Sprite.png/60px-Bag_Raichunite_X_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/d/d8/Bag_Raichunite_X_ZA_Sprite.png",
+    "mega_evolves": "Raichu"
+  },
+  {
+    "mega_stone": "Raichunite Y",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/c/c0/Bag_Raichunite_Y_ZA_Sprite.png/60px-Bag_Raichunite_Y_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/c/c0/Bag_Raichunite_Y_ZA_Sprite.png",
+    "mega_evolves": "Raichu"
+  },
+  {
+    "mega_stone": "Chimechite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/1/1e/Bag_Chimechite_ZA_Sprite.png/60px-Bag_Chimechite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/1/1e/Bag_Chimechite_ZA_Sprite.png",
+    "mega_evolves": "Chimecho"
+  },
+  {
+    "mega_stone": "Absolite Z",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/1/18/Bag_Absolite_Z_ZA_Sprite.png/60px-Bag_Absolite_Z_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/1/18/Bag_Absolite_Z_ZA_Sprite.png",
+    "mega_evolves": "Absol"
+  },
+  {
+    "mega_stone": "Staraptite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/3/34/Bag_Staraptite_ZA_Sprite.png/60px-Bag_Staraptite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/3/34/Bag_Staraptite_ZA_Sprite.png",
+    "mega_evolves": "Staraptor"
+  },
+  {
+    "mega_stone": "Garchompite Z",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/7/7e/Bag_Garchompite_Z_ZA_Sprite.png/60px-Bag_Garchompite_Z_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/7/7e/Bag_Garchompite_Z_ZA_Sprite.png",
+    "mega_evolves": "Garchomp"
+  },
+  {
+    "mega_stone": "Lucarionite Z",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/e/e3/Bag_Lucarionite_Z_ZA_Sprite.png/60px-Bag_Lucarionite_Z_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/e/e3/Bag_Lucarionite_Z_ZA_Sprite.png",
+    "mega_evolves": "Lucario"
+  },
+  {
+    "mega_stone": "Golurkite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/5/57/Bag_Golurkite_ZA_Sprite.png/60px-Bag_Golurkite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/5/57/Bag_Golurkite_ZA_Sprite.png",
+    "mega_evolves": "Golurk"
+  },
+  {
+    "mega_stone": "Meowsticite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/1/11/Bag_Meowsticite_ZA_Sprite.png/60px-Bag_Meowsticite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/1/11/Bag_Meowsticite_ZA_Sprite.png",
+    "mega_evolves": "Meowstic"
+  },
+  {
+    "mega_stone": "Crabominite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/8/8a/Bag_Crabominite_ZA_Sprite.png/60px-Bag_Crabominite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/8/8a/Bag_Crabominite_ZA_Sprite.png",
+    "mega_evolves": "Crabominable"
+  },
+  {
+    "mega_stone": "Golisopite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/4/4c/Bag_Golisopite_ZA_Sprite.png/60px-Bag_Golisopite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/4/4c/Bag_Golisopite_ZA_Sprite.png",
+    "mega_evolves": "Golisopod"
+  },
+  {
+    "mega_stone": "Magearnite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/3/34/Bag_Magearnite_ZA_Sprite.png/60px-Bag_Magearnite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/3/34/Bag_Magearnite_ZA_Sprite.png",
+    "mega_evolves": "Magearna"
+  },
+  {
+    "mega_stone": "Scovillainite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Bag_Scovillainite_ZA_Sprite.png/60px-Bag_Scovillainite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/e/e8/Bag_Scovillainite_ZA_Sprite.png",
+    "mega_evolves": "Scovillain"
+  },
+  {
+    "mega_stone": "Baxcalibrite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/a/af/Bag_Baxcalibrite_ZA_Sprite.png/60px-Bag_Baxcalibrite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/a/af/Bag_Baxcalibrite_ZA_Sprite.png",
+    "mega_evolves": "Baxcalibur"
+  },
+  {
+    "mega_stone": "Tatsugirinite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/9/99/Bag_Tatsugirinite_ZA_Sprite.png/60px-Bag_Tatsugirinite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/9/99/Bag_Tatsugirinite_ZA_Sprite.png",
+    "mega_evolves": "Tatsugiri"
+  },
+  {
+    "mega_stone": "Glimmoranite",
+    "image_url": "https://archives.bulbagarden.net/media/upload/thumb/e/e1/Bag_Glimmoranite_ZA_Sprite.png/60px-Bag_Glimmoranite_ZA_Sprite.png",
+    "full_image_url": "https://archives.bulbagarden.net/media/upload/e/e1/Bag_Glimmoranite_ZA_Sprite.png",
+    "mega_evolves": "Glimmora"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen6megasrevisited/formats-data.ts"],
+  "sourcesContent": ["export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {\r\n\tblaziken: {\r\n\t\ttier: \"OU\",\r\n\t},\r\n\tblazikenmega: {\r\n\t\ttier: \"OU\",\r\n\t},\r\n\tgengarmega: {\r\n\t\ttier: \"OU\",\r\n\t},\r\n\tkangaskhanmega: {\r\n\t\ttier: \"OU\",\r\n\t},\r\n\tlucariomega: {\r\n\t\ttier: \"OU\",\r\n\t},\r\n\tmawilemega: {\r\n\t\ttier: \"OU\",\r\n\t},\r\n\tsableyemega: {\r\n\t\ttier: \"OU\",\r\n\t},\r\n\tsalamencemega: {\r\n\t\ttier: \"OU\",\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,cAAgF;AAAA,EAC5F,UAAU;AAAA,IACT,MAAM;AAAA,EACP;AAAA,EACA,cAAc;AAAA,IACb,MAAM;AAAA,EACP;AAAA,EACA,YAAY;AAAA,IACX,MAAM;AAAA,EACP;AAAA,EACA,gBAAgB;AAAA,IACf,MAAM;AAAA,EACP;AAAA,EACA,aAAa;AAAA,IACZ,MAAM;AAAA,EACP;AAAA,EACA,YAAY;AAAA,IACX,MAAM;AAAA,EACP;AAAA,EACA,aAAa;AAAA,IACZ,MAAM;AAAA,EACP;AAAA,EACA,eAAe;AAAA,IACd,MAAM;AAAA,EACP;AACD;",
+  "names": []
+}

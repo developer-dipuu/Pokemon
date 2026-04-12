@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen6megasrevisited/items.ts"],
+  "sourcesContent": ["export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {\r\n\tmeteorite: {\r\n\t\tname: \"Meteorite\",\r\n\t\tspritenum: 615,\r\n\t\tmegaStone: { \"Rayquaza\": \"Rayquaza-Mega\" },\r\n\t\titemUser: [\"Rayquaza\"],\r\n\t\tonTakeItem(item, source) {\r\n\t\t\treturn !item.megaStone?.[source.baseSpecies.baseSpecies];\r\n\t\t},\r\n\t\tdesc: \"If held by a Rayquaza, this item allows it to Mega Evolve in battle.\",\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,WAAW;AAAA,IACV,MAAM;AAAA,IACN,WAAW;AAAA,IACX,WAAW,EAAE,YAAY,gBAAgB;AAAA,IACzC,UAAU,CAAC,UAAU;AAAA,IACrB,WAAW,MAAM,QAAQ;AACxB,aAAO,CAAC,KAAK,YAAY,OAAO,YAAY,WAAW;AAAA,IACxD;AAAA,IACA,MAAM;AAAA,EACP;AACD;",
+  "names": []
+}

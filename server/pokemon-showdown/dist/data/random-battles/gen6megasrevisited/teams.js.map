@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/random-battles/gen6megasrevisited/teams.ts"],
+  "sourcesContent": ["import RandomGen6Teams from '../gen6/teams';\r\n\r\nexport class RandomMRTeams extends RandomGen6Teams {\r\n\toverride randomSets: { [species: string]: RandomTeamsTypes.RandomSpeciesData } = require('./sets.json');\r\n}\r\n\r\nexport default RandomMRTeams;\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAA4B;AAErB,MAAM,sBAAsB,aAAAA,QAAgB;AAAA,EAA5C;AAAA;AACN,SAAS,aAAwE,QAAQ,aAAa;AAAA;AACvG;AAEA,IAAO,gBAAQ;",
+  "names": ["RandomGen6Teams"]
+}
