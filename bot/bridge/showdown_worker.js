@@ -263,6 +263,9 @@ async function startBattle(payload) {
 	const spec = {
 		formatid: payload.formatid || "gen9randombattle",
 	};
+	if (Array.isArray(payload.seed) && payload.seed.length) {
+		spec.seed = payload.seed.map(value => Number(value) || 0);
+	}
 	const p1 = {
 		name: payload.p1?.name || "Player 1",
 	};

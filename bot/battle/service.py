@@ -6,6 +6,7 @@ import html
 import json
 import logging
 import secrets
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 from telethon import Button
@@ -37,7 +38,7 @@ from bot.battle.protocol import (
 from bot.bridge.dex_tools import run_dex_tool
 from bot.battle.visuals import BattleVisualRenderer, DEFAULT_PREVIEW_OPPONENT, DEFAULT_PREVIEW_PLAYER
 from bot.bridge.showdown_bridge import ShowdownBattleProcess, ShowdownBridgeError
-from bot.config import BOT_DIR, PROJECT_DIR, DEFAULT_RANDOM_BATTLE_FORMAT, DEFAULT_RPG_BATTLE_FORMAT, SHOWDOWN_DIR
+from bot.config import BOT_DIR, PROJECT_DIR, DEFAULT_RANDOM_BATTLE_FORMAT, DEFAULT_RPG_BATTLE_FORMAT, SHOWDOWN_DIR, RUNTIME_DIR
 from bot.db.repositories import TeamRepository, TrainerRepository
 from bot.db.session import run_db_work_async
 from bot.game.services.pokemon_data import PokemonDataService
@@ -47,6 +48,8 @@ ACTION_COOLDOWN_SECONDS = 1.0
 PUBLIC_RENDER_MIN_INTERVAL = 1.0
 CHALLENGE_EXPIRY_SECONDS = 60.0
 VISUAL_CAPTION_LIMIT = 900
+RECOVERABLE_BATTLE_WINDOW_SECONDS = 60
+RECOVERABLE_BATTLES_PATH = RUNTIME_DIR / "recoverable_battles.json"
 DEFAULT_CHALLENGE_MODE = "owned"
 DEFAULT_CHALLENGE_GENERATION = 9
 SUPPORTED_CHALLENGE_GENERATIONS = (9, 8, 7, 6, 5, 4, 3, 2, 1)
@@ -127,6 +130,13 @@ def mention_html(user_id: int | None, label: str) -> str:
     if not user_id:
         return safe_label
     return f'<a href="tg://user?id={user_id}">{safe_label}</a>'
+
+
+def mention_markdown(user_id: int | None, label: str) -> str:
+    safe_label = re.sub(r"[\[\]\(\)]", "", str(label or "Trainer")).strip() or "Trainer"
+    if not user_id:
+        return safe_label
+    return f"[{safe_label}](tg://user?id={int(user_id)})"
 
 
 def mega_caption_name(species: str) -> str:
@@ -240,6 +250,7 @@ class BattleService:
         self.active_pvp_by_user: dict[int, str] = {}
         self.gym_team_cache: dict[str, str] = {}
         self.exit_cleanup_handlers: list[Any] = []
+        self._recovery_write_lock = asyncio.Lock()
 
     def attach_encounter_service(self, encounter_service) -> None:
         self.encounter_service = encounter_service
@@ -470,6 +481,116 @@ class BattleService:
         battle.public_render_task = None
         battle.last_public_edit_at = 0.0
         battle.visual_message_id = None
+
+    def _battle_recovery_payload(self, battle: BattleSession) -> dict[str, Any] | None:
+        if battle.finished or battle.battle_mode not in {"pvp", "gym"}:
+            return None
+        p1_team = str(battle.metadata.get("p1_team") or "").strip()
+        p2_team = str(battle.metadata.get("p2_team") or "").strip()
+        if not p1_team or not p2_team:
+            return None
+        return {
+            "battle_id": battle.battle_id,
+            "chat_id": int(battle.chat_id),
+            "public_message_id": int(battle.public_message_id),
+            "format_id": battle.format_id,
+            "format_label": battle.format_label,
+            "battle_mode": battle.battle_mode,
+            "players": {
+                slot: {
+                    "slot": player.slot,
+                    "user_id": int(player.user_id or 0),
+                    "name": player.name,
+                }
+                for slot, player in battle.players.items()
+            },
+            "metadata": dict(battle.metadata),
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+        }
+
+    async def _persist_recoverable_battles(self) -> None:
+        payload = []
+        for battle in self.battles_by_id.values():
+            item = self._battle_recovery_payload(battle)
+            if item is not None:
+                payload.append(item)
+        async with self._recovery_write_lock:
+            await asyncio.to_thread(
+                RECOVERABLE_BATTLES_PATH.write_text,
+                json.dumps(payload, ensure_ascii=False, indent=2),
+                "utf-8",
+            )
+
+    async def _schedule_recovery_persist(self) -> None:
+        try:
+            await self._persist_recoverable_battles()
+        except Exception:
+            logger.exception("Failed to persist recoverable battles.")
+
+    def _choice_uses_primary_gimmick(self, choice: str) -> str | None:
+        parts = str(choice or "").split()
+        if len(parts) < 3:
+            return None
+        action_name = str(parts[2] or "").strip().lower()
+        return action_name if action_name in PRIMARY_GIMMICK_ACTIONS else None
+
+    async def restore_recent_battles(self) -> None:
+        if not RECOVERABLE_BATTLES_PATH.exists():
+            return
+        try:
+            raw = await asyncio.to_thread(RECOVERABLE_BATTLES_PATH.read_text, "utf-8")
+            loaded = json.loads(raw or "[]")
+        except Exception:
+            logger.exception("Failed to load recoverable battles.")
+            return
+        if not isinstance(loaded, list):
+            return
+        cutoff = datetime.now(timezone.utc) - timedelta(seconds=RECOVERABLE_BATTLE_WINDOW_SECONDS)
+        for item in loaded:
+            if not isinstance(item, dict):
+                continue
+            try:
+                updated_at = datetime.fromisoformat(str(item.get("updated_at") or ""))
+            except Exception:
+                continue
+            if updated_at.tzinfo is None:
+                updated_at = updated_at.replace(tzinfo=timezone.utc)
+            if updated_at < cutoff:
+                continue
+            if str(item.get("battle_mode") or "") not in {"pvp", "gym"}:
+                continue
+            players_payload = item.get("players") or {}
+            p1_payload = players_payload.get("p1") or {}
+            p2_payload = players_payload.get("p2") or {}
+            battle = BattleSession(
+                battle_id=str(item.get("battle_id") or ""),
+                chat_id=int(item.get("chat_id") or 0),
+                public_message_id=int(item.get("public_message_id") or 0),
+                format_id=str(item.get("format_id") or FULL_GIMMICK_FORMAT_ID),
+                format_label=str(item.get("format_label") or FULL_GIMMICK_FORMAT_LABEL),
+                players={
+                    "p1": PlayerState(slot="p1", user_id=int(p1_payload.get("user_id") or 0), name=str(p1_payload.get("name") or "Trainer")),
+                    "p2": PlayerState(slot="p2", user_id=int(p2_payload.get("user_id") or 0), name=str(p2_payload.get("name") or "Trainer")),
+                },
+                public_view=PublicBattleView({"p1": str(p1_payload.get("name") or "Trainer"), "p2": str(p2_payload.get("name") or "Trainer")}),
+                battle_mode=str(item.get("battle_mode") or "pvp"),
+                metadata=dict(item.get("metadata") or {}),
+            )
+            battle.metadata["recovering"] = True
+            battle.metadata["replay_index"] = 0
+            self._register_active_pvp_battle(battle)
+            try:
+                await self._start_battle_session(
+                    battle,
+                    p1_team=str(battle.metadata.get("p1_team") or ""),
+                    p2_team=str(battle.metadata.get("p2_team") or ""),
+                    failure_chat_id=battle.chat_id,
+                    failure_message_id=battle.public_message_id,
+                )
+            except Exception:
+                self._release_active_pvp_battle(battle)
+                logger.exception("Failed to recover battle %s", battle.battle_id)
+        await self._schedule_recovery_persist()
 
     async def _expire_pending_challenge_later(self, challenge_id: str) -> None:
         challenge = self.pending_by_id.get(challenge_id)
@@ -1516,6 +1637,11 @@ class BattleService:
         battle.metadata["p2_expected_team_size"] = p2_team_size
         battle.metadata["p1_expected_team_labels"] = packed_team_member_labels(p1_team)
         battle.metadata["p2_expected_team_labels"] = packed_team_member_labels(p2_team)
+        battle.metadata["p1_team"] = p1_team or ""
+        battle.metadata["p2_team"] = p2_team or ""
+        battle.metadata.setdefault("battle_seed", [secrets.randbelow(0x10000) for _ in range(4)])
+        battle.metadata.setdefault("replay_choices", [])
+        battle.metadata.setdefault("replay_index", 0)
         owned_team_ids = list(battle.metadata.get("owned_team_ids") or [])
         if battle.battle_mode == "wild" and owned_team_ids and p1_team_size != len(owned_team_ids):
             logger.warning(
@@ -1533,6 +1659,7 @@ class BattleService:
             p2_name=battle.players["p2"].name,
             p1_team=p1_team,
             p2_team=p2_team,
+            seed=[int(value) for value in list(battle.metadata.get("battle_seed") or [])],
         )
 
         try:
@@ -1563,6 +1690,7 @@ class BattleService:
             raise
 
         self.battles_by_id[battle.battle_id] = battle
+        await self._schedule_recovery_persist()
         battle.runner_task = asyncio.create_task(self.run_battle_loop(battle))
 
     async def run_battle_loop(self, battle: BattleSession) -> None:
@@ -1610,10 +1738,29 @@ class BattleService:
                             player.primed_action = None
                             await battle.bridge.choose(player.slot, choice)
                             auto_locked_team_preview = True
+                        replay_choices = list(battle.metadata.get("replay_choices") or [])
+                        replay_index = int(battle.metadata.get("replay_index") or 0)
+                        if battle.metadata.get("recovering") and replay_index < len(replay_choices) and not request.get("wait"):
+                            replay_entry = replay_choices[replay_index]
+                            if str(replay_entry.get("slot") or "") == player.slot:
+                                replay_choice = str(replay_entry.get("choice") or "").strip()
+                                if replay_choice:
+                                    player.locked_choice = self.describe_choice(request, replay_choice)
+                                    player.last_error = None
+                                    player.primed_action = None
+                                    await battle.bridge.choose(player.slot, replay_choice)
+                                    used_primary = self._choice_uses_primary_gimmick(replay_choice)
+                                    if used_primary in PRIMARY_GIMMICK_ACTIONS:
+                                        player.used_primary_gimmick = used_primary
+                                    battle.metadata["replay_index"] = replay_index + 1
+                                    auto_locked_team_preview = True
+                                    if int(battle.metadata.get("replay_index") or 0) >= len(replay_choices):
+                                        battle.metadata["recovering"] = False
                         if self.encounter_service is not None:
                             await self.encounter_service.on_battle_request(battle, player.slot, request)
                         await self.auto_choose_gym_request(battle, player.slot, request)
                         should_render = (not auto_locked_team_preview) and (not self.should_defer_request_render(battle))
+                        await self._schedule_recovery_persist()
                     elif event_type == "error":
                         player = battle.players[event["slot"]]
                         player.last_error = clean_error(event["message"])
@@ -1631,6 +1778,7 @@ class BattleService:
                             battle.metadata["encounter_end_handled"] = True
                         should_render = True
                         wait_for_render = True
+                        await self._schedule_recovery_persist()
                 if should_render:
                     await self.request_public_render(battle)
                 if mega_notifications:
@@ -1695,6 +1843,7 @@ class BattleService:
             if battle.bridge:
                 await battle.bridge.close()
             self._clear_battle_runtime_state(battle)
+            await self._schedule_recovery_persist()
 
     async def handle_action_callback(self, event: CallbackQuery.Event, data: str) -> None:
         parts = data.split(":")
@@ -1771,7 +1920,7 @@ class BattleService:
             return self.view_moves_text(battle, request, player), False, True
 
         if action_code == "vt":
-            return self.view_team_text(request), False, True
+            return self.view_team_text(battle, player, request), False, True
 
         if self.encounter_service is not None:
             special = await self.encounter_service.handle_battle_special_action(battle, player, request, action_code)
@@ -1871,12 +2020,16 @@ class BattleService:
 
         player.locked_choice = self.describe_choice(request, choice)
         player.last_error = None
+        replay_choices = list(battle.metadata.get("replay_choices") or [])
+        replay_choices.append({"slot": player.slot, "choice": choice})
+        battle.metadata["replay_choices"] = replay_choices
         await battle.bridge.choose(player.slot, choice)
         if chosen_primary_gimmick in PRIMARY_GIMMICK_ACTIONS:
             player.used_primary_gimmick = chosen_primary_gimmick
         player.primed_action = None
         if self.encounter_service is not None:
             await self.encounter_service.after_player_choice(battle, player, request, choice)
+        await self._schedule_recovery_persist()
         should_render = self.current_actor_slot(battle) is not None
         return f"Locked in: {player.locked_choice}", should_render, False
 
@@ -2190,13 +2343,13 @@ class BattleService:
             if self.encounter_service is not None:
                 lines.extend(self.encounter_service.extra_status_lines(battle))
             if request.get("teamPreview"):
-                lines.append(f"{current_player.name}: choose your lead.")
+                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your lead.")
                 button_specs = self.team_preview_button_specs(battle, current_player, request)
             elif request.get("forceSwitch"):
-                lines.append(f"{current_player.name}: choose your switch-in.")
+                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your switch-in.")
                 button_specs = self.forced_switch_button_specs(battle, current_player, request)
             else:
-                lines.append(f"{current_player.name}: choose your move or switch.")
+                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your move or switch.")
                 button_specs = self.move_request_button_specs(battle, current_player, request)
         else:
             status_lines: list[str] = []
@@ -2273,10 +2426,10 @@ class BattleService:
             if self.encounter_service is not None:
                 lines.extend(self.encounter_service.extra_status_lines(battle))
             if request.get("forceSwitch"):
-                lines.append(f"{current_player.name}: choose your switch-in.")
+                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your switch-in.")
                 button_specs = self.forced_switch_button_specs(battle, current_player, request)
             elif not request.get("teamPreview"):
-                lines.append(f"{current_player.name}: choose your move or switch.")
+                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your move or switch.")
                 button_specs = self.move_request_button_specs(battle, current_player, request)
         elif self.encounter_service is not None:
             status_lines = self.encounter_service.extra_status_lines(battle)
@@ -2408,6 +2561,44 @@ class BattleService:
             return None
         return [[Button.inline(label, data=data.encode("utf-8")) for label, data in row] for row in specs]
 
+    def _request_pokemon_token(self, pokemon: dict[str, Any], *, fallback_index: int) -> str:
+        details = str(pokemon.get("details", "") or "").strip()
+        ident = str(pokemon.get("ident", "") or "").strip()
+        return details or ident or f"pokemon-{fallback_index}"
+
+    def _request_slot_number_map(
+        self,
+        battle: BattleSession,
+        player: PlayerState,
+        request: dict[str, Any],
+    ) -> dict[int, int]:
+        side_pokemon = list((request.get("side") or {}).get("pokemon") or [])
+        if not side_pokemon:
+            return {}
+
+        metadata_key = f"{player.slot}_stable_slot_tokens"
+        original_tokens = list(battle.metadata.get(metadata_key) or [])
+        if not original_tokens:
+            original_tokens = [
+                self._request_pokemon_token(pokemon, fallback_index=index)
+                for index, pokemon in enumerate(side_pokemon, start=1)
+            ]
+            battle.metadata[metadata_key] = list(original_tokens)
+
+        token_positions: dict[str, list[int]] = {}
+        for position, token in enumerate(original_tokens, start=1):
+            token_positions.setdefault(token, []).append(position)
+
+        current_counts: dict[str, int] = {}
+        mapping: dict[int, int] = {}
+        for current_index, pokemon in enumerate(side_pokemon, start=1):
+            token = self._request_pokemon_token(pokemon, fallback_index=current_index)
+            current_counts[token] = current_counts.get(token, 0) + 1
+            matches = token_positions.get(token) or []
+            match_index = current_counts[token] - 1
+            mapping[current_index] = matches[match_index] if match_index < len(matches) else current_index
+        return mapping
+
     def team_preview_button_specs(
         self,
         battle: BattleSession,
@@ -2429,7 +2620,12 @@ class BattleService:
         rows: list[list[tuple[str, str]]] = []
         move_specs = [(str(index), self.action_data(battle, player, f"m{index}")) for index, _ in enumerate(active["moves"], start=1)]
         rows.extend(chunk_specs(move_specs, per_row=4))
-        rows.append([("MOVES", self.action_data(battle, player, "vm"))])
+        rows.append(
+            [
+                ("MOVES", self.action_data(battle, player, "vm")),
+                ("TEAM", self.action_data(battle, player, "vt")),
+            ]
+        )
 
         if self.can_offer_switch(request):
             rows.extend(self.switch_button_specs(battle, player, request))
@@ -2439,10 +2635,8 @@ class BattleService:
             rows.extend(chunk_specs(mechanics, per_row=2))
         if self.encounter_service is not None:
             rows.extend(self.encounter_service.extra_action_rows(battle, player, request))
-        bottom_row = [("TEAM", self.action_data(battle, player, "vt"))]
         if not (battle.battle_mode == "wild" and player.slot == "p1"):
-            bottom_row.append(("FORFIT", self.action_data(battle, player, "f")))
-        rows.append(bottom_row)
+            rows.append([("FORFIT", self.action_data(battle, player, "f"))])
         return rows
 
     def switch_button_specs(
@@ -2451,11 +2645,12 @@ class BattleService:
         player: PlayerState,
         request: dict[str, Any],
     ) -> list[list[tuple[str, str]]]:
+        slot_map = self._request_slot_number_map(battle, player, request)
         specs = [
-            (str(index), self.action_data(battle, player, f"s{index}"))
+            (str(slot_map.get(index, index)), self.action_data(battle, player, f"s{index}"))
             for index in self.valid_switch_indices(request, forced=bool(request.get("forceSwitch")))
         ]
-        return chunk_specs(specs, per_row=4)
+        return chunk_specs(specs, per_row=5)
 
     def forced_switch_button_specs(
         self,
@@ -2552,7 +2747,8 @@ class BattleService:
                 
         return compact_text("\n".join(lines), limit=195)
 
-    def view_team_text(self, request: dict[str, Any]) -> str:
+    def view_team_text(self, battle: BattleSession, player: PlayerState, request: dict[str, Any]) -> str:
+        slot_map = self._request_slot_number_map(battle, player, request)
         lines = []
         for index, pokemon in enumerate(request["side"]["pokemon"], start=1):
             prefix = "*" if pokemon.get("active") else ""
@@ -2575,7 +2771,8 @@ class BattleService:
                 item = item[:10]
 
             # Dense Format: 1*Charizard[Fir/Fly] 100% Item
-            lines.append(f"{index}{prefix}.{name}[{types}] {hp} {item}")
+            stable_index = slot_map.get(index, index)
+            lines.append(f"{stable_index}{prefix}.{name}[{types}] {hp} {item}")
             
         return compact_text("\n".join(lines), limit=195)
 

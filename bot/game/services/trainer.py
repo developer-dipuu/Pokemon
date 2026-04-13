@@ -15,6 +15,8 @@ from urllib.parse import quote
 
 from telethon import Button
 from telethon.events import CallbackQuery, NewMessage
+from telethon.tl.functions.bots import SetBotCommandsRequest
+from telethon.tl.types import BotCommand, BotCommandScopeDefault
 from telethon.tl.types import User
 from telethon.utils import get_display_name
 
@@ -355,6 +357,7 @@ POKECHAIN_TURN_REDUCTION_GUESSES = 5
 POKECHAIN_WIN_VP = 1000
 POKECHAIN_WIN_LP = 100
 POKECHAIN_DAILY_REWARD_LIMIT = 5
+NICKNAME_PAGE_SIZE = 25
 ADMIN_COMMAND_LOCK_MESSAGE = "This admin command is temporarily locked while we stabilize the bot."
 GYM_COMMAND_LOCK_MESSAGE = "Gym battles are temporarily locked while we stabilize the bot."
 USER_COMMAND_LOCK_MESSAGE = "This command is locked by admins."
@@ -459,6 +462,14 @@ class RelearnerSession:
 
 
 @dataclass
+class NicknameSession:
+    owner_id: int
+    pokemon_id: int
+    page: int
+    expires_at: datetime
+
+
+@dataclass
 class PokechainSession:
     chat_id: int
     host_id: int
@@ -520,6 +531,7 @@ class TrainerGameService:
         self.training_sessions: dict[int, TrainingSession] = {}
         self.command_use_sessions: dict[str, CommandUseSession] = {}
         self.relearner_sessions: dict[str, RelearnerSession] = {}
+        self.nickname_sessions: dict[int, NicknameSession] = {}
         self._training_move_catalog: dict[str, list[dict[str, object]]] = {}
         self._training_levelup_move_catalog: dict[str, list[dict[str, object]]] = {}
         self._training_ability_catalog: dict[str, list[dict[str, object]]] = {}
@@ -543,6 +555,56 @@ class TrainerGameService:
             return True
         await event.respond("Access denied.")
         return False
+
+    def _telegram_command_specs(self) -> list[tuple[str, str]]:
+        return [
+            ("start", "Open your trainer profile"),
+            ("help", "Show command help"),
+            ("starter", "Choose your starter again"),
+            ("mycard", "View your trainer card"),
+            ("mypokemons", "View your Pokemon collection"),
+            ("nickname", "Give a nickname to a Pokemon"),
+            ("mynicknames", "List your nicknamed Pokemon"),
+            ("myteam", "Manage your active team"),
+            ("mybag", "Open your inventory"),
+            ("box", "Open Trainer Box rewards"),
+            ("stats", "View a Pokemon stat card"),
+            ("travel", "Travel to another region"),
+            ("dexnav", "Find where a Pokemon spawns"),
+            ("hunt", "Search for wild Pokemon"),
+            ("autohunt", "Run multiple hunts quickly"),
+            ("open", "Open the quick-hunt keyboard"),
+            ("close", "Close the quick-hunt keyboard"),
+            ("safari", "Open the Safari menu"),
+            ("exit", "Leave Safari or close active battle"),
+            ("train", "Open the training spot"),
+            ("breed", "Use the daycare"),
+            ("breeddata", "View daycare timers"),
+            ("incubate", "Hatch an egg instantly"),
+            ("incubator", "Open the egg incubator"),
+            ("shop", "Open the Pokemart"),
+            ("buy", "Buy items from the shop"),
+            ("sell", "Sell Pokeballs"),
+            ("challenge", "Challenge another trainer"),
+            ("trade", "Trade with another trainer"),
+            ("pokechain", "Start a Pokechain lobby"),
+            ("joinpc", "Join the current Pokechain lobby"),
+            ("myfac", "View your faction profile"),
+        ]
+
+    async def _handle_admin_sync_commands(self, event: NewMessage.Event) -> None:
+        commands = [BotCommand(command=name, description=description) for name, description in self._telegram_command_specs()]
+        await self.battle_service.client(
+            SetBotCommandsRequest(
+                scope=BotCommandScopeDefault(),
+                lang_code="en",
+                commands=commands,
+            )
+        )
+        await event.respond(
+            f"Updated Telegram bot commands successfully.\nCommands synced: `{len(commands)}`",
+            parse_mode="md",
+        )
 
     async def _track_group_chat(self, chat_id: int | None, *, title: str | None = None) -> None:
         if chat_id is None:
@@ -1831,6 +1893,211 @@ class TrainerGameService:
             return {"status": "missing"}
         return {"status": "ok", "season_points": int(trainer.inventory.season_points or 0)}
 
+    def _nickname_payload(
+        self,
+        session,
+        *,
+        owner_id: int,
+        username: str | None,
+        display_name_value: str,
+        query: str,
+        nickname: str | None,
+    ) -> tuple[bool, str]:
+        trainers = TrainerRepository(session)
+        pokemons = PokemonRepository(session)
+        trainer = trainers.ensure_trainer(
+            telegram_user_id=owner_id,
+            username=username,
+            display_name=display_name_value,
+        )
+        matches = pokemons.find_by_query(trainer, query)
+        if not matches:
+            return False, f"No Pokemon matched `{query}`."
+        if len(matches) > 1:
+            preview = ", ".join(f"`{pokemon.id}` {pokemon.nickname or effective_species(pokemon)}" for pokemon in matches[:6])
+            if len(matches) > 6:
+                preview += ", ..."
+            return False, f"Multiple Pokemon matched `{query}`.\nUse a more specific id or name.\n{preview}"
+
+        pokemon = matches[0]
+        cleaned = str(nickname or "").strip()
+        if cleaned.lower() in {"clear", "remove", "none", "-"}:
+            cleaned = ""
+        if len(cleaned) > 64:
+            return False, "Nickname must be 64 characters or fewer."
+
+        old_name = str(pokemon.nickname or "").strip()
+        pokemons.set_nickname(pokemon, cleaned or None)
+        base_species = effective_species(pokemon)
+        if cleaned:
+            return True, f"`{base_species}` is now nicknamed `{cleaned}`."
+        if old_name:
+            return True, f"Removed nickname from `{base_species}`."
+        return True, f"`{base_species}` does not have a nickname right now."
+
+    def _my_nicknames_payload(
+        self,
+        session,
+        *,
+        owner_id: int,
+        username: str | None,
+        display_name_value: str,
+    ) -> str:
+        trainers = TrainerRepository(session)
+        pokemons = PokemonRepository(session)
+        trainer = trainers.ensure_trainer(
+            telegram_user_id=owner_id,
+            username=username,
+            display_name=display_name_value,
+        )
+        nicknamed = pokemons.list_nicknamed_pokemon(trainer)
+        lines = ["**Your Nicknamed Pokemon**", ""]
+        if not nicknamed:
+            lines.append("You have no nicknamed Pokemon yet.")
+            lines.append("")
+            lines.append("Use `/nickname <pokemon> <nickname>` to set one.")
+            return "\n".join(lines)
+        for pokemon in nicknamed:
+            lines.append(f"`{pokemon.id}` {pokemon.nickname} ({effective_species(pokemon)}) Lv.{pokemon.level}")
+        lines.append("")
+        lines.append(f"Total nicknamed Pokemon: `{len(nicknamed)}`")
+        return "\n".join(lines)
+
+    def _purge_nickname_sessions(self) -> None:
+        now = datetime.utcnow()
+        stale_ids = [
+            owner_id
+            for owner_id, session in self.nickname_sessions.items()
+            if session.expires_at <= now
+        ]
+        for owner_id in stale_ids:
+            self.nickname_sessions.pop(owner_id, None)
+
+    def _set_nickname_session(self, *, owner_id: int, pokemon_id: int, page: int) -> NicknameSession:
+        self._purge_nickname_sessions()
+        session = NicknameSession(
+            owner_id=int(owner_id),
+            pokemon_id=int(pokemon_id),
+            page=max(int(page), 0),
+            expires_at=datetime.utcnow() + timedelta(minutes=COMMAND_USE_SESSION_MINUTES),
+        )
+        self.nickname_sessions[int(owner_id)] = session
+        return session
+
+    def _get_nickname_session(self, owner_id: int) -> NicknameSession | None:
+        self._purge_nickname_sessions()
+        session = self.nickname_sessions.get(int(owner_id))
+        if session is None:
+            return None
+        if session.expires_at <= datetime.utcnow():
+            self.nickname_sessions.pop(int(owner_id), None)
+            return None
+        return session
+
+    def _clear_nickname_session(self, owner_id: int) -> None:
+        self.nickname_sessions.pop(int(owner_id), None)
+
+    def _nickname_picker_payload(
+        self,
+        session,
+        *,
+        owner_id: int,
+        username: str | None,
+        display_name_value: str,
+        page: int,
+    ) -> tuple[str, list[list[Button]] | None]:
+        trainers = TrainerRepository(session)
+        pokemons = PokemonRepository(session)
+        trainer = trainers.ensure_trainer(
+            telegram_user_id=owner_id,
+            username=username,
+            display_name=display_name_value,
+        )
+        pokemon_list = self.sorted_owned_pokemon(trainer, pokemons)
+        total = len(pokemon_list)
+        if total <= 0:
+            return "You do not own any Pokemon yet.", None
+        max_page = (total - 1) // NICKNAME_PAGE_SIZE
+        current_page = min(max(page, 0), max_page)
+        start = current_page * NICKNAME_PAGE_SIZE
+        items = pokemon_list[start:start + NICKNAME_PAGE_SIZE]
+        lines = ["**Choose a Pokemon to nickname**", ""]
+        button_specs: list[tuple[str, int]] = []
+        for index, pokemon in enumerate(items, start=start + 1):
+            nickname_suffix = f' "{pokemon.nickname}"' if pokemon.nickname else ""
+            lines.append(f"{index}. {effective_species(pokemon)}{nickname_suffix}")
+            button_specs.append((str(index), int(pokemon.id)))
+        lines.append("")
+        lines.append(f"Page `{current_page + 1}` / `{max_page + 1}`")
+        lines.append(f"Total Pokemon: `{total}`")
+
+        rows = chunk_buttons(
+            [Button.inline(label, data=f"nick:pick:{owner_id}:{current_page}:{pokemon_id}".encode("utf-8")) for label, pokemon_id in button_specs],
+            per_row=5,
+        )
+        nav: list[Button] = []
+        if current_page > 0:
+            nav.append(Button.inline("<", data=f"nick:page:{owner_id}:{current_page - 1}".encode("utf-8")))
+        if current_page < max_page:
+            nav.append(Button.inline(">", data=f"nick:page:{owner_id}:{current_page + 1}".encode("utf-8")))
+        if nav:
+            rows.append(nav)
+        rows.append([Button.inline("Cancel", data=f"nick:cancel:{owner_id}".encode("utf-8"))])
+        return "\n".join(lines), rows
+
+    def _nickname_prompt_text(self, pokemon, *, page: int) -> str:
+        current_nickname = str(getattr(pokemon, "nickname", "") or "").strip()
+        species = effective_species(pokemon)
+        lines = [
+            f"**New nickname for {species}**",
+            "",
+            f"Current nickname: `{current_nickname or 'None'}`",
+            "",
+            "Write the new nickname for this Pokemon.",
+            "Send `-` to clear the nickname.",
+        ]
+        return "\n".join(lines)
+
+    def _nickname_prompt_buttons(self, *, owner_id: int, page: int) -> list[list[Button]]:
+        return [
+            [Button.inline("Back", data=f"nick:page:{owner_id}:{page}".encode("utf-8"))],
+            [Button.inline("Cancel", data=f"nick:cancel:{owner_id}".encode("utf-8"))],
+        ]
+
+    def _apply_nickname_from_session(
+        self,
+        session,
+        *,
+        owner_id: int,
+        username: str | None,
+        display_name_value: str,
+        nickname_session: NicknameSession,
+        nickname: str,
+    ) -> tuple[bool, str]:
+        trainers = TrainerRepository(session)
+        pokemons = PokemonRepository(session)
+        trainer = trainers.ensure_trainer(
+            telegram_user_id=owner_id,
+            username=username,
+            display_name=display_name_value,
+        )
+        pokemon = pokemons.get_owned_pokemon(trainer, int(nickname_session.pokemon_id))
+        if pokemon is None:
+            return False, "That Pokemon is no longer available. Use /nickname again."
+        cleaned = str(nickname or "").strip()
+        if len(cleaned) > 64:
+            return False, "Nickname must be 64 characters or fewer."
+        if cleaned.lower() in {"clear", "remove", "none", "-"}:
+            cleaned = ""
+        old_name = str(pokemon.nickname or "").strip()
+        pokemons.set_nickname(pokemon, cleaned or None)
+        species = effective_species(pokemon)
+        if cleaned:
+            return True, f"`{species}` is now nicknamed `{cleaned}`."
+        if old_name:
+            return True, f"Removed nickname from `{species}`."
+        return True, f"`{species}` does not have a nickname right now."
+
     def _autohunt_context(
         self,
         session,
@@ -1973,6 +2240,28 @@ class TrainerGameService:
             display_name_value=display_name(sender),
         ))
         await event.respond(response_text, buttons=response_buttons)
+
+    async def on_nickname(self, event: NewMessage.Event) -> None:
+        self._clear_nickname_session(int(event.sender_id or 0))
+        sender = await resolve_event_user(event)
+        text, buttons = await run_db_work_async(lambda session: self._nickname_picker_payload(
+            session,
+            owner_id=int(event.sender_id or 0),
+            username=getattr(sender, "username", None),
+            display_name_value=display_name(sender),
+            page=0,
+        ))
+        await event.respond(text, buttons=buttons, parse_mode="md")
+
+    async def on_my_nicknames(self, event: NewMessage.Event) -> None:
+        sender = await resolve_event_user(event)
+        text = await run_db_work_async(lambda session: self._my_nicknames_payload(
+            session,
+            owner_id=int(event.sender_id or 0),
+            username=getattr(sender, "username", None),
+            display_name_value=display_name(sender),
+        ))
+        await event.respond(text, parse_mode="md")
 
     async def on_display(self, event: NewMessage.Event) -> None:
         mode = event.raw_text.split(maxsplit=1)[1].strip() if len(event.raw_text.split(maxsplit=1)) > 1 else ""
@@ -10378,6 +10667,9 @@ class TrainerGameService:
         if command == "/makeredeem":
             await self._handle_admin_makeredeem(event)
             return
+        if command in {"/synccommands", "/setcommands"}:
+            await self._handle_admin_sync_commands(event)
+            return
         if command == "/record":
             await self.on_record(event)
             return
@@ -11115,6 +11407,21 @@ class TrainerGameService:
         if await self._is_banned_user_id(event.sender_id):
             return
         await self.factions.track_sender(event)
+        nickname_session = self._get_nickname_session(int(event.sender_id or 0))
+        if nickname_session is not None:
+            sender = await resolve_event_user(event)
+            success, text = await run_db_work_async(lambda session: self._apply_nickname_from_session(
+                session,
+                owner_id=int(event.sender_id or 0),
+                username=getattr(sender, "username", None),
+                display_name_value=display_name(sender),
+                nickname_session=nickname_session,
+                nickname=str(event.raw_text or ""),
+            ))
+            if success:
+                self._clear_nickname_session(int(event.sender_id or 0))
+            await event.respond(text, parse_mode="md")
+            return
         await self.team_manager.on_private_text(event)
 
     async def on_any_message(self, event: NewMessage.Event) -> None:
@@ -11421,6 +11728,9 @@ class TrainerGameService:
             return True
         if data.startswith("cmduse:"):
             await self.handle_command_use_callback(event, data)
+            return True
+        if data.startswith("nick:"):
+            await self.handle_nickname_callback(event, data)
             return True
         if data.startswith("tmuse:"):
             await self.handle_tm_callback(event, data)
@@ -12896,6 +13206,77 @@ class TrainerGameService:
         ))
         await safe_event_edit(event, text, buttons=buttons)
         await event.answer()
+
+    async def handle_nickname_callback(self, event: CallbackQuery.Event, data: str) -> None:
+        if not event.is_private:
+            await event.answer("Use nickname setup in private chat.", alert=True)
+            return
+        parts = data.split(":")
+        if len(parts) < 3:
+            await event.answer("Unknown nickname action.", alert=True)
+            return
+        action = parts[1]
+        if not parts[2].isdigit():
+            await event.answer("Invalid nickname owner.", alert=True)
+            return
+        owner_id = int(parts[2])
+        if int(event.sender_id or 0) != owner_id:
+            await event.answer("This nickname menu belongs to another trainer.", alert=True)
+            return
+        if action == "cancel":
+            self._clear_nickname_session(owner_id)
+            edited = await safe_event_edit(event, "Nickname menu closed.", buttons=None)
+            if not edited:
+                await event.respond("Nickname menu closed.")
+            await event.answer("Closed.")
+            return
+        if action == "page":
+            if len(parts) != 4 or not parts[3].lstrip("+-").isdigit():
+                await event.answer("Unknown nickname action.", alert=True)
+                return
+            sender = await resolve_event_user(event)
+            text, buttons = await run_db_work_async(lambda session: self._nickname_picker_payload(
+                session,
+                owner_id=owner_id,
+                username=getattr(sender, "username", None),
+                display_name_value=display_name(sender),
+                page=int(parts[3]),
+            ))
+            await safe_event_edit(event, text, buttons=buttons, parse_mode="md")
+            await event.answer()
+            return
+        if action == "pick":
+            if len(parts) != 5 or not parts[3].lstrip("+-").isdigit() or not parts[4].isdigit():
+                await event.answer("Unknown nickname action.", alert=True)
+                return
+            page = int(parts[3])
+            pokemon_id = int(parts[4])
+            sender = await resolve_event_user(event)
+            self._set_nickname_session(owner_id=owner_id, pokemon_id=pokemon_id, page=page)
+            with db_session(read_only=True) as session:
+                trainers = TrainerRepository(session)
+                pokemons = PokemonRepository(session)
+                trainer = trainers.ensure_trainer(
+                    telegram_user_id=owner_id,
+                    username=getattr(sender, "username", None),
+                    display_name=display_name(sender),
+                )
+                pokemon = pokemons.get_owned_pokemon(trainer, pokemon_id)
+                if pokemon is not None:
+                    session.expunge(pokemon)
+            if pokemon is None:
+                self._clear_nickname_session(owner_id)
+                await event.answer("That Pokemon is no longer available.", alert=True)
+                return
+            await safe_event_edit(
+                event,
+                self._nickname_prompt_text(pokemon, page=page),
+                buttons=self._nickname_prompt_buttons(owner_id=owner_id, page=page),
+                parse_mode="md",
+            )
+            await event.answer("Send the new nickname in DM.")
+            return
+        await event.answer("Unknown nickname action.", alert=True)
 
     async def handle_display_callback(self, event: CallbackQuery.Event, data: str) -> None:
         sender = await resolve_event_user(event)

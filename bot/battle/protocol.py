@@ -332,7 +332,7 @@ class PublicBattleView:
                         delta_percent = max(int(parsed["percent"]) - int(previous_percent), 0)
                     amount_text = self._format_delta_amount(delta_hp, delta_percent)
                     if amount_text:
-                        self._add_recent(f"{name} recovered {amount_text}.")
+                        self._add_recent(f"{name} recovered {amount_text}%.")
                     else:
                         self._add_recent(f"{name} recovered HP.")
             elif command == "-crit" and args:
@@ -342,7 +342,31 @@ class PublicBattleView:
             elif command == "-resisted" and args:
                 self._add_recent(f"It was not very effective against {ident_name(args[0])}.")
             elif command == "-immune" and args:
-                self._add_recent(f"{ident_name(args[0])} was immune.")
+                target_name = ident_name(args[0])
+                move_context = self.last_move_event or {}
+                if normalize_effect_name(str(move_context.get("target") or target_name)) == normalize_effect_name(target_name):
+                    move_name = str(move_context.get("move_name") or "").strip()
+                    attacker = str(move_context.get("attacker") or "").strip()
+                    if move_name and attacker:
+                        self._add_recent(f"{target_name} was immune to {attacker}'s {move_name}.")
+                    elif move_name:
+                        self._add_recent(f"{target_name} was immune to {move_name}.")
+                    else:
+                        self._add_recent(f"{target_name} was immune.")
+                else:
+                    self._add_recent(f"{target_name} was immune.")
+                self.last_move_event = None
+            elif command == "-fail" and args:
+                subject_name = ident_name(args[0])
+                move_context = self.last_move_event or {}
+                move_name = str(move_context.get("move_name") or "").strip()
+                if move_name and normalize_effect_name(str(move_context.get("attacker") or subject_name)) == normalize_effect_name(subject_name):
+                    self._add_recent(f"{subject_name}'s {move_name} failed.")
+                elif len(args) >= 2 and not str(args[1]).startswith("["):
+                    self._add_recent(f"{subject_name}'s {effect_label(args[1])} failed.")
+                else:
+                    self._add_recent(f"{subject_name}'s move failed.")
+                self.last_move_event = None
             elif command == "faint" and args:
                 side = ident_side(args[0])
                 name = ident_name(args[0])
@@ -553,8 +577,8 @@ class PublicBattleView:
         attacker_key = normalize_effect_name(attacker)
         target_key = normalize_effect_name(target)
         if target and target_key and target_key != attacker_key:
-            return f"{attacker} used {move_name} on {target} Dealt {amount_text}."
-        return f"{attacker} used {move_name} Dealt {amount_text}."
+            return f"{attacker} used {move_name} on {target} Dealt {amount_text}%."
+        return f"{attacker} used {move_name} Dealt {amount_text}%."
 
     def _direct_damage_context(self, target_name: str, extra_args: list[str]) -> dict[str, Any] | None:
         context = self.last_move_event

@@ -37,8 +37,11 @@ from bot.db.repositories import AdminRepository, TrainerRepository
 from bot.db.session import init_database_async, run_db_work_async
 from bot.game.services.generator import PokemonGeneratorService
 from bot.game.services.trainer import TrainerGameService
+from bot.cache.redis_client import get_redis_client, ping_redis
+from bot.telegram_flood import install_telegram_flood_control
 from telethon import Button
 from telethon.events import StopPropagation
+from telethon.sessions.sqlite import SQLiteSession
 
 
 _ORIGINAL_CALLBACK_ANSWER = events.CallbackQuery.Event.answer
@@ -132,17 +135,56 @@ def telethon_session_lock():
             handle.close()
 
 
+def _backup_path(path: Path) -> Path:
+    backup = path.with_name(path.name + ".bak")
+    index = 1
+    while backup.exists():
+        backup = path.with_name(f"{path.name}.bak{index}")
+        index += 1
+    return path.replace(backup)
+
+
+def ensure_valid_telethon_session() -> None:
+    session_file = SESSION_PATH.with_suffix(".session")
+    journal_file = session_file.with_name(session_file.name + "-journal")
+    if not session_file.exists():
+        return
+    try:
+        SQLiteSession(str(SESSION_PATH))
+    except Exception as exc:
+        logger.warning(
+            "Detected an invalid or incompatible Telethon session file %s: %s",
+            session_file,
+            exc,
+        )
+        backup = _backup_path(session_file)
+        logger.warning("Backed up invalid session file to %s", backup)
+        if journal_file.exists():
+            backup_journal = _backup_path(journal_file)
+            logger.warning("Backed up stale journal file to %s", backup_journal)
+
+
 async def main() -> None:
     ensure_runtime_dirs()
+    ensure_valid_telethon_session()
     await init_database_async()
     startup_cutoff_utc = datetime.now(timezone.utc)
 
     client = TelegramClient(str(SESSION_PATH), load_api_id(), load_api_hash())
+    install_telegram_flood_control(client)
     battle_service = BattleService(client)
     game_service = TrainerGameService(PokemonGeneratorService(), battle_service)
     battle_service.attach_encounter_service(game_service.encounters)
     bot_dm_url: str | None = None
     bot_dm_url_lock = asyncio.Lock()
+
+    try:
+        redis_available = await ping_redis()
+    except Exception as exc:
+        redis_available = False
+        logger.warning("Redis unavailable, falling back to in-memory state: %s", exc)
+    if not redis_available:
+        logger.info("Running without Redis caching or flood control fallback.")
     trainer_exists_cache: dict[int, float] = {}
     banned_cache: dict[int, tuple[bool, float]] = {}
     tracked_group_chats: set[int] = set()
@@ -161,17 +203,39 @@ async def main() -> None:
     async def trainer_exists(user_id: int | None) -> bool:
         if user_id is None:
             return False
-        expires_at = trainer_exists_cache.get(int(user_id))
-        if expires_at is not None and expires_at > time.monotonic():
+        trainer_id = int(user_id)
+        local_expires = trainer_exists_cache.get(trainer_id)
+        if local_expires is not None and local_expires > time.monotonic():
             return True
+
+        if redis_available:
+            try:
+                redis_key = f"trainer_exists:{trainer_id}"
+                value = await redis_client.get(redis_key)
+                if value is not None:
+                    trainer_exists_cache[trainer_id] = time.monotonic() + 60.0
+                    return value == "1"
+            except Exception:
+                pass
+
         trainer = await run_db_work_async(
-            lambda session: TrainerRepository(session).get_by_telegram_user_id(int(user_id)),
+            lambda session: TrainerRepository(session).get_by_telegram_user_id(trainer_id),
             read_only=True,
         )
         if trainer is not None:
-            trainer_exists_cache[int(user_id)] = time.monotonic() + 60.0
+            trainer_exists_cache[trainer_id] = time.monotonic() + 60.0
+            if redis_available:
+                try:
+                    await redis_client.set(redis_key, "1", ex=60)
+                except Exception:
+                    pass
             return True
-        trainer_exists_cache.pop(int(user_id), None)
+        trainer_exists_cache.pop(trainer_id, None)
+        if redis_available:
+            try:
+                await redis_client.set(redis_key, "0", ex=60)
+            except Exception:
+                pass
         return False
 
     async def is_banned_user(user_id: int | None) -> bool:
@@ -184,12 +248,30 @@ async def main() -> None:
         now = time.monotonic()
         if cached is not None and cached[1] > now:
             return cached[0]
+
+        if redis_available:
+            try:
+                redis_key = f"trainer_banned:{trainer_id}"
+                value = await redis_client.get(redis_key)
+                if value is not None:
+                    banned = value == "1"
+                    banned_cache[trainer_id] = (banned, now + 60.0)
+                    return banned
+            except Exception:
+                pass
+
         banned = await run_db_work_async(
             lambda session: AdminRepository(session).is_banned_user(trainer_id),
             read_only=True,
         )
-        banned_cache[trainer_id] = (bool(banned), now + 60.0)
-        return bool(banned)
+        result = bool(banned)
+        banned_cache[trainer_id] = (result, now + 60.0)
+        if redis_available:
+            try:
+                await redis_client.set(redis_key, "1" if result else "0", ex=60)
+            except Exception:
+                pass
+        return result
 
     async def track_group_chat(chat_id: int | None, *, title: str | None = None) -> None:
         if chat_id is None:
@@ -253,6 +335,8 @@ async def main() -> None:
     client.add_event_handler(game_service.on_help, events.NewMessage(pattern=r"^/help(?:@\w+)?$"))
     client.add_event_handler(game_service.on_starter, events.NewMessage(pattern=r"^/starter(?:@\w+)?$"))
     client.add_event_handler(game_service.on_my_pokemons, events.NewMessage(pattern=r"^/mypokemons(?:@\w+)?$"))
+    client.add_event_handler(game_service.on_nickname, events.NewMessage(pattern=r"^/nickname(?:@\w+)?(?:\s+.+)?$"))
+    client.add_event_handler(game_service.on_my_nicknames, events.NewMessage(pattern=r"^/mynicknames(?:@\w+)?$"))
     client.add_event_handler(game_service.on_myteam, events.NewMessage(pattern=r"^/myteam(?:@\w+)?$"))
     client.add_event_handler(game_service.on_display, events.NewMessage(pattern=r"^/display(?:@\w+)?(?:\s+\S+)?$"))
     client.add_event_handler(game_service.on_sort, events.NewMessage(pattern=r"^/sort(?:@\w+)?(?:\s+\S+)?$"))
@@ -335,6 +419,8 @@ async def main() -> None:
     client.add_event_handler(game_service.on_admin_legacy, events.NewMessage(pattern=r"^/weekendmode(?:@\w+)?(?:\s+.+)?$"))
     client.add_event_handler(game_service.on_admin_legacy, events.NewMessage(pattern=r"^/fdc(?:@\w+)?$"))
     client.add_event_handler(game_service.on_admin_legacy, events.NewMessage(pattern=r"^/makeredeem(?:@\w+)?(?:\s+.+)?$"))
+    client.add_event_handler(game_service.on_admin_legacy, events.NewMessage(pattern=r"^/synccommands(?:@\w+)?$"))
+    client.add_event_handler(game_service.on_admin_legacy, events.NewMessage(pattern=r"^/setcommands(?:@\w+)?$"))
     client.add_event_handler(game_service.on_admin_legacy, events.NewMessage(pattern=r"^/lock(?:@\w+)?(?:\s+.+)?$"))
     client.add_event_handler(game_service.on_admin_legacy, events.NewMessage(pattern=r"^/unlock(?:@\w+)?(?:\s+.+)?$"))
     client.add_event_handler(game_service.on_admin_legacy, events.NewMessage(pattern=r"^/locked(?:@\w+)?$"))
@@ -371,6 +457,7 @@ async def main() -> None:
     FLOOD_WINDOW_SECONDS = 1.0
     FLOOD_BURST_LIMIT = 5
     FLOOD_BLOCK_SECONDS = 1.0
+    redis_client = get_redis_client()
 
     async def on_callback(event: events.CallbackQuery.Event) -> None:
         if event.sender_id is not None:
@@ -382,23 +469,46 @@ async def main() -> None:
                 await safe_callback_answer(event, "You are banned from using this bot.", alert=True)
                 return
 
-            # 1. Apply temporary block only after real burst/flood activity.
-            if now < callback_block_until.get(event.sender_id, 0.0):
-                await safe_callback_answer(event, "Loading... Please wait.", alert=False)
-                return
+            history_key = f"callback_history:{event.sender_id}"
+            block_key = f"callback_block:{event.sender_id}"
+            use_redis = redis_available
 
-            # 2. Track clicks in a short rolling window.
-            history = callback_click_history[event.sender_id]
-            while history and (now - history[0]) > FLOOD_WINDOW_SECONDS:
-                history.popleft()
-            history.append(now)
+            if use_redis:
+                try:
+                    if await redis_client.exists(block_key):
+                        await safe_callback_answer(event, "Loading... Please wait.", alert=False)
+                        return
 
-            # 3. Trigger flood protection only when rapid spam is detected.
-            if len(history) >= FLOOD_BURST_LIMIT:
-                callback_block_until[event.sender_id] = now + FLOOD_BLOCK_SECONDS
-                history.clear()
-                await safe_callback_answer(event, "Loading... Please wait.", alert=False)
-                return
+                    count = await redis_client.incr(history_key)
+                    if count == 1:
+                        await redis_client.expire(history_key, int(FLOOD_WINDOW_SECONDS))
+
+                    if count >= FLOOD_BURST_LIMIT:
+                        await redis_client.set(block_key, 1, ex=int(FLOOD_BLOCK_SECONDS))
+                        await redis_client.delete(history_key)
+                        await safe_callback_answer(event, "Loading... Please wait.", alert=False)
+                        return
+                except Exception:
+                    use_redis = False
+
+            if not use_redis:
+                # 1. Apply temporary block only after real burst/flood activity.
+                if now < callback_block_until.get(event.sender_id, 0.0):
+                    await safe_callback_answer(event, "Loading... Please wait.", alert=False)
+                    return
+
+                # 2. Track clicks in a short rolling window.
+                history = callback_click_history[event.sender_id]
+                while history and (now - history[0]) > FLOOD_WINDOW_SECONDS:
+                    history.popleft()
+                history.append(now)
+
+                # 3. Trigger flood protection only when rapid spam is detected.
+                if len(history) >= FLOOD_BURST_LIMIT:
+                    callback_block_until[event.sender_id] = now + FLOOD_BLOCK_SECONDS
+                    history.clear()
+                    await safe_callback_answer(event, "Loading... Please wait.", alert=False)
+                    return
 
             # 4. Global Auth Check for Buttons
             if not await trainer_exists(event.sender_id):
@@ -431,6 +541,7 @@ async def main() -> None:
     # =================================================================
 
     await start_client_with_retry(client, bot_token=load_bot_token())
+    await battle_service.restore_recent_battles()
     game_service.start_background_tasks()
     me = await client.get_me()
     bot_dm_url = f"https://t.me/{me.username}?start=start" if getattr(me, "username", None) else None

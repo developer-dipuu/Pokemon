@@ -1299,6 +1299,23 @@ class PokemonRepository:
         ]
         return partial
 
+    def set_nickname(self, pokemon: OwnedPokemon, nickname: str | None) -> None:
+        cleaned = str(nickname or "").strip()
+        pokemon.nickname = cleaned or None
+        self.session.flush()
+
+    def list_nicknamed_pokemon(self, trainer: Trainer) -> list[OwnedPokemon]:
+        statement: Select[tuple[OwnedPokemon]] = (
+            select(OwnedPokemon)
+            .where(
+                OwnedPokemon.trainer_id == trainer.id,
+                OwnedPokemon.nickname.is_not(None),
+                OwnedPokemon.nickname != "",
+            )
+            .order_by(asc(OwnedPokemon.nickname), asc(OwnedPokemon.id))
+        )
+        return list(self.session.scalars(statement))
+
     def delete_owned_pokemon(self, pokemon: OwnedPokemon) -> None:
         self.session.delete(pokemon)
         self.session.flush()

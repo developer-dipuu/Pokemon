@@ -80,6 +80,19 @@ def _parse_int_list(raw: str) -> list[int]:
     return values
 
 
+def _parse_bool(raw: str | None, default: bool = False) -> bool:
+    if raw is None:
+        return default
+    value = raw.strip().lower()
+    if not value:
+        return default
+    if value in {"1", "true", "yes", "on"}:
+        return True
+    if value in {"0", "false", "no", "off"}:
+        return False
+    return default
+
+
 def _normalize_database_url(url: str) -> str:
     normalized = url.strip()
     if normalized.startswith("postgres://"):
@@ -115,11 +128,31 @@ def _build_database_url_from_parts() -> str:
     return f"postgresql+psycopg://{auth}@{host}:{port}/{quote(name, safe='')}{query_string}"
 
 
+def _build_redis_url_from_parts() -> str:
+    host = _first_env("REDIS_HOST", default="localhost")
+    port = _first_env("REDIS_PORT", default="6379")
+    password = _first_env("REDIS_PASSWORD", "REDIS_PASS")
+    db = _first_env("REDIS_DB", default="0")
+
+    if not host or not port:
+        return ""
+
+    auth = ""
+    if password:
+        auth = f":{quote(password, safe='')}@"
+
+    return f"redis://{auth}{host}:{port}/{quote(db, safe='')}"
+
+
 DATABASE_URL = _normalize_database_url(
     _first_env("DATABASE_URL", "PG_URI")
     or _build_database_url_from_parts()
     or "postgresql+psycopg://postgres:flirter@localhost:5432/pokeplay"
 )
+SQLITE_DATABASE_URL = f"sqlite:///{LEGACY_SQLITE_PATH.as_posix()}"
+DB_AUTO_FALLBACK_TO_SQLITE = _parse_bool(os.getenv("DB_AUTO_FALLBACK_TO_SQLITE"), default=True)
+
+REDIS_URL = _first_env("REDIS_URL") or _build_redis_url_from_parts() or "redis://localhost:6379/0"
 
 TELEGRAM_API_ID = _first_env("TELEGRAM_API_ID")
 TELEGRAM_API_HASH = _first_env("TELEGRAM_API_HASH")

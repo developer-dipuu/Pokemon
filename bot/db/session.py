@@ -1,53 +1,120 @@
 from __future__ import annotations
 
 import asyncio
+import logging
+import sqlite3
+import threading
 from contextlib import asynccontextmanager, contextmanager
 from typing import Callable, TypeVar
 
 from sqlalchemy import Engine, create_engine, event, inspect, text
+from sqlalchemy.exc import OperationalError
 from sqlalchemy.orm import Session, sessionmaker
 from sqlalchemy.ext.asyncio import AsyncEngine, AsyncSession, async_sessionmaker, create_async_engine
 
-from bot.config import DATABASE_URL, ensure_runtime_dirs
+from bot.config import (
+    DATABASE_URL,
+    DB_AUTO_FALLBACK_TO_SQLITE,
+    SQLITE_DATABASE_URL,
+    ensure_runtime_dirs,
+)
 from bot.db.models import Base
 
+logger = logging.getLogger("PokemonBot")
+_sqlite_write_lock = threading.RLock()
 
 ensure_runtime_dirs()
 
-engine_kwargs: dict[str, object] = {"future": True, "pool_pre_ping": True}
-if DATABASE_URL.startswith("sqlite"):
-    engine_kwargs["connect_args"] = {
-        "timeout": 30,
-        "check_same_thread": False,
-    }
-else:
-    engine_kwargs.update(
-        {
-            "pool_size": 20,
-            "max_overflow": 40,
-            "pool_timeout": 30,
-            "pool_recycle": 1800,
-            "pool_use_lifo": True,
+
+def _async_database_url(database_url: str) -> str:
+    if database_url.startswith("postgresql+asyncpg://"):
+        return database_url
+    if database_url.startswith("postgresql+psycopg://"):
+        return "postgresql+asyncpg://" + database_url[len("postgresql+psycopg://") :]
+    if database_url.startswith("postgresql://"):
+        return "postgresql+asyncpg://" + database_url[len("postgresql://") :]
+    if database_url.startswith("postgres://"):
+        return "postgresql+asyncpg://" + database_url[len("postgres://") :]
+    return database_url
+
+def _build_engine_kwargs(database_url: str) -> dict[str, object]:
+    kwargs: dict[str, object] = {"future": True, "pool_pre_ping": True}
+    if database_url.startswith("sqlite"):
+        kwargs["connect_args"] = {
+            "timeout": 30,
+            "check_same_thread": False,
         }
+    else:
+        kwargs.update(
+            {
+                "pool_size": 20,
+                "max_overflow": 40,
+                "pool_timeout": 30,
+                "pool_recycle": 1800,
+                "pool_use_lifo": True,
+            }
+        )
+    return kwargs
+
+
+sync_database_url = DATABASE_URL
+async_database_url = _async_database_url(DATABASE_URL)
+engine: Engine
+async_engine: AsyncEngine | None
+SessionLocal: sessionmaker[Session]
+AsyncSessionLocal: async_sessionmaker[AsyncSession] | None
+
+
+def _configure_engines(database_url: str) -> None:
+    global sync_database_url, async_database_url, engine, async_engine, SessionLocal, AsyncSessionLocal
+
+    sync_database_url = database_url
+    async_database_url = _async_database_url(database_url)
+    engine = create_engine(sync_database_url, **_build_engine_kwargs(sync_database_url))
+    SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False, expire_on_commit=False, class_=Session)
+
+    async_engine = None
+    AsyncSessionLocal = None
+    if not sync_database_url.startswith("sqlite"):
+        async_engine = create_async_engine(async_database_url, **_build_engine_kwargs(sync_database_url))
+        AsyncSessionLocal = async_sessionmaker(
+            bind=async_engine,
+            autoflush=False,
+            expire_on_commit=False,
+            class_=AsyncSession,
+        )
+
+
+def _fallback_to_sqlite(reason: Exception) -> None:
+    global engine, async_engine
+    if sync_database_url.startswith("sqlite"):
+        raise reason
+    if not DB_AUTO_FALLBACK_TO_SQLITE:
+        raise reason
+    logger.warning(
+        "PostgreSQL is unavailable for %s. Falling back to SQLite at %s. Original error: %s",
+        DATABASE_URL,
+        SQLITE_DATABASE_URL,
+        reason,
     )
-
-engine: Engine = create_engine(DATABASE_URL, **engine_kwargs)
-async_engine: AsyncEngine | None = None
-AsyncSessionLocal: async_sessionmaker[AsyncSession] | None = None
-
-if not DATABASE_URL.startswith("sqlite"):
-    async_engine = create_async_engine(DATABASE_URL, **engine_kwargs)
-    AsyncSessionLocal = async_sessionmaker(
-        bind=async_engine,
-        autoflush=False,
-        expire_on_commit=False,
-        class_=AsyncSession,
-    )
+    if async_engine is not None:
+        try:
+            asyncio.create_task(async_engine.dispose())
+        except Exception:
+            pass
+    try:
+        engine.dispose()
+    except Exception:
+        pass
+    _configure_engines(SQLITE_DATABASE_URL)
 
 
-@event.listens_for(engine, "connect")
+_configure_engines(DATABASE_URL)
+
+
+@event.listens_for(Engine, "connect")
 def _sqlite_pragmas(dbapi_connection, _connection_record) -> None:
-    if not DATABASE_URL.startswith("sqlite"):
+    if not sync_database_url.startswith("sqlite"):
         return
     try:
         cursor = dbapi_connection.cursor()
@@ -59,8 +126,6 @@ def _sqlite_pragmas(dbapi_connection, _connection_record) -> None:
     except Exception:
         return
 
-
-SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False, expire_on_commit=False, class_=Session)
 T = TypeVar("T")
 
 
@@ -137,9 +202,13 @@ async def init_database_async() -> None:
     if async_engine is None:
         await asyncio.to_thread(init_database)
         return
-    async with async_engine.begin() as connection:
-        await connection.run_sync(Base.metadata.create_all)
-        await connection.run_sync(_ensure_owned_pokemon_columns)
+    try:
+        async with async_engine.begin() as connection:
+            await connection.run_sync(Base.metadata.create_all)
+            await connection.run_sync(_ensure_owned_pokemon_columns)
+    except (OSError, OperationalError) as exc:
+        _fallback_to_sqlite(exc)
+        await asyncio.to_thread(init_database)
 
 
 def clear_database() -> None:
@@ -149,18 +218,31 @@ def clear_database() -> None:
 
 @contextmanager
 def db_session(*, read_only: bool = False) -> Session:
-    session = SessionLocal()
-    try:
-        yield session
-        if read_only:
+    if read_only or not sync_database_url.startswith("sqlite"):
+        session = SessionLocal()
+        try:
+            yield session
+            if read_only:
+                session.rollback()
+            else:
+                session.commit()
+        except Exception:
             session.rollback()
-        else:
+            raise
+        finally:
+            session.close()
+        return
+
+    with _sqlite_write_lock:
+        session = SessionLocal()
+        try:
+            yield session
             session.commit()
-    except Exception:
-        session.rollback()
-        raise
-    finally:
-        session.close()
+        except Exception:
+            session.rollback()
+            raise
+        finally:
+            session.close()
 
 
 def run_db_work(work: Callable[[Session], T], *, read_only: bool = False) -> T:

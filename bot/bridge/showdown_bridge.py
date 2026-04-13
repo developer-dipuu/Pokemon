@@ -64,6 +64,7 @@ class ShowdownBattleProcess:
         p2_name: str,
         p1_team: str | None = None,
         p2_team: str | None = None,
+        seed: list[int] | None = None,
     ) -> None:
         self.battle_id = battle_id
         self.bot_dir = bot_dir
@@ -73,6 +74,7 @@ class ShowdownBattleProcess:
         self.p2_name = p2_name
         self.p1_team = p1_team
         self.p2_team = p2_team
+        self.seed = [int(value) for value in (seed or [])]
         self.worker_path = self.bot_dir / "bridge" / "showdown_worker.js"
 
         self.process: subprocess.Popen[str] | None = None
@@ -107,6 +109,7 @@ class ShowdownBattleProcess:
                 "formatid": self.format_id,
                 "p1": {"name": self.p1_name, "team": self.p1_team},
                 "p2": {"name": self.p2_name, "team": self.p2_team},
+                "seed": self.seed,
             }
         )
 
