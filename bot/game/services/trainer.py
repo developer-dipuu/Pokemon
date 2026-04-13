@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 import html
 import json
+import logging
 import re
 from pathlib import Path
 import random
@@ -90,6 +91,8 @@ from bot.game.services.team_manager import TeamManagerService
 from bot.game.services.weekend_boost import set_weekend_boost_enabled, weekend_boost_status_text
 from bot.telegram_helpers import resolve_event_user, safe_client_edit, safe_event_edit
 from bot.bridge.showdown_bridge import ShowdownBridgeError
+
+logger = logging.getLogger("PokemonBot.game.trainer")
 
 
 def display_name(user: User | None, fallback: str = "Trainer") -> str:
@@ -10024,7 +10027,7 @@ class TrainerGameService:
         if len(parts) < 2 or not parts[1].strip():
             await event.respond("Usage: `/redeem <code>`", parse_mode="md")
             return
-        code = parts[1].strip()
+        code = RedeemCodeRepository.normalize_code(parts[1].strip().split()[0])
         sender = await event.get_sender()
 
         try:
@@ -10062,11 +10065,25 @@ class TrainerGameService:
                 redeem_repo.record_redemption(entry, telegram_user_id=int(event.sender_id or 0))
                 remaining = redeem_repo.remaining_redemptions(entry)
         except ValueError as exc:
-            await event.respond(str(exc))
+            message = str(exc)
+            if message == "already_redeemed":
+                message = "You already redeemed that code."
+            elif message == "redeem_limit_reached":
+                message = "That redeem code has reached its limit."
+            await event.respond(message)
+            return
+        except Exception:
+            logger.exception(
+                "Redeem failed for user_id=%s raw_code=%r normalized_code=%r",
+                int(event.sender_id or 0),
+                parts[1].strip(),
+                code,
+            )
+            await event.respond("Redeem failed right now. Please try again in a moment.")
             return
 
         lines = [
-            f"`{display_name(sender)}` redeemed `{RedeemCodeRepository.normalize_code(code)}`.",
+            f"`{display_name(sender)}` redeemed `{code}`.",
             "",
             "**Rewards Received**",
         ]

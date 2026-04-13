@@ -170,6 +170,18 @@ def hp_bar(percent: int | None, width: int = 10) -> str:
     return ("█" * filled) + ("░" * (width - filled))
 
 
+def escape_html_text(value: Any) -> str:
+    return html.escape(str(value or ""))
+
+
+def hp_bar_ascii(percent: int | None, width: int = 10) -> str:
+    if percent is None:
+        return "?" * width
+    bounded = max(0, min(100, percent))
+    filled = round((bounded / 100) * width)
+    return ("#" * filled) + ("-" * (width - filled))
+
+
 def format_types(types: list[str] | None) -> str:
     if not types:
         return "Unknown"
@@ -2183,8 +2195,7 @@ class BattleService:
     ) -> tuple[str, list[list[Button]] | None, str | None, tuple[Any, str] | None] | None:
         text, button_specs = self.render_public_text_and_buttons(battle)
         
-        # Force Markdown parsing globally so all our menus look pristine
-        parse_mode = "md"
+        parse_mode = "html"
         
         visual_payload: tuple[Any, str] | None = None
         scene_fingerprint: str | None = None
@@ -2210,8 +2221,7 @@ class BattleService:
         return bool(battle.metadata.get("visuals_enabled")) and self.visual_renderer.available
 
     def visual_caption_text(self, text: str) -> str:
-        # Removed the .replace("**", "") so it stops destroying our Markdown UI!
-        return compact_text(text.strip(), limit=VISUAL_CAPTION_LIMIT)
+        return compact_text(text.replace("**", "").strip(), limit=VISUAL_CAPTION_LIMIT)
 
     async def _upsert_visual_message(
         self,
@@ -2276,7 +2286,7 @@ class BattleService:
 
     def render_public_text_and_buttons(self, battle: BattleSession) -> tuple[str, list[list[tuple[str, str]]] | None]:
         if battle.finished and battle.battle_mode == "wild" and battle.metadata.get("encounter_outcome") == "ran":
-            return "**You ran away safely.**", None
+            return "<b>You ran away safely.</b>", None
         if (
             battle.finished
             and battle.battle_mode == "wild"
@@ -2291,6 +2301,7 @@ class BattleService:
         if self.encounter_service is not None:
             recent.extend(self.encounter_service.extra_recent_lines(battle))
         recent = self.trim_opening_recent_lines(battle, recent)
+        recent = [escape_html_text(entry) for entry in recent]
         current_slot = self.current_actor_slot(battle)
         if battle.battle_mode == "wild":
             return self.render_wild_public_text_and_buttons(battle, recent, current_slot)
@@ -2301,9 +2312,9 @@ class BattleService:
             if not battle.public_view.recent and battle.public_view.last_turn_recent and recent_turn > 1:
                 recent_turn -= 1
             if recent_turn > 0:
-                lines.append(f"**Turn {recent_turn} Recap**")
+                lines.append(f"<b>Turn {recent_turn} Recap</b>")
             else:
-                lines.append("**Battle Recap**")
+                lines.append("<b>Battle Recap</b>")
             lines.extend(f"• {entry}" for entry in recent)
             lines.append("")
 
@@ -2315,10 +2326,10 @@ class BattleService:
         if battle.finished:
             lines.append("")
             if battle.battle_mode == "wild" and battle.metadata.get("encounter_note"):
-                lines.append(str(battle.metadata["encounter_note"]))
+                lines.append(escape_html_text(battle.metadata["encounter_note"]))
             elif battle.battle_mode == "gym":
-                leader_name = str(battle.metadata.get("gym_leader") or battle.players["p2"].name)
-                gym_label = str(battle.metadata.get("gym_label") or "the gym")
+                leader_name = escape_html_text(battle.metadata.get("gym_leader") or battle.players["p2"].name)
+                gym_label = escape_html_text(battle.metadata.get("gym_label") or "the gym")
                 if battle.public_view.tie:
                     lines.append(f"The {gym_label} battle ended in a tie.")
                 elif battle.public_view.winner == battle.players["p1"].name:
@@ -2328,7 +2339,7 @@ class BattleService:
             elif battle.public_view.tie:
                 lines.append("Battle over: tie.")
             else:
-                winner = battle.public_view.winner or "Unknown winner"
+                winner = escape_html_text(battle.public_view.winner or "Unknown winner")
                 lines.append(f"Battle over: winner is {winner}.")
         elif current_slot:
             current_player = battle.players[current_slot]
@@ -2339,17 +2350,20 @@ class BattleService:
                     return override
             lines.append("")
             if current_player.last_error:
-                lines.append(f"{current_player.name}, your last choice was rejected: {current_player.last_error}")
+                lines.append(
+                    f"{escape_html_text(current_player.name)}, your last choice was rejected: "
+                    f"{escape_html_text(current_player.last_error)}"
+                )
             if self.encounter_service is not None:
                 lines.extend(self.encounter_service.extra_status_lines(battle))
             if request.get("teamPreview"):
-                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your lead.")
+                lines.append(f"{mention_html(current_player.user_id, current_player.name)}: choose your lead.")
                 button_specs = self.team_preview_button_specs(battle, current_player, request)
             elif request.get("forceSwitch"):
-                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your switch-in.")
+                lines.append(f"{mention_html(current_player.user_id, current_player.name)}: choose your switch-in.")
                 button_specs = self.forced_switch_button_specs(battle, current_player, request)
             else:
-                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your move or switch.")
+                lines.append(f"{mention_html(current_player.user_id, current_player.name)}: choose your move or switch.")
                 button_specs = self.move_request_button_specs(battle, current_player, request)
         else:
             status_lines: list[str] = []
@@ -2361,7 +2375,9 @@ class BattleService:
                 lines.append("")
                 lines.extend(status_lines)
 
-        return "\n".join(lines), button_specs
+        text = "\n".join(lines)
+        text = text.replace("â€¢ ", "- ").replace("â–ˆ", "#").replace("â–‘", "-")
+        return text, button_specs
 
     def trim_opening_recent_lines(self, battle: BattleSession, recent: list[str]) -> list[str]:
         recent_lines = list(recent)
@@ -2396,12 +2412,14 @@ class BattleService:
             if note:
                 if lines:
                     lines.append("")
-                lines.append(note)
+                lines.append(escape_html_text(note))
             elif battle.public_view.tie:
                 lines.append("The encounter ended in a tie.")
             elif battle.public_view.winner:
-                lines.append(f"{battle.public_view.winner} won the battle.")
-            return "\n".join(lines).strip(), None
+                lines.append(f"{escape_html_text(battle.public_view.winner)} won the battle.")
+            text = "\n".join(lines).strip()
+            text = text.replace("â€¢ ", "- ").replace("â–ˆ", "#").replace("â–‘", "-")
+            return text, None
 
         if current_slot:
             current_player = battle.players[current_slot]
@@ -2422,14 +2440,17 @@ class BattleService:
             request = current_player.current_request or {}
             lines.append("")
             if current_player.last_error:
-                lines.append(f"{current_player.name}, your last choice was rejected: {current_player.last_error}")
+                lines.append(
+                    f"{escape_html_text(current_player.name)}, your last choice was rejected: "
+                    f"{escape_html_text(current_player.last_error)}"
+                )
             if self.encounter_service is not None:
                 lines.extend(self.encounter_service.extra_status_lines(battle))
             if request.get("forceSwitch"):
-                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your switch-in.")
+                lines.append(f"{mention_html(current_player.user_id, current_player.name)}: choose your switch-in.")
                 button_specs = self.forced_switch_button_specs(battle, current_player, request)
             elif not request.get("teamPreview"):
-                lines.append(f"{mention_markdown(current_player.user_id, current_player.name)}: choose your move or switch.")
+                lines.append(f"{mention_html(current_player.user_id, current_player.name)}: choose your move or switch.")
                 button_specs = self.move_request_button_specs(battle, current_player, request)
         elif self.encounter_service is not None:
             status_lines = self.encounter_service.extra_status_lines(battle)
@@ -2437,14 +2458,16 @@ class BattleService:
                 lines.append("")
                 lines.extend(status_lines)
 
-        return "\n".join(lines), button_specs
+        text = "\n".join(lines)
+        text = text.replace("â€¢ ", "- ").replace("â–ˆ", "#").replace("â–‘", "-")
+        return text, button_specs
 
     def render_active_block(self, battle: BattleSession, slot: str, *, highlight: bool) -> list[str]:
         player_name = battle.players[slot].name
         active = battle.public_view.active.get(slot)
         if not active:
-            suffix = " [ TURN ]" if highlight else ""
-            return [f"{player_name}{suffix}: waiting for lead"]
+            suffix = " (TURN)" if highlight else ""
+            return [f"{escape_html_text(player_name)}{suffix}: waiting for lead"]
 
         info_parts = [
             f"Level: {active.get('level', '?')}",
@@ -2458,11 +2481,11 @@ class BattleService:
         else:
             header = f"{player_name}: {active['name']}"
         if highlight:
-            header += " [ TURN ]"
+            header += " (TURN)"
         return [
-            header,
-            " | ".join(info_parts),
-            f"HP: {hp_bar(active.get('percent'))} ({active.get('hp_text') or 'unknown'})",
+            escape_html_text(header),
+            escape_html_text(" | ".join(info_parts)),
+            escape_html_text(f"HP: {hp_bar_ascii(active.get('percent'))} ({active.get('hp_text') or 'unknown'})"),
         ]
 
     def current_actor_slot(self, battle: BattleSession) -> str | None:
