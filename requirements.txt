@@ -1,0 +1,30 @@
+# Telegram
+pyrogram>=2.0.106
+tgcrypto>=1.2.5
+
+# Async + HTTP
+aiohttp>=3.9.5
+aiofiles>=23.2.1
+
+# Database
+SQLAlchemy>=2.0.30
+asyncpg>=0.29.0
+psycopg2-binary>=2.9.9
+aiosqlite>=0.20.0
+
+# Redis
+redis>=5.0.4
+
+# Environment/config
+python-dotenv>=1.0.1
+
+# Utilities
+orjson>=3.10.3
+ujson>=5.9.0
+
+# Logging / CLI
+rich>=13.7.1
+
+# Optional but commonly needed
+pydantic>=2.7.1
+typing-extensions>=4.11.0
