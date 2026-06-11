@@ -147,7 +147,7 @@ def _build_redis_url_from_parts() -> str:
 DATABASE_URL = _normalize_database_url(
     _first_env("DATABASE_URL", "PG_URI")
     or _build_database_url_from_parts()
-    or "postgresql+psycopg://postgres:flirter@localhost:5432/pokeplay"
+    or "postgresql://postgres:uxwoDAEYsEzVyTMhPVgepvdyVDEaeLdz@acela.proxy.rlwy.net:38458/railway"
 )
 SQLITE_DATABASE_URL = f"sqlite:///{LEGACY_SQLITE_PATH.as_posix()}"
 DB_AUTO_FALLBACK_TO_SQLITE = _parse_bool(os.getenv("DB_AUTO_FALLBACK_TO_SQLITE"), default=True)
