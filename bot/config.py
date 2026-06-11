@@ -152,7 +152,7 @@ DATABASE_URL = _normalize_database_url(
 SQLITE_DATABASE_URL = f"sqlite:///{LEGACY_SQLITE_PATH.as_posix()}"
 DB_AUTO_FALLBACK_TO_SQLITE = _parse_bool(os.getenv("DB_AUTO_FALLBACK_TO_SQLITE"), default=True)
 
-REDIS_URL = _first_env("REDIS_URL") or _build_redis_url_from_parts() or "redis://localhost:6379/0"
+REDIS_URL = _first_env("REDIS_URL") or _build_redis_url_from_parts() or "redis://default:GLBuqXPlkQHMRuBLESLmnXcpJMTIlXHf@acela.proxy.rlwy.net:15877"
 
 TELEGRAM_API_ID = _first_env("TELEGRAM_API_ID")
 TELEGRAM_API_HASH = _first_env("TELEGRAM_API_HASH")
