@@ -1,14 +1,12 @@
-# Family Tree Telegram Bot - Dockerfile
 FROM python:3.12-slim
 
-# Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
-# Set work directory
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
     gcc \
     libc-dev \
     libpq-dev \
@@ -27,7 +25,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     pkg-config \
     cmake \
     python3-dev \
-    # Playwright dependencies
     libnss3 \
     libnspr4 \
     libdbus-1-3 \
@@ -41,13 +38,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libxfixes3 \
     libxrandr2 \
     libgbm1 \
-    libasound2 \
+    libasound2
+
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+    && apt-get install -y nodejs \
+    && node -v \
+    && npm -v \
     && rm -rf /var/lib/apt/lists/*
 
-
 COPY requirements.txt .
-RUN pip3 install --no-cache-dir -U -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
 COPY . .
 
-# Run the bot
 CMD ["python", "-m", "bot.main"]
