@@ -50,4 +50,4 @@ RUN pip3 install --no-cache-dir -U -r requirements.txt
 COPY . .
 
 # Run the bot
-CMD ["python", "-m", "bot"]
+CMD ["python", "-m", "bot/main.py"]
